@@ -1,0 +1,34 @@
+name: Update README
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '47 1 * * *'
+  push:
+    branches:
+      - master
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+      - name: Install JDK
+        uses: actions/setup-java@v1
+        with:
+          java-version: '14'
+      - name: Fetch SDKMan
+        run: curl -s https://get.sdkman.io -o install-sdkman
+      - name: Install SDKMan
+        run: |
+          chmod u+x install-sdkman
+          ./install-sdkman
+          echo ::set-env name=SDKMAN_DIR::$(echo $HOME/.sdkman)
+      - name: Install Kotlin Scripting
+        run: |
+          . $SDKMAN_DIR/bin/sdkman-init.sh
+          sdk install kotlin
+          echo ::add-path::$(echo $SDKMAN_DIR/candidates/kotlin/current/bin)
+      - name: Update README
+        run: ./update.main.kts
