@@ -8,9 +8,9 @@ ${bio}
 |===
 <#list posts as post>
 
-| ${post.published}
+| ${(post.published).format('MMMM d, YYYY')}
 | ${post.link}[${post.title}^]
-| ${post.excerpt} [...]
+| ${post.excerpt}[...]
 </#list>
 
 |===
