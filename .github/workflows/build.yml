@@ -31,4 +31,6 @@ jobs:
           sdk install kotlin
           echo ::add-path::$(echo $SDKMAN_DIR/candidates/kotlin/current/bin)
       - name: Update README
+        env:
+          BLOG_REPO_TOKEN: ${{ secrets.BLOG_REPO_TOKEN }}
         run: ./update.main.kts

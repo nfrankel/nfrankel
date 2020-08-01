@@ -2,12 +2,27 @@
 
 @file:Repository("https://jcenter.bintray.com")
 @file:DependsOn("org.freemarker:freemarker:2.3.30")
+@file:DependsOn("com.squareup.okhttp3:okhttp:4.8.0")
+@file:DependsOn("org.yaml:snakeyaml:1.26")
 
-import freemarker.template.Configuration
-import freemarker.template.TemplateExceptionHandler
+
+import freemarker.template.*
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import org.yaml.snakeyaml.Yaml
 import java.io.File
 import java.io.OutputStreamWriter
 import java.time.LocalDate
+
+val client = OkHttpClient()
+
+fun <T> execute(builder: Request.Builder, extractor: (String?) -> T): T {
+    val body = client.newCall(builder.build())
+        .execute()
+        .body
+        ?.string()
+    return extractor(body)
+}
 
 val template = Configuration(Configuration.VERSION_2_3_29)
     .apply {
@@ -19,12 +34,21 @@ val template = Configuration(Configuration.VERSION_2_3_29)
         fallbackOnNullLoopVariable = false
     }.getTemplate("template.adoc")
 
-val bio = """
-    Nicolas Fränkel is a Developer Advocate with 15+ years experience consulting for many different customers, in a wide range of contexts (such as telecoms, banking, insurances, large retail and public sector).
-    Usually working on Java/Java EE and Spring technologies, but with focused interests like Rich Internet Applications, Testing, CI/CD and DevOps.
-    Currently working for Hazelcast.
-    Also double as a teacher in universities and higher education schools, a trainer and triples as a book author.
-""".trimIndent()
+val bio: String by lazy {
+    val extractBio = { body: String? ->
+        val authors = Yaml().load<Map<String, Any>>(body)
+
+        @Suppress("UNCHECKED_CAST")
+        val main = authors["main"] as Map<*, *>
+        main["bio"] as String
+    }
+
+    val request = Request.Builder()
+        .url("https://gitlab.com/api/v4/projects/nfrankel%2Fnfrankel.gitlab.io/repository/files/_data%2Fauthor%2Eyml/raw?ref=master")
+        .addHeader("PRIVATE-TOKEN", System.getenv("BLOG_REPO_TOKEN"))
+
+    execute(request, extractBio)
+}
 
 val posts = listOf(
     Post(
