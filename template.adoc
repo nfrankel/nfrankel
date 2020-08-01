@@ -1,0 +1,32 @@
+image::https://github.com/nfrankel/nfrankel/workflows/Build%20README/badge.svg[Build README,link="https://github.com/nfrankel/nfrankel/actions?query=workflow%3A%22Update+README%22"]
+
+${bio}
+
+## Recent blog posts
+
+[options="autowidth",cols=3,stripes=even]
+|===
+<#list posts as post>
+
+| ${post.published}
+| ${post.link}[${post.title}^]
+| ${post.excerpt} [...]
+</#list>
+
+|===
+
+## Upcoming talks
+
+[options="autowidth",cols=2,width="100%",stripes=even]
+|===
+<#list talks as talk>
+
+| ${talk.link}[${talk.title}^]
+| ${talk.summary}
+</#list>
+
+|===
+
+## Last recording
+
+image::https://img.youtube.com/vi/${videoId}/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=${videoId}]
