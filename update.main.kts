@@ -7,13 +7,16 @@
 @file:DependsOn("org.yaml:snakeyaml:1.26")
 @file:DependsOn("org.apache.commons:commons-text:1.9")
 @file:DependsOn("org.json:json:20200518")
+@file:DependsOn("org.jsoup:jsoup:1.13.1")
 
 
 import freemarker.template.*
 import no.api.freemarker.java8.Java8ObjectWrapper
 import okhttp3.*
 import org.apache.commons.text.StringEscapeUtils
+import org.apache.commons.text.similarity.JaroWinklerSimilarity
 import org.json.JSONObject
+import org.jsoup.Jsoup
 import org.w3c.dom.Element
 import org.w3c.dom.NodeList
 import org.yaml.snakeyaml.Yaml
@@ -160,4 +163,34 @@ template.process(root, OutputStreamWriter(System.out))
 
 data class Post(val published: LocalDate, val title: String, val link: String, val excerpt: String)
 
-data class Talk(val title: String, val link: String, val summary: String)
+data class Talk(val title: String, val link: String, val description: String) {
+    companion object {
+        private val SIMILARITY = JaroWinklerSimilarity()
+        private val CATALOG: Map<String, String> by lazy {
+            val paperCallBaseUrl = "https://www.papercall.io"
+            val paperCallCatalogUrl = "$paperCallBaseUrl/speakers/nicolasfrankel/"
+            Jsoup.connect(paperCallCatalogUrl)
+                .get()
+                .select("h3.event__title a")
+                .map { it.text() to it.attr("href") }
+                .map { it.first to Jsoup.connect("$paperCallBaseUrl${it.second}").get() }
+                .map { it.first to it.second.select(".markdown p").first().text() }
+                .toMap()
+        }
+    }
+
+    private fun findSummary(title: String) = CATALOG.entries
+        .map {
+            SIMILARITY.apply(it.key, title) to it.value
+        }.filter { it.first > 0.5 }
+        .maxBy { it.first }
+
+    val summary: String by lazy {
+        val talk = CATALOG[title]
+        if (talk != null) talk
+        else {
+            val candidate = findSummary(title)
+            candidate?.second ?: description
+        }
+    }
+}
