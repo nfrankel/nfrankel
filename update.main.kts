@@ -6,24 +6,27 @@
 @file:DependsOn("no.api.freemarker:freemarker-java8:2.0.0")
 @file:DependsOn("org.yaml:snakeyaml:1.26")
 @file:DependsOn("org.apache.commons:commons-text:1.9")
+@file:DependsOn("org.json:json:20200518")
 
 
 import freemarker.template.*
 import no.api.freemarker.java8.Java8ObjectWrapper
-import okhttp3.OkHttpClient
-import okhttp3.Request
+import okhttp3.*
 import org.apache.commons.text.StringEscapeUtils
+import org.json.JSONObject
 import org.w3c.dom.Element
 import org.w3c.dom.NodeList
 import org.yaml.snakeyaml.Yaml
 import java.io.*
 import java.time.LocalDate
+import java.time.ZoneId
 import java.time.format.DateTimeFormatter
 import java.util.*
 import javax.xml.parsers.DocumentBuilderFactory
 import javax.xml.xpath.XPathConstants
 import javax.xml.xpath.XPathFactory
 
+val blogRepoPath = "nfrankel%2Fnfrankel.gitlab.io"
 
 val client = OkHttpClient()
 
@@ -112,7 +115,28 @@ val talks = listOf(
     )
 )
 
-val videoId = "jzjW9mwPF0A"
+val videoId: String by lazy {
+
+    val extractVideoId = { body: String? ->
+        (JSONObject(body)
+            .getJSONArray("items")[0] as JSONObject)
+            .getJSONObject("snippet")
+            .getJSONObject("resourceId")
+            .getString("videoId")
+    }
+
+    val url = HttpUrl.Builder()
+        .scheme("https")
+        .host("www.googleapis.com")
+        .addPathSegments("youtube/v3/playlistItems")
+        .addQueryParameter("part", "snippet")
+        .addQueryParameter("maxResults", "1")
+        .addQueryParameter("playlistId", "PL0EuBuKK-s1EL-K3okpYwR0QZbAPRVmEG")
+        .addQueryParameter("key", System.getenv("YOUTUBE_API_KEY"))
+        .build()
+
+    execute(Request.Builder().url(url), extractVideoId)
+}
 
 val root = mapOf(
     "bio" to bio,
