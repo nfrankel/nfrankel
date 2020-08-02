@@ -59,7 +59,7 @@ val bio: String by lazy {
     }
 
     val request = Request.Builder()
-        .url("https://gitlab.com/api/v4/projects/nfrankel%2Fnfrankel.gitlab.io/repository/files/_data%2Fauthor%2Eyml/raw?ref=master")
+        .url("https://gitlab.com/api/v4/projects/$blogRepoPath/repository/files/_data%2Fauthor%2Eyml/raw?ref=master")
         .addHeader("PRIVATE-TOKEN", System.getenv("BLOG_REPO_TOKEN"))
 
     execute(request, extractBio)
@@ -97,23 +97,34 @@ val posts: List<Post> by lazy {
     execute(request, extractPosts)
 }
 
-val talks = listOf(
-    Talk(
-        "A CDC use-case",
-        "https://java.geekle.us/",
-        "CDC is a brand new approach that \"turns the database inside out\": it allows to get events out of the database state. This can be leveraged to get a cache that is never stale."
-    ),
-    Talk(
-        "Migrating to the Cloud!",
-        "https://osconfhyd.collabnix.com/",
-        "With the Cloud becoming ubiquitous, it’s time to assert whether our traditional application stack is up to it."
-    ),
-    Talk(
-        "3 easy improvements in your microservices architecture",
-        "http://www.laouc.org/equipo/3-easy-improvements-in-your-microservices-architecture/",
-        "While microservices offer better scalability, they actually decrease performance and resiliency. I’ll show 3 areas in which it’s possible to cope with that."
+val talks: List<Talk> by lazy {
+    fun Date.toLocalDate() = toInstant().atZone(ZoneId.of("Europe/Paris")).toLocalDate()
+
+    fun Map<*, *>.toTalk() = Talk(
+        this["name"].toString(),
+        this["url"].toString(),
+        this["description"].toString()
     )
-)
+
+    val extractTalks = { body: String? ->
+        val now = LocalDate.now()
+        Yaml().load<List<Any>>(body)
+            .asSequence()
+            .map { it as Map<*, *> }
+            .filter { now.isBefore((it["end-date"] as Date).toLocalDate()) }
+            .toList()
+            .takeLast(3)
+            .flatMap { it["talks"] as List<*> }
+            .map { it as Map<*, *> }
+            .map { it.toTalk() }
+    }
+
+    val request = Request.Builder()
+        .url("https://gitlab.com/api/v4/projects/$blogRepoPath/repository/files/_data%2Ftalk%2Eyml/raw?ref=master")
+        .addHeader("PRIVATE-TOKEN", System.getenv("BLOG_REPO_TOKEN"))
+
+    execute(request, extractTalks)
+}
 
 val videoId: String by lazy {
 
