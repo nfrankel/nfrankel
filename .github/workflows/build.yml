@@ -24,12 +24,12 @@ jobs:
         run: |
           chmod u+x install-sdkman
           ./install-sdkman
-          echo ::set-env name=SDKMAN_DIR::$(echo $HOME/.sdkman)
+          echo "SDKMAN_DIR=$(echo $HOME/.sdkman)" >> $GITHUB_ENV
       - name: Install Kotlin Scripting
         run: |
           . $SDKMAN_DIR/bin/sdkman-init.sh
           sdk install kotlin
-          echo ::add-path::$(echo $SDKMAN_DIR/candidates/kotlin/current/bin)
+          echo "$SDKMAN_DIR/candidates/kotlin/current/bin" >> $GITHUB_PATH
       - name: Update README
         env:
           BLOG_REPO_TOKEN: ${{ secrets.BLOG_REPO_TOKEN }}
