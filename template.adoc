@@ -1,4 +1,18 @@
-image::https://github.com/nfrankel/nfrankel/workflows/Build%20README/badge.svg[Build README,link="https://github.com/nfrankel/nfrankel/actions?query=workflow%3A%22Update+README%22"]
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+[NOTE]
+====
+image:https://github.com/nfrankel/nfrankel/workflows/Build%20README/badge.svg[Build README,link="https://github.com/nfrankel/nfrankel/actions?query=workflow%3A%22Update+README%22"]
+ This profile is automatically generated each day.
+
+If you're interested in knowing more, please check the https://blog.frankel.ch/customizing-github-profile/1/[posts^] https://blog.frankel.ch/customizing-github-profile/2/[I've written^] on the subject or https://github.com/nfrankel/nfrankel/[the code^].
+====
 
 ${bio}
 
