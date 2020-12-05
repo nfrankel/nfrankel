@@ -183,7 +183,7 @@ data class Talk(val title: String, val link: String, val description: String) {
         .map {
             SIMILARITY.apply(it.key, title) to it.value
         }.filter { it.first > 0.5 }
-        .maxBy { it.first }
+        .maxByOrNull { it.first }
 
     val summary: String by lazy {
         val talk = CATALOG[title]
