@@ -31,15 +31,12 @@ ${post.link}[Read further^]
 
 ## Upcoming talks
 
-[options="autowidth",cols=2,width="100%",stripes=even]
-|===
 <#list talks as talk>
 
-| ${talk.link}[${talk.title}^]
-| ${talk.summary}
+${talk.link}[${talk.title}^] @ ${talk.conference.url}[${talk.conference.name}^]::
++
+${talk.summary}
 </#list>
-
-|===
 
 ## Latest video recording
 

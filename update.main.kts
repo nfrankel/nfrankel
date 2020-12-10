@@ -19,6 +19,7 @@ import org.json.JSONObject
 import org.jsoup.Jsoup
 import org.w3c.dom.Element
 import org.w3c.dom.NodeList
+import org.yaml.snakeyaml.LoaderOptions
 import org.yaml.snakeyaml.Yaml
 import java.io.*
 import java.time.LocalDate
@@ -100,13 +101,37 @@ val posts: List<Post> by lazy {
     execute(request, extractPosts)
 }
 
+val conferences: Map<String, Conference> by lazy {
+
+    fun Map.Entry<String, Map<String, Any>>.toConference() = Conference(
+        this.key,
+        this.value["name"].toString(),
+        this.value["url"].toString(),
+    )
+
+    val extractConferences: (String?) -> Map<String, Conference> = { body: String? ->
+        val options = LoaderOptions().apply { maxAliasesForCollections = 300 }
+        Yaml(options).load<Map<String, Map<String, Any>>>(body)
+            .filter { it.value.containsKey("name") }
+            .map { it.key to it.toConference() }
+            .toMap()
+    }
+
+    val request = Request.Builder()
+        .url("https://gitlab.com/api/v4/projects/$blogRepoPath/repository/files/_data%2Fconference%2Eyml/raw?ref=master")
+        .addHeader("PRIVATE-TOKEN", System.getenv("BLOG_REPO_TOKEN"))
+
+    execute(request, extractConferences)
+}
+
 val talks: List<Talk> by lazy {
     fun Date.toLocalDate() = toInstant().atZone(ZoneId.of("Europe/Paris")).toLocalDate()
 
     fun Map<*, *>.toTalk() = Talk(
         this["name"].toString(),
         this["url"].toString(),
-        this["description"].toString()
+        this["description"].toString(),
+        this["confref"].toString(),
     )
 
     val extractTalks = { body: String? ->
@@ -117,8 +142,10 @@ val talks: List<Talk> by lazy {
             .filter { now.isBefore((it["end-date"] as Date).toLocalDate()) }
             .toList()
             .takeLast(3)
-            .flatMap { it["talks"] as List<*> }
-            .map { it as Map<*, *> }
+            .map { it["conference"] to it["talks"] as List<*> }
+            .map { List(it.second.size) { _ -> it.first } to it.second }
+            .flatMap { it.first zip it.second }
+            .map { it.second as Map<*, *> + ("confref" to it.first) }
             .map { it.toTalk() }
     }
 
@@ -168,7 +195,9 @@ data class Video(val id: String, val title: String)
 
 data class Post(val published: LocalDate, val title: String, val link: String, val excerpt: String)
 
-data class Talk(val title: String, val link: String, val description: String) {
+data class Conference(val id: String, val name: String, val url: String)
+
+data class Talk(val title: String, val link: String, val description: String, val confref: String) {
     companion object {
         private val SIMILARITY = JaroWinklerSimilarity()
         private val CATALOG: Map<String, String> by lazy {
@@ -198,4 +227,7 @@ data class Talk(val title: String, val link: String, val description: String) {
             candidate?.second ?: description
         }
     }
+
+    val conference: Conference?
+        get() = conferences[confref]
 }
