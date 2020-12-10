@@ -6,6 +6,8 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
+:figure-caption!:
+
 [NOTE]
 ====
 image:https://github.com/nfrankel/nfrankel/workflows/Build%20README/badge.svg[Build README,link="https://github.com/nfrankel/nfrankel/actions?query=workflow%3A%22Update+README%22"]
@@ -41,6 +43,6 @@ ${bio}
 
 |===
 
-## Last recording
+## Latest video recording
 
-image::https://img.youtube.com/vi/${videoId}/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=${videoId}]
+image::https://img.youtube.com/vi/${video.id}/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=${video.id},title="${video.title}"]

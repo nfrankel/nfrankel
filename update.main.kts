@@ -129,14 +129,17 @@ val talks: List<Talk> by lazy {
     execute(request, extractTalks)
 }
 
-val videoId: String by lazy {
+val video: Video by lazy {
 
-    val extractVideoId = { body: String? ->
-        (JSONObject(body)
+    val extractVideo = { body: String? ->
+        val json = (JSONObject(body)
             .getJSONArray("items")[0] as JSONObject)
             .getJSONObject("snippet")
+        val id = json
             .getJSONObject("resourceId")
             .getString("videoId")
+        val title = json.getString("title")
+        Video(id, title)
     }
 
     val url = HttpUrl.Builder()
@@ -149,17 +152,19 @@ val videoId: String by lazy {
         .addQueryParameter("key", System.getenv("YOUTUBE_API_KEY"))
         .build()
 
-    execute(Request.Builder().url(url), extractVideoId)
+    execute(Request.Builder().url(url), extractVideo)
 }
 
 val root = mapOf(
     "bio" to bio,
     "posts" to posts,
     "talks" to talks,
-    "videoId" to videoId
+    "video" to video,
 )
 
 template.process(root, FileWriter("README.adoc"))
+
+data class Video(val id: String, val title: String)
 
 data class Post(val published: LocalDate, val title: String, val link: String, val excerpt: String)
 
