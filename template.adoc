@@ -18,18 +18,16 @@ If you're interested in knowing more, please check the https://blog.frankel.ch/c
 
 ${bio}
 
-## Recent blog posts
+## Most recent blog posts
 
-[options="autowidth",cols=3,stripes=even]
-|===
 <#list posts as post>
 
-| ${(post.published).format('MMMM d, YYYY')}
-| ${post.link}[${post.title}^]
-| ${post.excerpt}[...]
-</#list>
+${post.title} (${(post.published).format('YYYY-MM-dd')})::
+${post.excerpt}[...]
++
+${post.link}[Read further^]
 
-|===
+</#list>
 
 ## Upcoming talks
 
