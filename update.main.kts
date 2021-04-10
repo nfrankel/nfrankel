@@ -1,12 +1,12 @@
 #!/usr/bin/env kotlin
 
 @file:Repository("https://jcenter.bintray.com")
-@file:DependsOn("org.freemarker:freemarker:2.3.30")
-@file:DependsOn("com.squareup.okhttp3:okhttp:4.8.0")
+@file:DependsOn("org.freemarker:freemarker:2.3.31")
+@file:DependsOn("com.squareup.okhttp3:okhttp:4.9.1")
 @file:DependsOn("no.api.freemarker:freemarker-java8:2.0.0")
-@file:DependsOn("org.yaml:snakeyaml:1.26")
+@file:DependsOn("org.yaml:snakeyaml:1.28")
 @file:DependsOn("org.apache.commons:commons-text:1.9")
-@file:DependsOn("org.json:json:20200518")
+@file:DependsOn("org.json:json:20210307")
 @file:DependsOn("org.jsoup:jsoup:1.13.1")
 
 
