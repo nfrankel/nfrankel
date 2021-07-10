@@ -4,10 +4,10 @@
 @file:DependsOn("org.freemarker:freemarker:2.3.31")
 @file:DependsOn("com.squareup.okhttp3:okhttp:4.9.1")
 @file:DependsOn("no.api.freemarker:freemarker-java8:2.0.0")
-@file:DependsOn("org.yaml:snakeyaml:1.28")
+@file:DependsOn("org.yaml:snakeyaml:1.29")
 @file:DependsOn("org.apache.commons:commons-text:1.9")
 @file:DependsOn("org.json:json:20210307")
-@file:DependsOn("org.jsoup:jsoup:1.13.1")
+@file:DependsOn("org.jsoup:jsoup:1.14.1")
 
 
 import freemarker.template.*
