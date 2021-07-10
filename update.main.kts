@@ -136,17 +136,20 @@ val talks: List<Talk> by lazy {
 
     val extractTalks = { body: String? ->
         val now = LocalDate.now()
-        Yaml().load<List<Any>>(body)
+        val yaml = Yaml().load<List<Any>>(body)
             .asSequence()
             .map { it as Map<*, *> }
-            .filter { now.isBefore((it["end-date"] as Date).toLocalDate()) }
-            .toList()
+            .filter {
+                val endDate = (it["end-date"] as Date).toLocalDate()
+                now.isBefore(endDate)
+            }.toList()
             .takeLast(3)
             .map { it["conference"] to it["talks"] as List<*> }
             .map { List(it.second.size) { _ -> it.first } to it.second }
             .flatMap { it.first zip it.second }
             .map { it.second as Map<*, *> + ("confref" to it.first) }
             .map { it.toTalk() }
+        yaml
     }
 
     val request = Request.Builder()

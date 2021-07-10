@@ -14,36 +14,16 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
-      - name: Install JDK
-        uses: actions/setup-java@v2
-        with:
-          distribution: 'adopt'
-          java-version: '15'
-      - name: Fetch SDKMan
-        run: curl -s https://get.sdkman.io -o install-sdkman
-      - name: Install SDKMan
-        run: |
-          chmod u+x install-sdkman
-          ./install-sdkman
-          echo "SDKMAN_DIR=$(echo $HOME/.sdkman)" >> $GITHUB_ENV
-      - name: Install Kotlin Scripting
-        run: |
-          . $SDKMAN_DIR/bin/sdkman-init.sh
-          sdk install kotlin
-          echo "$SDKMAN_DIR/candidates/kotlin/current/bin" >> $GITHUB_PATH
+      - name: Install Kotlin
+        run: sudo snap install --classic --channel=1.4/stable kotlin
       - name: Update README
         env:
           BLOG_REPO_TOKEN: ${{ secrets.BLOG_REPO_TOKEN }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: ./update.main.kts
-      - name: Commit README to repo
-        run: |
-          git config --local user.email "action@frankel.ch"
-          git config --local user.name  "GitHub Action"
-          git add README.adoc
-          git status
-          git diff --quiet && git diff --staged --quiet || git commit -m "Automatically update README.adoc"
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+      - name: Commit README and push
+        uses: EndBug/add-and-commit@v7
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          add: README.adoc
+          default_author: github_actions
+          message: Automatically update README.adoc
