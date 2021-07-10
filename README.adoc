@@ -18,7 +18,7 @@ If you're interested in knowing more, please check the https://blog.frankel.ch/c
 
 Developer Advocate with 15+ years experience consulting for many different customers, in a wide range of contexts (such as telecoms, banking, insurances, large retail and public sector). Usually working on Java/Java EE and Spring technologies, but with focused interests like Rich Internet Applications, Testing, CI/CD and DevOps. Currently working for Hazelcast. Also double as a trainer and triples as a book author.
 
-## Most recent blog posts
+## ✍️ Most recent blog posts
 
 
 Rust on the front-end (2021-07-04)::
@@ -39,7 +39,7 @@ One of the talks in my current portfolio is Migrating from Imperative to Reactiv
 https://blog.frankel.ch/blockhound-how-it-works/[Read further^]
 
 
-## Upcoming talks
+## 🗣️ Upcoming talks
 
 
 https://apachecon.com/acasia2021/sessions/1149.html[A Change-Data-Capture use-case: designing an evergreen cache^] @ https://apachecon.com/[ApacheCon Asia^]::
@@ -54,6 +54,6 @@ https://www.meetup.com/DevOps-Underground/events/274628100[Your own Kubernetes O
 +
 Go is ubiquitous in the Kubernetes ecosystem. But it’s not required at all to develop a K8s operator. Let’s try it with… Java!
 
-## Latest video recording
+## 🎥 Latest video recording
 
 image::https://img.youtube.com/vi/UdsrmUKqAww/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=UdsrmUKqAww,title="Migrating from Imperative to Reactive"]
