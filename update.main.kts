@@ -42,7 +42,7 @@ fun <T> execute(builder: Request.Builder, extractor: (String?) -> T): T {
     return extractor(body)
 }
 
-val template = Configuration(Configuration.VERSION_2_3_29)
+val template: Template = Configuration(Configuration.VERSION_2_3_29)
     .apply {
         setDirectoryForTemplateLoading(File("."))
         defaultEncoding = "UTF-8"
@@ -203,7 +203,7 @@ data class Conference(val id: String, val name: String, val url: String)
 data class Talk(val title: String, val link: String, val description: String, val confref: String) {
     companion object {
         private val SIMILARITY = JaroWinklerSimilarity()
-        private val CATALOG: Map<String, String> by lazy {
+        private val CATALOG: Map<String, String?> by lazy {
             val paperCallBaseUrl = "https://www.papercall.io"
             val paperCallCatalogUrl = "$paperCallBaseUrl/speakers/nicolasfrankel/"
             Jsoup.connect(paperCallCatalogUrl)
@@ -211,8 +211,7 @@ data class Talk(val title: String, val link: String, val description: String, va
                 .select("h3.event__title a")
                 .map { it.text() to it.attr("href") }
                 .map { it.first to Jsoup.connect("$paperCallBaseUrl${it.second}").get() }
-                .map { it.first to it.second.select(".markdown p").first().text() }
-                .toMap()
+                .associate { it.first to it.second.select(".markdown p").first()?.text() }
         }
     }
 
