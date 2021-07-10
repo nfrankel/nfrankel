@@ -1,45 +1,59 @@
-:icons: font
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
 
-Nicolas Fränkel is a Developer Advocate with 15+ years experience consulting for many different customers, in a wide range of contexts (such as telecoms, banking, insurances, large retail and public sector).
-Usually working on Java/Java EE and Spring technologies, but with focused interests like Rich Internet Applications, Testing, CI/CD and DevOps.
-Currently working for Hazelcast.
-Also double as a teacher in universities and higher education schools, a trainer and triples as a book author.
+:figure-caption!:
 
-## Recent blog posts
+[NOTE]
+====
+image:https://github.com/nfrankel/nfrankel/workflows/Build%20README/badge.svg[Build README,link="https://github.com/nfrankel/nfrankel/actions?query=workflow%3A%22Update+README%22"]
+ This profile is automatically generated each day.
 
-[options="autowidth",cols=3,stripes=even]
-|===
+If you're interested in knowing more, please check the https://blog.frankel.ch/customizing-github-profile/1/[posts^] https://blog.frankel.ch/customizing-github-profile/2/[I've written^] on the subject or https://github.com/nfrankel/nfrankel/[the code^].
+====
 
-| July 26, 2020
-| https://blog.frankel.ch/sorting-bug/[A sorting bug^]
-| Lately, I succumbed to nostalgia, and agreed to do some consulting for a customer. The job was to audit the internal quality of an application, and finally to make recommandations to improve the code base and reimburse the technical debt. While parsing the source code, I couldn&#8217;t help but notice a bug in the implementation of a Comparator. This post is to understand how sorting works in Java, what is a Comparator, and how to prevent fellow developers to fall into the same trap. Even if [...]
+Developer Advocate with 15+ years experience consulting for many different customers, in a wide range of contexts (such as telecoms, banking, insurances, large retail and public sector). Usually working on Java/Java EE and Spring technologies, but with focused interests like Rich Internet Applications, Testing, CI/CD and DevOps. Currently working for Hazelcast. Also double as a trainer and triples as a book author.
 
-| July 19, 2020
-| https://blog.frankel.ch/challenges-open-data/[Challenges of Open Data^]
-| In my talk Introduction to Data Streaming, I demo an application that displays the location of all public transports in Switzerland in near real-time. Here&#8217;s a sample recording: The demo is entirely based on Open principles: the code and its dependencies are Open Source, and the data is read from an Open Data endpoint. In order to develop the demo, I had to overcome some issues by leveraging Open Data. In this post, I&#8217;d like share those issues, and ease the path to fellow [...]
+## Most recent blog posts
 
-| July 12, 2020
-| https://blog.frankel.ch/on-opensource-licenses-changes/[On Open Source, licenses and changes^]
-| The subject of Open Source and OS licenses has been waxing and waning over time. Recently, it became hot again. In this post, I&#8217;d like to do a quick recap to set the stage. Then, I&#8217;ll analyze reasons for license changes. The rise of Open Source Before I actually started my career - even I was before even born - software was provided with its source code. The value was in the hardware. Most customers - if not every one of them - modified and adapted the source code to their [...]
 
-|===
+Rust on the front-end (2021-07-04)::
+This is the 5th post in the Start Rust focus series. Up until now, JavaScript has been the only ubiquitous language available in browsers. It has made JavaScript much more popular than its design (and its associated flaws) would have allowed. I don’t want to start a holy war about the merits of JavaScript, but IMHO, it only survived this far because of its role in browsers. In particular, the current architecture that moves the responsibility of executing the code from the server to the cli[...]
++
+https://blog.frankel.ch/start-rust/5/[Read further^]
+
+
+The Rustlings exercises - part 2 (2021-06-27)::
+This is the 4th post in the Start Rust focus series. Last week, I started the Rustlings series of exercises. Now is the time to finish it.[...]
++
+https://blog.frankel.ch/start-rust/4/[Read further^]
+
+
+BlockHound: how it works (2021-06-20)::
+One of the talks in my current portfolio is Migrating from Imperative to Reactive. The talk is based on a demo migrating from Spring WebMVC to Spring WebFlux in a step-by-step approach. One of the steps involves installing BlockHound: it allows to check whether a blocking call occurs in a thread it shouldn’t happen and throws an exception at runtime when it happens. I’ve presented this talk several times in the previous week, both in its Java version and its Kotlin one. One such pre[...]
++
+https://blog.frankel.ch/blockhound-how-it-works/[Read further^]
+
 
 ## Upcoming talks
 
-[options="autowidth",cols=2,width="100%",stripes=even]
-|===
 
-| https://java.geekle.us/[A CDC use-case^]
-| CDC is a brand new approach that “turns the database inside out”: it allows to get events out of the database state. This can be leveraged to get a cache that is never stale.
+https://apachecon.com/acasia2021/sessions/1149.html[A Change-Data-Capture use-case: designing an evergreen cache^] @ https://apachecon.com/[ApacheCon Asia^]::
++
+CDC is a brand new approach that “turns the database inside out”: it allows to get events out of the database state. This can be leveraged to get a cache that is never stale.
 
-| https://osconfhyd.collabnix.com/[Migrating to the Cloud!^]
-| With the Cloud becoming ubiquitous, it’s time to assert whether our traditional application stack is up to it.
+https://www.jbcnconf.com/2021/infoSpeaker.html?ref=a0fa74f04ff057c970f863cf2b2050b7ce55e4de[Migrating from Imperative to Reactive^] @ https://www.jbcnconf.com/[JBCNConf^]::
++
+While Reactive Programming is very different from the usual Imperative way, there’s no denying it fits “the Cloud”, as every bit of resource is used to its fullest. Let’s see how to migrate from the latter to the former using a Spring Boot web app as an example.
 
-| http://www.laouc.org/equipo/3-easy-improvements-in-your-microservices-architecture/[3 easy improvements in your microservices architecture^]
-| While microservices offer better scalability, they actually decrease performance and resiliency. I’ll show 3 areas in which it’s possible to cope with that.
+https://www.meetup.com/DevOps-Underground/events/274628100[Your own Kubernetes Operator: Not Only in Go^] @ https://www.meetup.com/DevOps-Underground/[DevOps Underground^]::
++
+Go is ubiquitous in the Kubernetes ecosystem. But it’s not required at all to develop a K8s operator. Let’s try it with… Java!
 
-|===
+## Latest video recording
 
-## Last recording
-
-image::https://img.youtube.com/vi/jzjW9mwPF0A/sddefault.jpg[Latest video recording,800,600,link=https://www.youtube.com/watch?v=jzjW9mwPF0A]
+image::https://img.youtube.com/vi/UdsrmUKqAww/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=UdsrmUKqAww,title="Migrating from Imperative to Reactive"]
