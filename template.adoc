@@ -18,7 +18,7 @@ If you're interested in knowing more, please check the https://blog.frankel.ch/c
 
 ${bio}
 
-## Most recent blog posts
+## ✍️ Most recent blog posts
 
 <#list posts as post>
 
@@ -29,7 +29,7 @@ ${post.link}[Read further^]
 
 </#list>
 
-## Upcoming talks
+## 🗣️ Upcoming talks
 
 <#list talks as talk>
 
@@ -38,6 +38,6 @@ ${talk.link}[${talk.title}^] @ ${talk.conference.url}[${talk.conference.name}^]:
 ${talk.summary}
 </#list>
 
-## Latest video recording
+## 🎥 Latest video recording
 
 image::https://img.youtube.com/vi/${video.id}/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=${video.id},title="${video.title}"]
