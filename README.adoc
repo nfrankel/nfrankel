@@ -21,6 +21,12 @@ Developer Advocate with 15+ years experience consulting for many different custo
 ## ✍️ Most recent blog posts
 
 
+A Rust controller for Kubernetes (2021-07-11)::
+This is the 6th post in the Start Rust focus series. To teach myself Kubernetes in general and controllers in particular, I previously developed one in Java. This week, I decide to do the same in Rust by following the same steps I did. The guiding principle is the creation of a Kubernetes controller that watches pods' lifecycle and 'binds' a sidecar to them. When the main pod is scheduled, the controller schedules the sidecar; when it’s deleted, it deletes it as well.[...]
++
+https://blog.frankel.ch/start-rust/6/[Read further^]
+
+
 Rust on the front-end (2021-07-04)::
 This is the 5th post in the Start Rust focus series. Up until now, JavaScript has been the only ubiquitous language available in browsers. It has made JavaScript much more popular than its design (and its associated flaws) would have allowed. I don’t want to start a holy war about the merits of JavaScript, but IMHO, it only survived this far because of its role in browsers. In particular, the current architecture that moves the responsibility of executing the code from the server to the cli[...]
 +
@@ -31,12 +37,6 @@ The Rustlings exercises - part 2 (2021-06-27)::
 This is the 4th post in the Start Rust focus series. Last week, I started the Rustlings series of exercises. Now is the time to finish it.[...]
 +
 https://blog.frankel.ch/start-rust/4/[Read further^]
-
-
-BlockHound: how it works (2021-06-20)::
-One of the talks in my current portfolio is Migrating from Imperative to Reactive. The talk is based on a demo migrating from Spring WebMVC to Spring WebFlux in a step-by-step approach. One of the steps involves installing BlockHound: it allows to check whether a blocking call occurs in a thread it shouldn’t happen and throws an exception at runtime when it happens. I’ve presented this talk several times in the previous week, both in its Java version and its Kotlin one. One such pre[...]
-+
-https://blog.frankel.ch/blockhound-how-it-works/[Read further^]
 
 
 ## 🗣️ Upcoming talks
