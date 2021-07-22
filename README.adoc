@@ -56,4 +56,4 @@ While Reactive Programming is very different from the usual Imperative way, ther
 
 ## 🎥 Latest video recording
 
-image::https://img.youtube.com/vi/UdsrmUKqAww/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=UdsrmUKqAww,title="Migrating from Imperative to Reactive"]
+image::https://img.youtube.com/vi/1nKmqlGZQ3k/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=1nKmqlGZQ3k,title="ONLINE: Your Own Kubernetes Operator"]
