@@ -42,6 +42,14 @@ https://blog.frankel.ch/start-rust/5/[Read further^]
 ## 🗣️ Upcoming talks
 
 
+https://codepalousa.com/Sessions/1981[A Change-Data-Capture use-case: designing an evergreen cache^] @ https://codepalousa.com/[Code PaLOUsa^]::
++
+CDC is a brand new approach that “turns the database inside out”: it allows to get events out of the database state. This can be leveraged to get a cache that is never stale.
+
+https://codepalousa.com/Sessions/2058[A Guided Tour of Caching Patterns^] @ https://codepalousa.com/[Code PaLOUsa^]::
++
+You might have been using cache for years, and still always design the application to be responsible for the sync between the cache and the underlying data store. Did you know there are many more options available?
+
 https://geekle.us/qa_volume2[Mutation Testing to the Rescue of your Tests^] @ null[QA Global Summit^]::
 +
 Code coverage is useless because of assertless testing. There’s a technique to replace it, it’s called Mutation Testing.
@@ -49,10 +57,6 @@ Code coverage is useless because of assertless testing. There’s a technique to
 https://apachecon.com/acasia2021/sessions/1149.html[A Change-Data-Capture use-case: designing an evergreen cache^] @ https://apachecon.com/[ApacheCon Asia^]::
 +
 CDC is a brand new approach that “turns the database inside out”: it allows to get events out of the database state. This can be leveraged to get a cache that is never stale.
-
-https://www.jbcnconf.com/2021/infoSpeaker.html?ref=a0fa74f04ff057c970f863cf2b2050b7ce55e4de[Migrating from Imperative to Reactive^] @ https://www.jbcnconf.com/[JBCNConf^]::
-+
-While Reactive Programming is very different from the usual Imperative way, there’s no denying it fits “the Cloud”, as every bit of resource is used to its fullest. Let’s see how to migrate from the latter to the former using a Spring Boot web app as an example.
 
 ## 🎥 Latest video recording
 
