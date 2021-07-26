@@ -21,6 +21,12 @@ Developer Advocate with 15+ years experience consulting for many different custo
 ## ✍️ Most recent blog posts
 
 
+diceroller, a sample Rust project (2021-07-25)::
+This is the 8th post in the Start Rust focus series. For me, the best learning process is switching regularly between learning and doing, theory and practice. The last post was research, hence, this one will be coding. I’ve been a player of Role-Playing Games since I’m 11. Of course, I’ve played Dungeons & Dragons (mainly the so-called Advanced Edition) but after a few years, I’ve taken upon Champions and its HERO system. The system is based on points allotment and all[...]
++
+https://blog.frankel.ch/start-rust/8/[Read further^]
+
+
 Rust and the JVM (2021-07-18)::
 This is the 7th post in the Start Rust focus series. So far, we have learned the basics of Rust syntax, developed a custom Kubernetes controller, and integrated with the front-end with Wasm. I’ve been using the JVM for two decades now, mainly in Java. The JVM is an amazing piece of technology. IMHO, its biggest benefit is its ability to adapt the native code to the current workload; if the workload changes and the native code is not optimal, it will recompile the bytecode accordingly again.[...]
 +
@@ -31,12 +37,6 @@ A Rust controller for Kubernetes (2021-07-11)::
 This is the 6th post in the Start Rust focus series. To teach myself Kubernetes in general and controllers in particular, I previously developed one in Java. This week, I decide to do the same in Rust by following the same steps I did. The guiding principle is the creation of a Kubernetes controller that watches pods' lifecycle and 'binds' a sidecar to them. When the main pod is scheduled, the controller schedules the sidecar; when it’s deleted, it deletes it as well.[...]
 +
 https://blog.frankel.ch/start-rust/6/[Read further^]
-
-
-Rust on the front-end (2021-07-04)::
-This is the 5th post in the Start Rust focus series. Up until now, JavaScript has been the only ubiquitous language available in browsers. It has made JavaScript much more popular than its design (and its associated flaws) would have allowed. I don’t want to start a holy war about the merits of JavaScript, but IMHO, it only survived this far because of its role in browsers. In particular, the current architecture that moves the responsibility of executing the code from the server to the cli[...]
-+
-https://blog.frankel.ch/start-rust/5/[Read further^]
 
 
 ## 🗣️ Upcoming talks
