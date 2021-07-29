@@ -42,17 +42,13 @@ https://blog.frankel.ch/start-rust/6/[Read further^]
 ## 🗣️ Upcoming talks
 
 
-https://codepalousa.com/Sessions/1981[A Change-Data-Capture use-case: designing an evergreen cache^] @ https://codepalousa.com/[Code PaLOUsa^]::
-+
-CDC is a brand new approach that “turns the database inside out”: it allows to get events out of the database state. This can be leveraged to get a cache that is never stale.
-
-https://codepalousa.com/Sessions/2058[A Guided Tour of Caching Patterns^] @ https://codepalousa.com/[Code PaLOUsa^]::
-+
-You might have been using cache for years, and still always design the application to be responsible for the sync between the cache and the underlying data store. Did you know there are many more options available?
-
 https://geekle.us/qa_volume2[Mutation Testing to the Rescue of your Tests^] @ null[QA Global Summit^]::
 +
 Code coverage is useless because of assertless testing. There’s a technique to replace it, it’s called Mutation Testing.
+
+https://humantalks.com/talks/1687-un-cv-de-developeur-toujours-a-jour[Un CV de dévelopeur toujours à jour^] @ https://humantalks.com/cities/a-distance[Human Talks à Distance^]::
++
+Go is ubiquitous in the Kubernetes ecosystem. But it’s not required at all to develop a K8s operator. Let’s try it with… Java!
 
 https://apachecon.com/acasia2021/sessions/1149.html[A Change-Data-Capture use-case: designing an evergreen cache^] @ https://apachecon.com/[ApacheCon Asia^]::
 +
