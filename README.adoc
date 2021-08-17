@@ -21,6 +21,12 @@ Developer Advocate with 15+ years experience consulting for many different custo
 ## ✍️ Most recent blog posts
 
 
+Updating data files, commits vs. pull requests (2021-08-15)::
+For once, I’m wondering a bit if this post can be helpful to somebody else. I believe my context is pretty specific. Anyway, just in case it might be the case, here it is. My Jet Train project makes use of GTFS. GTFS stands for General Transit Feed Specification. It models public transportation schedules and their associated geographic information. GTFS is based on two kinds of data, static data, and dynamic data. Static data may change but do so rarely, e.g., transit agencies and bus s[...]
++
+https://blog.frankel.ch/data-files-commits-vs-pull-requests/[Read further^]
+
+
 Rust's Vector (2021-08-08)::
 This is the 9th post in the Start Rust focus series. I’ll be honest: I initially wanted to describe all collections available in Rust as well as their related concepts. Then, I started to dig a bit into it, and I decided it would have been (much) too long. For that reason, I’ll restrict the scope to the Vec type.[...]
 +
@@ -33,18 +39,12 @@ This week, I want to take a break from my Start Rust series and focus on a diffe
 https://blog.frankel.ch/gitlab-continuous-deployment-one-stop-shop/[Read further^]
 
 
-diceroller, a sample Rust project (2021-07-25)::
-This is the 8th post in the Start Rust focus series. For me, the best learning process is switching regularly between learning and doing, theory and practice. The last post was research, hence, this one will be coding. I’ve been a player of Role-Playing Games since I’m 11. Of course, I’ve played Dungeons & Dragons (mainly the so-called Advanced Edition) but after a few years, I’ve taken upon Champions and its HERO system. The system is based on points allotment and all[...]
-+
-https://blog.frankel.ch/start-rust/8/[Read further^]
-
-
 ## 🗣️ Upcoming talks
 
 
-https://shift.infobip.com/[Zero-downtime deployment on Kubernetes^] @ https://shift.infobip.com/[Infobip Shift^]::
+https://experts-live-austria-2021-2.sessionize.com/session/273832[A Change-Data-Capture use-case: designing an evergreen cache^] @ https://www.expertslive.at/[Experts Live Austria^]::
 +
-Beyond Hello World applications, zero-downtime deployments are not trivial. In this talk, I’ll demo how to achieve that on a Spring Boot application using Kubernetes and Hazelcast.
+CDC is a brand new approach that “turns the database inside out”: it allows to get events out of the database state. This can be leveraged to get a cache that is never stale.
 
 https://codepalousa.com/Sessions/1981[A Change-Data-Capture use-case: designing an evergreen cache^] @ https://codepalousa.com/[Code PaLOUsa^]::
 +
