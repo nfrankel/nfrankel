@@ -42,6 +42,10 @@ https://blog.frankel.ch/gitlab-continuous-deployment-one-stop-shop/[Read further
 ## 🗣️ Upcoming talks
 
 
+https://shift.infobip.com/[Zero-downtime deployment on Kubernetes^] @ https://shift.infobip.com/[Infobip Shift^]::
++
+Beyond Hello World applications, zero-downtime deployments are not trivial. In this talk, I’ll demo how to achieve that on a Spring Boot application using Kubernetes and Hazelcast.
+
 https://experts-live-austria-2021-2.sessionize.com/session/273832[A Change-Data-Capture use-case: designing an evergreen cache^] @ https://www.expertslive.at/[Experts Live Austria^]::
 +
 CDC is a brand new approach that “turns the database inside out”: it allows to get events out of the database state. This can be leveraged to get a cache that is never stale.
@@ -53,10 +57,6 @@ CDC is a brand new approach that “turns the database inside out”: it allows 
 https://codepalousa.com/Sessions/2058[A Guided Tour of Caching Patterns^] @ https://codepalousa.com/[Code PaLOUsa^]::
 +
 You might have been using cache for years, and still always design the application to be responsible for the sync between the cache and the underlying data store. Did you know there are many more options available?
-
-https://geekle.us/qa_volume2[Mutation Testing to the Rescue of your Tests^] @ null[QA Global Summit^]::
-+
-Code coverage is useless because of assertless testing. There’s a technique to replace it, it’s called Mutation Testing.
 
 ## 🎥 Latest video recording
 
