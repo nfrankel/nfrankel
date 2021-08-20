@@ -42,6 +42,10 @@ https://blog.frankel.ch/gitlab-continuous-deployment-one-stop-shop/[Read further
 ## 🗣️ Upcoming talks
 
 
+https://www.meetup.com/singajug/events/274070761/[Integration Testing from the Trenches - Rebooted^] @ https://testcon.lt/[TestCon Europe^]::
++
+Code coverage is useless because of assertless testing. There’s a technique to replace it, it’s called Mutation Testing.
+
 https://shift.infobip.com/[Zero-downtime deployment on Kubernetes^] @ https://shift.infobip.com/[Infobip Shift^]::
 +
 Beyond Hello World applications, zero-downtime deployments are not trivial. In this talk, I’ll demo how to achieve that on a Spring Boot application using Kubernetes and Hazelcast.
@@ -49,14 +53,6 @@ Beyond Hello World applications, zero-downtime deployments are not trivial. In t
 https://experts-live-austria-2021-2.sessionize.com/session/273832[A Change-Data-Capture use-case: designing an evergreen cache^] @ https://www.expertslive.at/[Experts Live Austria^]::
 +
 CDC is a brand new approach that “turns the database inside out”: it allows to get events out of the database state. This can be leveraged to get a cache that is never stale.
-
-https://codepalousa.com/Sessions/1981[A Change-Data-Capture use-case: designing an evergreen cache^] @ https://codepalousa.com/[Code PaLOUsa^]::
-+
-CDC is a brand new approach that “turns the database inside out”: it allows to get events out of the database state. This can be leveraged to get a cache that is never stale.
-
-https://codepalousa.com/Sessions/2058[A Guided Tour of Caching Patterns^] @ https://codepalousa.com/[Code PaLOUsa^]::
-+
-You might have been using cache for years, and still always design the application to be responsible for the sync between the cache and the underlying data store. Did you know there are many more options available?
 
 ## 🎥 Latest video recording
 
