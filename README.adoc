@@ -21,6 +21,12 @@ Developer Advocate with 15+ years experience consulting for many different custo
 ## ✍️ Most recent blog posts
 
 
+On online public speaking (2021-08-29)::
+On March 14th, 2020, I landed home. I had planned the week before to be productive: one talk in Pasadena, two talks in San Francisco, one in Bucharest, and one in Istanbul. Then, on the 16th, I was supposed to fly again to other events. Then, Covid happened. Governments started to close borders; in turn, organizers began to cancel events. I managed to do the talk in Pasadena with about ten people in the room. The organizer of one of the San Francisco talks managed to move my talk online. The re[...]
++
+https://blog.frankel.ch/online-public-speaking/[Read further^]
+
+
 Free Docker registries (2021-08-22)::
 Since Docker announced that it would remove unused images from Docker Hub, I’ve been interested in listing places where I could host mine. As it’s for personal purposes, I’m interested in free plans. Here’s what I found.[...]
 +
@@ -31,12 +37,6 @@ Updating data files, commits vs. pull requests (2021-08-15)::
 For once, I’m wondering a bit if this post can be helpful to somebody else. I believe my context is pretty specific. Anyway, just in case it might be the case, here it is. My Jet Train project makes use of GTFS. GTFS stands for General Transit Feed Specification. It models public transportation schedules and their associated geographic information. GTFS is based on two kinds of data, static data, and dynamic data. Static data may change but do so rarely, e.g., transit agencies and bus s[...]
 +
 https://blog.frankel.ch/data-files-commits-vs-pull-requests/[Read further^]
-
-
-Rust's Vector (2021-08-08)::
-This is the 9th post in the Start Rust focus series. I’ll be honest: I initially wanted to describe all collections available in Rust as well as their related concepts. Then, I started to dig a bit into it, and I decided it would have been (much) too long. For that reason, I’ll restrict the scope to the Vec type.[...]
-+
-https://blog.frankel.ch/start-rust/9/[Read further^]
 
 
 ## 🗣️ Upcoming talks
