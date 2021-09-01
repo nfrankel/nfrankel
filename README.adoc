@@ -56,4 +56,4 @@ CDC is a brand new approach that “turns the database inside out”: it allows 
 
 ## 🎥 Latest video recording
 
-image::https://img.youtube.com/vi/tqsSQTewcwM/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=tqsSQTewcwM,title="Shipwright - Building Container Images In Kubernetes"]
+image::https://img.youtube.com/vi/MCZ9NYYUeAM/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=MCZ9NYYUeAM,title="From Imperative to Reactive by Nicolas Fränkel at JBCNConf 2021"]
