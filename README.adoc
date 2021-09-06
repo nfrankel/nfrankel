@@ -21,6 +21,12 @@ Developer Advocate with 15+ years experience consulting for many different custo
 ## ✍️ Most recent blog posts
 
 
+On metrics (2021-09-05)::
+There’s still an ongoing debate whether development in particular and IT, in general, are engineering practices. In all cases, there’s no denying that our industry is based on scientific foundations. Most of the organizations I’ve worked for implement the Deming wheel in one form or another: From a bird’s eye view, it makes a lot of sense. And given the success of the method in the Japanese car industry, there’s no denying that it’s effective. However,[...]
++
+https://blog.frankel.ch/metrics/[Read further^]
+
+
 On online public speaking (2021-08-29)::
 On March 14th, 2020, I landed home. I had planned the week before to be productive: one talk in Pasadena, two talks in San Francisco, one in Bucharest, and one in Istanbul. Then, on the 16th, I was supposed to fly again to other events. Then, Covid happened. Governments started to close borders; in turn, organizers began to cancel events. I managed to do the talk in Pasadena with about ten people in the room. The organizer of one of the San Francisco talks managed to move my talk online. The re[...]
 +
@@ -31,12 +37,6 @@ Free Docker registries (2021-08-22)::
 Since Docker announced that it would remove unused images from Docker Hub, I’ve been interested in listing places where I could host mine. As it’s for personal purposes, I’m interested in free plans. Here’s what I found.[...]
 +
 https://blog.frankel.ch/free-docker-registries/[Read further^]
-
-
-Updating data files, commits vs. pull requests (2021-08-15)::
-For once, I’m wondering a bit if this post can be helpful to somebody else. I believe my context is pretty specific. Anyway, just in case it might be the case, here it is. My Jet Train project makes use of GTFS. GTFS stands for General Transit Feed Specification. It models public transportation schedules and their associated geographic information. GTFS is based on two kinds of data, static data, and dynamic data. Static data may change but do so rarely, e.g., transit agencies and bus s[...]
-+
-https://blog.frankel.ch/data-files-commits-vs-pull-requests/[Read further^]
 
 
 ## 🗣️ Upcoming talks
