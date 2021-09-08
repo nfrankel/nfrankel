@@ -42,6 +42,10 @@ https://blog.frankel.ch/free-docker-registries/[Read further^]
 ## 🗣️ Upcoming talks
 
 
+https://javaforumnord.de/site/2021/page/sessions[Zero-downtime deployment with Kubernetes^] @ https://javaforumnord.de/[Java Forum Nord^]::
++
+Beyond Hello World applications, zero-downtime deployments are not trivial. In this talk, I’ll demo how to achieve that on a Spring Boot application using Kubernetes and Hazelcast.
+
 https://pyconodessa.com/en/#speakers[A Walkthrough of Python Apps Caching Patterns^] @ https://pyconodessa.com/en/[PyCon Odessa^]::
 +
 Keeping your derived data (cache, search index, etc.) in synch with your source of truth is a challenge. In this, we will provide you with a straightfoward way to achieve it with the help of Change-Data-Capture.
@@ -49,10 +53,6 @@ Keeping your derived data (cache, search index, etc.) in synch with your source 
 https://www.meetup.com/singajug/events/274070761/[Integration Testing from the Trenches - Rebooted^] @ https://testcon.lt/[TestCon Europe^]::
 +
 Code coverage is useless because of assertless testing. There’s a technique to replace it, it’s called Mutation Testing.
-
-https://shift.infobip.com/[Zero-downtime deployment on Kubernetes^] @ https://shift.infobip.com/[Infobip Shift^]::
-+
-Beyond Hello World applications, zero-downtime deployments are not trivial. In this talk, I’ll demo how to achieve that on a Spring Boot application using Kubernetes and Hazelcast.
 
 ## 🎥 Latest video recording
 
