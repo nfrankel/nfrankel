@@ -42,6 +42,10 @@ https://blog.frankel.ch/online-public-speaking/[Read further^]
 ## 🗣️ Upcoming talks
 
 
+https://apachecon.com/acah2021/tracks/bigdata.html#W1540[A Change-Data-Capture use-case: designing an evergreen cache^] @ https://apachecon.com/[ApacheCon^]::
++
+CDC is a brand new approach that “turns the database inside out”: it allows to get events out of the database state. This can be leveraged to get a cache that is never stale.
+
 https://devopsdays.istanbul/#ts-speakers[Your own Kubernetes Operator: Not Only in Go^] @ https://devopsdays.istanbul/[DevOps Days Istanbul^]::
 +
 Go is ubiquitous in the Kubernetes ecosystem. But it’s not required at all to develop a K8s operator. Let’s try it with… Java!
@@ -49,10 +53,6 @@ Go is ubiquitous in the Kubernetes ecosystem. But it’s not required at all to 
 https://in.pycon.org/cfp/2021/proposals/a-walk-through-caching-patterns~dyP8E/[A walk through Caching Patterns^] @ https://in.pycon.org/[PyCon India^]::
 +
 You might have been using cache for years, and still always design the application to be responsible for the sync between the cache and the underlying data store. Did you know there are many more options available?
-
-https://javaforumnord.de/site/2021/page/sessions[Zero-downtime deployment with Kubernetes^] @ https://javaforumnord.de/[Java Forum Nord^]::
-+
-Beyond Hello World applications, zero-downtime deployments are not trivial. In this talk, I’ll demo how to achieve that on a Spring Boot application using Kubernetes and Hazelcast.
 
 ## 🎥 Latest video recording
 
