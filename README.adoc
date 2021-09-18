@@ -42,13 +42,13 @@ https://blog.frankel.ch/online-public-speaking/[Read further^]
 ## 🗣️ Upcoming talks
 
 
+https://www.containerdays.io/speakers/[A Hitchhicker's Tour to Containerizing a Java application^] @ https://www.containerdays.io/[ContainerDays^]::
++
+While a plain Dockerfile gets the job done, there are actually many more ways to containerize your Java app. They come with a couple of pros, and some cons.
+
 https://apachecon.com/acah2021/tracks/bigdata.html#W1540[A Change-Data-Capture use-case: designing an evergreen cache^] @ https://apachecon.com/[ApacheCon^]::
 +
 CDC is a brand new approach that “turns the database inside out”: it allows to get events out of the database state. This can be leveraged to get a cache that is never stale.
-
-https://devopsdays.istanbul/#ts-speakers[Your own Kubernetes Operator: Not Only in Go^] @ https://devopsdays.istanbul/[DevOps Days Istanbul^]::
-+
-Go is ubiquitous in the Kubernetes ecosystem. But it’s not required at all to develop a K8s operator. Let’s try it with… Java!
 
 https://in.pycon.org/cfp/2021/proposals/a-walk-through-caching-patterns~dyP8E/[A walk through Caching Patterns^] @ https://in.pycon.org/[PyCon India^]::
 +
