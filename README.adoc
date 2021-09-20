@@ -21,6 +21,12 @@ Developer Advocate with 15+ years experience consulting for many different custo
 ## ✍️ Most recent blog posts
 
 
+Reassessing TestNG vs. Junit (2021-09-19)::
+In my latest blog post, I advised reassessing one’s opinion now and then as the IT world changes fast. What was true a couple of years ago could be dead wrong nowadays, and you probably don’t want to base your decisions on outdated data. This week, I’d like to follow my advice. One of my first posts was advocating for TestNG vs. JUnit. In the post, I mentioned several features that JUnit lacked: No parameterizationNo groupingNo test method ordering Since JUnit 5 has been out[...]
++
+https://blog.frankel.ch/reassessing-testng-junit/[Read further^]
+
+
 Annotation-free Spring (2021-09-12)::
 Some, if not most, of our judgments regarding technology stacks come either from third-party opinions or previous experiences. Yet, we seem to be adamant about them. For a long time (and sometimes even now), I’ve seen posts that detailed how Spring is bad because it uses XML for its configuration. Unfortunately, they blissfully ignore the fact that annotation-based configuration has been available for ages. Probably because of the same reason I recently read that Spring is bad…​[...]
 +
@@ -33,14 +39,12 @@ There’s still an ongoing debate whether development in particular and IT, in g
 https://blog.frankel.ch/metrics/[Read further^]
 
 
-On online public speaking (2021-08-29)::
-On March 14th, 2020, I landed home. I had planned the week before to be productive: one talk in Pasadena, two talks in San Francisco, one in Bucharest, and one in Istanbul. Then, on the 16th, I was supposed to fly again to other events. Then, Covid happened. Governments started to close borders; in turn, organizers began to cancel events. I managed to do the talk in Pasadena with about ten people in the room. The organizer of one of the San Francisco talks managed to move my talk online. The re[...]
-+
-https://blog.frankel.ch/online-public-speaking/[Read further^]
-
-
 ## 🗣️ Upcoming talks
 
+
+https://www.java-forum-stuttgart.de/de/Programm.html[A Change-Data-Capture use-case: designing an evergreen cache^] @ https://www.java-forum-stuttgart.de/[Java Forum Stuttgart^]::
++
+CDC is a brand new approach that “turns the database inside out”: it allows to get events out of the database state. This can be leveraged to get a cache that is never stale.
 
 https://www.containerdays.io/speakers/[A Hitchhicker's Tour to Containerizing a Java application^] @ https://www.containerdays.io/[ContainerDays^]::
 +
@@ -49,10 +53,6 @@ While a plain Dockerfile gets the job done, there are actually many more ways to
 https://apachecon.com/acah2021/tracks/bigdata.html#W1540[A Change-Data-Capture use-case: designing an evergreen cache^] @ https://apachecon.com/[ApacheCon^]::
 +
 CDC is a brand new approach that “turns the database inside out”: it allows to get events out of the database state. This can be leveraged to get a cache that is never stale.
-
-https://in.pycon.org/cfp/2021/proposals/a-walk-through-caching-patterns~dyP8E/[A walk through Caching Patterns^] @ https://in.pycon.org/[PyCon India^]::
-+
-You might have been using cache for years, and still always design the application to be responsible for the sync between the cache and the underlying data store. Did you know there are many more options available?
 
 ## 🎥 Latest video recording
 
