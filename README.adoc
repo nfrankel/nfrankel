@@ -21,6 +21,12 @@ Developer Advocate with 15+ years experience consulting for many different custo
 ## ✍️ Most recent blog posts
 
 
+Multiple ways to configure Spring (2021-09-26)::
+Two weeks ago, I wrote how you could write a Spring application with no annotations. Many alternatives are available to configure your Spring app. I’d like to list them in this post, leaving Spring Boot out of the picture on purpose. Core concepts Property file XML Groovy DSL Self-annotated classes Configuration classes Kotlin DSL Bean definitions Beans Conclusion Core concepts A couple of concepts are central in Spring. The related documentation doesn’t describe most of them[...]
++
+https://blog.frankel.ch/multiple-ways-configure-spring/[Read further^]
+
+
 Reassessing TestNG vs. Junit (2021-09-19)::
 In my latest blog post, I advised reassessing one’s opinion now and then as the IT world changes fast. What was true a couple of years ago could be dead wrong nowadays, and you probably don’t want to base your decisions on outdated data. This week, I’d like to follow my advice. One of my first posts was advocating for TestNG vs. JUnit. In the post, I mentioned several features that JUnit lacked: No parameterizationNo groupingNo test method ordering Since JUnit 5 has been out[...]
 +
@@ -31,12 +37,6 @@ Annotation-free Spring (2021-09-12)::
 Some, if not most, of our judgments regarding technology stacks come either from third-party opinions or previous experiences. Yet, we seem to be adamant about them. For a long time (and sometimes even now), I’ve seen posts that detailed how Spring is bad because it uses XML for its configuration. Unfortunately, they blissfully ignore the fact that annotation-based configuration has been available for ages. Probably because of the same reason I recently read that Spring is bad…​[...]
 +
 https://blog.frankel.ch/annotation-free-spring/[Read further^]
-
-
-On metrics (2021-09-05)::
-There’s still an ongoing debate whether development in particular and IT, in general, are engineering practices. In all cases, there’s no denying that our industry is based on scientific foundations. Most of the organizations I’ve worked for implement the Deming wheel in one form or another: From a bird’s eye view, it makes a lot of sense. And given the success of the method in the Japanese car industry, there’s no denying that it’s effective. However,[...]
-+
-https://blog.frankel.ch/metrics/[Read further^]
 
 
 ## 🗣️ Upcoming talks
