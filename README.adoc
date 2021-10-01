@@ -42,6 +42,10 @@ https://blog.frankel.ch/annotation-free-spring/[Read further^]
 ## 🗣️ Upcoming talks
 
 
+https://cloudnord.fr/#rec339064136[Le guide du routard de la containerisation d'applications Java^] @ https://cloudnord.fr/[Cloud Nord^]::
++
+While a plain Dockerfile gets the job done, there are actually many more ways to containerize your Java app. They come with a couple of pros, and some cons.
+
 https://www.devopsonline.co.uk/national-devops-conference/speakers/nicolas-frankel/[Zero-downtime deployment with Kubernetes^] @ https://www.devopsonline.co.uk/national-devops-conference/[The National DevOps Conference^]::
 +
 Beyond Hello World applications, zero-downtime deployments are not trivial. In this talk, I’ll demo how to achieve that on a Spring Boot application using Kubernetes and Hazelcast.
@@ -49,10 +53,6 @@ Beyond Hello World applications, zero-downtime deployments are not trivial. In t
 https://www.brighttalk.com/webinar/zero-downtime-deployment-on-kubernetes/[Zero-downtime deployment with Kubernetes^] @ null[Modern Application Development^]::
 +
 Beyond Hello World applications, zero-downtime deployments are not trivial. In this talk, I’ll demo how to achieve that on a Spring Boot application using Kubernetes and Hazelcast.
-
-https://jug-saxony-day.org/programm/#!/P7[A Change-Data-Capture use-case: designing an evergreen cache^] @ https://jug-saxony-day.org/[JUG Saxony Day^]::
-+
-CDC is a brand new approach that “turns the database inside out”: it allows to get events out of the database state. This can be leveraged to get a cache that is never stale.
 
 ## 🎥 Latest video recording
 
