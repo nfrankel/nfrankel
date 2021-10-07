@@ -42,17 +42,17 @@ https://blog.frankel.ch/reassessing-testng-junit/[Read further^]
 ## 🗣️ Upcoming talks
 
 
+https://geekle.us/kotlin[Designing a DSL with Kotlin^] @ https://geekle.us/kotlin[Kotlin Global Summit^]::
++
+In some particular cases, providing a DSL can greatly improve the productivity of your dev team. Java is not the best language to provide such DSL. But Kotlin has tons of features that can help you there.
+
+https://2021.eventsourcing.live/speakers/nicolas-frankel[A Change-Data-Capture use-case: designing an evergreen cache^] @ https://eventsourcing.live/[EventSourcing Live^]::
++
+CDC is a brand new approach that “turns the database inside out”: it allows to get events out of the database state. This can be leveraged to get a cache that is never stale.
+
 https://cloudnord.fr/#rec339064136[Le guide du routard de la containerisation d'applications Java^] @ https://cloudnord.fr/[Cloud Nord^]::
 +
 While a plain Dockerfile gets the job done, there are actually many more ways to containerize your Java app. They come with a couple of pros, and some cons.
-
-https://www.devopsonline.co.uk/national-devops-conference/speakers/nicolas-frankel/[Zero-downtime deployment with Kubernetes^] @ https://www.devopsonline.co.uk/national-devops-conference/[The National DevOps Conference^]::
-+
-Beyond Hello World applications, zero-downtime deployments are not trivial. In this talk, I’ll demo how to achieve that on a Spring Boot application using Kubernetes and Hazelcast.
-
-https://www.brighttalk.com/webinar/zero-downtime-deployment-on-kubernetes/[Zero-downtime deployment with Kubernetes^] @ null[Modern Application Development^]::
-+
-Beyond Hello World applications, zero-downtime deployments are not trivial. In this talk, I’ll demo how to achieve that on a Spring Boot application using Kubernetes and Hazelcast.
 
 ## 🎥 Latest video recording
 
