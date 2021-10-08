@@ -42,17 +42,25 @@ https://blog.frankel.ch/reassessing-testng-junit/[Read further^]
 ## 🗣️ Upcoming talks
 
 
-https://geekle.us/kotlin[Designing a DSL with Kotlin^] @ https://geekle.us/kotlin[Kotlin Global Summit^]::
+https://2021.allthingsopen.org/speakers/nicolas-frankel/[Zero-downtime deployment with Kubernetes^] @ https://allthingsopen.org/[All Things Open^]::
 +
-In some particular cases, providing a DSL can greatly improve the productivity of your dev team. Java is not the best language to provide such DSL. But Kotlin has tons of features that can help you there.
+Beyond Hello World applications, zero-downtime deployments are not trivial. In this talk, I’ll demo how to achieve that on a Spring Boot application using Kubernetes and Hazelcast.
 
-https://2021.eventsourcing.live/speakers/nicolas-frankel[A Change-Data-Capture use-case: designing an evergreen cache^] @ https://eventsourcing.live/[EventSourcing Live^]::
+https://conferences.isaqb.org/sessions/#sz-tab-80313[A Change-Data-Capture use-case: designing an evergreen cache^] @ https://conferences.isaqb.org/software-architecture-gathering/[Software Architecture Gathering^]::
 +
 CDC is a brand new approach that “turns the database inside out”: it allows to get events out of the database state. This can be leveraged to get a cache that is never stale.
 
-https://cloudnord.fr/#rec339064136[Le guide du routard de la containerisation d'applications Java^] @ https://cloudnord.fr/[Cloud Nord^]::
+https://2021.javacro.hr/Program/A-Change-Data-Capture-use-case-designing-an-evergreen-cache[A Change-Data-Capture use-case: designing an evergreen cache^] @ http://2018.javacro.hr/eng/[JavaCro^]::
 +
-While a plain Dockerfile gets the job done, there are actually many more ways to containerize your Java app. They come with a couple of pros, and some cons.
+CDC is a brand new approach that “turns the database inside out”: it allows to get events out of the database state. This can be leveraged to get a cache that is never stale.
+
+https://2021.javacro.hr/Program/Zero-downtime-deployment-on-Kubernetes-with-Hazelcast[Zero-downtime deployment with Kubernetes^] @ http://2018.javacro.hr/eng/[JavaCro^]::
++
+Beyond Hello World applications, zero-downtime deployments are not trivial. In this talk, I’ll demo how to achieve that on a Spring Boot application using Kubernetes and Hazelcast.
+
+https://2021.javacro.hr/Program/Introduction-to-data-streaming[Introduction to data streaming^] @ http://2018.javacro.hr/eng/[JavaCro^]::
++
+Data streaming is the new black: with some introduction into its background and a fun demo, I’ll show what it consists of and how one can leverage it.
 
 ## 🎥 Latest video recording
 
