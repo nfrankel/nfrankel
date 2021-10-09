@@ -42,7 +42,7 @@ https://blog.frankel.ch/reassessing-testng-junit/[Read further^]
 ## 🗣️ Upcoming talks
 
 
-https://2021.allthingsopen.org/speakers/nicolas-frankel/[Zero-downtime deployment with Kubernetes^] @ https://allthingsopen.org/[All Things Open^]::
+https://2021.allthingsopen.org/sessions/zero-downtime-deployment-on-kubernetes/[Zero-downtime deployment with Kubernetes^] @ https://allthingsopen.org/[All Things Open^]::
 +
 Beyond Hello World applications, zero-downtime deployments are not trivial. In this talk, I’ll demo how to achieve that on a Spring Boot application using Kubernetes and Hazelcast.
 
