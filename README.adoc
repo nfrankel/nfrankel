@@ -21,6 +21,12 @@ Developer Advocate with 15+ years experience consulting for many different custo
 ## ✍️ Most recent blog posts
 
 
+Faster Maven builds in Docker (2021-10-10)::
+Last week, I described different techniques to fasten your Maven builds. Today, I’d like to widen the scope and do the same for Maven builds inside Docker. Between each run, we change the source code by adding a single blank line; between each section, we remove all built images, including the intermediate ones that are the results of the multi-stage build. The idea is to avoid reusing a previously built image. Baseline To compute a helpful baseline, we need a sample project. I create[...]
++
+https://blog.frankel.ch/faster-maven-builds/2/[Read further^]
+
+
 Faster Maven builds (2021-10-03)::
 Builds require a few properties, chief among them reproducibility. I would consider speed to be low on the order of priorities. However, it’s also one of the most limiting factors to your release cycle: if your build takes T, you cannot release faster than each T. Hence, you’ll probably want to speed up your builds after you’ve reached a certain maturity level to enable more frequent releases. I want to detail some techniques you can leverage to make your Maven builds faster i[...]
 +
@@ -31,12 +37,6 @@ Multiple ways to configure Spring (2021-09-26)::
 Two weeks ago, I wrote how you could write a Spring application with no annotations. Many alternatives are available to configure your Spring app. I’d like to list them in this post, leaving Spring Boot out of the picture on purpose. Core concepts Property file XML Groovy DSL Self-annotated classes Configuration classes Kotlin DSL Bean definitions Beans Conclusion Core concepts A couple of concepts are central in Spring. The related documentation doesn’t describe most of them[...]
 +
 https://blog.frankel.ch/multiple-ways-configure-spring/[Read further^]
-
-
-Reassessing TestNG vs. Junit (2021-09-19)::
-In my latest blog post, I advised reassessing one’s opinion now and then as the IT world changes fast. What was true a couple of years ago could be dead wrong nowadays, and you probably don’t want to base your decisions on outdated data. This week, I’d like to follow my advice. One of my first posts was advocating for TestNG vs. JUnit. In the post, I mentioned several features that JUnit lacked: No parameterizationNo groupingNo test method ordering Since JUnit 5 has been out[...]
-+
-https://blog.frankel.ch/reassessing-testng-junit/[Read further^]
 
 
 ## 🗣️ Upcoming talks
