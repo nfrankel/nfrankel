@@ -42,6 +42,10 @@ https://blog.frankel.ch/multiple-ways-configure-spring/[Read further^]
 ## 🗣️ Upcoming talks
 
 
+https://java-makeit2021.sioug.si/urnik[Zero-downtime deployment with Kubernetes^] @ https://www.makeit.si/index.php/en/[Java Make IT^]::
++
+Beyond Hello World applications, zero-downtime deployments are not trivial. In this talk, I’ll demo how to achieve that on a Spring Boot application using Kubernetes and Hazelcast.
+
 https://2021.allthingsopen.org/sessions/zero-downtime-deployment-on-kubernetes/[Zero-downtime deployment with Kubernetes^] @ https://allthingsopen.org/[All Things Open^]::
 +
 Beyond Hello World applications, zero-downtime deployments are not trivial. In this talk, I’ll demo how to achieve that on a Spring Boot application using Kubernetes and Hazelcast.
@@ -49,18 +53,6 @@ Beyond Hello World applications, zero-downtime deployments are not trivial. In t
 https://conferences.isaqb.org/sessions/#sz-tab-80313[A Change-Data-Capture use-case: designing an evergreen cache^] @ https://conferences.isaqb.org/software-architecture-gathering/[Software Architecture Gathering^]::
 +
 CDC is a brand new approach that “turns the database inside out”: it allows to get events out of the database state. This can be leveraged to get a cache that is never stale.
-
-https://2021.javacro.hr/Program/A-Change-Data-Capture-use-case-designing-an-evergreen-cache[A Change-Data-Capture use-case: designing an evergreen cache^] @ http://2018.javacro.hr/eng/[JavaCro^]::
-+
-CDC is a brand new approach that “turns the database inside out”: it allows to get events out of the database state. This can be leveraged to get a cache that is never stale.
-
-https://2021.javacro.hr/Program/Zero-downtime-deployment-on-Kubernetes-with-Hazelcast[Zero-downtime deployment with Kubernetes^] @ http://2018.javacro.hr/eng/[JavaCro^]::
-+
-Beyond Hello World applications, zero-downtime deployments are not trivial. In this talk, I’ll demo how to achieve that on a Spring Boot application using Kubernetes and Hazelcast.
-
-https://2021.javacro.hr/Program/Introduction-to-data-streaming[Introduction to data streaming^] @ http://2018.javacro.hr/eng/[JavaCro^]::
-+
-Data streaming is the new black: with some introduction into its background and a fun demo, I’ll show what it consists of and how one can leverage it.
 
 ## 🎥 Latest video recording
 
