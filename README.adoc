@@ -56,4 +56,4 @@ Beyond Hello World applications, zero-downtime deployments are not trivial. In t
 
 ## 🎥 Latest video recording
 
-image::https://img.youtube.com/vi/fQYgaJSfjP8/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=fQYgaJSfjP8,title="Infobip Shift 2021: Zero downtime Deployment on Kubernetes - Nicolas Frankel (Hazelcast)"]
+image::https://img.youtube.com/vi/s-EtWnrIkFY/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=s-EtWnrIkFY,title="A Change-Data-Capture use-case: designing an evergreen cache - Nicolas Fränkel"]
