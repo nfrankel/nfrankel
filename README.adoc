@@ -21,6 +21,12 @@ Developer Advocate with 15+ years experience consulting for many different custo
 ## ✍️ Most recent blog posts
 
 
+Kotlin and FaaS, an impossible union? (2021-10-17)::
+Some time ago, I read a post describing how to run a serverless Kotlin function on OpenFaaS. While the content is technically correct, I believe the concept itself is very wrong. Such posts can lead people to make ill-advised decisions: 'because we can' is hardly a winning strategy. in this post, I’d like to first explain why the JVM platform is a bad idea for FaaS. Then, I’ll proceed to propose alternatives to use Kotlin nonetheless. I deliberately chose not to link to the original[...]
++
+https://blog.frankel.ch/kotlin-faas-impossible-union/[Read further^]
+
+
 Faster Maven builds in Docker (2021-10-10)::
 Last week, I described different techniques to fasten your Maven builds. Today, I’d like to widen the scope and do the same for Maven builds inside Docker. Between each run, we change the source code by adding a single blank line; between each section, we remove all built images, including the intermediate ones that are the results of the multi-stage build. The idea is to avoid reusing a previously built image. Baseline To compute a helpful baseline, we need a sample project. I create[...]
 +
@@ -33,26 +39,20 @@ Builds require a few properties, chief among them reproducibility. I would consi
 https://blog.frankel.ch/faster-maven-builds/1/[Read further^]
 
 
-Multiple ways to configure Spring (2021-09-26)::
-Two weeks ago, I wrote how you could write a Spring application with no annotations. Many alternatives are available to configure your Spring app. I’d like to list them in this post, leaving Spring Boot out of the picture on purpose. Core concepts Property file XML Groovy DSL Self-annotated classes Configuration classes Kotlin DSL Bean definitions Beans Conclusion Core concepts A couple of concepts are central in Spring. The related documentation doesn’t describe most of them[...]
-+
-https://blog.frankel.ch/multiple-ways-configure-spring/[Read further^]
-
-
 ## 🗣️ Upcoming talks
 
+
+https://community.elastic.co/events/details/elastic-emea-virtual-presents-low-code-exploration-and-visualization-of-your-data/[Low-code exploration and visualization of your data^] @ https://community.elastic.co/emea-virtual/[Elastic EMEA Virtual^]::
++
+Keeping your derived data (cache, search index, etc.) in synch with your source of truth is a challenge. In this, we will provide you with a straightfoward way to achieve it with the help of Change-Data-Capture.
+
+https://community.elastic.co/events/details/elastic-france-presents-elastic-paris-meetup-67-hazelcast-kibana-pour-observer-vos-donnees/[Hazelcast + Kibana = ❤️ pour l'exploration et l'observation de vos données^] @ https://community.elastic.co/france/[Elastic User Group^]::
++
+While a plain Dockerfile gets the job done, there are actually many more ways to containerize your Java app. They come with a couple of pros, and some cons.
 
 https://romania.voxxeddays.com/2021/09/22/introduction-to-data-streaming/[Introduction to data streaming^] @ https://romania.voxxeddays.com/[Voxxed Days Romania^]::
 +
 Data streaming is the new black: with some introduction into its background and a fun demo, I’ll show what it consists of and how one can leverage it.
-
-https://java-makeit2021.sioug.si/urnik[Zero-downtime deployment with Kubernetes^] @ https://www.makeit.si/index.php/en/[Java Make IT^]::
-+
-Beyond Hello World applications, zero-downtime deployments are not trivial. In this talk, I’ll demo how to achieve that on a Spring Boot application using Kubernetes and Hazelcast.
-
-https://2021.allthingsopen.org/sessions/zero-downtime-deployment-on-kubernetes/[Zero-downtime deployment with Kubernetes^] @ https://allthingsopen.org/[All Things Open^]::
-+
-Beyond Hello World applications, zero-downtime deployments are not trivial. In this talk, I’ll demo how to achieve that on a Spring Boot application using Kubernetes and Hazelcast.
 
 ## 🎥 Latest video recording
 
