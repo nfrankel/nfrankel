@@ -42,6 +42,10 @@ https://blog.frankel.ch/faster-maven-builds/1/[Read further^]
 ## 🗣️ Upcoming talks
 
 
+https://www.meetup.com/JUG-Oberpfalz/events/277230636/[Securing the JVM - Neither for fun nor for profit, but do you have a choice?^] @ https://www.meetup.com/JUG-Oberpfalz[JUG Oberpfalz^]::
++
+The Java API allows a lot: sending packets over the network, compiling code, etc. If you put an application in an production environment, you need to make sure it doesn’t do more than it’s supposed to do.
+
 https://community.elastic.co/events/details/elastic-emea-virtual-presents-low-code-exploration-and-visualization-of-your-data/[Low-code exploration and visualization of your data^] @ https://community.elastic.co/emea-virtual/[Elastic EMEA Virtual^]::
 +
 Keeping your derived data (cache, search index, etc.) in synch with your source of truth is a challenge. In this, we will provide you with a straightfoward way to achieve it with the help of Change-Data-Capture.
@@ -49,10 +53,6 @@ Keeping your derived data (cache, search index, etc.) in synch with your source 
 https://community.elastic.co/events/details/elastic-france-presents-elastic-paris-meetup-67-hazelcast-kibana-pour-observer-vos-donnees/[Hazelcast + Kibana = ❤️ pour l'exploration et l'observation de vos données^] @ https://community.elastic.co/france/[Elastic User Group^]::
 +
 While a plain Dockerfile gets the job done, there are actually many more ways to containerize your Java app. They come with a couple of pros, and some cons.
-
-https://romania.voxxeddays.com/2021/09/22/introduction-to-data-streaming/[Introduction to data streaming^] @ https://romania.voxxeddays.com/[Voxxed Days Romania^]::
-+
-Data streaming is the new black: with some introduction into its background and a fun demo, I’ll show what it consists of and how one can leverage it.
 
 ## 🎥 Latest video recording
 
