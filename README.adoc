@@ -21,6 +21,12 @@ Developer Advocate with 15+ years experience consulting for many different custo
 ## ✍️ Most recent blog posts
 
 
+Choosing a cache (2021-10-24)::
+Today, I’d like to provide some help on how to choose a cache solution. I will organize it into two parts: In this post, we will list what features a cache must have and which ones it can optionally provide. Most criteria are general and can be used regardless of the tech stack, while a couple is specific to the JVM.In the second part, I’ll list providers and verify their respective capabilities Why cache? First, let’s bust a common myth. Using a cache is not the sign of a b[...]
++
+https://blog.frankel.ch/choose-cache/1/[Read further^]
+
+
 Kotlin and FaaS, an impossible union? (2021-10-17)::
 Some time ago, I read a post describing how to run a serverless Kotlin function on OpenFaaS. While the content is technically correct, I believe the concept itself is very wrong. Such posts can lead people to make ill-advised decisions: 'because we can' is hardly a winning strategy. in this post, I’d like to first explain why the JVM platform is a bad idea for FaaS. Then, I’ll proceed to propose alternatives to use Kotlin nonetheless. I deliberately chose not to link to the original[...]
 +
@@ -31,12 +37,6 @@ Faster Maven builds in Docker (2021-10-10)::
 Last week, I described different techniques to fasten your Maven builds. Today, I’d like to widen the scope and do the same for Maven builds inside Docker. Between each run, we change the source code by adding a single blank line; between each section, we remove all built images, including the intermediate ones that are the results of the multi-stage build. The idea is to avoid reusing a previously built image. Baseline To compute a helpful baseline, we need a sample project. I create[...]
 +
 https://blog.frankel.ch/faster-maven-builds/2/[Read further^]
-
-
-Faster Maven builds (2021-10-03)::
-Builds require a few properties, chief among them reproducibility. I would consider speed to be low on the order of priorities. However, it’s also one of the most limiting factors to your release cycle: if your build takes T, you cannot release faster than each T. Hence, you’ll probably want to speed up your builds after you’ve reached a certain maturity level to enable more frequent releases. I want to detail some techniques you can leverage to make your Maven builds faster i[...]
-+
-https://blog.frankel.ch/faster-maven-builds/1/[Read further^]
 
 
 ## 🗣️ Upcoming talks
