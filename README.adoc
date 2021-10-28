@@ -42,18 +42,18 @@ https://blog.frankel.ch/faster-maven-builds/2/[Read further^]
 ## 🗣️ Upcoming talks
 
 
+https://agiledevopseast.techwell.com/program/concurrent-sessions/zero-downtime-deployment-kubernetes-agile-devops-east-2021[Zero-downtime deployment with Kubernetes^] @ https://agiledevopseast.techwell.com/[Agile+DevOps East^]::
++
+Beyond Hello World applications, zero-downtime deployments are not trivial. In this talk, I’ll demo how to achieve that on a Spring Boot application using Kubernetes and Hazelcast.
+
+https://www.opensource-experience.com/event#conf-2882[Déploiement sans interruption sur Kubernetes^] @ https://www.opensource-experience.com/[Open Source Experience^]::
++
+Continuous deployment doesn’t necessarily mean Jenkins, or the latest hype tool. For JVM applications, one can directly deliver bytecode in production.
+
 https://www.meetup.com/JUG-Oberpfalz/events/277230636/[Securing the JVM - Neither for fun nor for profit, but do you have a choice?^] @ https://www.meetup.com/JUG-Oberpfalz[JUG Oberpfalz^]::
 +
 The Java API allows a lot: sending packets over the network, compiling code, etc. If you put an application in an production environment, you need to make sure it doesn’t do more than it’s supposed to do.
 
-https://community.elastic.co/events/details/elastic-emea-virtual-presents-low-code-exploration-and-visualization-of-your-data/[Low-code exploration and visualization of your data^] @ https://community.elastic.co/emea-virtual/[Elastic EMEA Virtual^]::
-+
-Keeping your derived data (cache, search index, etc.) in synch with your source of truth is a challenge. In this, we will provide you with a straightfoward way to achieve it with the help of Change-Data-Capture.
-
-https://community.elastic.co/events/details/elastic-france-presents-elastic-paris-meetup-67-hazelcast-kibana-pour-observer-vos-donnees/[Hazelcast + Kibana = ❤️ pour l'exploration et l'observation de vos données^] @ https://community.elastic.co/france/[Elastic User Group^]::
-+
-While a plain Dockerfile gets the job done, there are actually many more ways to containerize your Java app. They come with a couple of pros, and some cons.
-
 ## 🎥 Latest video recording
 
-image::https://img.youtube.com/vi/s-EtWnrIkFY/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=s-EtWnrIkFY,title="A Change-Data-Capture use-case: designing an evergreen cache - Nicolas Fränkel"]
+image::https://img.youtube.com/vi/51DEoapHilg/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=51DEoapHilg,title="Low-code exploration and visualization of your data"]
