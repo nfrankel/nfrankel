@@ -21,6 +21,12 @@ Developer Advocate with 15+ years experience consulting for many different custo
 ## ✍️ Most recent blog posts
 
 
+A list of cache providers (2021-10-31)::
+Last week, we described several criteria to look at to choose a cache. This week, it’s time to list Java cache providers based on these criteria. Java Caching System Guava Caffeine Ehcache Infinispan Coherence Community Edition Ignite Geode Hazelcast Java Caching System JCS is a distributed caching system written in Java. It is intended to speed up applications by providing a means to manage cached data of various dynamic natures. Like any caching system, JCS is most useful for h[...]
++
+https://blog.frankel.ch/choose-cache/2/[Read further^]
+
+
 Choosing a cache (2021-10-24)::
 Today, I’d like to provide some help on how to choose a cache solution. I will organize it into two parts: In this post, we will list what features a cache must have and which ones it can optionally provide. Most criteria are general and can be used regardless of the tech stack, while a couple is specific to the JVM.In the second part, I’ll list providers and verify their respective capabilities Why cache? First, let’s bust a common myth. Using a cache is not the sign of a b[...]
 +
@@ -33,18 +39,8 @@ Some time ago, I read a post describing how to run a serverless Kotlin function 
 https://blog.frankel.ch/kotlin-faas-impossible-union/[Read further^]
 
 
-Faster Maven builds in Docker (2021-10-10)::
-Last week, I described different techniques to fasten your Maven builds. Today, I’d like to widen the scope and do the same for Maven builds inside Docker. Between each run, we change the source code by adding a single blank line; between each section, we remove all built images, including the intermediate ones that are the results of the multi-stage build. The idea is to avoid reusing a previously built image. Baseline To compute a helpful baseline, we need a sample project. I create[...]
-+
-https://blog.frankel.ch/faster-maven-builds/2/[Read further^]
-
-
 ## 🗣️ Upcoming talks
 
-
-https://agiledevopseast.techwell.com/program/concurrent-sessions/zero-downtime-deployment-kubernetes-agile-devops-east-2021[Zero-downtime deployment with Kubernetes^] @ https://agiledevopseast.techwell.com/[Agile+DevOps East^]::
-+
-Beyond Hello World applications, zero-downtime deployments are not trivial. In this talk, I’ll demo how to achieve that on a Spring Boot application using Kubernetes and Hazelcast.
 
 https://www.opensource-experience.com/event#conf-2882[Déploiement sans interruption sur Kubernetes^] @ https://www.opensource-experience.com/[Open Source Experience^]::
 +
@@ -53,6 +49,10 @@ Continuous deployment doesn’t necessarily mean Jenkins, or the latest hype too
 https://www.meetup.com/JUG-Oberpfalz/events/277230636/[Securing the JVM - Neither for fun nor for profit, but do you have a choice?^] @ https://www.meetup.com/JUG-Oberpfalz[JUG Oberpfalz^]::
 +
 The Java API allows a lot: sending packets over the network, compiling code, etc. If you put an application in an production environment, you need to make sure it doesn’t do more than it’s supposed to do.
+
+https://jfall.nl/speakers-2021[A Change-Data-Capture use-case: designing an evergreen cache^] @ https://jfall.nl/[J-Fall^]::
++
+CDC is a brand new approach that “turns the database inside out”: it allows to get events out of the database state. This can be leveraged to get a cache that is never stale.
 
 ## 🎥 Latest video recording
 
