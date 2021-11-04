@@ -42,6 +42,10 @@ https://blog.frankel.ch/kotlin-faas-impossible-union/[Read further^]
 ## 🗣️ Upcoming talks
 
 
+https://agiledevopseast.techwell.com/program/concurrent-sessions/zero-downtime-deployment-kubernetes-agile-devops-east-2021[Zero-downtime deployment with Kubernetes^] @ https://agiledevopseast.techwell.com/[Agile+DevOps East^]::
++
+Beyond Hello World applications, zero-downtime deployments are not trivial. In this talk, I’ll demo how to achieve that on a Spring Boot application using Kubernetes and Hazelcast.
+
 https://www.opensource-experience.com/event#conf-2882[Déploiement sans interruption sur Kubernetes^] @ https://www.opensource-experience.com/[Open Source Experience^]::
 +
 Continuous deployment doesn’t necessarily mean Jenkins, or the latest hype tool. For JVM applications, one can directly deliver bytecode in production.
@@ -50,10 +54,6 @@ https://www.meetup.com/JUG-Oberpfalz/events/277230636/[Securing the JVM - Neithe
 +
 The Java API allows a lot: sending packets over the network, compiling code, etc. If you put an application in an production environment, you need to make sure it doesn’t do more than it’s supposed to do.
 
-https://jfall.nl/speakers-2021[A Change-Data-Capture use-case: designing an evergreen cache^] @ https://jfall.nl/[J-Fall^]::
-+
-CDC is a brand new approach that “turns the database inside out”: it allows to get events out of the database state. This can be leveraged to get a cache that is never stale.
-
 ## 🎥 Latest video recording
 
-image::https://img.youtube.com/vi/51DEoapHilg/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=51DEoapHilg,title="Low-code exploration and visualization of your data"]
+image::https://img.youtube.com/vi/uVob-4aXbxY/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=uVob-4aXbxY,title="Java Security & the Java Ecosystem • Nicolas Frankel • GOTO 2021"]
