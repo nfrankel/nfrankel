@@ -1,6 +1,5 @@
 #!/usr/bin/env kotlin
 
-@file:Repository("https://jcenter.bintray.com")
 @file:DependsOn("org.freemarker:freemarker:2.3.31")
 @file:DependsOn("com.squareup.okhttp3:okhttp:4.9.3")
 @file:DependsOn("no.api.freemarker:freemarker-java8:2.0.0")
@@ -124,7 +123,7 @@ val conferences: Map<String, Conference> by lazy {
     execute(request, extractConferences)
 }
 
-val talks: List<Talk> by lazy {
+val talks: List<Talk> = run {
     fun Date.toLocalDate() = toInstant().atZone(ZoneId.of("Europe/Paris")).toLocalDate()
 
     fun Map<*, *>.toTalk() = Talk(
@@ -201,28 +200,29 @@ data class Post(val published: LocalDate, val title: String, val link: String, v
 data class Conference(val id: String, val name: String, val url: String)
 
 data class Talk(val title: String, val link: String, val description: String, val confref: String) {
-    companion object {
-        private val SIMILARITY = JaroWinklerSimilarity()
-        private val CATALOG: Map<String, String?> by lazy {
-            val paperCallBaseUrl = "https://www.papercall.io"
-            val paperCallCatalogUrl = "$paperCallBaseUrl/speakers/nicolasfrankel/"
-            Jsoup.connect(paperCallCatalogUrl)
-                .get()
-                .select("h3.event__title a")
-                .map { it.text() to it.attr("href") }
-                .map { it.first to Jsoup.connect("$paperCallBaseUrl${it.second}").get() }
-                .associate { it.first to it.second.select(".markdown p").first()?.text() }
-        }
+
+    private val similarity = JaroWinklerSimilarity()
+    private val catalog: Map<String, String?>
+
+    init {
+        val paperCallBaseUrl = "https://www.papercall.io"
+        val paperCallCatalogUrl = "$paperCallBaseUrl/speakers/nicolasfrankel/"
+        catalog = Jsoup.connect(paperCallCatalogUrl)
+            .get()
+            .select("h3.event__title a")
+            .map { it.text() to it.attr("href") }
+            .map { it.first to Jsoup.connect("$paperCallBaseUrl${it.second}").get() }
+            .associate { it.first to it.second.select(".markdown p").first()?.text() }
     }
 
-    private fun findSummary(title: String) = CATALOG.entries
+    private fun findSummary(title: String) = catalog.entries
         .map {
-            SIMILARITY.apply(it.key, title) to it.value
+            similarity.apply(it.key, title) to it.value
         }.filter { it.first > 0.5 }
         .maxByOrNull { it.first }
 
     val summary: String by lazy {
-        val talk = CATALOG[title]
+        val talk = catalog[title]
         if (talk != null) talk
         else {
             val candidate = findSummary(title)
