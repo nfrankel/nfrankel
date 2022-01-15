@@ -41,12 +41,23 @@ https://blog.frankel.ch/kotlin-faas-impossible-union/[Read further^]
 
 ## 🗣️ Upcoming talks
 
+https://confoo.ca/en/2022/session/a-change-data-capture-use-case-designing-an-evergreen-cache[A Change-Data-Capture use-case: designing an evergreen cache^] @ https://confoo.ca/[ConFoo^]::
++
+CDC is a brand new approach that “turns the database inside out”: it allows to get events out of the database state. This can be leveraged to get a cache that is never stale.
 
-https://agiledevopseast.techwell.com/program/concurrent-sessions/zero-downtime-deployment-kubernetes-agile-devops-east-2021[Zero-downtime deployment with Kubernetes^] @ https://agiledevopseast.techwell.com/[Agile+DevOps East^]::
+https://confoo.ca/en/2022/session/zero-downtime-deployment-on-kubernetes[Zero-downtime deployment on Kubernetes^] @ https://confoo.ca/[ConFoo^]::
 +
 Beyond Hello World applications, zero-downtime deployments are not trivial. In this talk, I’ll demo how to achieve that on a Spring Boot application using Kubernetes and Hazelcast.
 
-https://www.opensource-experience.com/event#conf-2882[Déploiement sans interruption sur Kubernetes^] @ https://www.opensource-experience.com/[Open Source Experience^]::
+https://fosdem.org/2022/schedule/event/maven/[Faster Apache Maven Builds^] @ https://fosdem.org/[FOSDEM^]::
++
+GitHub is a developer’s CV but what happens if you’re not working on any project hosted on GitHub. All hope is not lost: you can still customize your GitHub profile with all data you want.
+
+https://fosdem.org/2022/schedule/event/not_only_python_kotlin_for_scripts/[Not only Python: Kotlin for scripts^] @ https://fosdem.org/[FOSDEM^]::
++
+Keeping your derived data (cache, search index, etc.) in synch with your source of truth is a challenge. In this, we will provide you with a straightfoward way to achieve it with the help of Change-Data-Capture.
+
+https://snowcamp2022.sched.com/event/qHPE/ajoutez-une-vraie-recherche-a-votre-application-legacy-sans-vous-prendre-la-tete[Ajoutez une vraie recherche à votre application legacy sans vous prendre la tête^] @ http://snowcamp.io/[SnowCamp^]::
 +
 Continuous deployment doesn’t necessarily mean Jenkins, or the latest hype tool. For JVM applications, one can directly deliver bytecode in production.
 
