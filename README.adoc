@@ -16,7 +16,7 @@ image:https://github.com/nfrankel/nfrankel/workflows/Build%20README/badge.svg[Bu
 If you're interested in knowing more, please check the https://blog.frankel.ch/customizing-github-profile/1/[posts^] https://blog.frankel.ch/customizing-github-profile/2/[I've written^] on the subject or https://github.com/nfrankel/nfrankel/[the code^].
 ====
 
-Developer Advocate with 15+ years experience consulting for many different customers, in a wide range of contexts (such as telecoms, banking, insurances, large retail and public sector). Usually working on Java/Java EE and Spring technologies, but with focused interests like Rich Internet Applications, Testing, CI/CD and DevOps. Currently working for Hazelcast. Also double as a trainer and triples as a book author.
+Developer Advocate with 15+ years experience consulting for many different customers, in a wide range of contexts (such as telecoms, banking, insurances, large retail and public sector). Usually working on Java/Java EE and Spring technologies, but with focused interests like Rich Internet Applications, Testing, CI/CD and DevOps. Also double as a trainer and triples as a book author.
 
 ## ✍️ Most recent blog posts
 
