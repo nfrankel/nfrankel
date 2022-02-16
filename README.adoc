@@ -21,6 +21,12 @@ Developer Advocate with 15+ years experience consulting for many different custo
 ## ✍️ Most recent blog posts
 
 
+System Logger (2022-02-13)::
+December was not a good time for Java developers and even less for Ops. The former had to repackage their apps with a fixed Log4J’s version, and the latter had to redeploy them - several times. Yet, every cloud has a silver lining. In my case, I learned about System.Logger. A good time to start using the new standard System.Logger API introduced in Java 9: https://t.co/SaBUnqEZqF. It works like SLF4J and by default logs using JUL but can use Log4J or any othet logging under the hood. http[...]
++
+https://blog.frankel.ch/system-logger/[Read further^]
+
+
 The Gilded Rose Kata in Rust (2022-02-06)::
 This is the 10th post in the Start Rust focus series. The Gilded Rose Kata is a refactoring exercise. The full description is available on GitHub. Nowadays, the kata is much more widespread. It’s available in plenty of languages, even some that are not considered mainstream, e.g., XSLT or ABAP. In this post, I’d like to do it in Rust.[...]
 +
@@ -33,12 +39,6 @@ One of the Apache Maven committers recently wrote about their plans for Maven 5.
 https://blog.frankel.ch/maven-flatten-plugin/[Read further^]
 
 
-Treat security as a risk (2022-01-23)::
-Security is the poster child of a Non-Functional Requirement: most people don’t care until the proverbial fecal matter hits the rotary propeller. Consequences can range from losing reputation to legal liability to putting the business out. In my post on running unsecured code, I concluded that you should treat security as a risk - and left it at that. I think it warrants a dedicated post. Risk management is pretty much documented. You can find it in many engineering disciplines, if not ev[...]
-+
-https://blog.frankel.ch/treat-security-as-risk/[Read further^]
-
-
 ## 🗣️ Upcoming talks
 
 
@@ -46,18 +46,14 @@ https://saner2022.uom.gr/keynotes[20 years in software: the bad, the ugly and th
 +
 Code coverage is useless because of assertless testing. There’s a technique to replace it, it’s called Mutation Testing.
 
-https://events.geekle.us/software_architecture/[A look at CQRS and its possible implementations^] @ https://architecture.geekle.us/[Worldwide Software Architecture Summit^]::
+https://events.geekle.us/software_architecture/[Evolving your APIs, a step-by-step approach^] @ https://architecture.geekle.us/[Worldwide Software Architecture Summit^]::
 +
-While a plain Dockerfile gets the job done, there are actually many more ways to containerize your Java app. They come with a couple of pros, and some cons.
+Like any architecture-related REST APIs are easy to get started on, but their lifecycle is hard manage if you don’t plan for it. Here is a pragmatic process to do that.
 
-https://confoo.ca/en/2022/session/a-change-data-capture-use-case-designing-an-evergreen-cache[A Change-Data-Capture use-case: designing an evergreen cache^] @ https://confoo.ca/[ConFoo^]::
+https://confoo.ca/en/2022/session/evolving-your-apis-a-pragmatic-step-by-step-approach[Evolving your APIs, a step-by-step approach^] @ https://confoo.ca/[ConFoo^]::
 +
-GitHub is a developer’s CV but what happens if you’re not working on any project hosted on GitHub. All hope is not lost: you can still customize your GitHub profile with all data you want.
-
-https://confoo.ca/en/2022/session/zero-downtime-deployment-on-kubernetes[Zero-downtime deployment on Kubernetes^] @ https://confoo.ca/[ConFoo^]::
-+
-Go is ubiquitous in the Kubernetes ecosystem. But it’s not required at all to develop a K8s operator. Let’s try it with… Java!
+Like any architecture-related REST APIs are easy to get started on, but their lifecycle is hard manage if you don’t plan for it. Here is a pragmatic process to do that.
 
 ## 🎥 Latest video recording
 
-image::https://img.youtube.com/vi/GnOzjiyGIhA/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=GnOzjiyGIhA,title="Kotlin KODERS 2021 - Annotation-based configuration to functional in Spring Boot by Nicolas Fränkel"]
+image::https://img.youtube.com/vi/f5ICX9AgH-s/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=f5ICX9AgH-s,title="Faster Apache Maven Builds (Nicolas Frankel)"]
