@@ -208,6 +208,8 @@ data class Talk(val title: String, val link: String, val description: String, va
         val paperCallBaseUrl = "https://www.papercall.io"
         val paperCallCatalogUrl = "$paperCallBaseUrl/speakers/nicolasfrankel/"
         catalog = Jsoup.connect(paperCallCatalogUrl)
+            .userAgent("curl/7.77.0")
+            .referrer("http://www.google.com")
             .get()
             .select("h3.event__title a")
             .map { it.text() to it.attr("href") }
