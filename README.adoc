@@ -21,38 +21,41 @@ Developer Advocate with 15+ years experience consulting for many different custo
 ## ✍️ Most recent blog posts
 
 
+Evolving your RESTful APIs, a step-by-step approach (2022-02-27)::
+Designing an intuitive, user-friendly RESTful API is a tough job. It might already be a massive task if it’s your first attempt. Planning for the lifecycle management of your API is likely to be an afterthought. But it’s possible anyway: in this post, I’d like to propose a no-nonsense approach to evolving your APIs, even if it was not planned. The initial situation Let’s consider a sample application that says 'Hello' when using it. > curl http://org.apisix/hello Hello world > curl [...]
++
+https://blog.frankel.ch/evolve-apis/[Read further^]
+
+
+Avoiding Stringly-typed in Kotlin (2022-02-20)::
+A couple of years ago, I developed an application in Kotlin based on Camunda BPMN to help me manage my conference submission workflow. It tracks my submissions in Trello and synchronizes them on Google Calendar and in a Google Sheet. Google Calendar offers a REST API. As REST APIs go, it’s cluttered with String everywhere. Here’s an excerpt of the code: fun execute(color: String, availability: String) { findCalendarEntry(client, google, execution.conference)?.let { it.c[...]
++
+https://blog.frankel.ch/avoid-stringly-typed-kotlin/[Read further^]
+
+
 System Logger (2022-02-13)::
 December was not a good time for Java developers and even less for Ops. The former had to repackage their apps with a fixed Log4J’s version, and the latter had to redeploy them - several times. Yet, every cloud has a silver lining. In my case, I learned about System.Logger. A good time to start using the new standard System.Logger API introduced in Java 9: https://t.co/SaBUnqEZqF. It works like SLF4J and by default logs using JUL but can use Log4J or any othet logging under the hood. http[...]
 +
 https://blog.frankel.ch/system-logger/[Read further^]
 
 
-The Gilded Rose Kata in Rust (2022-02-06)::
-This is the 10th post in the Start Rust focus series. The Gilded Rose Kata is a refactoring exercise. The full description is available on GitHub. Nowadays, the kata is much more widespread. It’s available in plenty of languages, even some that are not considered mainstream, e.g., XSLT or ABAP. In this post, I’d like to do it in Rust.[...]
-+
-https://blog.frankel.ch/start-rust/10/[Read further^]
-
-
-The Flatten Maven plugin (2022-01-30)::
-One of the Apache Maven committers recently wrote about their plans for Maven 5. I consider the following one of the most significant changes: In summary, we need to make a distinction between two POM types: the build POM, stored in the project source control, that uses v5 schema for build time, requiring a new Maven version able to use the new features associated to the new schema,the consumer POM, that is published to Maven Central in the good old v4 schema, so every past or future build t[...]
-+
-https://blog.frankel.ch/maven-flatten-plugin/[Read further^]
-
-
 ## 🗣️ Upcoming talks
+
+
+https://www.meetup.com/JUGL-the-Java-User-Group-of-Lausanne/events/284114377[Evolving your APIs, a pragmatic approach^] @ http://jugl.ch/[JUG Lausanne^]::
++
+When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
+
+
+https://romania.voxxeddays.com/2022/02/20/apisix-an-api-gateway-the-apache-way/[APISIX, an API Gateway the Apache way^] @ https://romania.voxxeddays.com/[Voxxed Days Romania^]::
++
+As developers, we live more and more in an interconnected world. Perhaps you’re developing microservices? Maybe you’re exposing your APIs on the web? In all cases, web APIs are the glue that binds our architecture together. In the Java world, we are very fortunate to have a lot of libraries to help us manage related concerns: rate limiting, authentication, service discovery; you name it. Yet, these concerns are cross-cutting. They impact all our applications in the same way. Perhaps libraries are not the optimal way to handle them. API Gateways are a popular and nowadays quite widespread way to move these concerns out of the applications to a central place. In this talk, I’ll describe in more detail some of these concerns and how you can benefit from an API Gateway. Then, I’ll list some of the available solutions on the market. Finally, I’ll demo APISIX, an Apache-managed project built on top of NGINX that offers quite a few features to help you ease your development.
 
 
 https://saner2022.uom.gr/keynotes[20 years in software: the bad, the ugly and the unspeakable^] @ https://saner2022.uom.gr/[SANER^]::
 +
-Code coverage is useless because of assertless testing. There’s a technique to replace it, it’s called Mutation Testing.
+In the industry, it's always an interesting experience to notice the drop in productivity of developers working on the same application across years. Depending on which stage a feature is implemented, it can take double (or triple?) the time. As software rots, there comes a time when it's less expensive to rewrite the application from scratch. Organizations don't want to face this issue: maintenance of existing software is a hot topic among developers of all tech stacks. In this talk, I'll walk through some maintenance-related issues that I've faced in two decades working in different technical roles across various organizations and a couple of industries. I'll tell tales of sweat, tears, and blood. Don't expect a happy end!
 
-https://events.geekle.us/software_architecture/[Evolving your APIs, a step-by-step approach^] @ https://architecture.geekle.us/[Worldwide Software Architecture Summit^]::
-+
-Like any architecture-related REST APIs are easy to get started on, but their lifecycle is hard manage if you don’t plan for it. Here is a pragmatic process to do that.
-
-https://confoo.ca/en/2022/session/evolving-your-apis-a-pragmatic-step-by-step-approach[Evolving your APIs, a step-by-step approach^] @ https://confoo.ca/[ConFoo^]::
-+
-Like any architecture-related REST APIs are easy to get started on, but their lifecycle is hard manage if you don’t plan for it. Here is a pragmatic process to do that.
 
 ## 🎥 Latest video recording
 
