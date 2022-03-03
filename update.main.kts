@@ -205,16 +205,14 @@ data class Talk(val title: String, val link: String, val description: String, va
     private val catalog: Map<String, String?>
 
     init {
-        val paperCallBaseUrl = "https://www.papercall.io"
-        val paperCallCatalogUrl = "$paperCallBaseUrl/speakers/nicolasfrankel/"
-        catalog = Jsoup.connect(paperCallCatalogUrl)
+        val sessionizeCatalogUrl = "https://sessionize.com/nicolas-frankel/"
+        catalog = Jsoup.connect(sessionizeCatalogUrl)
             .userAgent("curl/7.77.0")
             .referrer("http://www.google.com")
             .get()
-            .select("h3.event__title a")
-            .map { it.text() to it.attr("href") }
-            .map { it.first to Jsoup.connect("$paperCallBaseUrl${it.second}").get() }
-            .associate { it.first to it.second.select(".markdown p").first()?.text() }
+            .select("js-session")
+            .map { it.select("h3 a").text() to it.select("p").first()?.text() }
+            .associateBy({ it.first }, { it.second })
     }
 
     private fun findSummary(title: String) = catalog.entries
