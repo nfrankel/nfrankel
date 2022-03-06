@@ -42,9 +42,9 @@ https://blog.frankel.ch/system-logger/[Read further^]
 ## 🗣️ Upcoming talks
 
 
-https://www.meetup.com/JUGL-the-Java-User-Group-of-Lausanne/events/284114377[Evolving your APIs, a pragmatic approach^] @ http://jugl.ch/[JUG Lausanne^]::
+https://www.alpesjug.fr/?p=3353[APISIX, une API Gateway à la mode Apache^] @ http://www.alpesjug.org/[Alpes JUG^]::
 +
-When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
+En tant que développeurs nous travaillons de plus en plus dans un monde interconnecté. Peut-être êtes vous en train de développer des microservices ? Peut-être exposez vous vos APIs sur le web ? Dans tous les cas, ces APIs web sont la colle qui maintient votre architecture en place. Dans le monde java, nous avons la chance d’avoir à disposition de nombreuses librairies pour nous aider à traiter tous les problèmes connexes: limitation de débit, authentification, découverte de services et bien d’autres. Cependant, ces problèmes sont transverses. Ils impactent toutes nos applications de la même manière. Aussi peut-être que les librairies ne sont pas la solution optimale à ces problèmes. Les API Gateways sont populaires et très utilisées de nos jours pour transfèrer cesz problèmes des applications vers un point central. Dans cette présentation, je décrirai en détail certains de ces problèmes et comment tirer profit d’une API Gateway. Puis je listerai les différentes solutions disponibles sur le marché. Enfin je terminerai par une démo d’APISIX, un projet de la fondation Apache, construit au dessus de NGINX et qui offre de nombreuses fonctionnalités qui peuvent aider vos développements.
 
 
 https://romania.voxxeddays.com/2022/02/20/apisix-an-api-gateway-the-apache-way/[APISIX, an API Gateway the Apache way^] @ https://romania.voxxeddays.com/[Voxxed Days Romania^]::
