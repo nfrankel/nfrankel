@@ -21,6 +21,12 @@ Developer Advocate with 15+ years experience consulting for many different custo
 ## ✍️ Most recent blog posts
 
 
+Alternatives to DTO (2022-03-05)::
+More than a decade ago, I wrote about the DTO: A data transfer object is an object that carries data between processes. The motivation for its use is that communication between processes is usually done resorting to remote interfaces, where each call is an expensive operation. Because the majority of the cost of each call is related to the round-trip time between the client and the server, one way of reducing the number of calls is to use an object (the DTO) that aggregates the data that woul[...]
++
+https://blog.frankel.ch/alternatives-dto/[Read further^]
+
+
 Evolving your RESTful APIs, a step-by-step approach (2022-02-27)::
 Designing an intuitive, user-friendly RESTful API is a tough job. It might already be a massive task if it’s your first attempt. Planning for the lifecycle management of your API is likely to be an afterthought. But it’s possible anyway: in this post, I’d like to propose a no-nonsense approach to evolving your APIs, even if it was not planned. The initial situation Let’s consider a sample application that says 'Hello' when using it. > curl http://org.apisix/hello Hello world > curl [...]
 +
@@ -31,12 +37,6 @@ Avoiding Stringly-typed in Kotlin (2022-02-20)::
 A couple of years ago, I developed an application in Kotlin based on Camunda BPMN to help me manage my conference submission workflow. It tracks my submissions in Trello and synchronizes them on Google Calendar and in a Google Sheet. Google Calendar offers a REST API. As REST APIs go, it’s cluttered with String everywhere. Here’s an excerpt of the code: fun execute(color: String, availability: String) { findCalendarEntry(client, google, execution.conference)?.let { it.c[...]
 +
 https://blog.frankel.ch/avoid-stringly-typed-kotlin/[Read further^]
-
-
-System Logger (2022-02-13)::
-December was not a good time for Java developers and even less for Ops. The former had to repackage their apps with a fixed Log4J’s version, and the latter had to redeploy them - several times. Yet, every cloud has a silver lining. In my case, I learned about System.Logger. A good time to start using the new standard System.Logger API introduced in Java 9: https://t.co/SaBUnqEZqF. It works like SLF4J and by default logs using JUL but can use Log4J or any othet logging under the hood. http[...]
-+
-https://blog.frankel.ch/system-logger/[Read further^]
 
 
 ## 🗣️ Upcoming talks
