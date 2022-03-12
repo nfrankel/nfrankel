@@ -109,7 +109,7 @@ val conferences: Map<String, Conference> by lazy {
     )
 
     val extractConferences: (String?) -> Map<String, Conference> = { body: String? ->
-        val options = LoaderOptions().apply { maxAliasesForCollections = 300 }
+        val options = LoaderOptions().apply { maxAliasesForCollections = 400 }
         Yaml(options).load<Map<String, Map<String, Any>>>(body)
             .filter { it.value.containsKey("name") }
             .map { it.key to it.toConference() }
