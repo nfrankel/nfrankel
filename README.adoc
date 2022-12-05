@@ -21,8 +21,14 @@ Developer Advocate with 15+ years experience consulting for many different custo
 ## ✍️ Most recent blog posts
 
 
-Alternatives to DTO (2022-03-05)::
-More than a decade ago, I wrote about the DTO: A data transfer object is an object that carries data between processes. The motivation for its use is that communication between processes is usually done resorting to remote interfaces, where each call is an expensive operation. Because the majority of the cost of each call is related to the round-trip time between the client and the server, one way of reducing the number of calls is to use an object (the DTO) that aggregates the data that woul[...]
+Web resource caching: Server-side (2022-12-04)::
+The subject of Web resource caching is as old as the World Wide Web itself. However, I’d like to offer an as-exhaustive-as-possible catalog of how one can improve performance by caching. Web resource caching can happen in two different places: client-side - on the browser and server side. In the previous post, I explained the former; this post focuses on the latter. While client-side caching works well, it has one central issue: to serve the resource locally, it must first have it in the [...]
++
+https://blog.frankel.ch/web-caching/server/[Read further^]
+
+
+Web caching (2022-11-27)::
+The subject of Web resource caching is as old as the World Wide Web itself. However, I’d like to offer as-exhaustive-as-possible catalog of the different ways one can improve performance by caching. Broadly speaking, web resource caching can happen in two different places: client-side - on the browser, and server-side. Web Caching on the client sideWeb Caching on the server side[...]
 +
 https://blog.frankel.ch/alternatives-dto/[Read further^]
 
@@ -33,28 +39,22 @@ Designing an intuitive, user-friendly RESTful API is a tough job. It might alrea
 https://blog.frankel.ch/evolve-apis/[Read further^]
 
 
-Avoiding Stringly-typed in Kotlin (2022-02-20)::
-A couple of years ago, I developed an application in Kotlin based on Camunda BPMN to help me manage my conference submission workflow. It tracks my submissions in Trello and synchronizes them on Google Calendar and in a Google Sheet. Google Calendar offers a REST API. As REST APIs go, it’s cluttered with String everywhere. Here’s an excerpt of the code: fun execute(color: String, availability: String) { findCalendarEntry(client, google, execution.conference)?.let { it.c[...]
-+
-https://blog.frankel.ch/avoid-stringly-typed-kotlin/[Read further^]
-
-
 ## 🗣️ Upcoming talks
 
 
-https://www.alpesjug.fr/?p=3353[APISIX, une API Gateway à la mode Apache^] @ http://www.alpesjug.org/[Alpes JUG^]::
+https://en.shop.doag.org/events/javaland/2023/agenda/#eventDay.1679353200[Discussing Backend-For-Frontend^] @ https://www.javaland.eu/en[JavaLand^]::
 +
-En tant que développeurs nous travaillons de plus en plus dans un monde interconnecté. Peut-être êtes vous en train de développer des microservices ? Peut-être exposez vous vos APIs sur le web ? Dans tous les cas, ces APIs web sont la colle qui maintient votre architecture en place. Dans le monde java, nous avons la chance d’avoir à disposition de nombreuses librairies pour nous aider à traiter tous les problèmes connexes: limitation de débit, authentification, découverte de services et bien d’autres. Cependant, ces problèmes sont transverses. Ils impactent toutes nos applications de la même manière. Aussi peut-être que les librairies ne sont pas la solution optimale à ces problèmes. Les API Gateways sont populaires et très utilisées de nos jours pour transfèrer cesz problèmes des applications vers un point central. Dans cette présentation, je décrirai en détail certains de ces problèmes et comment tirer profit d’une API Gateway. Puis je listerai les différentes solutions disponibles sur le marché. Enfin je terminerai par une démo d’APISIX, un projet de la fondation Apache, construit au dessus de NGINX et qui offre de nombreuses fonctionnalités qui peuvent aider vos développements.
+You shouldn't do microservices If you do, you're probably having tons of technical issues.In the good old days, applications were simple A browser send a request to a webapp endpoint; the latter fetched data from a database and returned the response. Mobile clients changed this approach.The display area of mobile clients is smaller:just smaller for tablets, much smaller for phones. A possible solution would be to return all data and let each client filter out the unnecessary one Unfortunately, phone clients also suffer from poorer bandwidth Hence, over-fetching is not an option Each client requires a different subset of the data. To avoid the over-fetching issue above, each microservice needs to serve the data strictly necessary for each kind of client It introduces coupling between a microservice to its clients. Backend For Front-end is an approach to tackle this issue In this talk, I'll describe it, its possible implementations and demo them.
 
 
-https://romania.voxxeddays.com/2022/02/20/apisix-an-api-gateway-the-apache-way/[APISIX, an API Gateway the Apache way^] @ https://romania.voxxeddays.com/[Voxxed Days Romania^]::
+https://ndclondon.com/agenda/discussing-backend-for-front-end-0315/0rra3szynyz[Discussing Backend-For-Frontend^] @ https://ndclondon.com/[NDC London^]::
 +
-As developers, we live more and more in an interconnected world. Perhaps you’re developing microservices? Maybe you’re exposing your APIs on the web? In all cases, web APIs are the glue that binds our architecture together. In the Java world, we are very fortunate to have a lot of libraries to help us manage related concerns: rate limiting, authentication, service discovery; you name it. Yet, these concerns are cross-cutting. They impact all our applications in the same way. Perhaps libraries are not the optimal way to handle them. API Gateways are a popular and nowadays quite widespread way to move these concerns out of the applications to a central place. In this talk, I’ll describe in more detail some of these concerns and how you can benefit from an API Gateway. Then, I’ll list some of the available solutions on the market. Finally, I’ll demo APISIX, an Apache-managed project built on top of NGINX that offers quite a few features to help you ease your development.
+You shouldn't do microservices If you do, you're probably having tons of technical issues.In the good old days, applications were simple A browser send a request to a webapp endpoint; the latter fetched data from a database and returned the response. Mobile clients changed this approach.The display area of mobile clients is smaller:just smaller for tablets, much smaller for phones. A possible solution would be to return all data and let each client filter out the unnecessary one Unfortunately, phone clients also suffer from poorer bandwidth Hence, over-fetching is not an option Each client requires a different subset of the data. To avoid the over-fetching issue above, each microservice needs to serve the data strictly necessary for each kind of client It introduces coupling between a microservice to its clients. Backend For Front-end is an approach to tackle this issue In this talk, I'll describe it, its possible implementations and demo them.
 
 
-https://saner2022.uom.gr/keynotes[20 years in software: the bad, the ugly and the unspeakable^] @ https://saner2022.uom.gr/[SANER^]::
+https://www.codemash.org/session-details/?id=376749[Evolving your APIs, a step-by-step approach^] @ http://www.codemash.org/[CodeMash^]::
 +
-In the industry, it's always an interesting experience to notice the drop in productivity of developers working on the same application across years. Depending on which stage a feature is implemented, it can take double (or triple?) the time. As software rots, there comes a time when it's less expensive to rewrite the application from scratch. Organizations don't want to face this issue: maintenance of existing software is a hot topic among developers of all tech stacks. In this talk, I'll walk through some maintenance-related issues that I've faced in two decades working in different technical roles across various organizations and a couple of industries. I'll tell tales of sweat, tears, and blood. Don't expect a happy end!
+When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
 
 
 ## 🎥 Latest video recording
