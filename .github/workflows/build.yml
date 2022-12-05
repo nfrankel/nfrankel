@@ -15,7 +15,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v2
       - name: Install Kotlin
-        run: sudo snap install --classic --channel=1.4/stable kotlin
+        run: sudo snap install --classic --channel=1.7/stable kotlin
       - name: Update README
         env:
           BLOG_REPO_TOKEN: ${{ secrets.BLOG_REPO_TOKEN }}
