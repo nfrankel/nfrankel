@@ -42,21 +42,26 @@ https://blog.frankel.ch/evolve-apis/[Read further^]
 ## 🗣️ Upcoming talks
 
 
-https://en.shop.doag.org/events/javaland/2023/agenda/#eventDay.1679353200[Discussing Backend-For-Frontend^] @ https://www.javaland.eu/en[JavaLand^]::
+https://jconeurope2023.sched.com/event/1K40F[Practical introduction to OpenTelemetry tracing^] @ http://jcon.one/[JCON^]::
 +
 You shouldn't do microservices If you do, you're probably having tons of technical issues.In the good old days, applications were simple A browser send a request to a webapp endpoint; the latter fetched data from a database and returned the response. Mobile clients changed this approach.The display area of mobile clients is smaller:just smaller for tablets, much smaller for phones. A possible solution would be to return all data and let each client filter out the unnecessary one Unfortunately, phone clients also suffer from poorer bandwidth Hence, over-fetching is not an option Each client requires a different subset of the data. To avoid the over-fetching issue above, each microservice needs to serve the data strictly necessary for each kind of client It introduces coupling between a microservice to its clients. Backend For Front-end is an approach to tackle this issue In this talk, I'll describe it, its possible implementations and demo them.
 
 
-https://ndclondon.com/agenda/discussing-backend-for-front-end-0315/0rra3szynyz[Discussing Backend-For-Frontend^] @ https://ndclondon.com/[NDC London^]::
+https://devconfcz2023.sched.com/event/1MYfj/practical-introduction-to-opentelemetry-tracing[Practical introduction to OpenTelemetry tracing^] @ https://www.devconf.info/cz/[DevConf CZ^]::
 +
-You shouldn't do microservices If you do, you're probably having tons of technical issues.In the good old days, applications were simple A browser send a request to a webapp endpoint; the latter fetched data from a database and returned the response. Mobile clients changed this approach.The display area of mobile clients is smaller:just smaller for tablets, much smaller for phones. A possible solution would be to return all data and let each client filter out the unnecessary one Unfortunately, phone clients also suffer from poorer bandwidth Hence, over-fetching is not an option Each client requires a different subset of the data. To avoid the over-fetching issue above, each microservice needs to serve the data strictly necessary for each kind of client It introduces coupling between a microservice to its clients. Backend For Front-end is an approach to tackle this issue In this talk, I'll describe it, its possible implementations and demo them.
+Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture. 
 
 
-https://www.codemash.org/session-details/?id=376749[Evolving your APIs, a step-by-step approach^] @ http://www.codemash.org/[CodeMash^]::
+https://devconfcz2023.sched.com/event/1MYe2/chopping-the-monolith[Chopping the monolith^] @ https://www.devconf.info/cz/[DevConf CZ^]::
++
+Micro services are ubiquitous. However, most companies that implement micro services do not reap their full benefits - at best. At worst, it’s an epic failure. There are reasons for micro services: independent deployment of business capabilities. However, the unspoken assumption is that you need to deploy all capabilities all the time. My experience has shown me that it’s plain wrong. Some capabilities need frequent deployment, while some are much more stable. In "the past", we used Rule Engines to allow updating business rules without deployment. While it solved the problem, this approach had issues. Between introducing a Rule Engine and migrating your complete system to micro services, I believe that there’s a middle path, and that this path is Function-as-a-Service. In this talk, I’ll detail every point I’ve made above, and show how one can use Serverless to pragmatically design a system that allows deploying as often as you need.
+
+
+https://events.geekle.us/api/#speakers[Evolving your APIs, a step-by-step approach^] @ https://events.geekle.us/api/[API Forum^]::
 +
 When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
 
 
 ## 🎥 Latest video recording
 
-image::https://img.youtube.com/vi/f5ICX9AgH-s/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=f5ICX9AgH-s,title="Faster Apache Maven Builds (Nicolas Frankel)"]
+image::https://img.youtube.com/vi/BAxXoMXjCWg/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=BAxXoMXjCWg,title="Nicolas Fränkel: Evolving Your APIs, a Pragmatic Approach"]
