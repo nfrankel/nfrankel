@@ -21,8 +21,14 @@ Developer Advocate with 15+ years experience consulting for many different custo
 ## ✍️ Most recent blog posts
 
 
-Web resource caching: Server-side (2022-12-04)::
-The subject of Web resource caching is as old as the World Wide Web itself. However, I’d like to offer an as-exhaustive-as-possible catalog of how one can improve performance by caching. Web resource caching can happen in two different places: client-side - on the browser and server side. In the previous post, I explained the former; this post focuses on the latter. While client-side caching works well, it has one central issue: to serve the resource locally, it must first have it in the [...]
+System architecture: move authentication to the API Gateway (2023-07-30)::
+When exposing an application to the outside world, consider a Reverse-Proxy or an API Gateway to protect it from attacks. Rate Limiting comes to mind first, but it shouldn’t stop there. We can factor many features in the API Gateway and should be bold in moving them from our apps. In this post, I’ll show how to implement authentication at the Gateway API stage. Overall authentication flow The API Gateway doesn’t authenticate but delegates authentication to an authentication [...]
++
+https://blog.frankel.ch/authentication-api-gateway/[Read further^]
+
+
+Apache APISIX without etcd (2023-07-23)::
+etcd is an excellent key-value distributed database used internally by Kubernetes and managed by the CNCF. It’s a great option, and that’s the reason why Apache APISIX uses it too. Yet, it’s not devoid of issues. First, some mention scalability, but one can expect this from a distributed data store that values consistency. Another issue may be the need for more familiarity with etcd. It’s relatively new, so your Ops team may need help operating it correctly while having [...]
 +
 https://blog.frankel.ch/web-caching/server/[Read further^]
 
@@ -31,12 +37,6 @@ Web caching (2022-11-27)::
 The subject of Web resource caching is as old as the World Wide Web itself. However, I’d like to offer as-exhaustive-as-possible catalog of the different ways one can improve performance by caching. Broadly speaking, web resource caching can happen in two different places: client-side - on the browser, and server-side. Web Caching on the client sideWeb Caching on the server side[...]
 +
 https://blog.frankel.ch/alternatives-dto/[Read further^]
-
-
-Evolving your RESTful APIs, a step-by-step approach (2022-02-27)::
-Designing an intuitive, user-friendly RESTful API is a tough job. It might already be a massive task if it’s your first attempt. Planning for the lifecycle management of your API is likely to be an afterthought. But it’s possible anyway: in this post, I’d like to propose a no-nonsense approach to evolving your APIs, even if it was not planned. The initial situation Let’s consider a sample application that says 'Hello' when using it. > curl http://org.apisix/hello Hello world > curl [...]
-+
-https://blog.frankel.ch/evolve-apis/[Read further^]
 
 
 ## 🗣️ Upcoming talks
