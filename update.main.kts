@@ -1,12 +1,12 @@
 #!/usr/bin/env kotlin
 
-@file:DependsOn("org.freemarker:freemarker:2.3.31")
-@file:DependsOn("com.squareup.okhttp3:okhttp:4.10.0")
+@file:DependsOn("org.freemarker:freemarker:2.3.32")
+@file:DependsOn("com.squareup.okhttp3:okhttp:4.11.0")
 @file:DependsOn("no.api.freemarker:freemarker-java8:2.1.0")
 @file:DependsOn("org.yaml:snakeyaml:1.33")
 @file:DependsOn("org.apache.commons:commons-text:1.10.0")
-@file:DependsOn("org.json:json:20220924")
-@file:DependsOn("org.jsoup:jsoup:1.15.3")
+@file:DependsOn("org.json:json:20230618")
+@file:DependsOn("org.jsoup:jsoup:1.16.1")
 
 
 import freemarker.template.*
