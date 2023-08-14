@@ -21,6 +21,12 @@ Developer Advocate with 15+ years experience consulting for many different custo
 ## ✍️ Most recent blog posts
 
 
+Ops friendly Apache APISIX (2023-08-13)::
+Though I always worked on the Dev side of IT, I was also interested in the Ops side. I even had a short experience being a WebSphere admin: I used it several times, helping Ops deal with the Admin console while being a developer. Providing a single package that Ops can configure and deploy in different environments is very important. As a JVM developer, I’ve been happy using Spring Boot and its wealth of configuration options: command-line parameters, JVM parameters, files, profiles, enviro[...]
++
+https://blog.frankel.ch/ops-friendly-apisix/[Read further^]
+
+
 My final take on Gradle (vs. Maven) (2023-08-06)::
 I tweet technical content that I consider interesting, but the funny tweets are the ones that get the most engagement. I attended the JavaLand conference in March, stumbled upon the Gradle booth, and found this gem: Things have changed a lot 😂😂😂“When you can’t beat them, join them” pic.twitter.com/SnX3KN57o8— Nicolas Frankel 🇺🇦 (@nicolas_frankel) March 22, 2023 Of course, at some point, a fanboy hijacked the thread and claimed the so-called superiority of Gradle. In this post, I&#8217[...]
 +
@@ -31,12 +37,6 @@ System architecture: move authentication to the API Gateway (2023-07-30)::
 When exposing an application to the outside world, consider a Reverse-Proxy or an API Gateway to protect it from attacks. Rate Limiting comes to mind first, but it shouldn’t stop there. We can factor many features in the API Gateway and should be bold in moving them from our apps. In this post, I’ll show how to implement authentication at the Gateway API stage. Overall authentication flow The API Gateway doesn’t authenticate but delegates authentication to an authentication [...]
 +
 https://blog.frankel.ch/authentication-api-gateway/[Read further^]
-
-
-Apache APISIX without etcd (2023-07-23)::
-etcd is an excellent key-value distributed database used internally by Kubernetes and managed by the CNCF. It’s a great option, and that’s the reason why Apache APISIX uses it too. Yet, it’s not devoid of issues. First, some mention scalability, but one can expect this from a distributed data store that values consistency. Another issue may be the need for more familiarity with etcd. It’s relatively new, so your Ops team may need help operating it correctly while having [...]
-+
-https://blog.frankel.ch/apisix-without-etcd/[Read further^]
 
 
 ## 🗣️ Upcoming talks
