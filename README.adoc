@@ -21,6 +21,12 @@ Developer Advocate with 15+ years experience consulting for many different custo
 ## ✍️ Most recent blog posts
 
 
+Introduction to the Tower library (2023-08-20)::
+One of the components of my OpenTelemetry demo is a Rust application built with the Axum web framework. In its description, axum mentions: axum doesn’t have its own middleware system but instead uses tower::Service. This means axum gets timeouts, tracing, compression, authorization, and more, for free. It also enables you to share middleware with applications written using hyper or tonic. — axum README So far, I was happy to let this cryptic explanation lurk in the corner of[...]
++
+https://blog.frankel.ch/introduction-tower/[Read further^]
+
+
 Ops friendly Apache APISIX (2023-08-13)::
 Though I always worked on the Dev side of IT, I was also interested in the Ops side. I even had a short experience being a WebSphere admin: I used it several times, helping Ops deal with the Admin console while being a developer. Providing a single package that Ops can configure and deploy in different environments is very important. As a JVM developer, I’ve been happy using Spring Boot and its wealth of configuration options: command-line parameters, JVM parameters, files, profiles, enviro[...]
 +
@@ -33,13 +39,22 @@ I tweet technical content that I consider interesting, but the funny tweets are 
 https://blog.frankel.ch/final-take-gradle/[Read further^]
 
 
-System architecture: move authentication to the API Gateway (2023-07-30)::
-When exposing an application to the outside world, consider a Reverse-Proxy or an API Gateway to protect it from attacks. Rate Limiting comes to mind first, but it shouldn’t stop there. We can factor many features in the API Gateway and should be bold in moving them from our apps. In this post, I’ll show how to implement authentication at the Gateway API stage. Overall authentication flow The API Gateway doesn’t authenticate but delegates authentication to an authentication [...]
-+
-https://blog.frankel.ch/authentication-api-gateway/[Read further^]
-
-
 ## 🗣️ Upcoming talks
+
+
+https://www.devupconf.org/speakers/nicolas-fr%C3%A4nkel[Practical introduction to OpenTelemetry tracing^] @ https://www.devupconf.org/[dev up^]::
++
+Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture. 
+
+
+https://www.devupconf.org/speakers/nicolas-fr%C3%A4nkel[Evolving your APIs, a step-by-step approach^] @ https://www.devupconf.org/[dev up^]::
++
+When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
+
+
+https://www.devupconf.org/speakers/nicolas-fr%C3%A4nkel[Chopping the monolith^] @ https://www.devupconf.org/[dev up^]::
++
+Micro services are ubiquitous. However, most companies that implement micro services do not reap their full benefits - at best. At worst, it’s an epic failure. There are reasons for micro services: independent deployment of business capabilities. However, the unspoken assumption is that you need to deploy all capabilities all the time. My experience has shown me that it’s plain wrong. Some capabilities need frequent deployment, while some are much more stable. In "the past", we used Rule Engines to allow updating business rules without deployment. While it solved the problem, this approach had issues. Between introducing a Rule Engine and migrating your complete system to micro services, I believe that there’s a middle path, and that this path is Function-as-a-Service. In this talk, I’ll detail every point I’ve made above, and show how one can use Serverless to pragmatically design a system that allows deploying as often as you need.
 
 
 https://www.meetup.com/charlotte-java-developers-meetup/events/294797711[Practical introduction to OpenTelemetry tracing^] @ https://www.meetup.com/charlotte-java-developers-meetup/[Charlotte JUG^]::
@@ -50,11 +65,6 @@ Tracking a request’s flow across different components in distributed systems i
 https://www.meetup.com/seajug/events/294009209[Practical introduction to OpenTelemetry tracing^] @ https://www.seajug.org/[Seattle Java User Group^]::
 +
 Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture. 
-
-
-https://www.meetup.com/seattle-kubernetes-meetup/events/294800920/[Back to basics, getting traffic into your Kubernetes cluster^] @ https://www.meetup.com/seattle-kubernetes-meetup/[Seattle Metro Kubernetes Meetup^]::
-+
-However you're using your Kubernetes cluster, you'll sooner or later need to direct traffic into it. At this point, you're spoiled with choice. Kubernetes provides no less than three different objects: NodePort, Ingress, and LoadBalancer. Of course, each of them comes with its limitations. For example, LoadBalancer requires a dedicated implementation provided by Cloud Platforms but not with most local distributions. Moreover, Kubernetes is introducing a new Gateway API, adding one more way to direct traffic to the cluster. In this talk, I'd like to offer an overview of all four options, with their pros and cons, and a more in-depth explanation of the new Gateway API.  
 
 
 ## 🎥 Latest video recording
