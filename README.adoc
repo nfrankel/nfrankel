@@ -22,7 +22,7 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 Send your logs to Loki (2023-08-27)::
-One of my current talks focuses on Observability in general and Distributed Tracing in particular, with an OpenTelemetry implementation. In the demo, I show how you can see the traces of a simple distributed system consisting of: the Apache APISIX API Gateway, a Kotlin app with Spring Boot, a Python app with Flask, and a Rust app with Axum. Earlier this year, I spoke and attended the Observability room at FOSDEM. One of the talks demoed the Grafana stack: Mimir for metrics, Tempo for traces, an[...]
+One of my current talks focuses on Observability in general and Distributed Tracing in particular, with an OpenTelemetry implementation. In the demo, I show how you can see the traces of a simple distributed system consisting of: the Apache APISIX API Gateway, a Kotlin app with Spring Boot, a Python app with Flask, and a Rust app with Axum. Earlier this year, I spoke and attended the Observability room at FOSDEM. One of the talks demoed the Grafana stack: Mimir for metrics, Tempo for traces, and [...]
 +
 https://blog.frankel.ch/logs-loki/[Read further^]
 
