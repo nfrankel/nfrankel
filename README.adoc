@@ -21,6 +21,12 @@ Developer Advocate with 15+ years experience consulting for many different custo
 ## ✍️ Most recent blog posts
 
 
+Offering my blog to new authors (2023-09-03)::
+Regular readers of this blog know that I started it a long time ago, namely in April 2008. I soon found my cruising speed: a post a week. It requires time and discipline, but I achieved this goal during all those years. However, while I still have enough of both, I start to miss good post ideas. There are several reasons for this. I’ve always told that working on real-world projects is a vast source of ideas. Moving to Developer Advocacy, I’ve widened the list of topics I’m fa[...]
++
+https://blog.frankel.ch/my-blog-new-authors/[Read further^]
+
+
 Send your logs to Loki (2023-08-27)::
 One of my current talks focuses on Observability in general and Distributed Tracing in particular, with an OpenTelemetry implementation. In the demo, I show how you can see the traces of a simple distributed system consisting of: the Apache APISIX API Gateway, a Kotlin app with Spring Boot, a Python app with Flask, and a Rust app with Axum. Earlier this year, I spoke and attended the Observability room at FOSDEM. One of the talks demoed the Grafana stack: Mimir for metrics, Tempo for traces, and [...]
 +
@@ -31,12 +37,6 @@ Introduction to the Tower library (2023-08-20)::
 One of the components of my OpenTelemetry demo is a Rust application built with the Axum web framework. In its description, axum mentions: axum doesn’t have its own middleware system but instead uses tower::Service. This means axum gets timeouts, tracing, compression, authorization, and more, for free. It also enables you to share middleware with applications written using hyper or tonic. — axum README So far, I was happy to let this cryptic explanation lurk in the corner of[...]
 +
 https://blog.frankel.ch/introduction-tower/[Read further^]
-
-
-Ops friendly Apache APISIX (2023-08-13)::
-Though I always worked on the Dev side of IT, I was also interested in the Ops side. I even had a short experience being a WebSphere admin: I used it several times, helping Ops deal with the Admin console while being a developer. Providing a single package that Ops can configure and deploy in different environments is very important. As a JVM developer, I’ve been happy using Spring Boot and its wealth of configuration options: command-line parameters, JVM parameters, files, profiles, enviro[...]
-+
-https://blog.frankel.ch/ops-friendly-apisix/[Read further^]
 
 
 ## 🗣️ Upcoming talks
