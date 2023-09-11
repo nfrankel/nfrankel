@@ -18,7 +18,14 @@ If you're interested in knowing more, please check the https://blog.frankel.ch/c
 
 Developer Advocate with 15+ years experience consulting for many different customers, in a wide range of contexts (such as telecoms, banking, insurances, large retail and public sector). Usually working on Java/Java EE and Spring technologies, but with focused interests like Rich Internet Applications, Testing, CI/CD and DevOps. Also double as a trainer and triples as a book author.
 
+
 ## ✍️ Most recent blog posts
+
+
+Problem Details for HTTP APIs - RFC 7807 is dead, long live RFC 9457 (2023-09-10)::
+The positive experience of RFC 7807, whose journey began in 2016, is concluded (deprecation) but also confirmed with a new official proposition: the RFC 9457. The changes made are small but it is a suitable opportunity to analyze the evolution of this topic. Context The RFC 7807, and now the RFC 9457 which perfects it, was born after a period in which the Internet Companies have made it clear that the integration of the business, the eventual transformation of the company services into a plat[...]
++
+https://blog.frankel.ch/problem-details-http-apis/[Read further^]
 
 
 Offering my blog to new authors (2023-09-03)::
@@ -31,12 +38,6 @@ Send your logs to Loki (2023-08-27)::
 One of my current talks focuses on Observability in general and Distributed Tracing in particular, with an OpenTelemetry implementation. In the demo, I show how you can see the traces of a simple distributed system consisting of: the Apache APISIX API Gateway, a Kotlin app with Spring Boot, a Python app with Flask, and a Rust app with Axum. Earlier this year, I spoke and attended the Observability room at FOSDEM. One of the talks demoed the Grafana stack: Mimir for metrics, Tempo for traces, and [...]
 +
 https://blog.frankel.ch/logs-loki/[Read further^]
-
-
-Introduction to the Tower library (2023-08-20)::
-One of the components of my OpenTelemetry demo is a Rust application built with the Axum web framework. In its description, axum mentions: axum doesn’t have its own middleware system but instead uses tower::Service. This means axum gets timeouts, tracing, compression, authorization, and more, for free. It also enables you to share middleware with applications written using hyper or tonic. — axum README So far, I was happy to let this cryptic explanation lurk in the corner of[...]
-+
-https://blog.frankel.ch/introduction-tower/[Read further^]
 
 
 ## 🗣️ Upcoming talks
