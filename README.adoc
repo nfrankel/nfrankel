@@ -22,6 +22,12 @@ Developer Advocate with 15+ years experience consulting for many different custo
 ## ✍️ Most recent blog posts
 
 
+Down the rabbit hole of an Apache APISIX plugin (2023-09-24)::
+My demo, Evolving your APIs, features a custom Apache APISIX plugin. I believe that the process of creating a custom plugin is relatively well-documented. However, I wanted to check the parameters of the _M.access(conf, ctx) function, especially the ctx one. The documentation states: The ctx parameter caches data information related to the request. You can use core.log.warn(core.json.encode(ctx, true)) to output it to error.log for viewing. Unfortunately, core.log ultimately depends on [...]
++
+https://blog.frankel.ch/rabbit-hole-apisix-plugin/[Read further^]
+
+
 Monkey-patching in Java (2023-09-17)::
 The JVM is an excellent platform for monkey-patching. Monkey patching is a technique used to dynamically update the behavior of a piece of code at run-time. A monkey patch (also spelled monkey-patch, MonkeyPatch) is a way to extend or modify the runtime code of dynamic languages (e.g. Smalltalk, JavaScript, Objective-C, Ruby, Perl, Python, Groovy, etc.) without altering the original source code. — Wikipedia I want to demo several approaches for monkey-patching in Java in this post[...]
 +
@@ -32,12 +38,6 @@ Problem Details for HTTP APIs - RFC 7807 is dead, long live RFC 9457 (2023-09-10
 The positive experience of RFC 7807, whose journey began in 2016, is concluded (deprecation) but also confirmed with a new official proposition: the RFC 9457. The changes made are small but it is a suitable opportunity to analyze the evolution of this topic. Context The RFC 7807, and now the RFC 9457 which perfects it, was born after a period in which the Internet Companies have made it clear that the integration of the business, the eventual transformation of the company services into a plat[...]
 +
 https://blog.frankel.ch/problem-details-http-apis/[Read further^]
-
-
-Offering my blog to new authors (2023-09-03)::
-Regular readers of this blog know that I started it a long time ago, namely in April 2008. I soon found my cruising speed: a post a week. It requires time and discipline, but I achieved this goal during all those years. However, while I still have enough of both, I start to miss good post ideas. There are several reasons for this. I’ve always told that working on real-world projects is a vast source of ideas. Moving to Developer Advocacy, I’ve widened the list of topics I’m fa[...]
-+
-https://blog.frankel.ch/my-blog-new-authors/[Read further^]
 
 
 ## 🗣️ Upcoming talks
