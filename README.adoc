@@ -43,17 +43,17 @@ https://blog.frankel.ch/rabbit-hole-apisix-plugin/[Read further^]
 ## 🗣️ Upcoming talks
 
 
+https://2023.geecon.cz/speakers/[Data Residency: the fun of storing data worldwide^] @ https://2018.geecon.cz/[GeeCon Prague^]::
++
+In today's interconnected world, organizations face a significant challenge: ensuring compliance with evolving data residency requirements while harnessing the transformative potential of globalized data. Data residency, the concept of where data is physically stored, has become a critical concern due to increasing regulatory demands and privacy concerns. As organizations expand their operations across borders, they encounter a myriad of legal and operational hurdles, necessitating a fresh perspective on managing data across jurisdictions. This talk aims to provide a couple of solutions to solve this problem, with pros and cons. Attendees will gain a deeper understanding of the challenges they face and the potential path forward to embrace globalized data securely. 
+
+
 https://nordicapis.com/speakers/nicolas-frankel/[Evolving Your APIs, a Step-By-Step Approach^] @ https://nordicapis.com/events/[Platform Summit^]::
 +
 When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
 
 
 https://devfest.at/schedule/[Evolving your APIs, a step-by-step approach^] @ https://devfest.at/[DevFest Vienna^]::
-+
-When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
-
-
-https://communityovercode.org/schedule-list/#API001[Evolving Your APIs, a Step-By-Step Approach^] @ https://communityovercode.org/[Community over Code^]::
 +
 When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
 
