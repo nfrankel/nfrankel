@@ -22,6 +22,12 @@ Developer Advocate with 15+ years experience consulting for many different custo
 ## ✍️ Most recent blog posts
 
 
+A Java Geek weekly, Issue 1 (2023-10-11)::
+If you’re subscribed to my Twitter feed, you might have noticed that I don’t post as much content as before. It was a good place, once, but I cannot condone the new management and most importantly, their handling of misinformation - or lack thereof. My reasoning is that if I continue posting technical content there, people will continue using it; if nobody posts such content, regular users will leave the site. You might agree or not, but since it’s my content, it’s now how[...]
++
+https://blog.frankel.ch/java-geek-weekly-1/[Read further^]
+
+
 Calling Rust from Python (2023-10-08)::
 I recently watched GOTO conferences' talk Calling Functions Across Languages by Richard Feldman. I’m afraid I have to disagree with using the term 'language' in this context. It’s a no-brainer to call Java from Kotlin or Scala or to call Java from Kotlin. Hence, in the rest, I’ll use 'stack'. In the talk, the speaker cites two main reasons to go on this road: Gradual migration from one stack to the otherUsing a library that has no equivalent in one’s stack under the ass[...]
 +
@@ -32,12 +38,6 @@ Resizing images on-the-fly (2023-10-01)::
 As a web architect, one of the many issues is asset management. And the most significant issue in assets is images. A naive approach would be to set an image and let the browser resize the image via CSS: img { height: 100%; width: 100%; object-fit: contain; } However, it means that you download the original image. It entails two problems: the size of the original image and the suboptimal browser-based resizing. This post will cover two alternatives: traditional and brand-new s[...]
 +
 https://blog.frankel.ch/resize-images-on-the-fly/[Read further^]
-
-
-Down the rabbit hole of an Apache APISIX plugin (2023-09-24)::
-My demo, Evolving your APIs, features a custom Apache APISIX plugin. I believe that the process of creating a custom plugin is relatively well-documented. However, I wanted to check the parameters of the _M.access(conf, ctx) function, especially the ctx one. The documentation states: The ctx parameter caches data information related to the request. You can use core.log.warn(core.json.encode(ctx, true)) to output it to error.log for viewing. Unfortunately, core.log ultimately depends on [...]
-+
-https://blog.frankel.ch/rabbit-hole-apisix-plugin/[Read further^]
 
 
 ## 🗣️ Upcoming talks
