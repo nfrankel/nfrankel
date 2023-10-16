@@ -22,22 +22,22 @@ Developer Advocate with 15+ years experience consulting for many different custo
 ## ✍️ Most recent blog posts
 
 
+Python "magic" methods (2023-10-15)::
+Python provides specially-named methods: methods that the runtime interprets in a certain way, but that you need to know about. The documentation is pretty exhaustive about them, but it needs examples for beginners. The goal of this two-part series is to list these methods and provide these examples, so that I can remember them. Part 1Part 2[...]
++
+https://blog.frankel.ch/python-magic-methods/[Read further^]
+
+
+Python "magic" methods - part 1 (2023-10-15)::
+Java was the first language I used professionally and is the scale by which I measure other languages I learned afterward. It’s an OOP statically-typed language. Hence, Python feels a bit weird because of its dynamic typing approach. For example, Object offers methods equals(), hashCode(), and toString(). Because all other classes inherit from Object, directly or indirectly, all objects have these methods by definition. Conversely, Python was not initially built on OOP principles and is[...]
++
+https://blog.frankel.ch/python-magic-methods/1/[Read further^]
+
+
 A Java Geek weekly, Issue 1 (2023-10-11)::
 If you’re subscribed to my Twitter feed, you might have noticed that I don’t post as much content as before. It was a good place, once, but I cannot condone the new management and most importantly, their handling of misinformation - or lack thereof. My reasoning is that if I continue posting technical content there, people will continue using it; if nobody posts such content, regular users will leave the site. You might agree or not, but since it’s my content, it’s now how[...]
 +
 https://blog.frankel.ch/java-geek-weekly-1/[Read further^]
-
-
-Calling Rust from Python (2023-10-08)::
-I recently watched GOTO conferences' talk Calling Functions Across Languages by Richard Feldman. I’m afraid I have to disagree with using the term 'language' in this context. It’s a no-brainer to call Java from Kotlin or Scala or to call Java from Kotlin. Hence, in the rest, I’ll use 'stack'. In the talk, the speaker cites two main reasons to go on this road: Gradual migration from one stack to the otherUsing a library that has no equivalent in one’s stack under the ass[...]
-+
-https://blog.frankel.ch/rust-from-python/[Read further^]
-
-
-Resizing images on-the-fly (2023-10-01)::
-As a web architect, one of the many issues is asset management. And the most significant issue in assets is images. A naive approach would be to set an image and let the browser resize the image via CSS: img { height: 100%; width: 100%; object-fit: contain; } However, it means that you download the original image. It entails two problems: the size of the original image and the suboptimal browser-based resizing. This post will cover two alternatives: traditional and brand-new s[...]
-+
-https://blog.frankel.ch/resize-images-on-the-fly/[Read further^]
 
 
 ## 🗣️ Upcoming talks
