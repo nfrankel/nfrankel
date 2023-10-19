@@ -22,6 +22,12 @@ Developer Advocate with 15+ years experience consulting for many different custo
 ## ✍️ Most recent blog posts
 
 
+A Java Geek weekly, Issue 2 (2023-10-18)::
+Keeping CALM: when distributed consistency is easy A good explanation of the CALM theorem. If you’re working on distributed systems and are not familiar with the latter, it’s a must-read. Running Wasm Workers Server in Docker Desktop Wasm Workers Server is a tool that allows running WebAssembly-powered containers. Either use code compiled to WebAssembly, e.g., Rust, or interpreted code when the interpreting runtime has already been compiled, e.g., Python. Results are impressive.[...]
++
+https://blog.frankel.ch/java-geek-weekly-2/[Read further^]
+
+
 Python "magic" methods (2023-10-15)::
 Python provides specially-named methods: methods that the runtime interprets in a certain way, but that you need to know about. The documentation is pretty exhaustive about them, but it needs examples for beginners. The goal of this two-part series is to list these methods and provide these examples, so that I can remember them. Part 1Part 2[...]
 +
@@ -32,12 +38,6 @@ Python "magic" methods - part 1 (2023-10-15)::
 Java was the first language I used professionally and is the scale by which I measure other languages I learned afterward. It’s an OOP statically-typed language. Hence, Python feels a bit weird because of its dynamic typing approach. For example, Object offers methods equals(), hashCode(), and toString(). Because all other classes inherit from Object, directly or indirectly, all objects have these methods by definition. Conversely, Python was not initially built on OOP principles and is[...]
 +
 https://blog.frankel.ch/python-magic-methods/1/[Read further^]
-
-
-A Java Geek weekly, Issue 1 (2023-10-11)::
-If you’re subscribed to my Twitter feed, you might have noticed that I don’t post as much content as before. It was a good place, once, but I cannot condone the new management and most importantly, their handling of misinformation - or lack thereof. My reasoning is that if I continue posting technical content there, people will continue using it; if nobody posts such content, regular users will leave the site. You might agree or not, but since it’s my content, it’s now how[...]
-+
-https://blog.frankel.ch/java-geek-weekly-1/[Read further^]
 
 
 ## 🗣️ Upcoming talks
