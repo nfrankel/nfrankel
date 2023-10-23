@@ -22,10 +22,10 @@ Developer Advocate with 15+ years experience consulting for many different custo
 ## ✍️ Most recent blog posts
 
 
-A Java Geek weekly, Issue 2 (2023-10-18)::
-Keeping CALM: when distributed consistency is easy A good explanation of the CALM theorem. If you’re working on distributed systems and are not familiar with the latter, it’s a must-read. Running Wasm Workers Server in Docker Desktop Wasm Workers Server is a tool that allows running WebAssembly-powered containers. Either use code compiled to WebAssembly, e.g., Rust, or interpreted code when the interpreting runtime has already been compiled, e.g., Python. Results are impressive.[...]
+Python "magic" methods - part 2 (2023-10-22)::
+Let’s continue our exploration of Python’s magic methods in this second part of the series. This part will focus on numbers and containers, i.e., collections. You can read the first part here. Container-related methods Python provides the usual containers, e.g., lists, sets, and dictionaries. You can use the following methods when you want to implement your own. Common methods Containers have a size. Python defines two methods to implement to return the number of items in a con[...]
 +
-https://blog.frankel.ch/java-geek-weekly-2/[Read further^]
+https://blog.frankel.ch/python-magic-methods/2/[Read further^]
 
 
 Python "magic" methods (2023-10-15)::
