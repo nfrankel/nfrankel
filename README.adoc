@@ -22,6 +22,12 @@ Developer Advocate with 15+ years experience consulting for many different custo
 ## ✍️ Most recent blog posts
 
 
+Feedback from calling Rust from Python (2023-10-29)::
+I got plenty of feedback on my post about Calling Rust from Python: Hacker News/r/python/r/rust Many comments mentioned pyo3, and I should use it instead of cooking my own. Thanks to the authors, I checked: in this post, I explain what it is and how I migrated my code. What is pyo3? Rust bindings for Python, including tools for creating native Python extension modules. Running and interacting with Python code from a Rust binary is also supported. — PyO3 user guide Indeed, pyo3[...]
++
+https://blog.frankel.ch/feedback-rust-from-python/[Read further^]
+
+
 Python "magic" methods - part 2 (2023-10-22)::
 Let’s continue our exploration of Python’s magic methods in this second part of the series. This part will focus on numbers and containers, i.e., collections. You can read the first part here. Container-related methods Python provides the usual containers, e.g., lists, sets, and dictionaries. You can use the following methods when you want to implement your own. Common methods Containers have a size. Python defines two methods to implement to return the number of items in a con[...]
 +
@@ -32,12 +38,6 @@ Python "magic" methods (2023-10-15)::
 Python provides specially-named methods: methods that the runtime interprets in a certain way, but that you need to know about. The documentation is pretty exhaustive about them, but it needs examples for beginners. The goal of this two-part series is to list these methods and provide these examples, so that I can remember them. Part 1Part 2[...]
 +
 https://blog.frankel.ch/python-magic-methods/[Read further^]
-
-
-Python "magic" methods - part 1 (2023-10-15)::
-Java was the first language I used professionally and is the scale by which I measure other languages I learned afterward. It’s an OOP statically-typed language. Hence, Python feels a bit weird because of its dynamic typing approach. For example, Object offers methods equals(), hashCode(), and toString(). Because all other classes inherit from Object, directly or indirectly, all objects have these methods by definition. Conversely, Python was not initially built on OOP principles and is[...]
-+
-https://blog.frankel.ch/python-magic-methods/1/[Read further^]
 
 
 ## 🗣️ Upcoming talks
