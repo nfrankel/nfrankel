@@ -43,6 +43,11 @@ https://blog.frankel.ch/python-magic-methods/2/[Read further^]
 ## 🗣️ Upcoming talks
 
 
+https://www.meetup.com/fr-FR/elsassjug/events/297065690/[Introduction pratique à OpenTelemetry^] @ http://www.meetup.com/ElsassJUG/[Elsass JUG^]::
++
+Il est crucial de suivre le flux d'une requête à travers les différents composants des systèmes distribués. Avec l'essor des microservices, leur importance a atteint un niveau critique. Certains outils propriétaires de suivi ont déjà été utilisés : Jaeger et Zipkin viennent naturellement à l'esprit. L'observabilité repose sur trois piliers : la journalisation, les métriques et le traçage. OpenTelemetry est un effort conjoint visant à mettre en place un standard ouvert pour ces trois piliers. Jaeger et Zipkin se sont joints à cet effort et sont maintenant compatibles avec OpenTelemetry Dans cet exposé, je décrirai plus en détail ce qui précède et je présenterai un cas d'utilisation (simple) pour démontrer comment vous pourriez bénéficier d'OpenTelemetry dans vos architectures distribuées.
+
+
 https://devfest.gdgstrasbourg.fr/schedule[Chopping the monolith^] @ https://devfest.gdgstrasbourg.fr/[DevFest Strasbourg^]::
 +
 Micro services are ubiquitous. However, most companies that implement micro services do not reap their full benefits - at best. At worst, it’s an epic failure. There are reasons for micro services: independent deployment of business capabilities. However, the unspoken assumption is that you need to deploy all capabilities all the time. My experience has shown me that it’s plain wrong. Some capabilities need frequent deployment, while some are much more stable. In "the past", we used Rule Engines to allow updating business rules without deployment. While it solved the problem, this approach had issues. Between introducing a Rule Engine and migrating your complete system to micro services, I believe that there’s a middle path, and that this path is Function-as-a-Service. In this talk, I’ll detail every point I’ve made above, and show how one can use Serverless to pragmatically design a system that allows deploying as often as you need.
@@ -51,11 +56,6 @@ Micro services are ubiquitous. However, most companies that implement micro serv
 https://oredev.org/line-up/nicolas-fr-nkel[Chopping the monolith^] @ https://oredev.org/[Øredev^]::
 +
 Micro services are ubiquitous. However, most companies that implement micro services do not reap their full benefits - at best. At worst, it’s an epic failure. There are reasons for micro services: independent deployment of business capabilities. However, the unspoken assumption is that you need to deploy all capabilities all the time. My experience has shown me that it’s plain wrong. Some capabilities need frequent deployment, while some are much more stable. In "the past", we used Rule Engines to allow updating business rules without deployment. While it solved the problem, this approach had issues. Between introducing a Rule Engine and migrating your complete system to micro services, I believe that there’s a middle path, and that this path is Function-as-a-Service. In this talk, I’ll detail every point I’ve made above, and show how one can use Serverless to pragmatically design a system that allows deploying as often as you need.
-
-
-https://www.meetup.com/sweden-devops-meetup-group/events/296403433/[An always up-to-date developer's CV^] @ https://www.meetup.com/sweden-devops-meetup-group/[Sweden DevOps Meetup^]::
-+
-It’s been said that GitHub is a developer’s CV. Just a quick look at your commit history and recruiters know all about you. There are a couple of issues with this approach. Most companies don’t even publish their source code under an Open Source license. If you work for one of them, and if you’re not a rabid Open Source developer, then it’s obviously not helpful. Recently, GitHub allowed some degree of customization of one’s profile. So, even if your commit history has more white than green, you can provide a good entry-point for potential employers. But it’s only as good as the effort you put in it, and it might decay fast. Yet, with a bit of work, and the help of automation tools (such as GitHub Actions), you can provide an always up-to-date profile. In this talk, I’ll present you how to do it, using my own setup as an example.
 
 
 ## 🎥 Latest video recording
