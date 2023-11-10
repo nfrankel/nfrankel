@@ -43,17 +43,17 @@ https://blog.frankel.ch/python-magic-methods/2/[Read further^]
 ## 🗣️ Upcoming talks
 
 
+https://events.pinetool.ai/3079/#sessions/101285[Navigating Data Residency Challenges^] @ https://bigdataconference.lt/[Big Data Conference^]::
++
+In today's interconnected world, organizations face a significant challenge: ensuring compliance with evolving data residency requirements while harnessing the transformative potential of globalized data. Data residency, the concept of where data is physically stored, has become a critical concern due to increasing regulatory demands and privacy concerns. As organizations expand their operations across borders, they encounter a myriad of legal and operational hurdles, necessitating a fresh perspective on managing data across jurisdictions. This talk aims to provide a couple of solutions to solve this problem, with pros and cons. Attendees will gain a deeper understanding of the challenges they face and the potential path forward to embrace globalized data securely. 
+
+
 https://www.meetup.com/fr-FR/elsassjug/events/297065690/[Introduction pratique à OpenTelemetry^] @ http://www.meetup.com/ElsassJUG/[Elsass JUG^]::
 +
 Il est crucial de suivre le flux d'une requête à travers les différents composants des systèmes distribués. Avec l'essor des microservices, leur importance a atteint un niveau critique. Certains outils propriétaires de suivi ont déjà été utilisés : Jaeger et Zipkin viennent naturellement à l'esprit. L'observabilité repose sur trois piliers : la journalisation, les métriques et le traçage. OpenTelemetry est un effort conjoint visant à mettre en place un standard ouvert pour ces trois piliers. Jaeger et Zipkin se sont joints à cet effort et sont maintenant compatibles avec OpenTelemetry Dans cet exposé, je décrirai plus en détail ce qui précède et je présenterai un cas d'utilisation (simple) pour démontrer comment vous pourriez bénéficier d'OpenTelemetry dans vos architectures distribuées.
 
 
 https://devfest.gdgstrasbourg.fr/schedule[Chopping the monolith^] @ https://devfest.gdgstrasbourg.fr/[DevFest Strasbourg^]::
-+
-Micro services are ubiquitous. However, most companies that implement micro services do not reap their full benefits - at best. At worst, it’s an epic failure. There are reasons for micro services: independent deployment of business capabilities. However, the unspoken assumption is that you need to deploy all capabilities all the time. My experience has shown me that it’s plain wrong. Some capabilities need frequent deployment, while some are much more stable. In "the past", we used Rule Engines to allow updating business rules without deployment. While it solved the problem, this approach had issues. Between introducing a Rule Engine and migrating your complete system to micro services, I believe that there’s a middle path, and that this path is Function-as-a-Service. In this talk, I’ll detail every point I’ve made above, and show how one can use Serverless to pragmatically design a system that allows deploying as often as you need.
-
-
-https://oredev.org/line-up/nicolas-fr-nkel[Chopping the monolith^] @ https://oredev.org/[Øredev^]::
 +
 Micro services are ubiquitous. However, most companies that implement micro services do not reap their full benefits - at best. At worst, it’s an epic failure. There are reasons for micro services: independent deployment of business capabilities. However, the unspoken assumption is that you need to deploy all capabilities all the time. My experience has shown me that it’s plain wrong. Some capabilities need frequent deployment, while some are much more stable. In "the past", we used Rule Engines to allow updating business rules without deployment. While it solved the problem, this approach had issues. Between introducing a Rule Engine and migrating your complete system to micro services, I believe that there’s a middle path, and that this path is Function-as-a-Service. In this talk, I’ll detail every point I’ve made above, and show how one can use Serverless to pragmatically design a system that allows deploying as often as you need.
 
