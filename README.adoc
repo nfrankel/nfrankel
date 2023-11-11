@@ -60,4 +60,4 @@ Micro services are ubiquitous. However, most companies that implement micro serv
 
 ## 🎥 Latest video recording
 
-image::https://img.youtube.com/vi/BAxXoMXjCWg/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=BAxXoMXjCWg,title="Nicolas Fränkel: Evolving Your APIs, a Pragmatic Approach"]
+image::https://img.youtube.com/vi/Un8qEXDYIaE/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=Un8qEXDYIaE,title="GeeCON 2023 Prague: Nicolas Fränkel - Data Residency: the fun of storing data worldwide"]
