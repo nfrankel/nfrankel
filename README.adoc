@@ -22,6 +22,12 @@ Developer Advocate with 15+ years experience consulting for many different custo
 ## ✍️ Most recent blog posts
 
 
+Exploring the OpenTelemetry Collector (2023-11-12)::
+The OpenTelemetry Collector sits at the center of the OpenTelemetry architecture but is unrelated to the W3C Trace Context. In my tracing demo, I use Jaeger instead of the Collector. Yet, it’s ubiquitous, as in every OpenTelemetry-related post. I wanted to explore it further. In this post, I explore the different aspects of the Collector: The data kind: logs, metrics, and tracesPush and pull modelsOperations: reads, transformations, and writes First steps A long time ago, observabilit[...]
++
+https://blog.frankel.ch/opentelemetry-collector/[Read further^]
+
+
 API versioning (2023-11-05)::
 In my previous post Evolving your APIs, I mention the main API versioning approaches. During the talk of the same name, I sometimes get some questions on the subject. In this post, I’ll detail each of them. I assume readers know the reasons behind versioning, semantic versioning, and product lifecycle. If not, I encourage you to read a bit about these themes; in particular, chapter 24 of the excellent API Design Patterns book focuses on them. I’ll summarize the subject in a few wo[...]
 +
@@ -32,12 +38,6 @@ Feedback from calling Rust from Python (2023-10-29)::
 I got plenty of feedback on my post about Calling Rust from Python: Hacker News/r/python/r/rust Many comments mentioned pyo3, and I should use it instead of cooking my own. Thanks to the authors, I checked: in this post, I explain what it is and how I migrated my code. What is pyo3? Rust bindings for Python, including tools for creating native Python extension modules. Running and interacting with Python code from a Rust binary is also supported. — PyO3 user guide Indeed, pyo3[...]
 +
 https://blog.frankel.ch/feedback-rust-from-python/[Read further^]
-
-
-Python "magic" methods - part 2 (2023-10-22)::
-Let’s continue our exploration of Python’s magic methods in this second part of the series. This part will focus on numbers and containers, i.e., collections. You can read the first part here. Container-related methods Python provides the usual containers, e.g., lists, sets, and dictionaries. You can use the following methods when you want to implement your own. Common methods Containers have a size. Python defines two methods to implement to return the number of items in a con[...]
-+
-https://blog.frankel.ch/python-magic-methods/2/[Read further^]
 
 
 ## 🗣️ Upcoming talks
