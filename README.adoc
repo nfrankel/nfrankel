@@ -48,9 +48,9 @@ https://www.opensource-experience.com/event/[Evolving your APIs, a step-by-step 
 When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
 
 
-https://www.devopsdday.com/?pgid=lny9k5m8-8951ef74-37f3-470a-b66a-43575a7b8070[Practical introduction to OpenTelemetry tracing^] @ https://www.2021-devops-dday.com/[DevOps D-Day^]::
+https://devfest-alps-2023.sessionize.com/session/546426[Evolving your APIs, a step-by-step approach^] @ https://gdg.community.dev/events/details/google-gdg-torino-presents-devfest-alps-2023/[DevFest Alps^]::
 +
-Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture. 
+When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
 
 
 https://events.pinetool.ai/3079/#sessions/101285[Navigating Data Residency Challenges^] @ https://bigdataconference.lt/[Big Data Conference^]::
