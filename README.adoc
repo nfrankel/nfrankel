@@ -1,5 +1,3 @@
-
-
 ifdef::env-github[]
 :tip-caption: :bulb:
 :note-caption: :information_source:
@@ -12,10 +10,10 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2023.12.13-blue[]
- This profile is automatically generated.
+image:https://github.com/nfrankel/nfrankel/workflows/Build%20README/badge.svg[Build README,link="https://github.com/nfrankel/nfrankel/actions?query=workflow%3A%22Update+README%22"]
+ This profile is automatically generated each day.
 
-If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
+If you're interested in knowing more, please check the https://blog.frankel.ch/customizing-github-profile/1/[posts^] https://blog.frankel.ch/customizing-github-profile/2/[I've written^] on the subject or https://github.com/nfrankel/nfrankel/[the code^].
 ====
 
 Developer Advocate with 15+ years experience consulting for many different customers, in a wide range of contexts (such as telecoms, banking, insurances, large retail and public sector). Usually working on Java/Java EE and Spring technologies, but with focused interests like Rich Internet Applications, Testing, CI/CD and DevOps. Also double as a trainer and triples as a book author.
@@ -24,30 +22,30 @@ Developer Advocate with 15+ years experience consulting for many different custo
 ## ✍️ Most recent blog posts
 
 
-
 Apache APISIX plugin priority, a leaky abstraction? (2023-12-10)::
-Apache APISIX is an API Gateway, which builds upon the OpenResty reverse-proxy to offer a plugin-based architecture. The main benefit of such an architecture is that it brings structure to the configuration of routes. It&#8217;s a help at scale, when managing hundreds or thousands of routes.   In this post, I&#8217;d like to describe how plugins, priority, and phases play together and what pitfalls you must be aware of.   APISIX plugin&#8217;s priority   When you configure a route with multiple p[...]
+Apache APISIX is an API Gateway, which builds upon the OpenResty reverse-proxy to offer a plugin-based architecture. The main benefit of such an architecture is that it brings structure to the configuration of routes. It’s a help at scale, when managing hundreds or thousands of routes.   In this post, I’d like to describe how plugins, priority, and phases play together and what pitfalls you must be aware of.   APISIX plugin’s priority   When you configure a route with multiple p[...]
 +
 https://blog.frankel.ch/apisix-plugins-priority-leaky-abstraction/[Read further^]
 
 
-
 Canary releases with Apache APISIX (2023-12-03)::
-In a few words, the idea of canary releases is to deliver a new software version to only a fraction of the users, analyze the results, and decide whether to proceed further or not. If results are not aligned with expectations, roll back; if they are, increase the number of users exposed until all users benefit from the new version.   In this post, I&#8217;d like to detail this introduction briefly, explain different ways to define the fraction, and show how to execute it with Apache APISIX.   Int[...]
+In a few words, the idea of canary releases is to deliver a new software version to only a fraction of the users, analyze the results, and decide whether to proceed further or not. If results are not aligned with expectations, roll back; if they are, increase the number of users exposed until all users benefit from the new version.   In this post, I’d like to detail this introduction briefly, explain different ways to define the fraction, and show how to execute it with Apache APISIX.   Int[...]
 +
 https://blog.frankel.ch/canary-releases-apisix/[Read further^]
 
 
-
 Chopping the monolith in a smarter way (2023-11-26)::
-In my previous post Chopping the Monolith, I explained that some parts of a monolith are pretty stable and only the fast-changing parts are worth being 'chopped.' I turned the post into a talk and presented it at several conferences. I think it&#8217;s pretty well received; I believe it&#8217;s because most developers understand, or have direct experience, that microservices are not a good fit for traditional organizations, as per Conway&#8217;s Law.   In the talk, I use an e-commerce webapp as a[...]
+In my previous post Chopping the Monolith, I explained that some parts of a monolith are pretty stable and only the fast-changing parts are worth being 'chopped.' I turned the post into a talk and presented it at several conferences. I think it’s pretty well received; I believe it’s because most developers understand, or have direct experience, that microservices are not a good fit for traditional organizations, as per Conway’s Law.   In the talk, I use an e-commerce webapp as a[...]
 +
 https://blog.frankel.ch/chopping-monolith-smarter-way/[Read further^]
 
 
-
 ## 🗣️ Upcoming talks
 
+
+https://developerweek2024.sched.com/1WpId[Practical introduction to OpenTelemetry tracing^] @ https://www.developerweek.com/[Developer Week^]::
++
+Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture. 
 
 
 https://www.jfokus.se/talks/1714[Practical introduction to OpenTelemetry tracing^] @ https://www.jfokus.se/[JFokus^]::
@@ -55,17 +53,9 @@ https://www.jfokus.se/talks/1714[Practical introduction to OpenTelemetry tracing
 Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture. 
 
 
-
 https://snowcamp2024.sched.com/event/1Vb2g/practical-introduction-to-opentelemetry-tracing[Practical introduction to OpenTelemetry tracing^] @ http://snowcamp.io/[SnowCamp^]::
 +
 Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture. 
-
-
-
-https://confoo.ca/en/2024/session/chopping-the-monolith[Chopping the monolith^] @ https://confoo.ca/[ConFoo^]::
-+
-Micro services are ubiquitous. However, most companies that implement micro services do not reap their full benefits - at best. At worst, it’s an epic failure. There are reasons for micro services: independent deployment of business capabilities. However, the unspoken assumption is that you need to deploy all capabilities all the time. My experience has shown me that it’s plain wrong. Some capabilities need frequent deployment, while some are much more stable. In "the past", we used Rule Engines to allow updating business rules without deployment. While it solved the problem, this approach had issues. Between introducing a Rule Engine and migrating your complete system to micro services, I believe that there’s a middle path, and that this path is Function-as-a-Service. In this talk, I’ll detail every point I’ve made above, and show how one can use Serverless to pragmatically design a system that allows deploying as often as you need.
-
 
 
 ## 🎥 Latest video recording
