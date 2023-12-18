@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2023.12.17-blue[]
+image:https://img.shields.io/badge/last_updated-2023.12.18-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Five Apache projects you probably didn't know about (2023-12-17)::
+In early 2021, I started to work on the Apache APISIX project. I have to admit that I had never heard about it before. In this post, I&#8217;d like to introduce some Apache projects that are less well-known than HTTPD or Kafka.   Apache APISIX    APISIX is an API Gateway. It builds upon OpenResty, a Lua layer built on top of the famous nginx reverse-proxy. APISIX adds abstractions to the mix, e.g., Route, Service, Upstream, and offers a plugin-based architecture.   Lots of plugins are provided ou[...]
++
+https://blog.frankel.ch/five-apache-projects/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Canary releases with Apache APISIX (2023-12-03)::
 In a few words, the idea of canary releases is to deliver a new software version to only a fraction of the users, analyze the results, and decide whether to proceed further or not. If results are not aligned with expectations, roll back; if they are, increase the number of users exposed until all users benefit from the new version.   In this post, I&#8217;d like to detail this introduction briefly, explain different ways to define the fraction, and show how to execute it with Apache APISIX.   Int[...]
 +
 https://blog.frankel.ch/canary-releases-apisix/[Read further^]
-
-
-
-Chopping the monolith in a smarter way (2023-11-26)::
-In my previous post Chopping the Monolith, I explained that some parts of a monolith are pretty stable and only the fast-changing parts are worth being 'chopped.' I turned the post into a talk and presented it at several conferences. I think it&#8217;s pretty well received; I believe it&#8217;s because most developers understand, or have direct experience, that microservices are not a good fit for traditional organizations, as per Conway&#8217;s Law.   In the talk, I use an e-commerce webapp as a[...]
-+
-https://blog.frankel.ch/chopping-monolith-smarter-way/[Read further^]
 
 
 
