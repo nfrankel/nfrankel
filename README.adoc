@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.01.07-blue[]
+image:https://img.shields.io/badge/last_updated-2024.01.10-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+2023 in retrospective (2024-01-07)::
+Last year, I wrote my first yearly retrospective. I liked the experience, so I&#8217;m trying one more time. Let the future decide if it will become a trend or not.   Before diving into our safe technological world, my thoughts go to Ukraine, to my friends who had to flee their own country, to other friends who fought on the front to defend it from an imperial power, and to all victims of an old kleptocrat who clings to power despite the cost to others. The free world needs to support Ukraine mor[...]
++
+https://blog.frankel.ch/2023-retrospective/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Apache APISIX plugin priority, a leaky abstraction? (2023-12-10)::
 Apache APISIX is an API Gateway, which builds upon the OpenResty reverse-proxy to offer a plugin-based architecture. The main benefit of such an architecture is that it brings structure to the configuration of routes. It&#8217;s a help at scale, when managing hundreds or thousands of routes.   In this post, I&#8217;d like to describe how plugins, priority, and phases play together and what pitfalls you must be aware of.   APISIX plugin&#8217;s priority   When you configure a route with multiple p[...]
 +
 https://blog.frankel.ch/apisix-plugins-priority-leaky-abstraction/[Read further^]
-
-
-
-Canary releases with Apache APISIX (2023-12-03)::
-In a few words, the idea of canary releases is to deliver a new software version to only a fraction of the users, analyze the results, and decide whether to proceed further or not. If results are not aligned with expectations, roll back; if they are, increase the number of users exposed until all users benefit from the new version.   In this post, I&#8217;d like to detail this introduction briefly, explain different ways to define the fraction, and show how to execute it with Apache APISIX.   Int[...]
-+
-https://blog.frankel.ch/canary-releases-apisix/[Read further^]
 
 
 
