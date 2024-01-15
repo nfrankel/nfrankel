@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.01.14-blue[]
+image:https://img.shields.io/badge/last_updated-2024.01.15-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Kicking the tires of Docker Scout (2024-01-14)::
+I never moved away from Docker Desktop. For some time, after you use it to build an image, it prints a message:    What's Next?   View a summary of image vulnerabilities and recommendations → docker scout quickview    I decided to give it a try. I&#8217;ll use the root commit of my OpenTelemetry tracing demo. Let&#8217;s execute the proposed command:    docker scout quickview otel-catalog:1.0    Here&#8217;s the result:        ✓ Image stored for indexing     ✓ Indexed 272 packages   Target       [...]
++
+https://blog.frankel.ch/kicking-tires-docker-scout/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Five Apache projects you probably didn't know about (2023-12-17)::
 In early 2021, I started to work on the Apache APISIX project. I have to admit that I had never heard about it before. In this post, I&#8217;d like to introduce some Apache projects that are less well-known than HTTPD or Kafka.   Apache APISIX    APISIX is an API Gateway. It builds upon OpenResty, a Lua layer built on top of the famous nginx reverse-proxy. APISIX adds abstractions to the mix, e.g., Route, Service, Upstream, and offers a plugin-based architecture.   Lots of plugins are provided ou[...]
 +
 https://blog.frankel.ch/five-apache-projects/[Read further^]
-
-
-
-Apache APISIX plugin priority, a leaky abstraction? (2023-12-10)::
-Apache APISIX is an API Gateway, which builds upon the OpenResty reverse-proxy to offer a plugin-based architecture. The main benefit of such an architecture is that it brings structure to the configuration of routes. It&#8217;s a help at scale, when managing hundreds or thousands of routes.   In this post, I&#8217;d like to describe how plugins, priority, and phases play together and what pitfalls you must be aware of.   APISIX plugin&#8217;s priority   When you configure a route with multiple p[...]
-+
-https://blog.frankel.ch/apisix-plugins-priority-leaky-abstraction/[Read further^]
 
 
 
