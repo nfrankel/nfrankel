@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.01.21-blue[]
+image:https://img.shields.io/badge/last_updated-2024.01.22-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Keeping your fonts in embedded SVG (2024-01-21)::
+Last year, I started to use Excalidraw as a diagram tool. However, the SVG images didn&#8217;t display the font correctly. In this post, I&#8217;d like to explain the problem and offer a solution.   Let&#8217;s create a sample drawing with Excalidraw. If you open the link, it should look something like this:      However, in a browser, it looks like this:      The code is straightforward:    &lt;img src='/path/to/sample.svg'&gt;    The font doesn&#8217;t display correctly. The problem is that the[...]
++
+https://blog.frankel.ch/fonts-embedded-svg/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ https://blog.frankel.ch/kicking-tires-docker-scout/[Read further^]
 Last year, I wrote my first yearly retrospective. I liked the experience, so I&#8217;m trying one more time. Let the future decide if it will become a trend or not.   Before diving into our safe technological world, my thoughts go to Ukraine, to my friends who had to flee their own country, to other friends who fought on the front to defend it from an imperial power, and to all victims of an old kleptocrat who clings to power despite the cost to others. The free world needs to support Ukraine mor[...]
 +
 https://blog.frankel.ch/2023-retrospective/[Read further^]
-
-
-
-Five Apache projects you probably didn't know about (2023-12-17)::
-In early 2021, I started to work on the Apache APISIX project. I have to admit that I had never heard about it before. In this post, I&#8217;d like to introduce some Apache projects that are less well-known than HTTPD or Kafka.   Apache APISIX    APISIX is an API Gateway. It builds upon OpenResty, a Lua layer built on top of the famous nginx reverse-proxy. APISIX adds abstractions to the mix, e.g., Route, Service, Upstream, and offers a plugin-based architecture.   Lots of plugins are provided ou[...]
-+
-https://blog.frankel.ch/five-apache-projects/[Read further^]
 
 
 
