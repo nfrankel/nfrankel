@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.01.28-blue[]
+image:https://img.shields.io/badge/last_updated-2024.01.29-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Improving upon my OpenTelemetry Tracing demo (2024-01-28)::
+Last year, I wrote a post on Open Telemetry Tracing to understand more about the subject. I also created a demo around it, which featured the following components:  The Apache APISIX API GatewayA Kotlin/Spring Boot serviceA Python/Flask serviceAnd a Rust/Axum service  I&#8217;ve recently improved the demo to deepen my understanding and want to share my learning.   Using a regular database   In the initial demo, I didn&#8217;t bother with a regular database. Instead:  The Kotlin service used the e[...]
++
+https://blog.frankel.ch/improve-otel-demo/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Kicking the tires of Docker Scout (2024-01-14)::
 I never moved away from Docker Desktop. For some time, after you use it to build an image, it prints a message:    What's Next?   View a summary of image vulnerabilities and recommendations → docker scout quickview    I decided to give it a try. I&#8217;ll use the root commit of my OpenTelemetry tracing demo. Let&#8217;s execute the proposed command:    docker scout quickview otel-catalog:1.0    Here&#8217;s the result:        ✓ Image stored for indexing     ✓ Indexed 272 packages   Target       [...]
 +
 https://blog.frankel.ch/kicking-tires-docker-scout/[Read further^]
-
-
-
-2023 in retrospective (2024-01-07)::
-Last year, I wrote my first yearly retrospective. I liked the experience, so I&#8217;m trying one more time. Let the future decide if it will become a trend or not.   Before diving into our safe technological world, my thoughts go to Ukraine, to my friends who had to flee their own country, to other friends who fought on the front to defend it from an imperial power, and to all victims of an old kleptocrat who clings to power despite the cost to others. The free world needs to support Ukraine mor[...]
-+
-https://blog.frankel.ch/2023-retrospective/[Read further^]
 
 
 
