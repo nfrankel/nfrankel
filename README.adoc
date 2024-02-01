@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.01.31-blue[]
+image:https://img.shields.io/badge/last_updated-2024.02.01-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -70,4 +70,4 @@ Micro services are ubiquitous. However, most companies that implement micro serv
 
 ## 🎥 Latest video recording
 
-image::https://img.youtube.com/vi/Un8qEXDYIaE/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=Un8qEXDYIaE,title="GeeCON 2023 Prague: Nicolas Fränkel - Data Residency: the fun of storing data worldwide"]
+image::https://img.youtube.com/vi/8MjhFBuEJ4g/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=8MjhFBuEJ4g,title="Nicolas Fränkel - Chopping the Monolith | Øredev 2023"]
