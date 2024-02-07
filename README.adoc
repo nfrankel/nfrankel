@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.02.06-blue[]
+image:https://img.shields.io/badge/last_updated-2024.02.07-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -50,6 +50,12 @@ https://blog.frankel.ch/fonts-embedded-svg/[Read further^]
 
 
 
+https://www.meetup.com/fr-FR/cafe-devops-lyon/events/298951515/[Introduction pratique à OpenTelemetry pour les développeurs^] @ https://cafedevops.org/[Café DevOps Lyon^]::
++
+Il est essentiel de suivre le parcours d'une requête à travers les différents composants d'un système distribué. Avec l'essor des microservices, cette fonctionnalité a atteint un niveau de criticité comme jamais auparant. Certains outils propriétaires de suivi vous sont peut-être connus : Jaeger et Zipkin viennent naturellement à l'esprit. L'observabilité repose sur trois piliers : la journalisation, les métriques et le traçage. OpenTelemetry est un effort conjoint visant à mettre en place un standard ouvert pour ces trois piliers. Jaeger et Zipkin se sont joints à cet effort et sont maintenant compatibles avec OpenTelemetry. Dans cet exposé, je décrirai plus en détail ce qui précède et je présenterai un cas d'utilisation (simple) pour démontrer comment vous pourriez bénéficier des traces OpenTelemetry dans votre architecture distribuée.
+
+
+
 https://confoo.ca/en/2024/session/chopping-the-monolith[Chopping the monolith^] @ https://confoo.ca/[ConFoo^]::
 +
 Micro services are ubiquitous. However, most companies that implement micro services do not reap their full benefits - at best. At worst, it’s an epic failure. There are reasons for micro services: independent deployment of business capabilities. However, the unspoken assumption is that you need to deploy all capabilities all the time. My experience has shown me that it’s plain wrong. Some capabilities need frequent deployment, while some are much more stable. In "the past", we used Rule Engines to allow updating business rules without deployment. While it solved the problem, this approach had issues. Between introducing a Rule Engine and migrating your complete system to micro services, I believe that there’s a middle path, and that this path is Function-as-a-Service. In this talk, I’ll detail every point I’ve made above, and show how one can use Serverless to pragmatically design a system that allows deploying as often as you need.
@@ -62,12 +68,6 @@ Tracking a request’s flow across different components in distributed systems i
 
 
 
-https://developerweek2024.sched.com/1WpId[Practical introduction to OpenTelemetry tracing^] @ https://www.developerweek.com/[Developer Week^]::
-+
-Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture. 
-
-
-
 ## 🎥 Latest video recording
 
-image::https://img.youtube.com/vi/8MjhFBuEJ4g/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=8MjhFBuEJ4g,title="Nicolas Fränkel - Chopping the Monolith | Øredev 2023"]
+image::https://img.youtube.com/vi/f0YexC8bpmM/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=f0YexC8bpmM,title="Evolving your APIs, a step-by-step approache - FOSDEM 2024"]
