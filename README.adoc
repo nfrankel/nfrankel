@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.02.11-blue[]
+image:https://img.shields.io/badge/last_updated-2024.02.12-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Error management in Rust, and libs that support it (2024-02-11)::
+As part of learning the Rust ecosystem, I dedicated the last few days to error management. Here are my findings.   Error management 101   The Rust book describes the basics of error management. The language separates between recoverable errors and unrecoverable ones.   Unrecoverable errors benefit from the panic!() macro. When Rust panics, it stops the program. Recoverable errors are much more enjoyable.   Rust uses the Either monad, which stems from Functional Programming. Opposite to exceptions[...]
++
+https://blog.frankel.ch/error-management-rust-libs/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Improving upon my OpenTelemetry Tracing demo (2024-01-28)::
 Last year, I wrote a post on Open Telemetry Tracing to understand more about the subject. I also created a demo around it, which featured the following components:  The Apache APISIX API GatewayA Kotlin/Spring Boot serviceA Python/Flask serviceAnd a Rust/Axum service  I&#8217;ve recently improved the demo to deepen my understanding and want to share my learning.   Using a regular database   In the initial demo, I didn&#8217;t bother with a regular database. Instead:  The Kotlin service used the e[...]
 +
 https://blog.frankel.ch/improve-otel-demo/[Read further^]
-
-
-
-Keeping your fonts in embedded SVG (2024-01-21)::
-Last year, I started to use Excalidraw as a diagram tool. However, the SVG images didn&#8217;t display the font correctly. In this post, I&#8217;d like to explain the problem and offer a solution.   Let&#8217;s create a sample drawing with Excalidraw. If you open the link, it should look something like this:      However, in a browser, it looks like this:      The code is straightforward:    &lt;img src='/path/to/sample.svg'&gt;    The font doesn&#8217;t display correctly. The problem is that the[...]
-+
-https://blog.frankel.ch/fonts-embedded-svg/[Read further^]
 
 
 
