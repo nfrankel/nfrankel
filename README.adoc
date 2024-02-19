@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.02.18-blue[]
+image:https://img.shields.io/badge/last_updated-2024.02.19-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -25,24 +25,24 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 
+Secure your API with these 16 Practices with Apache APISIX (2024-02-18)::
+A couple of months ago, I stumbled upon this list of  Secure your API with these 16 practices to secure your API:    Authentication 🕵️️ - Verifies the identity of users accessing APIs.Authorization 🚦 - Determines permissions of authenticated users.Data Redaction 🖍️ - Obscures sensitive data for protection.Encryption 🔒 - Encodes data so only authorized parties can decode it.Error Handling ❌ - Manages responses when things go wrong, avoiding revealing sensitive info.Input Validation &amp; Data Sani[...]
++
+https://blog.frankel.ch/secure-api-practices-apisix/[Read further^]
+
+
+
+Secure your API with these 16 Practices with Apache APISIX - part 1 (2024-02-18)::
+A couple of months ago, I stumbled upon this list of 16 practices to secure your API:    Authentication 🕵️️ - Verifies the identity of users accessing APIs.Authorization 🚦 - Determines permissions of authenticated users.Data Redaction 🖍️ - Obscures sensitive data for protection.Encryption 🔒 - Encodes data so only authorized parties can decode it.Error Handling ❌ - Manages responses when things go wrong, avoiding revealing sensitive info.Input Validation &amp; Data Sanitization 🧹 - Checks input da[...]
++
+https://blog.frankel.ch/secure-api-practices-apisix/1/[Read further^]
+
+
+
 Error management in Rust, and libs that support it (2024-02-11)::
 As part of learning the Rust ecosystem, I dedicated the last few days to error management. Here are my findings.   Error management 101   The Rust book describes the basics of error management. The language separates between recoverable errors and unrecoverable ones.   Unrecoverable errors benefit from the panic!() macro. When Rust panics, it stops the program. Recoverable errors are much more enjoyable.   Rust uses the Either monad, which stems from Functional Programming. Opposite to exceptions[...]
 +
 https://blog.frankel.ch/error-management-rust-libs/[Read further^]
-
-
-
-Hardening Apache APISIX with the OWASP's Coraza and Core Ruleset (2024-02-04)::
-The OWASP stands for Open Worldwide Application Security Project:     The Open Worldwide Application Security Project is an online community that produces freely available articles, methodologies, documentation, tools, and technologies in the fields of IoT, system software and web application security. The OWASP provides free and open resources. It is led by a non-profit called The OWASP Foundation. The OWASP Top 10 - 2021 is the published result of recent research based on comprehensive data com[...]
-+
-https://blog.frankel.ch/apisix-owasp-coraza-core-ruleset/[Read further^]
-
-
-
-Improving upon my OpenTelemetry Tracing demo (2024-01-28)::
-Last year, I wrote a post on Open Telemetry Tracing to understand more about the subject. I also created a demo around it, which featured the following components:  The Apache APISIX API GatewayA Kotlin/Spring Boot serviceA Python/Flask serviceAnd a Rust/Axum service  I&#8217;ve recently improved the demo to deepen my understanding and want to share my learning.   Using a regular database   In the initial demo, I didn&#8217;t bother with a regular database. Instead:  The Kotlin service used the e[...]
-+
-https://blog.frankel.ch/improve-otel-demo/[Read further^]
 
 
 
