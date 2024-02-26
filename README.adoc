@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.02.25-blue[]
+image:https://img.shields.io/badge/last_updated-2024.02.26-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Secure your API with these 16 Practices with Apache APISIX - part 2 (2024-02-25)::
+Last week, we listed 16 practices to help secure one&#8217;s APIs and described how to implement them with Apache APISIX.    Authentication 🕵️️ - Verifies the identity of users accessing APIs.Authorization 🚦 - Determines permissions of authenticated users.Data Redaction 🖍️ - Obscures sensitive data for protection.Encryption 🔒 - Encodes data so only authorized parties can decode it.Error Handling ❌ - Manages responses when things go wrong, avoiding revealing sensitive info.Input Validation &amp; D[...]
++
+https://blog.frankel.ch/secure-api-practices-apisix/2/[Read further^]
 
 
 
@@ -39,20 +46,7 @@ https://blog.frankel.ch/secure-api-practices-apisix/1/[Read further^]
 
 
 
-Error management in Rust, and libs that support it (2024-02-11)::
-As part of learning the Rust ecosystem, I dedicated the last few days to error management. Here are my findings.   Error management 101   The Rust book describes the basics of error management. The language separates between recoverable errors and unrecoverable ones.   Unrecoverable errors benefit from the panic!() macro. When Rust panics, it stops the program. Recoverable errors are much more enjoyable.   Rust uses the Either monad, which stems from Functional Programming. Opposite to exceptions[...]
-+
-https://blog.frankel.ch/error-management-rust-libs/[Read further^]
-
-
-
 ## 🗣️ Upcoming talks
-
-
-
-https://www.meetup.com/fr-FR/software-crafters-montreal/events/298710071/[Evolving your APIs, a step-by-step approach^] @ https://www.meetup.com/fr-FR/software-crafters-montreal/[Software Crafters Montréal^]::
-+
-When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
 
 
 
@@ -62,7 +56,13 @@ Tracking a request’s flow across different components in distributed systems i
 
 
 
-https://www.meetup.com/denverjavausersgroup/events/gjngbtygcfbrb/[Evolving your APIs, a step-by-step approach^] @ https://www.meetup.com/denverjavausersgroup/[Denver Java User Group^]::
+https://www.meetup.com/toronto-java-users-group/events/298952265/[Evolving your APIs, a step-by-step approach^] @ https://www.meetup.com/toronto-java-users-group/[Toronto JUG^]::
++
+When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
+
+
+
+https://www.meetup.com/chicagojug/events/299412641/[Evolving your APIs, a step-by-step approach^] @ https://www.meetup.com/ChicagoJUG/[Chicago JUG^]::
 +
 When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
 
