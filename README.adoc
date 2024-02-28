@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.02.27-blue[]
+image:https://img.shields.io/badge/last_updated-2024.02.28-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -62,7 +62,7 @@ When you publish your first HTTP API, you’re more focused on short-term issues
 
 
 
-https://www.meetup.com/denverjavausersgroup/events/gjngbtygcfbrb/[Evolving your APIs, a step-by-step approach^] @ https://www.meetup.com/denverjavausersgroup/[Denver Java User Group^]::
+https://www.meetup.com/boulderjavausersgroup/events/299454075/[Evolving your APIs, a step-by-step approach^] @ None[Boulder JUG^]::
 +
 When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
 
