@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.03.03-blue[]
+image:https://img.shields.io/badge/last_updated-2024.03.04-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+From Kotlin Scripting to Python (2024-03-03)::
+GitHub offers a way to customize one&#8217;s profile by allowing one to create a README in a specific repository, named as your profile, e.g., nfrankel/nfrankel. A couple of years ago, I automated the update of my GitHub profile with up-to-date info: my latest blog posts, my upcoming talks, and the last recorded YouTube talk. I took the time to document how to do it on this blog.   At the time, I chose Kotlin scripting because I was proficient enough in Kotlin, but I wanted to learn the scripting[...]
++
+https://blog.frankel.ch/kotlin-scripting-to-python/[Read further^]
 
 
 
@@ -39,20 +46,7 @@ https://blog.frankel.ch/secure-api-practices-apisix/[Read further^]
 
 
 
-Secure your API with these 16 Practices with Apache APISIX - part 1 (2024-02-18)::
-A couple of months ago, I stumbled upon this list of 16 practices to secure your API:    Authentication 🕵️️ - Verifies the identity of users accessing APIs.Authorization 🚦 - Determines permissions of authenticated users.Data Redaction 🖍️ - Obscures sensitive data for protection.Encryption 🔒 - Encodes data so only authorized parties can decode it.Error Handling ❌ - Manages responses when things go wrong, avoiding revealing sensitive info.Input Validation &amp; Data Sanitization 🧹 - Checks input da[...]
-+
-https://blog.frankel.ch/secure-api-practices-apisix/1/[Read further^]
-
-
-
 ## 🗣️ Upcoming talks
-
-
-
-https://www.meetup.com/toronto-java-users-group/events/298952265/[Evolving your APIs, a step-by-step approach^] @ https://www.meetup.com/toronto-java-users-group/[Toronto JUG^]::
-+
-When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
 
 
 
@@ -63,6 +57,12 @@ When you publish your first HTTP API, you’re more focused on short-term issues
 
 
 https://www.meetup.com/boulderjavausersgroup/events/299454075/[Evolving your APIs, a step-by-step approach^] @ None[Boulder JUG^]::
++
+When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
+
+
+
+https://www.meetup.com/denverjavausersgroup/events/gjngbtygcfbrb/[Evolving your APIs, a step-by-step approach^] @ https://www.meetup.com/denverjavausersgroup/[Denver Java User Group^]::
 +
 When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
 
