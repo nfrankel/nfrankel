@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.03.06-blue[]
+image:https://img.shields.io/badge/last_updated-2024.03.07-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -50,12 +50,6 @@ https://blog.frankel.ch/secure-api-practices-apisix/[Read further^]
 
 
 
-https://www.meetup.com/chicagojug/events/299412641/[Evolving your APIs, a step-by-step approach^] @ https://www.meetup.com/ChicagoJUG/[Chicago JUG^]::
-+
-When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
-
-
-
 https://www.meetup.com/boulderjavausersgroup/events/299454075/[Evolving your APIs, a step-by-step approach^] @ None[Boulder JUG^]::
 +
 When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
@@ -65,6 +59,12 @@ When you publish your first HTTP API, you’re more focused on short-term issues
 https://www.meetup.com/denverjavausersgroup/events/gjngbtygcfbrb/[Evolving your APIs, a step-by-step approach^] @ https://www.meetup.com/denverjavausersgroup/[Denver Java User Group^]::
 +
 When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
+
+
+
+https://www.socallinuxexpo.org/scale/21x/presentations/back-basics-getting-traffic-your-kubernetes-cluster[Back to basics, getting traffic into your Kubernetes cluster^] @ https://www.socallinuxexpo.org/[Southern California Linux Expo^]::
++
+However you're using your Kubernetes cluster, you'll sooner or later need to direct traffic into it. At this point, you're spoiled with choice. Kubernetes provides no less than three different objects: NodePort, Ingress, and LoadBalancer. Of course, each of them comes with its limitations. For example, LoadBalancer requires a dedicated implementation provided by Cloud Platforms but not with most local distributions. Moreover, Kubernetes is introducing a new Gateway API, adding one more way to direct traffic to the cluster. In this talk, I'd like to offer an overview of all four options, with their pros and cons, and a more in-depth explanation of the new Gateway API.  
 
 
 
