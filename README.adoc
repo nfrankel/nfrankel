@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.03.10-blue[]
+image:https://img.shields.io/badge/last_updated-2024.03.11-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Using my new Raspberry Pi to run an existing GitHub Action (2024-03-10)::
+Recently, I mentioned how I refactored the script that kept my GitHub profile up-to-date. Since Geecon Prague, I&#8217;m also a happy owner of a Raspberry Pi:  Guess what I won @GeeCON Prague? 😎 pic.twitter.com/b9dARUhfMd&mdash; Nicolas Frankel 🇺🇦 (@nicolas_frankel) October 20, 2023     Though the current setup works flawlessly - and is free, I wanted to experiment with self-hosted runners. Here are my findings.   Context   GitHub offers a large free usage of GitHub Actions:     GitHub Actions us[...]
++
+https://blog.frankel.ch/raspberry-pi-github-action/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Secure your API with these 16 Practices with Apache APISIX - part 2 (2024-02-25)
 Last week, we listed 16 practices to help secure one&#8217;s APIs and described how to implement them with Apache APISIX.    Authentication 🕵️️ - Verifies the identity of users accessing APIs.Authorization 🚦 - Determines permissions of authenticated users.Data Redaction 🖍️ - Obscures sensitive data for protection.Encryption 🔒 - Encodes data so only authorized parties can decode it.Error Handling ❌ - Manages responses when things go wrong, avoiding revealing sensitive info.Input Validation &amp; D[...]
 +
 https://blog.frankel.ch/secure-api-practices-apisix/2/[Read further^]
-
-
-
-Secure your API with these 16 Practices with Apache APISIX (2024-02-18)::
-A couple of months ago, I stumbled upon this list of  Secure your API with these 16 practices to secure your API:    Authentication 🕵️️ - Verifies the identity of users accessing APIs.Authorization 🚦 - Determines permissions of authenticated users.Data Redaction 🖍️ - Obscures sensitive data for protection.Encryption 🔒 - Encodes data so only authorized parties can decode it.Error Handling ❌ - Manages responses when things go wrong, avoiding revealing sensitive info.Input Validation &amp; Data Sani[...]
-+
-https://blog.frankel.ch/secure-api-practices-apisix/[Read further^]
 
 
 
