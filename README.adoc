@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.03.17-blue[]
+image:https://img.shields.io/badge/last_updated-2024.03.18-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+The pitfall of implicit returns (2024-03-17)::
+Implicit returns are a feature in some languages. They have recently bitten me, so here&#8217;s my opinion.   Statements, expressions, and returns   Before diving into implicit returns, we must explain two programming concepts influencing them. A lot of literature is available on the subject, so I&#8217;ll paraphrase one of the existing definitions:     An expression usually refers to a piece of code that can be evaluated to a value. In most programming languages, there are typically three differ[...]
++
+https://blog.frankel.ch/pitfall-implicit-returns/[Read further^]
 
 
 
@@ -39,20 +46,7 @@ https://blog.frankel.ch/kotlin-scripting-to-python/[Read further^]
 
 
 
-Secure your API with these 16 Practices with Apache APISIX - part 2 (2024-02-25)::
-Last week, we listed 16 practices to help secure one&#8217;s APIs and described how to implement them with Apache APISIX.    Authentication 🕵️️ - Verifies the identity of users accessing APIs.Authorization 🚦 - Determines permissions of authenticated users.Data Redaction 🖍️ - Obscures sensitive data for protection.Encryption 🔒 - Encodes data so only authorized parties can decode it.Error Handling ❌ - Manages responses when things go wrong, avoiding revealing sensitive info.Input Validation &amp; D[...]
-+
-https://blog.frankel.ch/secure-api-practices-apisix/2/[Read further^]
-
-
-
 ## 🗣️ Upcoming talks
-
-
-
-https://dodkrakow.pl/bio/#id=54864[Practical introduction to OpenTelemetry tracing^] @ https://dodkrakow.pl/[DevOpsDays Krakow^]::
-+
-Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture.       
 
 
 
@@ -65,6 +59,12 @@ When you publish your first HTTP API, you’re more focused on short-term issues
 https://devopsdays.istanbul/[Practical introduction to OpenTelemetry tracing^] @ https://devopsdays.istanbul/[DevOps Days Istanbul^]::
 +
 Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture.       
+
+
+
+https://www.lambdaconf.us/speakers/nicolas-frankel[Make Your Security Policy Auditable^] @ https://www.lambdaconf.us/[Lambda Conf^]::
++
+Nowadays, I believe that everybody realizes the importance of preventing undue access to one's applications. Many conceptual models are available, RBAC, ABAC, you name it. Likewise, all popular stacks have frameworks and libraries to help developers implement your chose policy access. If your organization only has a handful of apps, that's all fine and dandy, but problems appear at scale. One such problem is to keep under control access configuration across dozens or even hundreds of apps. It requires regular, if not continuous auditing: it's impossible to achieve when the configuration is code, even worse if it's a compiled language. Open Policy Agent aims to externalize such configuration in a text format with a specified semantics. In this presentation, I'll explain OPA in more details and demo how to migrate from regular Spring Boot application to an OPA-based approach in different steps.
 
 
 
