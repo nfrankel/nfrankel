@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.03.24-blue[]
+image:https://img.shields.io/badge/last_updated-2024.03.25-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Apache APISIX North America Tour (2024-03-24)::
+Once in a while, I write non-technical blog posts when I&#8217;ve something worth sharing. Today, I&#8217;d like to write about my North America 'Tour' across several conferences and user groups.   The first leg of my journey started in Oakland, California, with Developer Week. Developer Week is an established conference with different editions in several locations and online during the year. Though I&#8217;m on their advisory board, this is only the second time I&#8217;ve spoken at one of their [...]
++
+https://blog.frankel.ch/apisix-north-america-tour/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Using my new Raspberry Pi to run an existing GitHub Action (2024-03-10)::
 Recently, I mentioned how I refactored the script that kept my GitHub profile up-to-date. Since Geecon Prague, I&#8217;m also a happy owner of a Raspberry Pi:  Guess what I won @GeeCON Prague? 😎 pic.twitter.com/b9dARUhfMd&mdash; Nicolas Frankel 🇺🇦 (@nicolas_frankel) October 20, 2023     Though the current setup works flawlessly - and is free, I wanted to experiment with self-hosted runners. Here are my findings.   Context   GitHub offers a large free usage of GitHub Actions:     GitHub Actions us[...]
 +
 https://blog.frankel.ch/raspberry-pi-github-action/[Read further^]
-
-
-
-From Kotlin Scripting to Python (2024-03-03)::
-GitHub offers a way to customize one&#8217;s profile by allowing one to create a README in a specific repository, named as your profile, e.g., nfrankel/nfrankel. A couple of years ago, I automated the update of my GitHub profile with up-to-date info: my latest blog posts, my upcoming talks, and the last recorded YouTube talk. I took the time to document how to do it on this blog.   At the time, I chose Kotlin scripting because I was proficient enough in Kotlin, but I wanted to learn the scripting[...]
-+
-https://blog.frankel.ch/kotlin-scripting-to-python/[Read further^]
 
 
 
