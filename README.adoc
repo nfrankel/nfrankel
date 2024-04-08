@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.04.07-blue[]
+image:https://img.shields.io/badge/last_updated-2024.04.08-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Implementing the Idempotency-Key specification on Apache APISIX (2024-04-07)::
+Last week, I wrote an analysis of the ITEF Idempotency-Key specification. The specification aims to avoid duplicated requests. In short, the idea is for the client to send a unique key along with the request:  If the server doesn&#8217;t know the key, it proceeds as usual and then stores the responseif the server knows the key, it short-circuits any further processing and immediately returns the stored response  This post shows how to implement it with Apache APISIX.   Overview   Before starting [...]
++
+https://blog.frankel.ch/implement-idempotency-key-apisix/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Apache APISIX North America Tour (2024-03-24)::
 Once in a while, I write non-technical blog posts when I&#8217;ve something worth sharing. Today, I&#8217;d like to write about my North America 'Tour' across several conferences and user groups.   The first leg of my journey started in Oakland, California, with Developer Week. Developer Week is an established conference with different editions in several locations and online during the year. Though I&#8217;m on their advisory board, this is only the second time I&#8217;ve spoken at one of their [...]
 +
 https://blog.frankel.ch/apisix-north-america-tour/[Read further^]
-
-
-
-The pitfall of implicit returns (2024-03-17)::
-Implicit returns are a feature in some languages. They have recently bitten me, so here&#8217;s my opinion.   Statements, expressions, and returns   Before diving into implicit returns, we must explain two programming concepts influencing them. A lot of literature is available on the subject, so I&#8217;ll paraphrase one of the existing definitions:     An expression usually refers to a piece of code that can be evaluated to a value. In most programming languages, there are typically three differ[...]
-+
-https://blog.frankel.ch/pitfall-implicit-returns/[Read further^]
 
 
 
