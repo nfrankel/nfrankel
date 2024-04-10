@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.04.09-blue[]
+image:https://img.shields.io/badge/last_updated-2024.04.10-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -26,7 +26,7 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 Implementing the Idempotency-Key specification on Apache APISIX (2024-04-07)::
-Last week, I wrote an analysis of the ITEF Idempotency-Key specification. The specification aims to avoid duplicated requests. In short, the idea is for the client to send a unique key along with the request:  If the server doesn&#8217;t know the key, it proceeds as usual and then stores the responseif the server knows the key, it short-circuits any further processing and immediately returns the stored response  This post shows how to implement it with Apache APISIX.   Overview   Before starting [...]
+Last week, I wrote an analysis of the IETF Idempotency-Key specification. The specification aims to avoid duplicated requests. In short, the idea is for the client to send a unique key along with the request:  If the server doesn&#8217;t know the key, it proceeds as usual and then stores the responseIf the server knows the key, it short-circuits any further processing and immediately returns the stored response  This post shows how to implement it with Apache APISIX.   Overview   Before starting [...]
 +
 https://blog.frankel.ch/implement-idempotency-key-apisix/[Read further^]
 
