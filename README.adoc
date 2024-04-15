@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.04.14-blue[]
+image:https://img.shields.io/badge/last_updated-2024.04.15-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Dissolving Design Patterns In Design Elements (2024-04-14)::
+The book Design Patterns: Elements of Reusable Object-Oriented Software was one of the texts that changed how we think about software design. This book came out in 1994 through the efforts of Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides, later remembered as Gang Of Four (GoF)   GoF Design Patterns: The Origin, the Impact   The book&#8217;s importance lies in its effort to review the software production done up at that moment, giving more structure to the concept of Software Design[...]
++
+https://blog.frankel.ch/dissolving-design-patterns/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Fixing duplicate API requests (2024-03-31)::
 The first rule of distributed systems is 'Don&#8217;t distribute your system'. Designing distributed systems right is infamously hard for multiple reasons.   The idempotency concept   For example, a call to a function can succeed or fail in non-distributed systems. Once you move the called function to a remote component, a third option appears: you call the remote function but get no response from the component. At this point, it&#8217;s impossible to know whether the call reached the component o[...]
 +
 https://blog.frankel.ch/fix-duplicate-api-requests/[Read further^]
-
-
-
-Apache APISIX North America Tour (2024-03-24)::
-Once in a while, I write non-technical blog posts when I&#8217;ve something worth sharing. Today, I&#8217;d like to write about my North America 'Tour' across several conferences and user groups.   The first leg of my journey started in Oakland, California, with Developer Week. Developer Week is an established conference with different editions in several locations and online during the year. Though I&#8217;m on their advisory board, this is only the second time I&#8217;ve spoken at one of their [...]
-+
-https://blog.frankel.ch/apisix-north-america-tour/[Read further^]
 
 
 
