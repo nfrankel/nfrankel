@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.04.28-blue[]
+image:https://img.shields.io/badge/last_updated-2024.04.29-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Five ways to pass parameters to Apache APISIX (2024-04-28)::
+I recently read 6 Ways To Pass Parameters to Spring REST API. Though the title is a bit misleading, as it&#8217;s unrelated to REST, it does an excellent job listing all ways to send parameters to a Spring application. I want to do the same for Apache APISIX; it&#8217;s beneficial when you write a custom plugin.   General setup   The general setup uses Docker Compose and static configuration. I&#8217;ll have one plugin per way to pass parameters.   docker-compose.yml  services:   httpbin:     ima[...]
++
+https://blog.frankel.ch/pass-parameters-apisix/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Dissolving Design Patterns In Design Elements (2024-04-14)::
 The book Design Patterns: Elements of Reusable Object-Oriented Software was one of the texts that changed how we think about software design. This book came out in 1994 through the efforts of Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides, later remembered as Gang Of Four (GoF)   GoF Design Patterns: The Origin, the Impact   The book&#8217;s importance lies in its effort to review the software production done up at that moment, giving more structure to the concept of Software Design[...]
 +
 https://blog.frankel.ch/dissolving-design-patterns/[Read further^]
-
-
-
-Implementing the Idempotency-Key specification on Apache APISIX (2024-04-07)::
-Last week, I wrote an analysis of the IETF Idempotency-Key specification. The specification aims to avoid duplicated requests. In short, the idea is for the client to send a unique key along with the request:  If the server doesn&#8217;t know the key, it proceeds as usual and then stores the responseIf the server knows the key, it short-circuits any further processing and immediately returns the stored response  This post shows how to implement it with Apache APISIX.   Overview   Before starting [...]
-+
-https://blog.frankel.ch/implement-idempotency-key-apisix/[Read further^]
 
 
 
