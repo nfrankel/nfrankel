@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.05.05-blue[]
+image:https://img.shields.io/badge/last_updated-2024.05.06-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+The Vary HTTP header (2024-05-05)::
+I try to constantly deepen my knowledge of HTTP and REST. Recently, I stumbled upon the list of all registered HTTP Headers. This post is dedicated to the Vary HTTP Header.   The problem   Two years ago, I wrote about web resource caching server-side. The idea is to set up a component between the client and the upstream to cache previously computed results to avoid overloading the latter. Depending on your infrastructure and requirements, this component can be a reverse proxy or an API Gateway. H[...]
++
+https://blog.frankel.ch/vary-http-header/[Read further^]
 
 
 
@@ -39,20 +46,7 @@ https://blog.frankel.ch/try-block-rust/[Read further^]
 
 
 
-Dissolving Design Patterns In Design Elements (2024-04-14)::
-The book Design Patterns: Elements of Reusable Object-Oriented Software was one of the texts that changed how we think about software design. This book came out in 1994 through the efforts of Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides, later remembered as Gang Of Four (GoF)   GoF Design Patterns: The Origin, the Impact   The book&#8217;s importance lies in its effort to review the software production done up at that moment, giving more structure to the concept of Software Design[...]
-+
-https://blog.frankel.ch/dissolving-design-patterns/[Read further^]
-
-
-
 ## 🗣️ Upcoming talks
-
-
-
-https://www.lambdaconf.us/speakers/nicolas-frankel[Make Your Security Policy Auditable^] @ https://www.lambdaconf.us/[Lambda Conf^]::
-+
-Nowadays, I believe that everybody realizes the importance of preventing undue access to one's applications. Many conceptual models are available, RBAC, ABAC, you name it. Likewise, all popular stacks have frameworks and libraries to help developers implement your chose policy access. If your organization only has a handful of apps, that's all fine and dandy, but problems appear at scale. One such problem is to keep under control access configuration across dozens or even hundreds of apps. It requires regular, if not continuous auditing: it's impossible to achieve when the configuration is code, even worse if it's a compiled language. Open Policy Agent aims to externalize such configuration in a text format with a specified semantics. In this presentation, I'll explain OPA in more details and demo how to migrate from regular Spring Boot application to an OPA-based approach in different steps.
 
 
 
@@ -65,6 +59,12 @@ One of the web architect’s main challenges is to tackle image optimization. Th
 https://jconeurope2024.sched.com/event/1YwRs[Evolving your APIs, a step-by-step approach^] @ http://jcon.one/[JCON^]::
 +
 When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
+
+
+
+https://eu.communityovercode.org/sessions/2024/the-right-feature-at-the-right-place-the-example-of-authorization/[The right feature at the right place: the example of authorization^] @ https://communityovercode.org/[Community over Code^]::
++
+All mature tech stacks nowadays offer infrastructure-related capabilities, either a standard lib or in 3rd-party libraries, e.g., rate-limiting and authorization. While it’s great to have such features, it’s impossible to audit them easily. You’d need to be familiar with the stack and dive deep into the code. This approach just doesn’t scale, A well-designed system keeps the right feature at the right place. In this talk, I’ll go through all steps toward making your system more easily auditable. I’ll use the authorization of a security policy as an example and start from a regular Spring Boot project with Spring Security. I’ll then move step-by-step, introducing the Open Policy Agent (OPA) and the Apache APISIX API Gateway. The end result will have moved all authorization details buried in the code in a readable accessible place.
 
 
 
