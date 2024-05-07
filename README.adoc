@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.05.06-blue[]
+image:https://img.shields.io/badge/last_updated-2024.05.07-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -50,12 +50,6 @@ https://blog.frankel.ch/try-block-rust/[Read further^]
 
 
 
-https://events.geekle.us/wsas/[On-the-Fly Image Resizing, an Approach to Web Asset Management^] @ https://architecture.geekle.us/[Worldwide Software Architecture Summit^]::
-+
-One of the web architect’s main challenges is to tackle image optimization. The age-old approach is to deliberately create size variants of a single image to deliver the best user experience. It was a time-consuming task, which can be marginally improved with Machine Learning. In this session, I’ll offer a new approach that should both avoid this process and cut storage costs. Join me for practical insights into reducing expenses without compromising web performance.
-
-
-
 https://jconeurope2024.sched.com/event/1YwRs[Evolving your APIs, a step-by-step approach^] @ http://jcon.one/[JCON^]::
 +
 When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
@@ -65,6 +59,12 @@ When you publish your first HTTP API, you’re more focused on short-term issues
 https://eu.communityovercode.org/sessions/2024/the-right-feature-at-the-right-place-the-example-of-authorization/[The right feature at the right place: the example of authorization^] @ https://communityovercode.org/[Community over Code^]::
 +
 All mature tech stacks nowadays offer infrastructure-related capabilities, either a standard lib or in 3rd-party libraries, e.g., rate-limiting and authorization. While it’s great to have such features, it’s impossible to audit them easily. You’d need to be familiar with the stack and dive deep into the code. This approach just doesn’t scale, A well-designed system keeps the right feature at the right place. In this talk, I’ll go through all steps toward making your system more easily auditable. I’ll use the authorization of a security policy as an example and start from a regular Spring Boot project with Spring Security. I’ll then move step-by-step, introducing the Open Policy Agent (OPA) and the Apache APISIX API Gateway. The end result will have moved all authorization details buried in the code in a readable accessible place.
+
+
+
+https://devfest.gdglille.org/speaker-page-nicolas-frankel/[Faire évoluer vos APIs HTTP, une approche pas-à-pas^] @ https://devfest.gdglille.org/[DevFest Lille^]::
++
+Lorsque vous publiez votre première API HTTP, vous avez tendance à vous concentrer davantage sur les problématiques à court terme que sur l'avenir. Cependant, il y a des chances que votre application rencontre du succès. La question se pose alors : comment faire évoluer votre API sans rompre le contrat avec vos utilisateurs existants ? Dans cette présentation, je vous montrerai quelques trucs et astuces pour y parvenir : déplacer vos points de terminaison, les déprécier, surveiller qui les utilise et informer les utilisateurs des nouveaux points de terminaison. La présentation est basée sur une démo et j'utiliserai le projet Apache APISIX pour cela.
 
 
 
