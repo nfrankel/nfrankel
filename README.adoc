@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.05.07-blue[]
+image:https://img.shields.io/badge/last_updated-2024.05.08-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -70,4 +70,4 @@ Lorsque vous publiez votre première API HTTP, vous avez tendance à vous concen
 
 ## 🎥 Latest video recording
 
-image::https://img.youtube.com/vi/f0YexC8bpmM/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=f0YexC8bpmM,title="Evolving your APIs, a step-by-step approache - FOSDEM 2024"]
+image::https://img.youtube.com/vi/rw37wCkRN74/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=rw37wCkRN74,title="Devoxx Greece 2024 Practical introduction to OpenTelemetry tracing for developers by Nicolas Frankel"]
