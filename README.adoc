@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.05.10-blue[]
+image:https://img.shields.io/badge/last_updated-2024.05.11-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -62,9 +62,9 @@ All mature tech stacks nowadays offer infrastructure-related capabilities, eithe
 
 
 
-https://devfest.gdglille.org/speaker-page-nicolas-frankel/[Faire évoluer vos APIs HTTP, une approche pas-à-pas^] @ https://devfest.gdglille.org/[DevFest Lille^]::
+https://jconeurope2024.sched.com/event/1YwRs[Evolving your APIs, a step-by-step approach^] @ https://www.meetup.com/BruJUG/[Brussels Java User Group^]::
 +
-Lorsque vous publiez votre première API HTTP, vous avez tendance à vous concentrer davantage sur les problématiques à court terme que sur l'avenir. Cependant, il y a des chances que votre application rencontre du succès. La question se pose alors : comment faire évoluer votre API sans rompre le contrat avec vos utilisateurs existants ? Dans cette présentation, je vous montrerai quelques trucs et astuces pour y parvenir : déplacer vos points de terminaison, les déprécier, surveiller qui les utilise et informer les utilisateurs des nouveaux points de terminaison. La présentation est basée sur une démo et j'utiliserai le projet Apache APISIX pour cela.
+When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
 
 
 
