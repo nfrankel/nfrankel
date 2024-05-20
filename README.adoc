@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.05.19-blue[]
+image:https://img.shields.io/badge/last_updated-2024.05.20-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Workflow, from stateless to stateful (2024-05-19)::
+A (long) time ago, my first job consisted of implementing workflows using the Staffware engine. In short, a workflow comprises tasks; an automated task delegates to code, while a manual task requires somebody to do something and mark it as done. Then, it proceeds to the next task - or tasks. Here&#8217;s a sample workflow:      The above diagram uses Business Process Model and Notation. You can now design your workflow using BPMN and run it with compatible workflow engines.   Time has passed. Sta[...]
++
+https://blog.frankel.ch/worfklow-stateless-stateful/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ The Vary HTTP header (2024-05-05)::
 I try to constantly deepen my knowledge of HTTP and REST. Recently, I stumbled upon the list of all registered HTTP Headers. This post is dedicated to the Vary HTTP Header.   The problem   Two years ago, I wrote about web resource caching server-side. The idea is to set up a component between the client and the upstream to cache previously computed results to avoid overloading the latter. Depending on your infrastructure and requirements, this component can be a reverse proxy or an API Gateway. H[...]
 +
 https://blog.frankel.ch/vary-http-header/[Read further^]
-
-
-
-Five ways to pass parameters to Apache APISIX (2024-04-28)::
-I recently read 6 Ways To Pass Parameters to Spring REST API. Though the title is a bit misleading, as it&#8217;s unrelated to REST, it does an excellent job listing all ways to send parameters to a Spring application. I want to do the same for Apache APISIX; it&#8217;s beneficial when you write a custom plugin.   General setup   The general setup uses Docker Compose and static configuration. I&#8217;ll have one plugin per way to pass parameters.   docker-compose.yml  services:   httpbin:     ima[...]
-+
-https://blog.frankel.ch/pass-parameters-apisix/[Read further^]
 
 
 
