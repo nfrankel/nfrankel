@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.05.26-blue[]
+image:https://img.shields.io/badge/last_updated-2024.05.27-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Parsing structured environment variables in Rust (2024-05-26)::
+I&#8217;m in the process of adding more components to my OpenTelemetry demo (again!). The new design deploys several warehouse services behind the inventory service so the latter can query the former for data via their respective HTTP interface. I implemented each warehouse on top of a different technology stack. This way, I can show OpenTelemetry traces across several stacks.   Anyone should be able to add a warehouse in their favorite tech stack if it returns the correct JSON payload to the inv[...]
++
+https://blog.frankel.ch/structured-env-vars-rust/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ My opinion on the Tauri framework (2024-05-12)::
 I&#8217;ve always liked GUI, both desktop-based and browser-based before you needed five years of training on the latter. That&#8217;s the reason I loved, and still love Vaadin: you can develop web UIs without writing a single line of HTML, JavaScript, and CSS. I&#8217;m still interested in the subject; a couple of years ago, I analyzed the state of JVM desktop frameworks.   I also like the Rust programming language a lot.   Tauri is a Rust-based framework for building desktop applications. Here&[...]
 +
 https://blog.frankel.ch/opinion-tauri/[Read further^]
-
-
-
-The Vary HTTP header (2024-05-05)::
-I try to constantly deepen my knowledge of HTTP and REST. Recently, I stumbled upon the list of all registered HTTP Headers. This post is dedicated to the Vary HTTP Header.   The problem   Two years ago, I wrote about web resource caching server-side. The idea is to set up a component between the client and the upstream to cache previously computed results to avoid overloading the latter. Depending on your infrastructure and requirements, this component can be a reverse proxy or an API Gateway. H[...]
-+
-https://blog.frankel.ch/vary-http-header/[Read further^]
 
 
 
