@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.06.05-blue[]
+image:https://img.shields.io/badge/last_updated-2024.06.06-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -50,12 +50,6 @@ https://blog.frankel.ch/worfklow-stateless-stateful/[Read further^]
 
 
 
-https://devfest.gdglille.org/speaker-page-nicolas-frankel/[Faire évoluer vos APIs HTTP, une approche pas-à-pas^] @ https://devfest.gdglille.org/[DevFest Lille^]::
-+
-Lorsque vous publiez votre première API HTTP, vous avez tendance à vous concentrer davantage sur les problématiques à court terme que sur l'avenir. Cependant, il y a des chances que votre application rencontre du succès. La question se pose alors : comment faire évoluer votre API sans rompre le contrat avec vos utilisateurs existants ? Dans cette présentation, je vous montrerai quelques trucs et astuces pour y parvenir : déplacer vos points de terminaison, les déprécier, surveiller qui les utilise et informer les utilisateurs des nouveaux points de terminaison. La présentation est basée sur une démo et j'utiliserai le projet Apache APISIX pour cela.
-
-
-
 https://2024.berlinbuzzwords.de/sessions/?id=HMQMDH[Evolving your APIs, a step-by-step approach^] @ https://berlinbuzzwords.de/[Berlin Buzzwords^]::
 +
 When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
@@ -65,6 +59,12 @@ When you publish your first HTTP API, you’re more focused on short-term issues
 https://pretalx.com/devconf-cz-2024/talk/B8UX8A/[Evolving your APIs, a step-by-step approach^] @ https://www.devconf.info/cz/[DevConf CZ^]::
 +
 When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
+
+
+
+https://www.javaday.org.ua/program-2024-offline[Practical introduction to OpenTelemetry tracing^] @ http://javaday.org.ua/[JavaDay^]::
++
+Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture.       
 
 
 
