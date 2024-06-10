@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.06.09-blue[]
+image:https://img.shields.io/badge/last_updated-2024.06.10-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Random and fixed routes with Apache APISIX (2024-06-09)::
+My ideas for blog posts inevitably start to dry up after over two years at Apache APISIX. Hence, I did some triage on the APISIX repo. I stumbled upon this one question:     We have a requirement to use a plugin, where we need to route the traffic on percentage basis. I&#8217;ll give an example for better understanding.   We have an URL https://xyz.com/ca/fr/index.html where ca is country (canada) and fr is french language. Now the traffic needs to routed 10% to https://xyz.com/ca/en/index.html a[...]
++
+https://blog.frankel.ch/fixed-routes-apisix/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Parsing structured environment variables in Rust (2024-05-26)::
 I&#8217;m in the process of adding more components to my OpenTelemetry demo (again!). The new design deploys several warehouse services behind the inventory service so the latter can query the former for data via their respective HTTP interface. I implemented each warehouse on top of a different technology stack. This way, I can show OpenTelemetry traces across several stacks.   Anyone should be able to add a warehouse in their favorite tech stack if it returns the correct JSON payload to the inv[...]
 +
 https://blog.frankel.ch/structured-env-vars-rust/[Read further^]
-
-
-
-Workflow, from stateless to stateful (2024-05-19)::
-A (long) time ago, my first job consisted of implementing workflows using the Staffware engine. In short, a workflow comprises tasks; an automated task delegates to code, while a manual task requires somebody to do something and mark it as done. Then, it proceeds to the next task - or tasks. Here&#8217;s a sample workflow:      The above diagram uses Business Process Model and Notation. You can now design your workflow using BPMN and run it with compatible workflow engines.   Time has passed. Sta[...]
-+
-https://blog.frankel.ch/worfklow-stateless-stateful/[Read further^]
 
 
 
