@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.06.12-blue[]
+image:https://img.shields.io/badge/last_updated-2024.06.13-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -50,12 +50,6 @@ https://blog.frankel.ch/structured-env-vars-rust/[Read further^]
 
 
 
-https://pretalx.com/devconf-cz-2024/talk/B8UX8A/[Evolving your APIs, a step-by-step approach^] @ https://www.devconf.info/cz/[DevConf CZ^]::
-+
-When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
-
-
-
 https://www.javaday.org.ua/program-2024-offline[Practical introduction to OpenTelemetry tracing^] @ http://javaday.org.ua/[JavaDay^]::
 +
 Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture.       
@@ -68,6 +62,12 @@ It’s been said that GitHub is a developer’s CV. Just a quick look at your co
 
 
 
+https://technwine.fr/sessions/atelier-apache-apisix[Atelier Apache APISIX^] @ https://technwine.fr/[Tech & Wine^]::
++
+On dit que les données sont le nouveau pétrole. Pour connecter des systèmes hétérogènes, le standard de facto est est les APIs HTTP. Mais aucune entreprise ne se permet d'exposer directement son système d'information à l'extérieur. Vous avez besoin d'un point d'entrée central pour gérer les problématiques transversales comme l'authentification et une liste noire d'adresses IP, mais aussi la limitation du débit et le déploiement canari. Dans cet atelier, nous utiliserons Apache APISIX (sur Docker) pour montrer quelques capacités qui peuvent aider votre système d'information à faire face aux défis introduits par les APIs. * Routage de vos appels vers le bon Upstream * Les abstractions disponibles : Route, Upstream, Service * Le tableau de bord Apache APISIX * Configurer APISIX avec le tableau de bord * Configurer APISIX avec la ligne de commande * Surveillance d'APISIX * Introduction au développement de plugins en Lua
+
+
+
 ## 🎥 Latest video recording
 
-image::https://img.youtube.com/vi/rw37wCkRN74/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=rw37wCkRN74,title="Devoxx Greece 2024 Practical introduction to OpenTelemetry tracing for developers by Nicolas Frankel"]
+image::https://img.youtube.com/vi/mWAKlQvN89c/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=mWAKlQvN89c,title="Nicolas Fränkel – Practical introduction to OpenTelemetry tracing"]
