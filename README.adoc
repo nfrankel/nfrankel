@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.06.16-blue[]
+image:https://img.shields.io/badge/last_updated-2024.06.17-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+A refresher on GitHub Pages (2024-06-16)::
+I moved my blog from WordPress to GitLab Pages in&#8230;&#8203; 2016. I&#8217;m happy with the solution. However, I used GitHub Pages when I was teaching for both the courses and the exercises, e.g., Java EE. At the time, there was no GitHub Actions: I used Travis CI to build and deploy.   Recently, I had to use GitHub Pages to publish my Apache APISIX workshop. Travis is no longer free. GitHub Actions are a thing. I used the now nominal path and faced a few hurdles; here are my findings.   GitHu[...]
++
+https://blog.frankel.ch/refresher-github-pages/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Even more Opentelemetry! (2024-06-02)::
 I continue to work on my Opentelemetry demo. Its main idea is to showcase traces across various technology stacks, including asynchronous communication via an MQTT queue. This week, I added a couple of components and changed the architecture. Here are some noteworthy learnings; note that some of them might not be entirely connected to OpenTelemetry.   Here&#8217;s an updated diagram. New components appear in violet, and updated components appear in green.        I want to be able to add more comp[...]
 +
 https://blog.frankel.ch/even-more-opentelemetry/[Read further^]
-
-
-
-Parsing structured environment variables in Rust (2024-05-26)::
-I&#8217;m in the process of adding more components to my OpenTelemetry demo (again!). The new design deploys several warehouse services behind the inventory service so the latter can query the former for data via their respective HTTP interface. I implemented each warehouse on top of a different technology stack. This way, I can show OpenTelemetry traces across several stacks.   Anyone should be able to add a warehouse in their favorite tech stack if it returns the correct JSON payload to the inv[...]
-+
-https://blog.frankel.ch/structured-env-vars-rust/[Read further^]
 
 
 
