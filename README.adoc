@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.06.23-blue[]
+image:https://img.shields.io/badge/last_updated-2024.06.24-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Renovate for everything (2024-06-23)::
+In my earlier post about moving from Kotlin Scripting to Python, I mentioned several reasons:  Separating the content from the scriptKotlin Scripting is an unloved child of JetBrainsRenovate cannot update Kotlin Scripting files  I was wrong on the third point. Here&#8217;s my mea culpa.   First things first, Renovate does indeed manages Kotlin Scripting files - since 2022.   Even better, Renovate can manage any type of file. Thanks to Max Andersen for the tip:  JVM&#39;s are cheap; not having to [...]
++
+https://blog.frankel.ch/renovate-for-everything/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Random and fixed routes with Apache APISIX (2024-06-09)::
 My ideas for blog posts inevitably start to dry up after over two years at Apache APISIX. Hence, I did some triage on the APISIX repo. I stumbled upon this one question:     We have a requirement to use a plugin, where we need to route the traffic on percentage basis. I&#8217;ll give an example for better understanding.   We have an URL https://xyz.com/ca/fr/index.html where ca is country (canada) and fr is french language. Now the traffic needs to routed 10% to https://xyz.com/ca/en/index.html a[...]
 +
 https://blog.frankel.ch/fixed-routes-apisix/[Read further^]
-
-
-
-Even more Opentelemetry! (2024-06-02)::
-I continue to work on my Opentelemetry demo. Its main idea is to showcase traces across various technology stacks, including asynchronous communication via an MQTT queue. This week, I added a couple of components and changed the architecture. Here are some noteworthy learnings; note that some of them might not be entirely connected to OpenTelemetry.   Here&#8217;s an updated diagram. New components appear in violet, and updated components appear in green.        I want to be able to add more comp[...]
-+
-https://blog.frankel.ch/even-more-opentelemetry/[Read further^]
 
 
 
