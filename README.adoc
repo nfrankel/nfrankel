@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.06.24-blue[]
+image:https://img.shields.io/badge/last_updated-2024.06.25-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -70,4 +70,4 @@ When you publish your first HTTP API, you’re more focused on short-term issues
 
 ## 🎥 Latest video recording
 
-image::https://img.youtube.com/vi/mWAKlQvN89c/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=mWAKlQvN89c,title="Nicolas Fränkel – Practical introduction to OpenTelemetry tracing"]
+image::https://img.youtube.com/vi/wNg__YYiybo/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=wNg__YYiybo,title="Evolving your APIs, a step-by-step approach - DevConf.CZ 2024"]
