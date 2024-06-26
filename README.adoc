@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.06.25-blue[]
+image:https://img.shields.io/badge/last_updated-2024.06.26-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -50,12 +50,6 @@ https://blog.frankel.ch/fixed-routes-apisix/[Read further^]
 
 
 
-https://www.jug.ch/html/events/2024/chopping_the_monolith.html[Chopping the monolith^] @ https://www.jug.ch/[Java User Group CH^]::
-+
-Micro services are ubiquitous. However, most companies that implement micro services do not reap their full benefits - at best. At worst, it’s an epic failure. There are reasons for micro services: independent deployment of business capabilities. However, the unspoken assumption is that you need to deploy all capabilities all the time. My experience has shown me that it’s plain wrong. Some capabilities need frequent deployment, while some are much more stable. In "the past", we used Rule Engines to allow updating business rules without deployment. While it solved the problem, this approach had issues. Between introducing a Rule Engine and migrating your complete system to micro services, I believe that there’s a middle path, and that this path is Function-as-a-Service. In this talk, I’ll detail every point I’ve made above, and show how one can use Serverless to pragmatically design a system that allows deploying as often as you need.  
-
-
-
 https://www.pgday.ch/2024/#schedule[Die API eines armen Mannes mit dem Ökosystem von PostgreSQL^] @ https://www.pgday.ch/[Swiss PGDay 2024^]::
 +
 Die Entwicklung einer vollwertigen API braucht Ressourcen, sowohl Zeit als auch Geld. Ihr müsst über das Modell, das Design, die REST-Grundsätze usw. nachdenken, ohne eine einzige Zeile Code zu schreiben. Meistens weiß man nicht, ob es sich lohnt: Man möchte ein Minimum Viable Product anbieten und von dort aus iterieren. In diesem Vortrag möchte ich euch zeigen, wie ihr das mit PostgreSQL, PostgREST und Apache APISIX erreichen könnt.      
@@ -65,6 +59,12 @@ Die Entwicklung einer vollwertigen API braucht Ressourcen, sowohl Zeit als auch 
 https://www.java-forum-stuttgart.de/vortraege/evolving-your-apis/[Evolving your APIs, a step-by-step approach^] @ https://www.java-forum-stuttgart.de/[Java Forum Stuttgart^]::
 +
 When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
+
+
+
+https://devopsstage.com/speakers/nicolas-frankel-2/[Practical introduction to OpenTelemetry tracing^] @ https://devopsstage.com/[DevOps Stage^]::
++
+Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture.
 
 
 
