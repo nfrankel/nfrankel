@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.06.30-blue[]
+image:https://img.shields.io/badge/last_updated-2024.07.01-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -25,24 +25,24 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 
+Dynamic watermarking on the JVM (2024-06-30)::
+Displaying images on your website makes for an interesting problem: on one side, you want to make them publicly available; on the other, you want to protect them against undue use. The age-long method to achieve it is watermarking:     A digital watermark is a kind of marker covertly embedded in a noise-tolerant signal such as audio, video or image data. It is typically used to identify ownership of the copyright of such signal. 'Watermarking' is the process of hiding digital information in a car[...]
++
+https://blog.frankel.ch/dynamic-watermarking/1/[Read further^]
+
+
+
+Dynamic watermarking (2024-06-30)::
+link/dynamic-watermarking/1/[Dynamic watermarking on the JVM^]: explains how to watermark images on-the-fly inside a JVM.Dynamic watermarking using imgproxy and Apache APISIX: describe how to leverage imgproxy and Apache APISIX to achieve the same regardless of your tech stack.[...]
++
+https://blog.frankel.ch/dynamic-watermarking/[Read further^]
+
+
+
 Renovate for everything (2024-06-23)::
 In my earlier post about moving from Kotlin Scripting to Python, I mentioned several reasons:  Separating the content from the scriptKotlin Scripting is an unloved child of JetBrainsRenovate cannot update Kotlin Scripting files  I was wrong on the third point. Here&#8217;s my mea culpa.   First things first, Renovate does indeed manages Kotlin Scripting files - since 2022.   Even better, Renovate can manage any type of file. Thanks to Max Andersen for the tip:  JVM&#39;s are cheap; not having to [...]
 +
 https://blog.frankel.ch/renovate-for-everything/[Read further^]
-
-
-
-A refresher on GitHub Pages (2024-06-16)::
-I moved my blog from WordPress to GitLab Pages in&#8230;&#8203; 2016. I&#8217;m happy with the solution. However, I used GitHub Pages when I was teaching for both the courses and the exercises, e.g., Java EE. At the time, there was no GitHub Actions: I used Travis CI to build and deploy.   Recently, I had to use GitHub Pages to publish my Apache APISIX workshop. Travis is no longer free. GitHub Actions are a thing. I used the now nominal path and faced a few hurdles; here are my findings.   GitHu[...]
-+
-https://blog.frankel.ch/refresher-github-pages/[Read further^]
-
-
-
-Random and fixed routes with Apache APISIX (2024-06-09)::
-My ideas for blog posts inevitably start to dry up after over two years at Apache APISIX. Hence, I did some triage on the APISIX repo. I stumbled upon this one question:     We have a requirement to use a plugin, where we need to route the traffic on percentage basis. I&#8217;ll give an example for better understanding.   We have an URL https://xyz.com/ca/fr/index.html where ca is country (canada) and fr is french language. Now the traffic needs to routed 10% to https://xyz.com/ca/en/index.html a[...]
-+
-https://blog.frankel.ch/fixed-routes-apisix/[Read further^]
 
 
 
