@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.07.07-blue[]
+image:https://img.shields.io/badge/last_updated-2024.07.08-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -25,6 +25,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 
+Dynamic watermarking with imgproxy and Apache APISIX (2024-07-07)::
+Last week, I described how to add a dynamic watermark to your images on the JVM. I didn&#8217;t find any library, so I had to develop the feature, or, more precisely, an embryo of a feature, by myself. Depending on your tech stack, you must search for an existing library or roll up your sleeves. For example, Rust offers such an out-of-the-box library. Worse, this approach might be impossible to implement if you don&#8217;t have access to the source image.   Another alternative is to use ready-mad[...]
++
+https://blog.frankel.ch/dynamic-watermarking/2/[Read further^]
+
+
+
 Dynamic watermarking on the JVM (2024-06-30)::
 Displaying images on your website makes for an interesting problem: on one side, you want to make them publicly available; on the other, you want to protect them against undue use. The age-long method to achieve it is watermarking:     A digital watermark is a kind of marker covertly embedded in a noise-tolerant signal such as audio, video or image data. It is typically used to identify ownership of the copyright of such signal. 'Watermarking' is the process of hiding digital information in a car[...]
 +
@@ -33,16 +40,9 @@ https://blog.frankel.ch/dynamic-watermarking/1/[Read further^]
 
 
 Dynamic watermarking (2024-06-30)::
-link/dynamic-watermarking/1/[Dynamic watermarking on the JVM^]: explains how to watermark images on-the-fly inside a JVM.Dynamic watermarking using imgproxy and Apache APISIX: describe how to leverage imgproxy and Apache APISIX to achieve the same regardless of your tech stack.[...]
+link/dynamic-watermarking/1/[Dynamic watermarking on the JVM^]: explains how to watermark images on-the-fly inside a JVM.link/dynamic-watermarking/2/[Dynamic watermarking using imgproxy and Apache APISIX^]: describe how to leverage imgproxy and Apache APISIX to achieve the same regardless of your tech stack.[...]
 +
 https://blog.frankel.ch/dynamic-watermarking/[Read further^]
-
-
-
-Renovate for everything (2024-06-23)::
-In my earlier post about moving from Kotlin Scripting to Python, I mentioned several reasons:  Separating the content from the scriptKotlin Scripting is an unloved child of JetBrainsRenovate cannot update Kotlin Scripting files  I was wrong on the third point. Here&#8217;s my mea culpa.   First things first, Renovate does indeed manages Kotlin Scripting files - since 2022.   Even better, Renovate can manage any type of file. Thanks to Max Andersen for the tip:  JVM&#39;s are cheap; not having to [...]
-+
-https://blog.frankel.ch/renovate-for-everything/[Read further^]
 
 
 
