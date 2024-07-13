@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.07.12-blue[]
+image:https://img.shields.io/badge/last_updated-2024.07.13-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -50,21 +50,21 @@ https://blog.frankel.ch/dynamic-watermarking/[Read further^]
 
 
 
+https://worldcongress.app.swapcard.com/event/wearedevelopers-world-congress-2024/planning/UGxhbm5pbmdfMjAyNzU5NA==[On-the-Fly Image Resizing, an Approach to Web Asset Management^] @ https://events.wearedevelopers.com/[We Are Developers World Congress^]::
++
+One of the web architect’s main challenges is to tackle image optimization. The age-old approach is to deliberately create size variants of a single image to deliver the best user experience. It was a time-consuming task, which can be marginally improved with Machine Learning. In this session, I’ll offer a new approach that should both avoid this process and cut storage costs. Join me for practical insights into reducing expenses without compromising web performance.
+
+
+
 https://www.java-forum-stuttgart.de/vortraege/evolving-your-apis/[Evolving your APIs, a step-by-step approach^] @ https://www.java-forum-stuttgart.de/[Java Forum Stuttgart^]::
 +
 When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
 
 
 
-https://devopsstage.com/speakers/nicolas-frankel-2/[Practical introduction to OpenTelemetry tracing^] @ https://devopsstage.com/[DevOps Stage^]::
+https://devopsdays.org/events/2024-vilnius/program/nicolas-frankel[Practical introduction to OpenTelemetry tracing^] @ https://www.devopsdays.org/[DevOps Days Vilnius^]::
 +
 Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture.
-
-
-
-https://softcon.ph/speaker/nicolas-frankel/[Chopping the monolith^] @ https://softcon.ph/[Softcon^]::
-+
-Micro services are ubiquitous. However, most companies that implement micro services do not reap their full benefits - at best. At worst, it’s an epic failure. There are reasons for micro services: independent deployment of business capabilities. However, the unspoken assumption is that you need to deploy all capabilities all the time. My experience has shown me that it’s plain wrong. Some capabilities need frequent deployment, while some are much more stable. In "the past", we used Rule Engines to allow updating business rules without deployment. While it solved the problem, this approach had issues. Between introducing a Rule Engine and migrating your complete system to micro services, I believe that there’s a middle path, and that this path is Function-as-a-Service. In this talk, I’ll detail every point I’ve made above, and show how one can use Serverless to pragmatically design a system that allows deploying as often as you need.  
 
 
 
