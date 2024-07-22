@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.07.21-blue[]
+image:https://img.shields.io/badge/last_updated-2024.07.22-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Differentiating rate limits in Apache APISIX (2024-07-21)::
+In my talk Evolving your APIs, I mention that an API Gateways is a Reverse Proxy 'on steroids'. One key difference between the former and the latter is that the API Gateway is not unfriendly to business logic. The poster child is rate-limiting.   Rate-limiting is an age-old Reverse Proxy feature focused on protecting against DDoS attacks. It treats all clients the same and is purely technical. In this day and age, most API providers offer different subscription tiers; the higher the tier, the hig[...]
++
+https://blog.frankel.ch/different-rate-limits-apisix/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Dynamic watermarking with imgproxy and Apache APISIX (2024-07-07)::
 Last week, I described how to add a dynamic watermark to your images on the JVM. I didn&#8217;t find any library, so I had to develop the feature, or, more precisely, an embryo of a feature, by myself. Depending on your tech stack, you must search for an existing library or roll up your sleeves. For example, Rust offers such an out-of-the-box library. Worse, this approach might be impossible to implement if you don&#8217;t have access to the source image.   Another alternative is to use ready-mad[...]
 +
 https://blog.frankel.ch/dynamic-watermarking/2/[Read further^]
-
-
-
-Dynamic watermarking on the JVM (2024-06-30)::
-Displaying images on your website makes for an interesting problem: on one side, you want to make them publicly available; on the other, you want to protect them against undue use. The age-long method to achieve it is watermarking:     A digital watermark is a kind of marker covertly embedded in a noise-tolerant signal such as audio, video or image data. It is typically used to identify ownership of the copyright of such signal. 'Watermarking' is the process of hiding digital information in a car[...]
-+
-https://blog.frankel.ch/dynamic-watermarking/1/[Read further^]
 
 
 
