@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.07.28-blue[]
+image:https://img.shields.io/badge/last_updated-2024.07.29-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Free tier API with Apache APISIX (2024-07-28)::
+Lots of service providers offer a free tier of their service. The idea is to let you kick their service&#8217;s tires freely. If you need to go above the free tier at any point, you&#8217;ll likely stay on the service and pay. In this day and age, most services are online and accessible via an API. Today, we will implement a free tier with Apache APISIX.   A naive approach   I implemented a free tier in my post Evolving your RESTful APIs, a step-by-step approach, albeit in a very naive way. I cop[...]
++
+https://blog.frankel.ch/free-tier-api-apisix/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Advanced URL rewriting with Apache APISIX (2024-07-14)::
 I spoke at Swiss PgDay in Switzerland in late June. The talk was about how to create a no-code API with the famous PostgreSQL database, the related PostgREST, and Apache APISIX, of course. I already wrote about the idea in a previous post. However, I wanted to improve it, if only slightly.   PostgREST offers a powerful SELECT mechanism. To list all entities with a column equal to a value, you need the following command:    curl /products?id=eq.1   id is the columneq.1 corresponds to the WHERE cla[...]
 +
 https://blog.frankel.ch/advanced-url-rewrite-apisix/[Read further^]
-
-
-
-Dynamic watermarking with imgproxy and Apache APISIX (2024-07-07)::
-Last week, I described how to add a dynamic watermark to your images on the JVM. I didn&#8217;t find any library, so I had to develop the feature, or, more precisely, an embryo of a feature, by myself. Depending on your tech stack, you must search for an existing library or roll up your sleeves. For example, Rust offers such an out-of-the-box library. Worse, this approach might be impossible to implement if you don&#8217;t have access to the source image.   Another alternative is to use ready-mad[...]
-+
-https://blog.frankel.ch/dynamic-watermarking/2/[Read further^]
 
 
 
