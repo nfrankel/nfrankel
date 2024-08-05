@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.08.04-blue[]
+image:https://img.shields.io/badge/last_updated-2024.08.05-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+OpenTelemetry Tracing on Spring Boot, Java Agent vs. Micrometer Tracing (2024-08-04)::
+My demo of OpenTelemetry Tracing features two Spring Boot components. One uses the Java agent, and I noticed a different behavior when I recently upgraded it from v1.x to v2.x. In the other one, I&#8217;m using Micrometer Tracing because I compile to GraalVM native, and it can&#8217;t process Java agents.   I want to compare these three different ways in this post: Java agent v1, Java agent v2, and Micrometer Tracing.   The base application and its infrastructure   I&#8217;ll use the same base ap[...]
++
+https://blog.frankel.ch/opentelemetry-tracing-spring-boot/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Differentiating rate limits in Apache APISIX (2024-07-21)::
 In my talk Evolving your APIs, I mention that an API Gateways is a Reverse Proxy 'on steroids'. One key difference between the former and the latter is that the API Gateway is not unfriendly to business logic. The poster child is rate-limiting.   Rate-limiting is an age-old Reverse Proxy feature focused on protecting against DDoS attacks. It treats all clients the same and is purely technical. In this day and age, most API providers offer different subscription tiers; the higher the tier, the hig[...]
 +
 https://blog.frankel.ch/different-rate-limits-apisix/[Read further^]
-
-
-
-Advanced URL rewriting with Apache APISIX (2024-07-14)::
-I spoke at Swiss PgDay in Switzerland in late June. The talk was about how to create a no-code API with the famous PostgreSQL database, the related PostgREST, and Apache APISIX, of course. I already wrote about the idea in a previous post. However, I wanted to improve it, if only slightly.   PostgREST offers a powerful SELECT mechanism. To list all entities with a column equal to a value, you need the following command:    curl /products?id=eq.1   id is the columneq.1 corresponds to the WHERE cla[...]
-+
-https://blog.frankel.ch/advanced-url-rewrite-apisix/[Read further^]
 
 
 
