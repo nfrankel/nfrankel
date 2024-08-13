@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.08.11-blue[]
+image:https://img.shields.io/badge/last_updated-2024.08.13-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Default map value (2024-08-11)::
+In this post, I&#8217;ll explain how to provide a default value when querying an absent key in a hash map in different programming languages.   Java   Let&#8217;s start with Java, my first professional programming language.   In older versions, retrieving a value from a map required using the get() method:    Map map = new HashMap();                                 (1) Object value = map.get(new Object());                    (2) if (value == null) {     value = 'default';                         [...]
++
+https://blog.frankel.ch/default-map-value/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Free tier API with Apache APISIX (2024-07-28)::
 Lots of service providers offer a free tier of their service. The idea is to let you kick their service&#8217;s tires freely. If you need to go above the free tier at any point, you&#8217;ll likely stay on the service and pay. In this day and age, most services are online and accessible via an API. Today, we will implement a free tier with Apache APISIX.   A naive approach   I implemented a free tier in my post Evolving your RESTful APIs, a step-by-step approach, albeit in a very naive way. I cop[...]
 +
 https://blog.frankel.ch/free-tier-api-apisix/[Read further^]
-
-
-
-Differentiating rate limits in Apache APISIX (2024-07-21)::
-In my talk Evolving your APIs, I mention that an API Gateways is a Reverse Proxy 'on steroids'. One key difference between the former and the latter is that the API Gateway is not unfriendly to business logic. The poster child is rate-limiting.   Rate-limiting is an age-old Reverse Proxy feature focused on protecting against DDoS attacks. It treats all clients the same and is purely technical. In this day and age, most API providers offer different subscription tiers; the higher the tier, the hig[...]
-+
-https://blog.frankel.ch/different-rate-limits-apisix/[Read further^]
 
 
 
