@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.08.18-blue[]
+image:https://img.shields.io/badge/last_updated-2024.08.19-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Kotlin Coroutines and OpenTelemetry tracing (2024-08-18)::
+I recently compared three OpenTelemetry approaches on the JVM: Java Agent v1, v2, and Micrometer. I used Kotlin and coroutines without overthinking. I received interesting feedback on the usage of @WithSpan with coroutines:  Nice one..by the way to instrument the coroutine context properly, don&#39;t we need &quot;opentelemetry-extension-kotlin&quot; also? Without that, spans are not recorded properly for suspend functions (https://t.co/DSgJklnllD) pic.twitter.com/5wDwhYhoDM&mdash; Suresh G (@sur[...]
++
+https://blog.frankel.ch/kotlin-coroutines-otel-tracing/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ OpenTelemetry Tracing on Spring Boot, Java Agent vs. Micrometer Tracing (2024-08
 My demo of OpenTelemetry Tracing features two Spring Boot components. One uses the Java agent, and I noticed a different behavior when I recently upgraded it from v1.x to v2.x. In the other one, I&#8217;m using Micrometer Tracing because I compile to GraalVM native, and it can&#8217;t process Java agents.   I want to compare these three different ways in this post: Java agent v1, Java agent v2, and Micrometer Tracing.   The base application and its infrastructure   I&#8217;ll use the same base ap[...]
 +
 https://blog.frankel.ch/opentelemetry-tracing-spring-boot/[Read further^]
-
-
-
-Free tier API with Apache APISIX (2024-07-28)::
-Lots of service providers offer a free tier of their service. The idea is to let you kick their service&#8217;s tires freely. If you need to go above the free tier at any point, you&#8217;ll likely stay on the service and pay. In this day and age, most services are online and accessible via an API. Today, we will implement a free tier with Apache APISIX.   A naive approach   I implemented a free tier in my post Evolving your RESTful APIs, a step-by-step approach, albeit in a very naive way. I cop[...]
-+
-https://blog.frankel.ch/free-tier-api-apisix/[Read further^]
 
 
 
