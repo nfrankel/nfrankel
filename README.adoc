@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.08.25-blue[]
+image:https://img.shields.io/badge/last_updated-2024.08.28-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+When (not) to write an Apache APISIX plugin (2024-08-25)::
+When I introduce Apache APISIX in my talks, I mention the massive number of existing plugins, and that each of them implements a specific feature. One of the key features of Apache APISIX is its flexibility. If a feature is missing, you can create your own plugin in Lua or a language compiled into Wasm, showcasing the platform&#8217;s adaptability to your specific needs. In this post, I aim to provide practical alternatives to writing a custom plugin, offering solutions you can quickly implement [...]
++
+https://blog.frankel.ch/when-write-apisix-plugin/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Default map value (2024-08-11)::
 In this post, I&#8217;ll explain how to provide a default value when querying an absent key in a hash map in different programming languages.   Java   Let&#8217;s start with Java, my first professional programming language.   In older versions, retrieving a value from a map required using the get() method:    Map map = new HashMap();                                 (1) Object value = map.get(new Object());                    (2) if (value == null) {     value = 'default';                         [...]
 +
 https://blog.frankel.ch/default-map-value/[Read further^]
-
-
-
-OpenTelemetry Tracing on Spring Boot, Java Agent vs. Micrometer Tracing (2024-08-04)::
-My demo of OpenTelemetry Tracing features two Spring Boot components. One uses the Java agent, and I noticed a different behavior when I recently upgraded it from v1.x to v2.x. In the other one, I&#8217;m using Micrometer Tracing because I compile to GraalVM native, and it can&#8217;t process Java agents.   I want to compare these three different ways in this post: Java agent v1, Java agent v2, and Micrometer Tracing.   The base application and its infrastructure   I&#8217;ll use the same base ap[...]
-+
-https://blog.frankel.ch/opentelemetry-tracing-spring-boot/[Read further^]
 
 
 
