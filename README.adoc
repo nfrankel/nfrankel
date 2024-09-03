@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.09.01-blue[]
+image:https://img.shields.io/badge/last_updated-2024.09.03-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+DRY your Apache APISIX config (2024-09-01)::
+DRY is an important principle in software development. This post will show you how to apply it to Apache APISIX configuration.   The DRY principle     'Don&#8217;t repeat yourself' (DRY) is a principle of software development aimed at reducing repetition of information which is likely to change, replacing it with abstractions that are less likely to change, or using data normalization which avoids redundancy in the first place.    &#8212; https://en.wikipedia.org/wiki/Don%27t_repeat_yourself[Wiki[...]
++
+https://blog.frankel.ch/dry-apisix-config/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Kotlin Coroutines and OpenTelemetry tracing (2024-08-18)::
 I recently compared three OpenTelemetry approaches on the JVM: Java Agent v1, v2, and Micrometer. I used Kotlin and coroutines without overthinking. I received interesting feedback on the usage of @WithSpan with coroutines:  Nice one..by the way to instrument the coroutine context properly, don&#39;t we need &quot;opentelemetry-extension-kotlin&quot; also? Without that, spans are not recorded properly for suspend functions (https://t.co/DSgJklnllD) pic.twitter.com/5wDwhYhoDM&mdash; Suresh G (@sur[...]
 +
 https://blog.frankel.ch/kotlin-coroutines-otel-tracing/[Read further^]
-
-
-
-Default map value (2024-08-11)::
-In this post, I&#8217;ll explain how to provide a default value when querying an absent key in a hash map in different programming languages.   Java   Let&#8217;s start with Java, my first professional programming language.   In older versions, retrieving a value from a map required using the get() method:    Map map = new HashMap();                                 (1) Object value = map.get(new Object());                    (2) if (value == null) {     value = 'default';                         [...]
-+
-https://blog.frankel.ch/default-map-value/[Read further^]
 
 
 
