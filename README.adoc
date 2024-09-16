@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.09.15-blue[]
+image:https://img.shields.io/badge/last_updated-2024.09.16-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -25,8 +25,15 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 
+Server-Side Rendering with Spring Boot (2024-09-15)::
+Understanding the shared steps in the project setup is crucial before delving into the specifics of each client-augmenting technology. My requirements from the last post where quite straightforward:    I&#8217;ll assume the viewpoint of a backend developerNo front-end build step: no TypeScript, no minification, etc.All dependencies are managed from the backend app, i.e., Maven    It&#8217;s important to note that the technology I&#8217;ll be detailing, except Vaadin, follows a similar approach. V[...]
++
+https://blog.frankel.ch/ajax-ssr/2/[Read further^]
+
+
+
 AJAX and SSR technologies (2024-09-08)::
-In this focused series, I want to learn about Vue.js and AJAX by implementing a small todo application with each.  A short history of AJAX and SSR[...]
+In this focused series, I want to learn about Vue.js and AJAX by implementing a small todo application with each.  A short history of AJAX and SSRServer-Side Rendering with Spring Boot[...]
 +
 https://blog.frankel.ch/ajax-ssr/[Read further^]
 
@@ -36,13 +43,6 @@ A short history of AJAX and SSR (2024-09-08)::
 My journey in programming began over two decades ago, a time when JavaScript was a far cry from its current state, and developers were primarily focused on Microsoft Internet Explorer. One of my proudest achievements back then was writing a few lines of code that allowed users to add and remove table rows entirely on the client side. We called it DHTML. Many developers today have forgotten about it—or never knew it existed.   A few years later, AJAX emerged, revolutionizing the way we approached [...]
 +
 https://blog.frankel.ch/ajax-ssr/1/[Read further^]
-
-
-
-DRY your Apache APISIX config (2024-09-01)::
-DRY is an important principle in software development. This post will show you how to apply it to Apache APISIX configuration.   The DRY principle     'Don&#8217;t repeat yourself' (DRY) is a principle of software development aimed at reducing repetition of information which is likely to change, replacing it with abstractions that are less likely to change, or using data normalization which avoids redundancy in the first place.    &#8212; https://en.wikipedia.org/wiki/Don%27t_repeat_yourself[Wiki[...]
-+
-https://blog.frankel.ch/dry-apisix-config/[Read further^]
 
 
 
