@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.09.22-blue[]
+image:https://img.shields.io/badge/last_updated-2024.09.23-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -25,6 +25,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 
+Augmenting the client with Vue.js (2024-09-22)::
+In my previous post, I laid the ground to build upon; now is the time to start 'for real'.   I heard a lot of Vue.js. Additionally, a friend who transitioned from developer to manager told me good things about Vue, which further piqued my interest. I decided to have a look at it: it will be the first 'lightweight' JavaScript framework I&#8217;ll study - from the point of view of a newbie, which I am.   Laying out the work   I explained WebJars and Thymeleaf in the last post. Here&#8217;s the setu[...]
++
+https://blog.frankel.ch/ajax-ssr/3/[Read further^]
+
+
+
 Server-Side Rendering with Spring Boot (2024-09-15)::
 Understanding the shared steps in the project setup is crucial before delving into the specifics of each client-augmenting technology. My requirements from the last post where quite straightforward:    I&#8217;ll assume the viewpoint of a backend developerNo front-end build step: no TypeScript, no minification, etc.All dependencies are managed from the backend app, i.e., Maven    It&#8217;s important to note that the technology I&#8217;ll be detailing, except Vaadin, follows a similar approach. V[...]
 +
@@ -33,16 +40,9 @@ https://blog.frankel.ch/ajax-ssr/2/[Read further^]
 
 
 AJAX and SSR technologies (2024-09-08)::
-In this focused series, I want to learn about Vue.js and AJAX by implementing a small todo application with each.  A short history of AJAX and SSRServer-Side Rendering with Spring Boot[...]
+In this focused series, I want to learn about Vue.js and AJAX by implementing a small todo application with each.  A short history of AJAX and SSRServer-Side Rendering with Spring BootAugmenting the client with Vue.js[...]
 +
 https://blog.frankel.ch/ajax-ssr/[Read further^]
-
-
-
-A short history of AJAX and SSR (2024-09-08)::
-My journey in programming began over two decades ago, a time when JavaScript was a far cry from its current state, and developers were primarily focused on Microsoft Internet Explorer. One of my proudest achievements back then was writing a few lines of code that allowed users to add and remove table rows entirely on the client side. We called it DHTML. Many developers today have forgotten about it—or never knew it existed.   A few years later, AJAX emerged, revolutionizing the way we approached [...]
-+
-https://blog.frankel.ch/ajax-ssr/1/[Read further^]
 
 
 
