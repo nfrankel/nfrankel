@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.09.25-blue[]
+image:https://img.shields.io/badge/last_updated-2024.09.26-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -50,12 +50,6 @@ https://blog.frankel.ch/ajax-ssr/[Read further^]
 
 
 
-https://www.devtalks.ro/speakers/475-nicolas-frankel[Practical introduction to OpenTelemetry tracing^] @ http://www.devtalks.ro/cluj/[Dev Talks^]::
-+
-Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture.
-
-
-
 https://devopsstage.com/speakers/nicolas-frankel-2/[Practical introduction to OpenTelemetry tracing^] @ https://devopsstage.com/[DevOps Stage^]::
 +
 Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture.
@@ -65,6 +59,12 @@ Tracking a request’s flow across different components in distributed systems i
 https://conferences.isaqb.org/software-architecture-gathering/program-2024/#make-your-security-policy-auditable[Make Your Security Policy Auditable^] @ http://2018.javacro.hr/eng/[JavaCro^]::
 +
 All mature tech stacks nowadays offer infrastructure-related capabilities, either a standard lib or in 3rd-party libraries, e.g., rate-limiting and authorization. While it’s great to have such features, it’s impossible to audit them easily. You’d need to be familiar with the stack and dive deep into the code. This approach just doesn’t scale, A well-designed system keeps the right feature at the right place. In this talk, I’ll go through all steps toward making your system more easily auditable. I’ll use the authorization of a security policy as an example and start from a regular Spring Boot project with Spring Security. I’ll then move step-by-step, introducing the Open Policy Agent (OPA) and the Apache APISIX API Gateway. The end result will have moved all authorization details buried in the code in a readable accessible place.
+
+
+
+https://devopsstage.com/speakers/nicolas-frankel-2/[Practical introduction to OpenTelemetry tracing^] @ http://2018.javacro.hr/eng/[JavaCro^]::
++
+Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture.
 
 
 
