@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.09.29-blue[]
+image:https://img.shields.io/badge/last_updated-2024.09.30-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Augmenting the client with Alpine.js (2024-09-29)::
+This post is part of a series comparing different ways to implement asynchronous requests on the client, which is colloquially known as AJAX. I dedicated the previous post to Vue.js; I&#8217;ll dedicate this one to Alpine.js - not to be confused with Alpine Linux.   I&#8217;ll follow the same structure as previously.   Laying out the work   Here&#8217;s the setup, server- and client-side.   Server-side  Here is how I integrate Thymeleaf and Alpine.js in the POM:   pom.xml  &lt;dependencies&gt;   [...]
++
+https://blog.frankel.ch/ajax-ssr/4/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Server-Side Rendering with Spring Boot (2024-09-15)::
 Understanding the shared steps in the project setup is crucial before delving into the specifics of each client-augmenting technology. My requirements from the last post where quite straightforward:    I&#8217;ll assume the viewpoint of a backend developerNo front-end build step: no TypeScript, no minification, etc.All dependencies are managed from the backend app, i.e., Maven    It&#8217;s important to note that the technology I&#8217;ll be detailing, except Vaadin, follows a similar approach. V[...]
 +
 https://blog.frankel.ch/ajax-ssr/2/[Read further^]
-
-
-
-AJAX and SSR technologies (2024-09-08)::
-In this focused series, I want to learn about Vue.js and AJAX by implementing a small todo application with each.  A short history of AJAX and SSRServer-Side Rendering with Spring BootAugmenting the client with Vue.js[...]
-+
-https://blog.frankel.ch/ajax-ssr/[Read further^]
 
 
 
