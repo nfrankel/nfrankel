@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.10.06-blue[]
+image:https://img.shields.io/badge/last_updated-2024.10.07-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Augmenting the client with HTMX (2024-10-06)::
+This post is part of a series comparing different ways to implement asynchronous requests on the client to augment the latter. So far, I described the process with Vue.js and Alpine.js. Both are similar from the developers' point of view: they involve JavaScript.   In this post, I&#8217;ll focus on HTMX, whose approach is quite different.   Laying out the work   I&#8217;ll follow the same structure as in the previous posts of the series. Here&#8217;s the setup, server- and client-side.   Server-s[...]
++
+https://blog.frankel.ch/ajax-ssr/5/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Augmenting the client with Vue.js (2024-09-22)::
 In my previous post, I laid the ground to build upon; now is the time to start 'for real'.   I heard a lot of Vue.js. Additionally, a friend who transitioned from developer to manager told me good things about Vue, which further piqued my interest. I decided to have a look at it: it will be the first 'lightweight' JavaScript framework I&#8217;ll study - from the point of view of a newbie, which I am.   Laying out the work   I explained WebJars and Thymeleaf in the last post. Here&#8217;s the setu[...]
 +
 https://blog.frankel.ch/ajax-ssr/3/[Read further^]
-
-
-
-Server-Side Rendering with Spring Boot (2024-09-15)::
-Understanding the shared steps in the project setup is crucial before delving into the specifics of each client-augmenting technology. My requirements from the last post where quite straightforward:    I&#8217;ll assume the viewpoint of a backend developerNo front-end build step: no TypeScript, no minification, etc.All dependencies are managed from the backend app, i.e., Maven    It&#8217;s important to note that the technology I&#8217;ll be detailing, except Vaadin, follows a similar approach. V[...]
-+
-https://blog.frankel.ch/ajax-ssr/2/[Read further^]
 
 
 
