@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.10.13-blue[]
+image:https://img.shields.io/badge/last_updated-2024.10.14-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Vaadin, the battery-included server-side AJAX framework (2024-10-13)::
+I&#8217;ve written a lot about Vaadin. I was so enthusiastic that I wrote the first book about it (besides the Book of Vaadin), its updated edition for Vaadin 7, and a companion website. Still, I&#8217;m amazed that so many people in the JVM world never heard of it.   In this post, I&#8217;d like to introduce Vaadin in the context of AJAX and SSR.   Short introduction to Vaadin   The beauty of Vaadin lies in its simplicity - you only write backend code. You read that well. A Vaadin developer only[...]
++
+https://blog.frankel.ch/ajax-ssr/6/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Augmenting the client with Alpine.js (2024-09-29)::
 This post is part of a series comparing different ways to implement asynchronous requests on the client, which is colloquially known as AJAX. I dedicated the previous post to Vue.js; I&#8217;ll dedicate this one to Alpine.js - not to be confused with Alpine Linux.   I&#8217;ll follow the same structure as previously.   Laying out the work   Here&#8217;s the setup, server- and client-side.   Server-side  Here is how I integrate Thymeleaf and Alpine.js in the POM:   pom.xml  &lt;dependencies&gt;   [...]
 +
 https://blog.frankel.ch/ajax-ssr/4/[Read further^]
-
-
-
-Augmenting the client with Vue.js (2024-09-22)::
-In my previous post, I laid the ground to build upon; now is the time to start 'for real'.   I heard a lot of Vue.js. Additionally, a friend who transitioned from developer to manager told me good things about Vue, which further piqued my interest. I decided to have a look at it: it will be the first 'lightweight' JavaScript framework I&#8217;ll study - from the point of view of a newbie, which I am.   Laying out the work   I explained WebJars and Thymeleaf in the last post. Here&#8217;s the setu[...]
-+
-https://blog.frankel.ch/ajax-ssr/3/[Read further^]
 
 
 
