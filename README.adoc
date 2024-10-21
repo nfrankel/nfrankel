@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.10.18-blue[]
+image:https://img.shields.io/badge/last_updated-2024.10.21-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Summary of the AJAX frameworks comparison (2024-10-20)::
+previous weeks, I've analyzed several libraries and frameworks that augment the client with AJAX capabilities.   Vue.jsAlpine.jsHTMXVaadin  In this post, I&#8217;ll compare them across several axes.   Analysis    Frontend skills  Remember that I started this series from the point of view of a backend developer. In this section, I grade how much you need to know about client technologies to complete the job.  Team organization  In the introduction, I hinted that the decoupling of frontend and back[...]
++
+https://blog.frankel.ch/ajax-ssr/7/[Read further^]
 
 
 
@@ -39,32 +46,25 @@ https://blog.frankel.ch/ajax-ssr/5/[Read further^]
 
 
 
-Augmenting the client with Alpine.js (2024-09-29)::
-This post is part of a series comparing different ways to implement asynchronous requests on the client, which is colloquially known as AJAX. I dedicated the previous post to Vue.js; I&#8217;ll dedicate this one to Alpine.js - not to be confused with Alpine Linux.   I&#8217;ll follow the same structure as previously.   Laying out the work   Here&#8217;s the setup, server- and client-side.   Server-side  Here is how I integrate Thymeleaf and Alpine.js in the POM:   pom.xml  &lt;dependencies&gt;   [...]
-+
-https://blog.frankel.ch/ajax-ssr/4/[Read further^]
-
-
-
 ## 🗣️ Upcoming talks
-
-
-
-https://www.thetesttribe.com/testflix-2024-nicolas-frankel/[An always up-to-date developer's CV^] @ https://www.thetesttribe.com/testflix/[Testflix^]::
-+
-It’s been said that GitHub is a developer’s CV. Just a quick look at your commit history and recruiters know all about you. There are a couple of issues with this approach. Most companies don’t even publish their source code under an Open Source license. If you work for one of them, and if you’re not a rabid Open Source developer, then it’s obviously not helpful. Recently, GitHub allowed some degree of customization of one’s profile. So, even if your commit history has more white than green, you can provide a good entry-point for potential employers. But it’s only as good as the effort you put in it, and it might decay fast. Yet, with a bit of work, and the help of automation tools (such as GitHub Actions), you can provide an always up-to-date profile. In this talk, I’ll present you how to do it, using my own setup as an example.
-
-
-
-https://bed-con.org/2024/programm[Evolving Your APIs, a Step-By-Step Approach^] @ http://www.bed-con.org/[Berlin Expert Days^]::
-+
-When you publish your first HTTP API, you’re more focused on short-term issues than planning for the future. However, chances are you’ll be successful, and you’ll hit the wall. How do you evolve your API without breaking the contract with your existing users? In this talk, I’ll first show you some tips and tricks to achieve that: moving your endpoints, deprecating them, monitoring who’s using them, and letting users know about the new endpoints. The talk is demo-based, and I’ll use the Apache APISIX project for it.
 
 
 
 https://talk4devs.j-labs.pl/en/95-a-walk-through-of-ways-to-dockerize-your-jvm-application-en/[A walk-through of ways to Dockerize your JVM application^] @ https://talk4devs.j-labs.pl/en/[Talk4Devs^]::
 +
 As 'the Cloud' becomes more and more widespread, now is a good time to assess how you can containerize your Java application. I assume you’re able to write a a Dockerfile around the generated JAR. However, each time the application’s code will change, the whole image will need to be rebuilt. If you’re deploying to a local Kubernetes cluster environment, this increases that much the length of the feedback loop. In this demo-based talk, I’ll present different ways to get your Java app in a container: Dockerfile, Jib, and Cloud Native Buildpacks. We will also have a look at what kind of Docker image they generate, how they layer the images, whether those images are compatible with skaffold, etc.  
+
+
+
+https://www.meetup.com/heapspace/events/303957040/[Make your security policy auditable^] @ https://www.meetup.com/heapspace/[Heapspace^]::
++
+All mature tech stacks nowadays offer infrastructure-related capabilities, either a standard lib or in 3rd-party libraries, e.g., rate-limiting and authorization. While it’s great to have such features, it’s impossible to audit them easily. You’d need to be familiar with the stack and dive deep into the code. This approach just doesn’t scale, A well-designed system keeps the right feature at the right place. In this talk, I’ll go through all steps toward making your system more easily auditable. I’ll use the authorization of a security policy as an example and start from a regular Spring Boot project with Spring Security. I’ll then move step-by-step, introducing the Open Policy Agent (OPA) and the Apache APISIX API Gateway. The end result will have moved all authorization details buried in the code in a readable accessible place.
+
+
+
+https://heapcon.io/2024/speakers/nicolas-frankel[Practical introduction to OpenTelemetry tracing^] @ https://heapcon.io[Heapcon^]::
++
+Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture.
 
 
 
