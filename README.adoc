@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.10.21-blue[]
+image:https://img.shields.io/badge/last_updated-2024.10.22-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -26,7 +26,7 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 Summary of the AJAX frameworks comparison (2024-10-20)::
-previous weeks, I've analyzed several libraries and frameworks that augment the client with AJAX capabilities.   Vue.jsAlpine.jsHTMXVaadin  In this post, I&#8217;ll compare them across several axes.   Analysis    Frontend skills  Remember that I started this series from the point of view of a backend developer. In this section, I grade how much you need to know about client technologies to complete the job.  Team organization  In the introduction, I hinted that the decoupling of frontend and back[...]
+In previous weeks, I&#8217;ve analyzed several libraries and frameworks that augment the client with AJAX capabilities.  Vue.jsAlpine.jsHTMXVaadin  In this post, I&#8217;ll compare them across several axes.   Analysis    Frontend skills  Remember that I started this series from the point of view of a backend developer. In this section, I grade how much you need to know about client technologies to complete the job.  Team organization  In the introduction, I hinted that the decoupling of frontend [...]
 +
 https://blog.frankel.ch/ajax-ssr/7/[Read further^]
 
