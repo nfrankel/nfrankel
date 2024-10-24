@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.10.23-blue[]
+image:https://img.shields.io/badge/last_updated-2024.10.24-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -70,4 +70,4 @@ Tracking a request’s flow across different components in distributed systems i
 
 ## 🎥 Latest video recording
 
-image::https://img.youtube.com/vi/wNg__YYiybo/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=wNg__YYiybo,title="Evolving your APIs, a step-by-step approach - DevConf.CZ 2024"]
+image::https://img.youtube.com/vi/_vVh1dGGqKY/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=_vVh1dGGqKY,title="Practical introduction to OpenTelemetry tracing by Nicolas Frankel"]
