@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.10.27-blue[]
+image:https://img.shields.io/badge/last_updated-2024.10.28-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Digital Twins: A digital counterpart for a new concept of Product (2024-10-27)::
+Digital Twins, are digital replicas of physical assets, processes, or systems used to simulate, monitor, and optimize their real-world counterparts. Through real-time data exchange and advanced analytics, digital twins provide a virtual environment for testing scenarios, predicting outcomes, and enhancing decision-making. This concept, first introduced by Michael Grieves in 2002, has rapidly evolved and now plays a crucial role in various sectors, including manufacturing, healthcare, smart cities[...]
++
+https://blog.frankel.ch/digital-twins/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Vaadin, the battery-included server-side AJAX framework (2024-10-13)::
 I&#8217;ve written a lot about Vaadin. I was so enthusiastic that I wrote the first book about it (besides the Book of Vaadin), its updated edition for Vaadin 7, and a companion website. Still, I&#8217;m amazed that so many people in the JVM world never heard of it.   In this post, I&#8217;d like to introduce Vaadin in the context of AJAX and SSR.   Short introduction to Vaadin   The beauty of Vaadin lies in its simplicity - you only write backend code. You read that well. A Vaadin developer only[...]
 +
 https://blog.frankel.ch/ajax-ssr/6/[Read further^]
-
-
-
-Augmenting the client with HTMX (2024-10-06)::
-This post is part of a series comparing different ways to implement asynchronous requests on the client to augment the latter. So far, I described the process with Vue.js and Alpine.js. Both are similar from the developers' point of view: they involve JavaScript.   In this post, I&#8217;ll focus on HTMX, whose approach is quite different.   Laying out the work   I&#8217;ll follow the same structure as in the previous posts of the series. Here&#8217;s the setup, server- and client-side.   Server-s[...]
-+
-https://blog.frankel.ch/ajax-ssr/5/[Read further^]
 
 
 
