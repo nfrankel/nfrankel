@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.11.03-blue[]
+image:https://img.shields.io/badge/last_updated-2024.11.04-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+DuckDB in Action (2024-11-03)::
+The book was sent to me by Michael Simons. He asked for my feedback: I changed my reading schedule, took a few months, and here it is.   Facts  10 chapters288 pages$33.59 (eBook)  Note that MotherDuck, a company providing an online service that builds upon DuckDB, offers a free PDF copy.     Chapters  An introduction to DuckDBGetting started with DuckDBExecuting SQL queriesAdvanced aggregation and analysis of dataExploring data without persistenceIntegrating with the Python ecosystemDuckDB in the[...]
++
+https://blog.frankel.ch/duckdb-in-action/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Summary of the AJAX frameworks comparison (2024-10-20)::
 In previous weeks, I&#8217;ve analyzed several libraries and frameworks that augment the client with AJAX capabilities.  Vue.jsAlpine.jsHTMXVaadin  In this post, I&#8217;ll compare them across several axes.   Analysis    Frontend skills  Remember that I started this series from the point of view of a backend developer. In this section, I grade how much you need to know about client technologies to complete the job.  Team organization  In the introduction, I hinted that the decoupling of frontend [...]
 +
 https://blog.frankel.ch/ajax-ssr/7/[Read further^]
-
-
-
-Vaadin, the battery-included server-side AJAX framework (2024-10-13)::
-I&#8217;ve written a lot about Vaadin. I was so enthusiastic that I wrote the first book about it (besides the Book of Vaadin), its updated edition for Vaadin 7, and a companion website. Still, I&#8217;m amazed that so many people in the JVM world never heard of it.   In this post, I&#8217;d like to introduce Vaadin in the context of AJAX and SSR.   Short introduction to Vaadin   The beauty of Vaadin lies in its simplicity - you only write backend code. You read that well. A Vaadin developer only[...]
-+
-https://blog.frankel.ch/ajax-ssr/6/[Read further^]
 
 
 
