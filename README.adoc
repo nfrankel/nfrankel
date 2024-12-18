@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.12.13-blue[]
+image:https://img.shields.io/badge/last_updated-2024.12.18-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+A solution to the problem of cluster-wide CRDs (2024-12-15)::
+I&#8217;m an average Reddit user, scrolling much more than reading or interacting. Sometimes, however, a post rings a giant red bell. When I stumbled upon If you could add one feature to K8s, what would it be?, I knew the content would be worth it. The most voted answer is:     Namespace scoped CRDs     A short intro to CRDs   Kubernetes comes packed with existing objects, such as Pod, Service, DaemonSet, etc., but you can create your own: the latter are called Custom Resource Definitions. Most o[...]
++
+https://blog.frankel.ch/cluster-wide-crds/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ The Home Assistant model (2024-12-01)::
 Home Assistant is a massive beast. It can be overwhelming for a newcomer; it was for me. In this post, I want to describe the underlying model of Home Assistant, which is a good entry point for your home automation journey.   The biggest issue in describing the Home Assistant is the number of conflicting sources for this model:  The helpers package of the GitHub repositoryThe database; disclaimer: I didn&#8217;t find the schema generation in the code, and I wasn&#8217;t bold enough to check the d[...]
 +
 https://blog.frankel.ch/home-assistant/2/[Read further^]
-
-
-
-Why Home Assistant? (2024-11-24)::
-This is the 1st post in the My journey with Home Assistant focus series. Last June, I spoke at Berlin Buzzwords. In all honesty, I rarely attend others' talks for a variety of reasons: lack of time, lack of energy, no interest in the proposed subjects, etc. When I do, I go either for subjects I know and want to deepen my understanding of or for subjects I know nothing about to get a foot in the door. This time, I attended Monitoring your home, with DevOps observability tools. I thought it would b[...]
-+
-https://blog.frankel.ch/home-assistant/1/[Read further^]
 
 
 
