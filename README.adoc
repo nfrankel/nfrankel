@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2024.12.22-blue[]
+image:https://img.shields.io/badge/last_updated-2024.12.23-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+An example of HACS: Adaptive Lighting (2024-12-22)::
+In the previous post of this focus, we replaced Philips Hue automation with the one from Home Assistant. One significant gap we noticed was that Home Assistant doesn&#8217;t automatically adjust the brightness according to the time of the day, a feature Philips Hue offers. In this post, we are going to address this gap.   The first step when wanting to add a feature to Home Assistant is to browse through available integrations. While there was no out-of-the-box integration, I discovered an altern[...]
++
+https://blog.frankel.ch/home-assistant/4/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Replace Philips Hue automation with Home Assistant's (2024-12-08)::
 This is the 3rd post in the My journey with Home Assistant focus series. I&#8217;m the happy owner of a couple of Philips Hue connected lights for a some years. Some of them are colored, some of them regular. In addition, I bought a sensor to go along with the light I installed in my toilets: it turns on automatically when its detects a movement there. In this post, I want to document how I replaced the proprietary automation with Home Assistant&#8217;s.[...]
 +
 https://blog.frankel.ch/home-assistant/3/[Read further^]
-
-
-
-The Home Assistant model (2024-12-01)::
-Home Assistant is a massive beast. It can be overwhelming for a newcomer; it was for me. In this post, I want to describe the underlying model of Home Assistant, which is a good entry point for your home automation journey.   The biggest issue in describing the Home Assistant is the number of conflicting sources for this model:  The helpers package of the GitHub repositoryThe database; disclaimer: I didn&#8217;t find the schema generation in the code, and I wasn&#8217;t bold enough to check the d[...]
-+
-https://blog.frankel.ch/home-assistant/2/[Read further^]
 
 
 
