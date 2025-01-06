@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.01.05-blue[]
+image:https://img.shields.io/badge/last_updated-2025.01.06-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+2024 in retrospective (2025-01-05)::
+For the first post of 2025, I&#8217;m continuing my retrospective series.   As last year, before diving in into the report proper, I&#8217;d like to remind you that Ukraine is still fighting for its survival after nearly 3 years and countless Russian war crimes. The civilized world can&#8217;t allow rewarding the invasion of a sovereign country, lest we see more invasions. Remember that in 1938, in Munich, European 'leaders' acknowledged Hitler&#8217;s annexation of Czechoslovakia&#8217;s Sudeten[...]
++
+https://blog.frankel.ch/2024-retrospective/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ A solution to the problem of cluster-wide CRDs (2024-12-15)::
 I&#8217;m an average Reddit user, scrolling much more than reading or interacting. Sometimes, however, a post rings a giant red bell. When I stumbled upon If you could add one feature to K8s, what would it be?, I knew the content would be worth it. The most voted answer is:     Namespace scoped CRDs     A short intro to CRDs   Kubernetes comes packed with existing objects, such as Pod, Service, DaemonSet, etc., but you can create your own: the latter are called Custom Resource Definitions. Most o[...]
 +
 https://blog.frankel.ch/cluster-wide-crds/[Read further^]
-
-
-
-Replace Philips Hue automation with Home Assistant's (2024-12-08)::
-This is the 3rd post in the My journey with Home Assistant focus series. I&#8217;m the happy owner of a couple of Philips Hue connected lights for a some years. Some of them are colored, some of them regular. In addition, I bought a sensor to go along with the light I installed in my toilets: it turns on automatically when its detects a movement there. In this post, I want to document how I replaced the proprietary automation with Home Assistant&#8217;s.[...]
-+
-https://blog.frankel.ch/home-assistant/3/[Read further^]
 
 
 
