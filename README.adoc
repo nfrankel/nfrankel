@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.01.12-blue[]
+image:https://img.shields.io/badge/last_updated-2025.01.13-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+The Home Assistant companion app (2025-01-12)::
+Besides a regular webapp and a Mac app, which uses the same endpoints as the webapp, Home Assistant also provides mobile apps. In this post, I want to describe its advantages over the former. I&#8217;ll use iOS to do this: Samsung&#8217;s French partner to recycle used mobiles tricked me once, and I moved away from Samsung. I decided to buy Apple for better integration since I&#8217;ve had Mac computers for the last few years.   Installing and configuring   The companion app is readily available [...]
++
+https://blog.frankel.ch/home-assistant/5/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ An example of HACS: Adaptive Lighting (2024-12-22)::
 In the previous post of this focus, we replaced Philips Hue automation with the one from Home Assistant. One significant gap we noticed was that Home Assistant doesn&#8217;t automatically adjust the brightness according to the time of the day, a feature Philips Hue offers. In this post, we are going to address this gap.   The first step when wanting to add a feature to Home Assistant is to browse through available integrations. While there was no out-of-the-box integration, I discovered an altern[...]
 +
 https://blog.frankel.ch/home-assistant/4/[Read further^]
-
-
-
-A solution to the problem of cluster-wide CRDs (2024-12-15)::
-I&#8217;m an average Reddit user, scrolling much more than reading or interacting. Sometimes, however, a post rings a giant red bell. When I stumbled upon If you could add one feature to K8s, what would it be?, I knew the content would be worth it. The most voted answer is:     Namespace scoped CRDs     A short intro to CRDs   Kubernetes comes packed with existing objects, such as Pod, Service, DaemonSet, etc., but you can create your own: the latter are called Custom Resource Definitions. Most o[...]
-+
-https://blog.frankel.ch/cluster-wide-crds/[Read further^]
 
 
 
