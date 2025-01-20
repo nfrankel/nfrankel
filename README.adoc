@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.01.19-blue[]
+image:https://img.shields.io/badge/last_updated-2025.01.20-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Developer Advocate with 15+ years experience consulting for many different custo
 
 
 ## ✍️ Most recent blog posts
+
+
+
+My first steps with Playwright (2025-01-19)::
+In my previous company, I developed a batch job that tracked metrics across social media, such as Twitter, LinkedIn, Mastodon, Bluesky, Reddit, etc. Then I realized I could duplicate it for my own 'persona'. The problem is that some media don&#8217;t provide an HTTP API for the metrics I want. Here are the metrics I want on LinkedIn:      I searched for a long time but found no API access for the metrics above. I scraped the metrics manually every morning for a long time and finally decided to au[...]
++
+https://blog.frankel.ch/first-steps-playwright/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ https://blog.frankel.ch/home-assistant/5/[Read further^]
 For the first post of 2025, I&#8217;m continuing my retrospective series.   As last year, before diving in into the report proper, I&#8217;d like to remind you that Ukraine is still fighting for its survival after nearly 3 years and countless Russian war crimes. The civilized world can&#8217;t allow rewarding the invasion of a sovereign country, lest we see more invasions. Remember that in 1938, in Munich, European 'leaders' acknowledged Hitler&#8217;s annexation of Czechoslovakia&#8217;s Sudeten[...]
 +
 https://blog.frankel.ch/2024-retrospective/[Read further^]
-
-
-
-An example of HACS: Adaptive Lighting (2024-12-22)::
-In the previous post of this focus, we replaced Philips Hue automation with the one from Home Assistant. One significant gap we noticed was that Home Assistant doesn&#8217;t automatically adjust the brightness according to the time of the day, a feature Philips Hue offers. In this post, we are going to address this gap.   The first step when wanting to add a feature to Home Assistant is to browse through available integrations. While there was no out-of-the-box integration, I discovered an altern[...]
-+
-https://blog.frankel.ch/home-assistant/4/[Read further^]
 
 
 
