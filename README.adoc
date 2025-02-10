@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.02.09-blue[]
+image:https://img.shields.io/badge/last_updated-2025.02.10-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -25,24 +25,24 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 
+Pull request testing on Kubernetes (2025-02-09)::
+Imagine an organization with the following practices:  Commits code on GitHubRuns its CI/CD pipelines with GitHub ActionsRuns its production workload on KubernetesUses Google Cloud  A new engineer manager arrives and asks for the following:     On every PR, run integration tests in a Kubernetes cluster similar to the production one.     It sounds reasonable.  Engineering manager: I want #integrationtests to run on the app deployed on #Cloud infra for each #GitHub PR ✅  Me, thinking it&#x27;s a no[...]
++
+https://blog.frankel.ch/pr-testing-kubernetes/[Read further^]
+
+
+
+Pull request testing on Kubernetes: testing locally and on GitHub workflows (2025-02-09)::
+Imagine an organization with the following practices:  Commits code on GitHubRuns its CI/CD pipelines with GitHub ActionsRuns its production workload on KubernetesUses Google Cloud  A new engineer manager arrives and asks for the following:     On every PR, run integration tests in a Kubernetes cluster similar to the production one.     It sounds reasonable.  Engineering manager: I want #integrationtests to run on the app deployed on #Cloud infra for each #GitHub PR ✅  Me, thinking it&#x27;s a no[...]
++
+https://blog.frankel.ch/pr-testing-kubernetes/1/[Read further^]
+
+
+
 Remote Development made simple with DevPod (2025-02-02)::
 I come relatively late to the subject of Remote Development Environments (also known as Cloud Development Environments). The main reason is that I haven&#8217;t worked in a development team for over six years. However, I&#8217;m now working for Loft Labs, and we have a RDE product: DevPod. I wanted to understand our value proposition as I&#8217;ll be at FOSDEM operating the DevPod booth.   The problem   As a former developer, I vividly remember the pain of setting up each developer&#8217;s develo[...]
 +
 https://blog.frankel.ch/remote-development-devpod/[Read further^]
-
-
-
-On inheritance and subtyping (2025-01-26)::
-Java is the first language I learned in my career. Its structure is foundational in my early years of understanding programming concepts. After going through several other languages with very different approaches, I&#8217;ve widened my point of view. Today, I want to reflect on the idea of inheritance.   Inheritance in Java   In Java, the idea of inheritance is tightly coupled with the concept of subtyping. Subtyping is the implementation of a IS A relationship. For example, the Rabbit class is a[...]
-+
-https://blog.frankel.ch/on-inheritance/[Read further^]
-
-
-
-My first steps with Playwright (2025-01-19)::
-In my previous company, I developed a batch job that tracked metrics across social media, such as Twitter, LinkedIn, Mastodon, Bluesky, Reddit, etc. Then I realized I could duplicate it for my own 'persona'. The problem is that some media don&#8217;t provide an HTTP API for the metrics I want. Here are the metrics I want on LinkedIn:      I searched for a long time but found no API access for the metrics above. I scraped the metrics manually every morning for a long time and finally decided to au[...]
-+
-https://blog.frankel.ch/first-steps-playwright/[Read further^]
 
 
 
