@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.02.16-blue[]
+image:https://img.shields.io/badge/last_updated-2025.02.17-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Pull Request testing on Kubernetes: working with GitHub Actions and GKE (2025-02-16)::
+I&#8217;m continuing my series on running the test suite for each Pull Request on Kubernetes. In the previous post, I laid the groundwork for our learning journey: I developed a basic JVM-based CRUD app, tested it locally using Testcontainers, and tested it in a GitHub workflow with a GitHub service container.   This week, I will raise the ante to run the end-to-end test in the target Kubernetes environment. For this, I&#8217;ve identified gaps that I&#8217;ll implement in this blog post:  Create[...]
++
+https://blog.frankel.ch/pr-testing-kubernetes/2/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Pull request testing on Kubernetes: testing locally and on GitHub workflows (202
 Imagine an organization with the following practices:  Commits code on GitHubRuns its CI/CD pipelines with GitHub ActionsRuns its production workload on KubernetesUses Google Cloud  A new engineer manager arrives and asks for the following:     On every PR, run integration tests in a Kubernetes cluster similar to the production one.     It sounds reasonable.  Engineering manager: I want #integrationtests to run on the app deployed on #Cloud infra for each #GitHub PR ✅  Me, thinking it&#x27;s a no[...]
 +
 https://blog.frankel.ch/pr-testing-kubernetes/1/[Read further^]
-
-
-
-Remote Development made simple with DevPod (2025-02-02)::
-I come relatively late to the subject of Remote Development Environments (also known as Cloud Development Environments). The main reason is that I haven&#8217;t worked in a development team for over six years. However, I&#8217;m now working for Loft Labs, and we have a RDE product: DevPod. I wanted to understand our value proposition as I&#8217;ll be at FOSDEM operating the DevPod booth.   The problem   As a former developer, I vividly remember the pain of setting up each developer&#8217;s develo[...]
-+
-https://blog.frankel.ch/remote-development-devpod/[Read further^]
 
 
 
