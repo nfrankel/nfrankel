@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.03.02-blue[]
+image:https://img.shields.io/badge/last_updated-2025.03.03-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+WebAssembly on Kubernetes (2025-03-02)::
+Like a couple of innovative technologies, different people have different viewpoints on where WebAssembly fits the technology landscape.     WebAssembly (also called Wasm) is certainly the subject of much hype right now. But what is it? Is it the JavaScript Killer? Is it a new programming language for the web? Is it (as we like to say) the next wave of cloud compute? We’ve heard it called many things: a better eBPF, the alternative to RISC V, a competitor to Java (or Flash), a performance booster[...]
++
+https://blog.frankel.ch/webassembly-kubernetes/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Pull Request testing on Kubernetes: working with GitHub Actions and GKE (2025-02
 I&#8217;m continuing my series on running the test suite for each Pull Request on Kubernetes. In the previous post, I laid the groundwork for our learning journey: I developed a basic JVM-based CRUD app, tested it locally using Testcontainers, and tested it in a GitHub workflow with a GitHub service container.   This week, I will raise the ante to run the end-to-end test in the target Kubernetes environment. For this, I&#8217;ve identified gaps that I&#8217;ll implement in this blog post:  Create[...]
 +
 https://blog.frankel.ch/pr-testing-kubernetes/2/[Read further^]
-
-
-
-Pull request testing on Kubernetes (2025-02-09)::
-Imagine an organization with the following practices:  Commits code on GitHubRuns its CI/CD pipelines with GitHub ActionsRuns its production workload on KubernetesUses Google Cloud  A new engineer manager arrives and asks for the following:     On every PR, run integration tests in a Kubernetes cluster similar to the production one.     It sounds reasonable.  Engineering manager: I want #integrationtests to run on the app deployed on #Cloud infra for each #GitHub PR ✅  Me, thinking it&#x27;s a no[...]
-+
-https://blog.frankel.ch/pr-testing-kubernetes/[Read further^]
 
 
 
