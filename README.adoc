@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.03.09-blue[]
+image:https://img.shields.io/badge/last_updated-2025.03.10-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Improving Maven's dependency:analyze... or not (2025-03-09)::
+Recently, my good friend Richard Fichtner advised using the mvn dependency:analyze command to get rid of declared but unused dependencies:  There is another use case for  mvn dependency:analyze  It can show you the dependencies you use in your code but have not declared in your pom.xml. This works because you have a transitive dependency on your classpath. Either don&#x27;t use the dependency or declare it.[image or embed]&mdash; Richard Fichtner 💻☕ (@richard.fichtner.dev) December 10, 2024 at 2:[...]
++
+https://blog.frankel.ch/maven-dependency-analyze/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Pull request testing on Kubernetes: vCluster for isolation and costs control (20
 This week&#8217;s post is the third and final in my series about running tests on Kubernetes for each pull request. In the first post, I described the app and how to test locally using Testcontainers and in a GitHub workflow. The second post focused on setting up the target environment and running end-to-end tests on Kubernetes.   I concluded the latter by mentioning a significant quandary. Creating a dedicated cluster for each workflow significantly impacts the time it takes to run. On GKE, it t[...]
 +
 https://blog.frankel.ch/pr-testing-kubernetes/3/[Read further^]
-
-
-
-Pull Request testing on Kubernetes: working with GitHub Actions and GKE (2025-02-16)::
-I&#8217;m continuing my series on running the test suite for each Pull Request on Kubernetes. In the previous post, I laid the groundwork for our learning journey: I developed a basic JVM-based CRUD app, tested it locally using Testcontainers, and tested it in a GitHub workflow with a GitHub service container.   This week, I will raise the ante to run the end-to-end test in the target Kubernetes environment. For this, I&#8217;ve identified gaps that I&#8217;ll implement in this blog post:  Create[...]
-+
-https://blog.frankel.ch/pr-testing-kubernetes/2/[Read further^]
 
 
 
