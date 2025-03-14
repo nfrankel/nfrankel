@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.03.12-blue[]
+image:https://img.shields.io/badge/last_updated-2025.03.14-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -50,21 +50,21 @@ https://blog.frankel.ch/pr-testing-kubernetes/3/[Read further^]
 
 
 
-https://cloud-native-day-oslo-2025.sessionize.com/session/823793[Practical introduction to OpenTelemetry tracing^] @ https://oslo.cloudnativeday.no/[Cloud Native Day Oslo^]::
-+
-Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture.
-
-
-
-https://www.incontrodevops.it/schedule/#Practical-introduction-to-OpenTelemetry-tracing[Practical introduction to OpenTelemetry tracing^] @ https://www.incontrodevops.it/[Incontro DevOps Italia^]::
-+
-Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture.
-
-
-
 https://www.eventbrite.co.uk/e/ljc-meet-up-at-couchbase-tickets-1277592175589[Practical introduction to OpenTelemetry tracing^] @ https://www.meetup.com/Londonjavacommunity/[London Java Community^]::
 +
 Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture.
+
+
+
+https://www.javaday.istanbul/?pgid=lqqjo3a2-dea3469a-42de-4d1e-b7bd-64239364dc1b[Practical introduction to OpenTelemetry tracing^] @ https://javaday.istanbul/[JavaDay^]::
++
+Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture.
+
+
+
+https://schedule.jcon.one/session/783914[WebAssembly on Kubernetes^] @ http://jcon.one/[JCON^]::
++
+WebAssembly started as a technology tailored to web browsers and is becoming popular as a server-side technology as well. The next step is for Wasm to become a powerful tool for cloud-native applications. When combined with Kubernetes, WebAssembly can revolutionize application deployment, security, and resource efficiency in ways traditional containers cannot. This talk explores why and how to leverage WebAssembly within Kubernetes environments to create scalable, high-performance, and secure applications.
 
 
 
