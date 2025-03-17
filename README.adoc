@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.03.16-blue[]
+image:https://img.shields.io/badge/last_updated-2025.03.17-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+One giant Kubernetes cluster for everything (2025-03-16)::
+The ideal size of your Kubernetes clusters is a day 0 question and demands a definite answer.   You find one giant cluster on one end of the spectrum and many small-sized ones on the other, with every combination in between. This decision will impact your organization for years to come. Worse, if you decide to change your topology, you&#8217;re in for a time-wasting and expensive ride.   I want to list each approach&#8217;s pros and cons in this post. Then, I&#8217;ll settle the discussion once a[...]
++
+https://blog.frankel.ch/one-giant-kubernetes-cluster/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ WebAssembly on Kubernetes (2025-03-02)::
 Like a couple of innovative technologies, different people have different viewpoints on where WebAssembly fits the technology landscape.     WebAssembly (also called Wasm) is certainly the subject of much hype right now. But what is it? Is it the JavaScript Killer? Is it a new programming language for the web? Is it (as we like to say) the next wave of cloud compute? We’ve heard it called many things: a better eBPF, the alternative to RISC V, a competitor to Java (or Flash), a performance booster[...]
 +
 https://blog.frankel.ch/webassembly-kubernetes/[Read further^]
-
-
-
-Pull request testing on Kubernetes: vCluster for isolation and costs control (2025-02-23)::
-This week&#8217;s post is the third and final in my series about running tests on Kubernetes for each pull request. In the first post, I described the app and how to test locally using Testcontainers and in a GitHub workflow. The second post focused on setting up the target environment and running end-to-end tests on Kubernetes.   I concluded the latter by mentioning a significant quandary. Creating a dedicated cluster for each workflow significantly impacts the time it takes to run. On GKE, it t[...]
-+
-https://blog.frankel.ch/pr-testing-kubernetes/3/[Read further^]
 
 
 
