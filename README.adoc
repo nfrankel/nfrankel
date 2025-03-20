@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.03.19-blue[]
+image:https://img.shields.io/badge/last_updated-2025.03.20-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -56,15 +56,15 @@ Tracking a request’s flow across different components in distributed systems i
 
 
 
-https://www.javaday.istanbul/?pgid=lqqjo3a2-dea3469a-42de-4d1e-b7bd-64239364dc1b[Practical introduction to OpenTelemetry tracing^] @ https://javaday.istanbul/[JavaDay^]::
+https://ti.to/dublin-java-user-group/256-nicolas-frankel[Practical introduction to OpenTelemetry tracing^] @ https://dubjug.org/[Dublin JUG^]::
 +
 Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture.
 
 
 
-https://schedule.jcon.one/session/783914[WebAssembly on Kubernetes^] @ http://jcon.one/[JCON^]::
+https://ti.to/dublin-java-user-group/256-nicolas-frankel[End-to-End Pull Request Testing on Kubernetes: A Walkthrough^] @ https://dubjug.org/[Dublin JUG^]::
 +
-WebAssembly started as a technology tailored to web browsers and is becoming popular as a server-side technology as well. The next step is for Wasm to become a powerful tool for cloud-native applications. When combined with Kubernetes, WebAssembly can revolutionize application deployment, security, and resource efficiency in ways traditional containers cannot. This talk explores why and how to leverage WebAssembly within Kubernetes environments to create scalable, high-performance, and secure applications.
+As applications increasingly rely on Kubernetes for deployment, ensuring seamless integration and end-to-end testing during pull requests is crucial. This talk dives into the practical steps of building a robust CI/CD pipeline that mirrors production environments, enabling reliable and efficient testing within your Kubernetes ecosystem. We’ll explore how to: * Set up foundational unit and integration tests using modern tools like Testcontainers and GitHub Workflows. * Integrate Google Kubernetes Engine (GKE) to emulate a production-grade cluster for testing. * Leverage vCluster to isolate test environments, ensuring parallel runs and minimizing interference. * Attendees will gain actionable insights to create scalable and maintainable testing pipelines via an existing working example.
 
 
 
