@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.03.23-blue[]
+image:https://img.shields.io/badge/last_updated-2025.03.25-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Clean your Memory: From Finalize to Cleaner (2025-03-23)::
+Garbage collection in Java takes care of memory management, but it does not clean up non-memory resources like sockets or file handles. Resource leaks may occur without proper management, leading to performance degradation or crashes. Java&#8217;s Cleaner API, introduced in Java 9, provides a modern and efficient mechanism for resource cleanup when objects are no longer reachable. It addresses the shortcomings of the deprecated finalize() method, offering a predictable and efficient way to manage[...]
++
+https://blog.frankel.ch/java-cleaner/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Improving Maven's dependency:analyze... or not (2025-03-09)::
 Recently, my good friend Richard Fichtner advised using the mvn dependency:analyze command to get rid of declared but unused dependencies:  There is another use case for  mvn dependency:analyze  It can show you the dependencies you use in your code but have not declared in your pom.xml. This works because you have a transitive dependency on your classpath. Either don&#x27;t use the dependency or declare it.[image or embed]&mdash; Richard Fichtner 💻☕ (@richard.fichtner.dev) December 10, 2024 at 2:[...]
 +
 https://blog.frankel.ch/maven-dependency-analyze/[Read further^]
-
-
-
-WebAssembly on Kubernetes (2025-03-02)::
-Like a couple of innovative technologies, different people have different viewpoints on where WebAssembly fits the technology landscape.     WebAssembly (also called Wasm) is certainly the subject of much hype right now. But what is it? Is it the JavaScript Killer? Is it a new programming language for the web? Is it (as we like to say) the next wave of cloud compute? We’ve heard it called many things: a better eBPF, the alternative to RISC V, a competitor to Java (or Flash), a performance booster[...]
-+
-https://blog.frankel.ch/webassembly-kubernetes/[Read further^]
 
 
 
