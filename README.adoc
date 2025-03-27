@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.03.26-blue[]
+image:https://img.shields.io/badge/last_updated-2025.03.27-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -70,4 +70,4 @@ Tracking a request’s flow across different components in distributed systems i
 
 ## 🎥 Latest video recording
 
-image::https://img.youtube.com/vi/YN5Pe6Lzxdk/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=YN5Pe6Lzxdk,title="Nicolas Fränkel | Practical Introduction to Opentelemetry Tracing"]
+image::https://img.youtube.com/vi/UOeN3xqyTo0/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=UOeN3xqyTo0,title="Introduction pratique à OpenTelemetry pour les développeurs"]
