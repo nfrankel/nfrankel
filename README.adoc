@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.03.30-blue[]
+image:https://img.shields.io/badge/last_updated-2025.03.31-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Mutation Testing in Rust (2025-03-30)::
+I&#8217;ve been a big fan of Mutation Testing since I discovered PIT. As I dive deeper into Rust, I wanted to check the state of mutation testing in Rust.   Starting with cargo-mutants   I found two crates for mutation testing in Rust:  cargo-mutantsand mutagen  mutagen hasn&#8217;t been maintained for three years, while cargo-mutants is still under active development.   I&#8217;ve ported the sample code from my previous Java code to Rust:    struct LowPassPredicate {     threshold: i32, }  impl [...]
++
+https://blog.frankel.ch/mutation-testing-rust/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ One giant Kubernetes cluster for everything (2025-03-16)::
 The ideal size of your Kubernetes clusters is a day 0 question and demands a definite answer.   You find one giant cluster on one end of the spectrum and many small-sized ones on the other, with every combination in between. This decision will impact your organization for years to come. Worse, if you decide to change your topology, you&#8217;re in for a time-wasting and expensive ride.   I want to list each approach&#8217;s pros and cons in this post. Then, I&#8217;ll settle the discussion once a[...]
 +
 https://blog.frankel.ch/one-giant-kubernetes-cluster/[Read further^]
-
-
-
-Improving Maven's dependency:analyze... or not (2025-03-09)::
-Recently, my good friend Richard Fichtner advised using the mvn dependency:analyze command to get rid of declared but unused dependencies:  There is another use case for  mvn dependency:analyze  It can show you the dependencies you use in your code but have not declared in your pom.xml. This works because you have a transitive dependency on your classpath. Either don&#x27;t use the dependency or declare it.[image or embed]&mdash; Richard Fichtner 💻☕ (@richard.fichtner.dev) December 10, 2024 at 2:[...]
-+
-https://blog.frankel.ch/maven-dependency-analyze/[Read further^]
 
 
 
