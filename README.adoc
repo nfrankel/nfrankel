@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.04.06-blue[]
+image:https://img.shields.io/badge/last_updated-2025.04.07-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Even more OpenTelemetry - Kubernetes special (2025-04-06)::
+I have presented my OpenTelemetry demo many times, and I still do. Each time, the audience is different. To make no two presentations the same, I always ask attendees what stack they are more interested in. I also regularly add new features for the same reason.   I was a victim of the IT crisis last summer, and my company fired me, so I no longer work on Apache APISIX. They say that the Chinese ideogram for crisis contains the ideogram for opportunity. I used this opportunity to join LoftLabs. Lo[...]
++
+https://blog.frankel.ch/even-more-opentelemetry-kubernetes/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Clean your Memory: From Finalize to Cleaner (2025-03-23)::
 Garbage collection in Java takes care of memory management, but it does not clean up non-memory resources like sockets or file handles. Resource leaks may occur without proper management, leading to performance degradation or crashes. Java&#8217;s Cleaner API, introduced in Java 9, provides a modern and efficient mechanism for resource cleanup when objects are no longer reachable. It addresses the shortcomings of the deprecated finalize() method, offering a predictable and efficient way to manage[...]
 +
 https://blog.frankel.ch/java-cleaner/[Read further^]
-
-
-
-One giant Kubernetes cluster for everything (2025-03-16)::
-The ideal size of your Kubernetes clusters is a day 0 question and demands a definite answer.   You find one giant cluster on one end of the spectrum and many small-sized ones on the other, with every combination in between. This decision will impact your organization for years to come. Worse, if you decide to change your topology, you&#8217;re in for a time-wasting and expensive ride.   I want to list each approach&#8217;s pros and cons in this post. Then, I&#8217;ll settle the discussion once a[...]
-+
-https://blog.frankel.ch/one-giant-kubernetes-cluster/[Read further^]
 
 
 
