@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.04.20-blue[]
+image:https://img.shields.io/badge/last_updated-2025.04.21-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+The subtle art of waiting (2025-04-20)::
+Recently, while working on a workshop titled Testing Your Pull Request on Kubernetes with GKE, and GitHub Actions, I faced twice the same issue: service A needs service B, but service A starts faster than service B, and the system fails. In this post, I want to describe the context of these issues and how I solved them both with the same tool.   Waiting in Kubernetes   It might sound strange to wait in Kubernetes. The self-healing nature of the Kubernetes platform is one of its biggest benefits. [...]
++
+https://blog.frankel.ch/subtle-art-waiting/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Even more OpenTelemetry - Kubernetes special (2025-04-06)::
 I have presented my OpenTelemetry demo many times, and I still do. Each time, the audience is different. To make no two presentations the same, I always ask attendees what stack they are more interested in. I also regularly add new features for the same reason.   I was a victim of the IT crisis last summer, and my company fired me, so I no longer work on Apache APISIX. They say that the Chinese ideogram for crisis contains the ideogram for opportunity. I used this opportunity to join LoftLabs. Lo[...]
 +
 https://blog.frankel.ch/even-more-opentelemetry-kubernetes/[Read further^]
-
-
-
-Mutation Testing in Rust (2025-03-30)::
-I&#8217;ve been a big fan of Mutation Testing since I discovered PIT. As I dive deeper into Rust, I wanted to check the state of mutation testing in Rust.   Starting with cargo-mutants   I found two crates for mutation testing in Rust:  cargo-mutantsand mutagen  mutagen hasn&#8217;t been maintained for three years, while cargo-mutants is still under active development.   I&#8217;ve ported the sample code from my previous Java code to Rust:    struct LowPassPredicate {     threshold: i32, }  impl [...]
-+
-https://blog.frankel.ch/mutation-testing-rust/[Read further^]
 
 
 
