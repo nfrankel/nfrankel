@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.04.27-blue[]
+image:https://img.shields.io/badge/last_updated-2025.04.28-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+LangChain4J musings, six months after (2025-04-27)::
+Last year, I started to dig a bit around LangChain4J. It&#8217;s a fast growing project, and I wanted to get familiar with the updates. I also wanted to check how I could integrate a Model Context Protocol server in LangChain4J.[...]
++
+https://blog.frankel.ch/langchain4j-musings-six-months-after/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ High-cardinality values for build flags in Rust (2025-04-13)::
 While working on my demo on WebAssembly and Kubernetes, I wanted to create three different binaries based on the same code:  Native: compile the Rust code to regular native code as a baselineEmbed: compile to WebAssembly and use the WasmEdge runtime image as the base Docker imageRuntime: compile to WebAssembly, use a base scratch image as my base image, and set the runtime when running the code  The code itself is an HTTP server that offers a single endpoint. For the sake of the demo, I wanted it[...]
 +
 https://blog.frankel.ch/high-cardinality-values-build-flags-rust/[Read further^]
-
-
-
-Even more OpenTelemetry - Kubernetes special (2025-04-06)::
-I have presented my OpenTelemetry demo many times, and I still do. Each time, the audience is different. To make no two presentations the same, I always ask attendees what stack they are more interested in. I also regularly add new features for the same reason.   I was a victim of the IT crisis last summer, and my company fired me, so I no longer work on Apache APISIX. They say that the Chinese ideogram for crisis contains the ideogram for opportunity. I used this opportunity to join LoftLabs. Lo[...]
-+
-https://blog.frankel.ch/even-more-opentelemetry-kubernetes/[Read further^]
 
 
 
