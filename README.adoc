@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.05.04-blue[]
+image:https://img.shields.io/badge/last_updated-2025.05.05-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Getting my feet wet with Crossplane (2025-05-04)::
+In the early days of IT, we manually configured servers–each one a precious snowflake, lovingly maintained and documented. But the size of the infrastructure grew and this approach couldn&#8217;t scale. Chef and Puppet popularized the idea of Infrastructure-as-Code: engineers would define the state of the machine(s) in text files, stored in Git–hence the name. A global node would read these files to create a registry. Then, a local agent on each machine would check the desired state at regular in[...]
++
+https://blog.frankel.ch/feet-wet-crossplane/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ The subtle art of waiting (2025-04-20)::
 Recently, while working on a workshop titled Testing Your Pull Request on Kubernetes with GKE, and GitHub Actions, I faced twice the same issue: service A needs service B, but service A starts faster than service B, and the system fails. In this post, I want to describe the context of these issues and how I solved them both with the same tool.   Waiting in Kubernetes   It might sound strange to wait in Kubernetes. The self-healing nature of the Kubernetes platform is one of its biggest benefits. [...]
 +
 https://blog.frankel.ch/subtle-art-waiting/[Read further^]
-
-
-
-High-cardinality values for build flags in Rust (2025-04-13)::
-While working on my demo on WebAssembly and Kubernetes, I wanted to create three different binaries based on the same code:  Native: compile the Rust code to regular native code as a baselineEmbed: compile to WebAssembly and use the WasmEdge runtime image as the base Docker imageRuntime: compile to WebAssembly, use a base scratch image as my base image, and set the runtime when running the code  The code itself is an HTTP server that offers a single endpoint. For the sake of the demo, I wanted it[...]
-+
-https://blog.frankel.ch/high-cardinality-values-build-flags-rust/[Read further^]
 
 
 
