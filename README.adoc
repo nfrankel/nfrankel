@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.05.18-blue[]
+image:https://img.shields.io/badge/last_updated-2025.05.19-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Getting a single value from a device's state in Home Assistant (2025-05-18)::
+This is the 7th post in the My journey with Home Assistant focus series. I recently acquired Netatmo smart radiator valves to manage my rooms' temperature remotely. I&#8217;m not skilled at manual tasks, but I could easily replace the old thermo-static valves. I then registered the smart ones in the Netatmo app. Finally, I integrated them in my Home Assistant via the dedicated Netatmo integration. Everything was very straightforward. I noticed that each valve not only allows remote control but al[...]
++
+https://blog.frankel.ch/home-assistant/7/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Getting my feet wet with Crossplane (2025-05-04)::
 In the early days of IT, we manually configured servers–each one a precious snowflake, lovingly maintained and documented. But the size of the infrastructure grew and this approach couldn&#8217;t scale. Chef and Puppet popularized the idea of Infrastructure-as-Code: engineers would define the state of the machine(s) in text files, stored in Git–hence the name. A global node would read these files to create a registry. Then, a local agent on each machine would check the desired state at regular in[...]
 +
 https://blog.frankel.ch/feet-wet-crossplane/[Read further^]
-
-
-
-LangChain4J musings, six months after (2025-04-27)::
-Last year, I started to dig a bit around LangChain4J. It&#8217;s a fast growing project, and I wanted to get familiar with the updates. I also wanted to check how I could integrate a Model Context Protocol server in LangChain4J.[...]
-+
-https://blog.frankel.ch/langchain4j-musings-six-months-after/[Read further^]
 
 
 
