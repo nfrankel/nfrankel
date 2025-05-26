@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.05.25-blue[]
+image:https://img.shields.io/badge/last_updated-2025.05.26-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Writing for Developers (2025-05-25)::
+I started this blog as a hobby seventeen years ago, in April 2008. At the time, I had no clue about technical writing. I&#8217;m pretty sure it was not even a thing back then: the only content aimed at developers was technical documentation. Since then, the landscape has changed a lot, to the point that companies hire for technical writer positions.   I was curious to compare what I learned by doing to the structured approach of a book. I ordered the book last year when it was still being written[...]
++
+https://blog.frankel.ch/writing-for-developers/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Cloudflare Tunnel for Home Assistant (2025-05-11)::
 This is the 6th post in the My journey with Home Assistant focus series. I continue to take care of my Home Assistant. This week, I replaced my original setup with Cloudflare Tunnel.[...]
 +
 https://blog.frankel.ch/home-assistant/6/[Read further^]
-
-
-
-Getting my feet wet with Crossplane (2025-05-04)::
-In the early days of IT, we manually configured servers–each one a precious snowflake, lovingly maintained and documented. But the size of the infrastructure grew and this approach couldn&#8217;t scale. Chef and Puppet popularized the idea of Infrastructure-as-Code: engineers would define the state of the machine(s) in text files, stored in Git–hence the name. A global node would read these files to create a registry. Then, a local agent on each machine would check the desired state at regular in[...]
-+
-https://blog.frankel.ch/feet-wet-crossplane/[Read further^]
 
 
 
