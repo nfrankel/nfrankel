@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.06.01-blue[]
+image:https://img.shields.io/badge/last_updated-2025.06.02-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Runtime-initialized variables in Rust (2025-06-01)::
+Rust offers different ways to initialize compile time-initialized variables. Recently, I had to create a runtime-initialized variable: existing approaches don&#8217;t work in this case. I want to describe multiple ways to achieve it in this post.   Constants   The Rust language allows you to create constants. Two keywords are available: const and static.     Sometimes a certain value is used many times throughout a program, and it can become inconvenient to copy it over and over. What’s more, it’[...]
++
+https://blog.frankel.ch/lazy-initialized-vars-rust/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Getting a single value from a device's state in Home Assistant (2025-05-18)::
 This is the 7th post in the My journey with Home Assistant focus series. I recently acquired Netatmo smart radiator valves to manage my rooms' temperature remotely. I&#8217;m not skilled at manual tasks, but I could easily replace the old thermo-static valves. I then registered the smart ones in the Netatmo app. Finally, I integrated them in my Home Assistant via the dedicated Netatmo integration. Everything was very straightforward. I noticed that each valve not only allows remote control but al[...]
 +
 https://blog.frankel.ch/home-assistant/7/[Read further^]
-
-
-
-Cloudflare Tunnel for Home Assistant (2025-05-11)::
-This is the 6th post in the My journey with Home Assistant focus series. I continue to take care of my Home Assistant. This week, I replaced my original setup with Cloudflare Tunnel.[...]
-+
-https://blog.frankel.ch/home-assistant/6/[Read further^]
 
 
 
