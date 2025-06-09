@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.06.08-blue[]
+image:https://img.shields.io/badge/last_updated-2025.06.09-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Authoring an OpenRewrite recipe (2025-06-08)::
+I&#8217;ve been eying OpenRewrite for some time, but I haven&#8217;t had time to play with it yet. In case you never heard about OpenRewrite, OpenRewrite takes care of refactoring your codebase to newer language, framework, and paradigm versions.     OpenRewrite is an open-source automated refactoring ecosystem for source code, enabling developers to effectively eliminate technical debt within their repositories.   It consists of an auto-refactoring engine that runs prepackaged, open-source refac[...]
++
+https://blog.frankel.ch/authoring-openrewrite-recipe/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Writing for Developers (2025-05-25)::
 I started this blog as a hobby seventeen years ago, in April 2008. At the time, I had no clue about technical writing. I&#8217;m pretty sure it was not even a thing back then: the only content aimed at developers was technical documentation. Since then, the landscape has changed a lot, to the point that companies hire for technical writer positions.   I was curious to compare what I learned by doing to the structured approach of a book. I ordered the book last year when it was still being written[...]
 +
 https://blog.frankel.ch/writing-for-developers/[Read further^]
-
-
-
-Getting a single value from a device's state in Home Assistant (2025-05-18)::
-This is the 7th post in the My journey with Home Assistant focus series. I recently acquired Netatmo smart radiator valves to manage my rooms' temperature remotely. I&#8217;m not skilled at manual tasks, but I could easily replace the old thermo-static valves. I then registered the smart ones in the Netatmo app. Finally, I integrated them in my Home Assistant via the dedicated Netatmo integration. Everything was very straightforward. I noticed that each valve not only allows remote control but al[...]
-+
-https://blog.frankel.ch/home-assistant/7/[Read further^]
 
 
 
