@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.06.11-blue[]
+image:https://img.shields.io/badge/last_updated-2025.06.12-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -25,6 +25,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 
+OpenRewrite recipes (2025-06-08)::
+I&#8217;ve been eying OpenRewrite for some time, but I haven&#8217;t had time to play with it yet. In case you never heard about OpenRewrite, OpenRewrite takes care of refactoring your codebase to newer language, framework, and paradigm versions.   Using OpenRewrite is pretty straightforward. It already provides a large corpus of existing recipes, some of which are free. What I find amazingly powerful is the ability to author new recipes. I decided to learn about it and write my own in this serie[...]
++
+https://blog.frankel.ch/openrewrite-recipes/[Read further^]
+
+
+
 Authoring an OpenRewrite recipe (2025-06-08)::
 I&#8217;ve been eying OpenRewrite for some time, but I haven&#8217;t had time to play with it yet. In case you never heard about OpenRewrite, OpenRewrite takes care of refactoring your codebase to newer language, framework, and paradigm versions.     OpenRewrite is an open-source automated refactoring ecosystem for source code, enabling developers to effectively eliminate technical debt within their repositories.   It consists of an auto-refactoring engine that runs prepackaged, open-source refac[...]
 +
@@ -32,17 +39,10 @@ https://blog.frankel.ch/authoring-openrewrite-recipe/[Read further^]
 
 
 
-Runtime-initialized variables in Rust (2025-06-01)::
-Rust offers different ways to initialize compile time-initialized variables. Recently, I had to create a runtime-initialized variable: existing approaches don&#8217;t work in this case. I want to describe multiple ways to achieve it in this post.   Constants   The Rust language allows you to create constants. Two keywords are available: const and static.     Sometimes a certain value is used many times throughout a program, and it can become inconvenient to copy it over and over. What’s more, it’[...]
+Authoring an OpenRewrite recipe (2025-06-08)::
+I&#8217;ve been eying OpenRewrite for some time, but I haven&#8217;t had time to play with it yet. In case you never heard about OpenRewrite, OpenRewrite takes care of refactoring your codebase to newer language, framework, and paradigm versions.     OpenRewrite is an open-source automated refactoring ecosystem for source code, enabling developers to effectively eliminate technical debt within their repositories.   It consists of an auto-refactoring engine that runs prepackaged, open-source refac[...]
 +
-https://blog.frankel.ch/lazy-initialized-vars-rust/[Read further^]
-
-
-
-Writing for Developers (2025-05-25)::
-I started this blog as a hobby seventeen years ago, in April 2008. At the time, I had no clue about technical writing. I&#8217;m pretty sure it was not even a thing back then: the only content aimed at developers was technical documentation. Since then, the landscape has changed a lot, to the point that companies hire for technical writer positions.   I was curious to compare what I learned by doing to the structured approach of a book. I ordered the book last year when it was still being written[...]
-+
-https://blog.frankel.ch/writing-for-developers/[Read further^]
+https://blog.frankel.ch/openrewrite-recipes/1/[Read further^]
 
 
 
