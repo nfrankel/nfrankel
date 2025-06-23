@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.06.22-blue[]
+image:https://img.shields.io/badge/last_updated-2025.06.23-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Testing an OpenRewrite recipe (2025-06-22)::
+For the last two weeks, I&#8217;ve kicked the tires of OpenRewrite. At first, I created a recipe to move Kotlin source files as per the official recommendations with a set package name. I then improved the recipe to compute the root automatically. In both versions, I thoroughly tested the recipe. However, my testing approach was wrong. In this post, I want to describe my mistakes, and how I fixed them.   The naive approach   I originally approached the testing of the recipe in a very naive way, t[...]
++
+https://blog.frankel.ch/openrewrite-recipes/3/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ OpenRewrite recipes (2025-06-08)::
 I&#8217;ve been eying OpenRewrite for some time, but I haven&#8217;t had time to play with it yet. In case you never heard about OpenRewrite, OpenRewrite takes care of refactoring your codebase to newer language, framework, and paradigm versions.   Using OpenRewrite is pretty straightforward. It already provides a large corpus of existing recipes, some of which are free. What I find amazingly powerful is the ability to author new recipes. I decided to learn about it and write my own in this serie[...]
 +
 https://blog.frankel.ch/openrewrite-recipes/[Read further^]
-
-
-
-Authoring an OpenRewrite recipe (2025-06-08)::
-I&#8217;ve been eying OpenRewrite for some time, but I haven&#8217;t had time to play with it yet. In case you never heard about OpenRewrite, OpenRewrite takes care of refactoring your codebase to newer language, framework, and paradigm versions.     OpenRewrite is an open-source automated refactoring ecosystem for source code, enabling developers to effectively eliminate technical debt within their repositories.   It consists of an auto-refactoring engine that runs prepackaged, open-source refac[...]
-+
-https://blog.frankel.ch/authoring-openrewrite-recipe/[Read further^]
 
 
 
