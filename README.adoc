@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.06.29-blue[]
+image:https://img.shields.io/badge/last_updated-2025.06.30-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Broadcast devices' name on the local network (2025-06-29)::
+With years, I accumulated devices on my local network, which in general run on Linux. I meticulously added them to my /etc/hosts/ file, so as not to remember their IP. Something puzzled me, though: my Synology NAS was readily available as nas.local on the network, without doing anything. I have close to zero skills in system administration, so here are my findings.   The .local domain   We can learn more about .local domain from Wikipedia.     The domain name .local is a special-use domain name r[...]
++
+https://blog.frankel.ch/broadcast-devices-name-local-network/[Read further^]
 
 
 
@@ -39,20 +46,7 @@ https://blog.frankel.ch/openrewrite-recipes/2/[Read further^]
 
 
 
-OpenRewrite recipes (2025-06-08)::
-I&#8217;ve been eying OpenRewrite for some time, but I haven&#8217;t had time to play with it yet. In case you never heard about OpenRewrite, OpenRewrite takes care of refactoring your codebase to newer language, framework, and paradigm versions.   Using OpenRewrite is pretty straightforward. It already provides a large corpus of existing recipes, some of which are free. What I find amazingly powerful is the ability to author new recipes. I decided to learn about it and write my own in this serie[...]
-+
-https://blog.frankel.ch/openrewrite-recipes/[Read further^]
-
-
-
 ## 🗣️ Upcoming talks
-
-
-
-https://www.codeeurope.pl/en/speakers/nicolas-fraenkel[End-to-End Pull Request Testing on Kubernetes: A Walkthrough^] @ https://www.codeeurope.pl/en[Code Europe^]::
-+
-As applications increasingly rely on Kubernetes for deployment, ensuring seamless integration and end-to-end testing during pull requests is crucial. This talk dives into the practical steps of building a robust CI/CD pipeline that mirrors production environments, enabling reliable and efficient testing within your Kubernetes ecosystem. We’ll explore how to: * Set up foundational unit and integration tests using modern tools like Testcontainers and GitHub Workflows. * Integrate Google Kubernetes Engine (GKE) to emulate a production-grade cluster for testing. * Isolate test environments, ensuring parallel runs and minimizing interference. * Attendees will gain actionable insights to create scalable and maintainable testing pipelines via an existing working example.
 
 
 
@@ -65,6 +59,12 @@ Tracking a request’s flow across different components in distributed systems i
 https://cloudxconf.com/speakers/[Practical introduction to OpenTelemetry tracing^] @ https://www.developerweek.com/cloudx/[DeveloperWeek Cloud X^]::
 +
 Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture.
+
+
+
+https://gotocph.com/2025/sessions/3729/webassembly-on-kubernetes[WebAssembly on Kubernetes^] @ https://gotocph.com/[GOTO Copenhagen^]::
++
+WebAssembly started as a technology tailored to web browsers and is becoming popular as a server-side technology as well. The next step is for Wasm to become a powerful tool for cloud-native applications. When combined with Kubernetes, WebAssembly can revolutionize application deployment, security, and resource efficiency in ways traditional containers cannot. This talk explores why and how to leverage WebAssembly within Kubernetes environments to create scalable, high-performance, and secure applications.
 
 
 
