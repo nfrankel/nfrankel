@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.07.06-blue[]
+image:https://img.shields.io/badge/last_updated-2025.07.07-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Do You know how to batch? (2025-07-06)::
+Concurrent systems face a delicate balance: enabling high throughput under contention while maintaining low latency and predictable behavior. Traditional locking strategies and naive parallelization often introduce performance bottlenecks through cache contention, false sharing, and excessive context switching. These issues are further exacerbated in Cloud and virtualized environments, where performance unpredictability, noisy neighbors, and limited control over physical resources introduce addit[...]
++
+https://blog.frankel.ch/how-to-batch/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Testing an OpenRewrite recipe (2025-06-22)::
 For the last two weeks, I&#8217;ve kicked the tires of OpenRewrite. At first, I created a recipe to move Kotlin source files as per the official recommendations with a set package name. I then improved the recipe to compute the root automatically. In both versions, I thoroughly tested the recipe. However, my testing approach was wrong. In this post, I want to describe my mistakes, and how I fixed them.   The naive approach   I originally approached the testing of the recipe in a very naive way, t[...]
 +
 https://blog.frankel.ch/openrewrite-recipes/3/[Read further^]
-
-
-
-Improving my previous OpenRewrite recipe (2025-06-15)::
-I started discovering OpenRewrite last week by writing a Kotlin recipe that moves Kotlin files according to the official directory structure recommendation. I mentioned some future works, and here they are. In this post, I want to describe how to compute the root package instead of letting the user set it.   Reminder   I developed last week a recipe to follow the Kotlin recommendation regarding directory structure:     In pure Kotlin projects, the recommended directory structure follows the packa[...]
-+
-https://blog.frankel.ch/openrewrite-recipes/2/[Read further^]
 
 
 
