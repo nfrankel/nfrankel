@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.07.13-blue[]
+image:https://img.shields.io/badge/last_updated-2025.07.14-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Loosely coupled configuration for Home Assistant (2025-07-13)::
+This is the 8th post in the My journey with Home Assistant focus series. This post will be short, but I hope useful. My home is getting more and more connected, and the number of my automations grow each month. Recently, I equipped my roller shutters with connected Somfy engines so they could roll down automatically when it&#8217;s too hot in summer. Spoiler: given the current heatwave, it&#8217;s a boon![...]
++
+https://blog.frankel.ch/home-assistant/8/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Broadcast devices' name on the local network (2025-06-29)::
 With years, I accumulated devices on my local network, which in general run on Linux. I meticulously added them to my /etc/hosts/ file, so as not to remember their IP. Something puzzled me, though: my Synology NAS was readily available as nas.local on the network, without doing anything. I have close to zero skills in system administration, so here are my findings.   The .local domain   We can learn more about .local domain from Wikipedia.     The domain name .local is a special-use domain name r[...]
 +
 https://blog.frankel.ch/broadcast-devices-name-local-network/[Read further^]
-
-
-
-Testing an OpenRewrite recipe (2025-06-22)::
-For the last two weeks, I&#8217;ve kicked the tires of OpenRewrite. At first, I created a recipe to move Kotlin source files as per the official recommendations with a set package name. I then improved the recipe to compute the root automatically. In both versions, I thoroughly tested the recipe. However, my testing approach was wrong. In this post, I want to describe my mistakes, and how I fixed them.   The naive approach   I originally approached the testing of the recipe in a very naive way, t[...]
-+
-https://blog.frankel.ch/openrewrite-recipes/3/[Read further^]
 
 
 
