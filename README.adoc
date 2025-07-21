@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.07.20-blue[]
+image:https://img.shields.io/badge/last_updated-2025.07.21-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Pattern-matching across different languages (2025-07-20)::
+Pattern matching is a major feature in software development. While pattern matching applies in several locations, its current usage is limited to switch case blocks. I want to compare the power of pattern matching across a couple of programming languages I&#8217;m familiar with in this post.   I assume that every reader is familiar with the switch case syntax inherited from C. In short:  The switch clause references a value-returning statementEach case clause sets another statement; if the value [...]
++
+https://blog.frankel.ch/pattern-matching-different-languages/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Do You know how to batch? (2025-07-06)::
 Concurrent systems face a delicate balance: enabling high throughput under contention while maintaining low latency and predictable behavior. Traditional locking strategies and naive parallelization often introduce performance bottlenecks through cache contention, false sharing, and excessive context switching. These issues are further exacerbated in Cloud and virtualized environments, where performance unpredictability, noisy neighbors, and limited control over physical resources introduce addit[...]
 +
 https://blog.frankel.ch/how-to-batch/[Read further^]
-
-
-
-Broadcast devices' name on the local network (2025-06-29)::
-With years, I accumulated devices on my local network, which in general run on Linux. I meticulously added them to my /etc/hosts/ file, so as not to remember their IP. Something puzzled me, though: my Synology NAS was readily available as nas.local on the network, without doing anything. I have close to zero skills in system administration, so here are my findings.   The .local domain   We can learn more about .local domain from Wikipedia.     The domain name .local is a special-use domain name r[...]
-+
-https://blog.frankel.ch/broadcast-devices-name-local-network/[Read further^]
 
 
 
