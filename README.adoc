@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.07.22-blue[]
+image:https://img.shields.io/badge/last_updated-2025.07.23-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -70,4 +70,4 @@ WebAssembly started as a technology tailored to web browsers and is becoming pop
 
 ## 🎥 Latest video recording
 
-image::https://img.youtube.com/vi/IvwjyN59Xp0/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=IvwjyN59Xp0,title="DubJUG JAVA HEROES: Nicolas Fränkel"]
+image::https://img.youtube.com/vi/gl4L42DtAQE/sddefault.jpg[Latest video recording,800,link=https://www.youtube.com/watch?v=gl4L42DtAQE,title="Nicolas Fränkel (Garm Solutions) "Practical introduction to OpenTelemetry tracing for Developers""]
