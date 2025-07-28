@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.07.27-blue[]
+image:https://img.shields.io/badge/last_updated-2025.07.28-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Git default options (2025-07-27)::
+Git has become a fundamental part of our developers' daily routine that it&#8217;s hard to remember our lives without it. And yet, most of us use a limited set of commands and options. Today, I want to focus on two commands most developers probably use every day and look at the defaults behind them.   git push   After git commit, git push is probably the second most used command. I don&#8217;t think I&#8217;ll teach you anything with this excerpt from the documentation:     git-push - Update remo[...]
++
+https://blog.frankel.ch/git-default-options/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Loosely coupled configuration for Home Assistant (2025-07-13)::
 This is the 8th post in the My journey with Home Assistant focus series. This post will be short, but I hope useful. My home is getting more and more connected, and the number of my automations grow each month. Recently, I equipped my roller shutters with connected Somfy engines so they could roll down automatically when it&#8217;s too hot in summer. Spoiler: given the current heatwave, it&#8217;s a boon![...]
 +
 https://blog.frankel.ch/home-assistant/8/[Read further^]
-
-
-
-Do You know how to batch? (2025-07-06)::
-Concurrent systems face a delicate balance: enabling high throughput under contention while maintaining low latency and predictable behavior. Traditional locking strategies and naive parallelization often introduce performance bottlenecks through cache contention, false sharing, and excessive context switching. These issues are further exacerbated in Cloud and virtualized environments, where performance unpredictability, noisy neighbors, and limited control over physical resources introduce addit[...]
-+
-https://blog.frankel.ch/how-to-batch/[Read further^]
 
 
 
