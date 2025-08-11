@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.08.10-blue[]
+image:https://img.shields.io/badge/last_updated-2025.08.11-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+OpenTelemetry configuration gotchas (2025-08-10)::
+Last week, I described several approaches to OpenTelemetry on the JVM, their requirements, and their different results. This week, I want to highlight several gotchas found across stacks in the zero-code instrumentation.   The promise of OpenTelemetry   Since its inception, OpenTelemetry has unified the 3 pillars of observability. In the distributed tracing space, it replaced proprietary protocols Zipkin and Jaeger. IMHO, it achieved such success for several reasons:  First, a huge industry press[...]
++
+https://blog.frankel.ch/opentelemetry-gotchas/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Git default options (2025-07-27)::
 Git has become a fundamental part of our developers' daily routine that it&#8217;s hard to remember our lives without it. And yet, most of us use a limited set of commands and options. Today, I want to focus on two commands most developers probably use every day and look at the defaults behind them.   git push   After git commit, git push is probably the second most used command. I don&#8217;t think I&#8217;ll teach you anything with this excerpt from the documentation:     git-push - Update remo[...]
 +
 https://blog.frankel.ch/git-default-options/[Read further^]
-
-
-
-Pattern-matching across different languages (2025-07-20)::
-Pattern matching is a major feature in software development. While pattern matching applies in several locations, its current usage is limited to switch case blocks. I want to compare the power of pattern matching across a couple of programming languages I&#8217;m familiar with in this post.   I assume that every reader is familiar with the switch case syntax inherited from C. In short:  The switch clause references a value-returning statementEach case clause sets another statement; if the value [...]
-+
-https://blog.frankel.ch/pattern-matching-different-languages/[Read further^]
 
 
 
