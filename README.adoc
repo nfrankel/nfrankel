@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.08.17-blue[]
+image:https://img.shields.io/badge/last_updated-2025.08.18-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+KCDC 2025 (2025-08-17)::
+I first started attending conferences, I diligently tried to write down notes and publish them. It forced me to actively listen to the talks I was attending. With the number of conferences rising, I couldn&#8217;t keep the rhythm. When I switched my career path to Developer Advocate, I drastically diminished the number of talks I attended in favor of the hallway track. As a result, the last conference 'report' I wrote was JPrime&#8217;s in 2022.   This week, I was privileged to speak at Developer[...]
++
+https://blog.frankel.ch/kcdc-2025/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ OpenTelemetry Tracing on the JVM (2025-08-03)::
 You may know I&#8217;m a big fan of OpenTelemetry. I recently finished developing a master class for the YOW! conference at the end of the year. During development, I noticed massive differences in configuration and results across programming languages. Even worse, differences exist across frameworks inside the same programming language.   In this post, I want to compare the different zero-code OpenTelemetry approaches on the JVM, covering the most widespread:  Spring Boot with Micrometer Tracing[...]
 +
 https://blog.frankel.ch/opentelemetry-tracing-jvm/[Read further^]
-
-
-
-Git default options (2025-07-27)::
-Git has become a fundamental part of our developers' daily routine that it&#8217;s hard to remember our lives without it. And yet, most of us use a limited set of commands and options. Today, I want to focus on two commands most developers probably use every day and look at the defaults behind them.   git push   After git commit, git push is probably the second most used command. I don&#8217;t think I&#8217;ll teach you anything with this excerpt from the documentation:     git-push - Update remo[...]
-+
-https://blog.frankel.ch/git-default-options/[Read further^]
 
 
 
