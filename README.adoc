@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.08.18-blue[]
+image:https://img.shields.io/badge/last_updated-2025.08.19-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -26,7 +26,7 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 KCDC 2025 (2025-08-17)::
-I first started attending conferences, I diligently tried to write down notes and publish them. It forced me to actively listen to the talks I was attending. With the number of conferences rising, I couldn&#8217;t keep the rhythm. When I switched my career path to Developer Advocate, I drastically diminished the number of talks I attended in favor of the hallway track. As a result, the last conference 'report' I wrote was JPrime&#8217;s in 2022.   This week, I was privileged to speak at Developer[...]
+When I first started attending conferences, I diligently tried to write down notes and publish them. It forced me to actively listen to the talks I was attending. With the number of conferences rising, I couldn&#8217;t keep the rhythm. When I switched my career path to Developer Advocate, I drastically diminished the number of talks I attended in favor of the hallway track. As a result, the last conference 'report' I wrote was JPrime&#8217;s in 2022.   This week, I was privileged to speak at DevO[...]
 +
 https://blog.frankel.ch/kcdc-2025/[Read further^]
 
