@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.08.24-blue[]
+image:https://img.shields.io/badge/last_updated-2025.08.25-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+GitHub workflows tips and tricks (2025-08-24)::
+I&#8217;ve quite a lengthy experience with GitHub workflows, but not up to the point where I can claim I&#8217;m an expert. However, I recently developed a new workflow, and it prompted me to write this post. Feel free to add your own.   What are GitHub workflows?     A workflow is a configurable automated process that will run one or more jobs. Workflows are defined by a YAML file checked in to your repository and will run when triggered by an event in your repository, or they can be triggered m[...]
++
+https://blog.frankel.ch/github-workflows-tips-tricks/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ OpenTelemetry configuration gotchas (2025-08-10)::
 Last week, I described several approaches to OpenTelemetry on the JVM, their requirements, and their different results. This week, I want to highlight several gotchas found across stacks in the zero-code instrumentation.   The promise of OpenTelemetry   Since its inception, OpenTelemetry has unified the 3 pillars of observability. In the distributed tracing space, it replaced proprietary protocols Zipkin and Jaeger. IMHO, it achieved such success for several reasons:  First, a huge industry press[...]
 +
 https://blog.frankel.ch/opentelemetry-gotchas/[Read further^]
-
-
-
-OpenTelemetry Tracing on the JVM (2025-08-03)::
-You may know I&#8217;m a big fan of OpenTelemetry. I recently finished developing a master class for the YOW! conference at the end of the year. During development, I noticed massive differences in configuration and results across programming languages. Even worse, differences exist across frameworks inside the same programming language.   In this post, I want to compare the different zero-code OpenTelemetry approaches on the JVM, covering the most widespread:  Spring Boot with Micrometer Tracing[...]
-+
-https://blog.frankel.ch/opentelemetry-tracing-jvm/[Read further^]
 
 
 
