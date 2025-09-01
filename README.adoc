@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.08.31-blue[]
+image:https://img.shields.io/badge/last_updated-2025.09.01-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Thoughts on object creation (2025-08-31)::
+Creational patterns were first described in the famous Gang of Four&#8217;s Design Patterns. The book presents each pattern in a dedicated chapter and follows a strict structure for each one: intent, motivation, applicability, structure, participants, collaborations, consequences, implementation, sample codes, known uses, and related patterns. The intent pattern presents a succinct goal of the pattern, while the applicability tells when you should use it.   For example, here&#8217;s an excerpt fo[...]
++
+https://blog.frankel.ch/thoughts-object-creation/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ KCDC 2025 (2025-08-17)::
 When I first started attending conferences, I diligently tried to write down notes and publish them. It forced me to actively listen to the talks I was attending. With the number of conferences rising, I couldn&#8217;t keep the rhythm. When I switched my career path to Developer Advocate, I drastically diminished the number of talks I attended in favor of the hallway track. As a result, the last conference 'report' I wrote was JPrime&#8217;s in 2022.   This week, I was privileged to speak at DevO[...]
 +
 https://blog.frankel.ch/kcdc-2025/[Read further^]
-
-
-
-OpenTelemetry configuration gotchas (2025-08-10)::
-Last week, I described several approaches to OpenTelemetry on the JVM, their requirements, and their different results. This week, I want to highlight several gotchas found across stacks in the zero-code instrumentation.   The promise of OpenTelemetry   Since its inception, OpenTelemetry has unified the 3 pillars of observability. In the distributed tracing space, it replaced proprietary protocols Zipkin and Jaeger. IMHO, it achieved such success for several reasons:  First, a huge industry press[...]
-+
-https://blog.frankel.ch/opentelemetry-gotchas/[Read further^]
 
 
 
