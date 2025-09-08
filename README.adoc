@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.09.07-blue[]
+image:https://img.shields.io/badge/last_updated-2025.09.08-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Clean Design, Strong Client: The way of the Elasticsearch's Java SDK (2025-09-07)::
+Java has a vast ecosystem of APIs, not all of which are effective or easy to learn. Developing a good API is not trivial: misdesigning key elements, defining simple abstractions, and threading models are among the themes that must be addressed. The official Elasticsearch Java SDK is a project with a design effort that has been made to address these elements.   Recently, this project surprised me, and I tried to examine the design ideas that make it interesting and effective, while also having som[...]
++
+https://blog.frankel.ch/elastic-java-sdk-design/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ GitHub workflows tips and tricks (2025-08-24)::
 I&#8217;ve quite a lengthy experience with GitHub workflows, but not up to the point where I can claim I&#8217;m an expert. However, I recently developed a new workflow, and it prompted me to write this post. Feel free to add your own.   What are GitHub workflows?     A workflow is a configurable automated process that will run one or more jobs. Workflows are defined by a YAML file checked in to your repository and will run when triggered by an event in your repository, or they can be triggered m[...]
 +
 https://blog.frankel.ch/github-workflows-tips-tricks/[Read further^]
-
-
-
-KCDC 2025 (2025-08-17)::
-When I first started attending conferences, I diligently tried to write down notes and publish them. It forced me to actively listen to the talks I was attending. With the number of conferences rising, I couldn&#8217;t keep the rhythm. When I switched my career path to Developer Advocate, I drastically diminished the number of talks I attended in favor of the hallway track. As a result, the last conference 'report' I wrote was JPrime&#8217;s in 2022.   This week, I was privileged to speak at DevO[...]
-+
-https://blog.frankel.ch/kcdc-2025/[Read further^]
 
 
 
