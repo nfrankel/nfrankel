@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.09.14-blue[]
+image:https://img.shields.io/badge/last_updated-2025.09.15-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Comparing transitive dependency version resolution in Rust and Java (2025-09-14)::
+You learn by comparing to what you already know. I was recently bitten by assuming Rust worked as Java regarding transitive dependency version resolution. In this post, I want to compare the two.   Dependencies, transitivity, and version resolution   Before diving into the specifics of each stack, let&#8217;s describe the domain and the problems that come with it.   When developing any project above Hello World level, chances are you&#8217;ll face problems that others have faced before. If the pr[...]
++
+https://blog.frankel.ch/dependency-version-resolution-rust-java/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Thoughts on object creation (2025-08-31)::
 Creational patterns were first described in the famous Gang of Four&#8217;s Design Patterns. The book presents each pattern in a dedicated chapter and follows a strict structure for each one: intent, motivation, applicability, structure, participants, collaborations, consequences, implementation, sample codes, known uses, and related patterns. The intent pattern presents a succinct goal of the pattern, while the applicability tells when you should use it.   For example, here&#8217;s an excerpt fo[...]
 +
 https://blog.frankel.ch/thoughts-object-creation/[Read further^]
-
-
-
-GitHub workflows tips and tricks (2025-08-24)::
-I&#8217;ve quite a lengthy experience with GitHub workflows, but not up to the point where I can claim I&#8217;m an expert. However, I recently developed a new workflow, and it prompted me to write this post. Feel free to add your own.   What are GitHub workflows?     A workflow is a configurable automated process that will run one or more jobs. Workflows are defined by a YAML file checked in to your repository and will run when triggered by an event in your repository, or they can be triggered m[...]
-+
-https://blog.frankel.ch/github-workflows-tips-tricks/[Read further^]
 
 
 
