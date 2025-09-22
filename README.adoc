@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.09.21-blue[]
+image:https://img.shields.io/badge/last_updated-2025.09.22-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -25,24 +25,24 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 
+Privacy for subdomains (2025-09-21)::
+I recently learned about a new way to leak your privacy, and it&#8217;s a scary one. Before going further, know that I&#8217;m not a network engineer: perhaps if you work in the field, you&#8217;ve known it for your whole career, but it&#8217;s quite new to me. Let me share my findings and you can judge.   Because the original post was quite lengthy, I broke it down into two instalments, the problem and the solution.  The problem[...]
++
+https://blog.frankel.ch/privacy-subdomains/[Read further^]
+
+
+
+Privacy for subdomains: the problem (2025-09-21)::
+I recently learned about a new way to leak your privacy, and it&#8217;s a scary one. Before going further, know that I&#8217;m not a network engineer: perhaps if you work in this field, you&#8217;ve known it for your whole career, but it&#8217;s quite new to me. Let me share my findings, and you can judge for yourself.   Since the original post was quite lengthy, I have broken it down into two installments: the problem and the solution.   The situation   I own my own domain. I&#8217;ve created mu[...]
++
+https://blog.frankel.ch/privacy-subdomains/1/[Read further^]
+
+
+
 Comparing transitive dependency version resolution in Rust and Java (2025-09-14)::
 You learn by comparing to what you already know. I was recently bitten by assuming Rust worked as Java regarding transitive dependency version resolution. In this post, I want to compare the two.   Dependencies, transitivity, and version resolution   Before diving into the specifics of each stack, let&#8217;s describe the domain and the problems that come with it.   When developing any project above Hello World level, chances are you&#8217;ll face problems that others have faced before. If the pr[...]
 +
 https://blog.frankel.ch/dependency-version-resolution-rust-java/[Read further^]
-
-
-
-Clean Design, Strong Client: The way of the Elasticsearch's Java SDK (2025-09-07)::
-Java has a vast ecosystem of APIs, not all of which are effective or easy to learn. Developing a good API is not trivial: misdesigning key elements, defining simple abstractions, and threading models are among the themes that must be addressed. The official Elasticsearch Java SDK is a project with a design effort that has been made to address these elements.   Recently, this project surprised me, and I tried to examine the design ideas that make it interesting and effective, while also having som[...]
-+
-https://blog.frankel.ch/elastic-java-sdk-design/[Read further^]
-
-
-
-Thoughts on object creation (2025-08-31)::
-Creational patterns were first described in the famous Gang of Four&#8217;s Design Patterns. The book presents each pattern in a dedicated chapter and follows a strict structure for each one: intent, motivation, applicability, structure, participants, collaborations, consequences, implementation, sample codes, known uses, and related patterns. The intent pattern presents a succinct goal of the pattern, while the applicability tells when you should use it.   For example, here&#8217;s an excerpt fo[...]
-+
-https://blog.frankel.ch/thoughts-object-creation/[Read further^]
 
 
 
