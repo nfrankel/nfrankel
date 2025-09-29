@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.09.28-blue[]
+image:https://img.shields.io/badge/last_updated-2025.09.29-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -25,8 +25,15 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 
+Privacy for subdomains: the solution (2025-09-28)::
+Last week, I described a gloomy situation: all public TLS certificate providers log your requests. By browsing through the subdomains, one can get their respective IP addresses. If one of them points to your home route, they know your general location.   I analyzed several solutions and decided to use wildcard certificates, which don&#8217;t leak subdomain information, while continuing to use Let&#8217;s Encrypt. My solution caters to my Synology NAS, as it&#8217;s the one I&#8217;m using.   Gett[...]
++
+https://blog.frankel.ch/privacy-subdomains/2/[Read further^]
+
+
+
 Privacy for subdomains (2025-09-21)::
-I recently learned about a new way to leak your privacy, and it&#8217;s a scary one. Before going further, know that I&#8217;m not a network engineer: perhaps if you work in the field, you&#8217;ve known it for your whole career, but it&#8217;s quite new to me. Let me share my findings and you can judge.   Because the original post was quite lengthy, I broke it down into two instalments, the problem and the solution.  The problem[...]
+I recently learned about a new way to leak your privacy, and it&#8217;s a scary one. Before going further, know that I&#8217;m not a network engineer: perhaps if you work in the field, you&#8217;ve known it for your whole career, but it&#8217;s quite new to me. Let me share my findings and you can judge.   Because the original post was quite lengthy, I broke it down into two instalments, the problem and the solution.  The problemThe solution[...]
 +
 https://blog.frankel.ch/privacy-subdomains/[Read further^]
 
@@ -39,20 +46,7 @@ https://blog.frankel.ch/privacy-subdomains/1/[Read further^]
 
 
 
-Comparing transitive dependency version resolution in Rust and Java (2025-09-14)::
-You learn by comparing to what you already know. I was recently bitten by assuming Rust worked as Java regarding transitive dependency version resolution. In this post, I want to compare the two.   Dependencies, transitivity, and version resolution   Before diving into the specifics of each stack, let&#8217;s describe the domain and the problems that come with it.   When developing any project above Hello World level, chances are you&#8217;ll face problems that others have faced before. If the pr[...]
-+
-https://blog.frankel.ch/dependency-version-resolution-rust-java/[Read further^]
-
-
-
 ## 🗣️ Upcoming talks
-
-
-
-https://gotocph.com/2025/sessions/3729/webassembly-on-kubernetes[WebAssembly on Kubernetes^] @ https://gotocph.com/[GOTO Copenhagen^]::
-+
-WebAssembly started as a technology tailored to web browsers and is becoming popular as a server-side technology as well. The next step is for Wasm to become a powerful tool for cloud-native applications. When combined with Kubernetes, WebAssembly can revolutionize application deployment, security, and resource efficiency in ways traditional containers cannot. This talk explores why and how to leverage WebAssembly within Kubernetes environments to create scalable, high-performance, and secure applications.
 
 
 
@@ -63,6 +57,12 @@ WebAssembly started as a technology tailored to web browsers and is becoming pop
 
 
 https://yowcon.com/brisbane-2025/sessions/3619/webassembly-on-kubernetes[WebAssembly on Kubernetes^] @ https://yowcon.com/brisbane-2025[YOW! Brisbane^]::
++
+WebAssembly started as a technology tailored to web browsers and is becoming popular as a server-side technology as well. The next step is for Wasm to become a powerful tool for cloud-native applications. When combined with Kubernetes, WebAssembly can revolutionize application deployment, security, and resource efficiency in ways traditional containers cannot. This talk explores why and how to leverage WebAssembly within Kubernetes environments to create scalable, high-performance, and secure applications.
+
+
+
+https://yowcon.com/sydney-2025/sessions/3618/webassembly-on-kubernetes[WebAssembly on Kubernetes^] @ https://yowcon.com/brisbane-2025[YOW! Brisbane^]::
 +
 WebAssembly started as a technology tailored to web browsers and is becoming popular as a server-side technology as well. The next step is for Wasm to become a powerful tool for cloud-native applications. When combined with Kubernetes, WebAssembly can revolutionize application deployment, security, and resource efficiency in ways traditional containers cannot. This talk explores why and how to leverage WebAssembly within Kubernetes environments to create scalable, high-performance, and secure applications.
 
