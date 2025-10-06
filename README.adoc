@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.10.05-blue[]
+image:https://img.shields.io/badge/last_updated-2025.10.06-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Transactions and ThreadLocal in Spring (2025-10-05)::
+Two years ago, my friend José Paumard held the talk 'Concurrent and Asynchronous Programming : Loom' at the Geneva Java User Group. In his talk, he mentioned that the Spring team would need to completely redesign their approach to transaction: his reasoning was that the transactions are implemented on top of ThreadLocal object and Loom&#8217;s virtual threads break this approach. I was intrigued because though I used Spring transactions a lot via the @Transactional annotation, I never opened thou[...]
++
+https://blog.frankel.ch/transactions-threadlocal-spring/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Privacy for subdomains (2025-09-21)::
 I recently learned about a new way to leak your privacy, and it&#8217;s a scary one. Before going further, know that I&#8217;m not a network engineer: perhaps if you work in the field, you&#8217;ve known it for your whole career, but it&#8217;s quite new to me. Let me share my findings and you can judge.   Because the original post was quite lengthy, I broke it down into two instalments, the problem and the solution.  The problemThe solution[...]
 +
 https://blog.frankel.ch/privacy-subdomains/[Read further^]
-
-
-
-Privacy for subdomains: the problem (2025-09-21)::
-I recently learned about a new way to leak your privacy, and it&#8217;s a scary one. Before going further, know that I&#8217;m not a network engineer: perhaps if you work in this field, you&#8217;ve known it for your whole career, but it&#8217;s quite new to me. Let me share my findings, and you can judge for yourself.   Since the original post was quite lengthy, I have broken it down into two installments: the problem and the solution.   The situation   I own my own domain. I&#8217;ve created mu[...]
-+
-https://blog.frankel.ch/privacy-subdomains/1/[Read further^]
 
 
 
