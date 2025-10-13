@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.10.12-blue[]
+image:https://img.shields.io/badge/last_updated-2025.10.13-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+On dependencies in objects (2025-10-12)::
+In OOP, objects collaborate. The initial idea of collaboration, first found in Smalltalk, was for object A to send a message to object B. Languages designed later use method calling. In both cases, the same question stands: how does an object reference other objects to reach the desired results?   In this post, I tackle the problem of passing dependencies to an object. I will go through several options and analyze their respective pros and cons.   Constructor injection   For constructor injection[...]
++
+https://blog.frankel.ch/dependencies-objects/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Privacy for subdomains: the solution (2025-09-28)::
 Last week, I described a gloomy situation: all public TLS certificate providers log your requests. By browsing through the subdomains, one can get their respective IP addresses. If one of them points to your home route, they know your general location.   I analyzed several solutions and decided to use wildcard certificates, which don&#8217;t leak subdomain information, while continuing to use Let&#8217;s Encrypt. My solution caters to my Synology NAS, as it&#8217;s the one I&#8217;m using.   Gett[...]
 +
 https://blog.frankel.ch/privacy-subdomains/2/[Read further^]
-
-
-
-Privacy for subdomains (2025-09-21)::
-I recently learned about a new way to leak your privacy, and it&#8217;s a scary one. Before going further, know that I&#8217;m not a network engineer: perhaps if you work in the field, you&#8217;ve known it for your whole career, but it&#8217;s quite new to me. Let me share my findings and you can judge.   Because the original post was quite lengthy, I broke it down into two instalments, the problem and the solution.  The problemThe solution[...]
-+
-https://blog.frankel.ch/privacy-subdomains/[Read further^]
 
 
 
