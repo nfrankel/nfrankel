@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.10.19-blue[]
+image:https://img.shields.io/badge/last_updated-2025.10.20-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Testing the untestable (2025-10-19)::
+I&#8217;m currently working on a software designed more than a decade ago. It offers a plugin architecture: you can develop a plugin whose lifecycle is handled by the software. The tough part, though, is how you access the platform capabilities: via static methods on singletons.    @Override public boolean start() {     var aService = AService.getInstance();     var anotherService = AnotherService.getInstance();     // Do something with the services     var result = ...;     return result; }    T[...]
++
+https://blog.frankel.ch/testing-untestable/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Transactions and ThreadLocal in Spring (2025-10-05)::
 Two years ago, my friend José Paumard held the talk 'Concurrent and Asynchronous Programming : Loom' at the Geneva Java User Group. In his talk, he mentioned that the Spring team would need to completely redesign their approach to transaction: his reasoning was that the transactions are implemented on top of ThreadLocal object and Loom&#8217;s virtual threads break this approach. I was intrigued because though I used Spring transactions a lot via the @Transactional annotation, I never opened thou[...]
 +
 https://blog.frankel.ch/transactions-threadlocal-spring/[Read further^]
-
-
-
-Privacy for subdomains: the solution (2025-09-28)::
-Last week, I described a gloomy situation: all public TLS certificate providers log your requests. By browsing through the subdomains, one can get their respective IP addresses. If one of them points to your home route, they know your general location.   I analyzed several solutions and decided to use wildcard certificates, which don&#8217;t leak subdomain information, while continuing to use Let&#8217;s Encrypt. My solution caters to my Synology NAS, as it&#8217;s the one I&#8217;m using.   Gett[...]
-+
-https://blog.frankel.ch/privacy-subdomains/2/[Read further^]
 
 
 
