@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.10.26-blue[]
+image:https://img.shields.io/badge/last_updated-2025.10.27-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+AsciiDoc over Markdown (2025-10-26)::
+I taught myself HTML a long time ago, on a software called HotDog (Pro?). There wasn&#8217;t such a thing as WYSIWYG capabilities at the time. However, HotDog had an amazing feature: the toolbar had all HTML tags (there weren&#8217;t that many at the time) as buttons, and you could learn them by clicking on them and watching the results. The only downside was that you had to click on another button to close the tag.   Then came Dreamweaver. It was the first WYSIWYG editor, and it immediately beca[...]
++
+https://blog.frankel.ch/asciidoc-over-markdown/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ On dependencies in objects (2025-10-12)::
 In OOP, objects collaborate. The initial idea of collaboration, first found in Smalltalk, was for object A to send a message to object B. Languages designed later use method calling. In both cases, the same question stands: how does an object reference other objects to reach the desired results?   In this post, I tackle the problem of passing dependencies to an object. I will go through several options and analyze their respective pros and cons.   Constructor injection   For constructor injection[...]
 +
 https://blog.frankel.ch/dependencies-objects/[Read further^]
-
-
-
-Transactions and ThreadLocal in Spring (2025-10-05)::
-Two years ago, my friend José Paumard held the talk 'Concurrent and Asynchronous Programming : Loom' at the Geneva Java User Group. In his talk, he mentioned that the Spring team would need to completely redesign their approach to transaction: his reasoning was that the transactions are implemented on top of ThreadLocal object and Loom&#8217;s virtual threads break this approach. I was intrigued because though I used Spring transactions a lot via the @Transactional annotation, I never opened thou[...]
-+
-https://blog.frankel.ch/transactions-threadlocal-spring/[Read further^]
 
 
 
