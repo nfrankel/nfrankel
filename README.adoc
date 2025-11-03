@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.11.02-blue[]
+image:https://img.shields.io/badge/last_updated-2025.11.03-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Choosing a dependency (2025-11-02)::
+Fun fact, I thought I had already written this post, but when I wanted to reference it, I found out that I didn&#8217;t. In this post, I&#8217;d like to describe my approach when choosing a dependency. I&#8217;ll first define what I mean by dependency in the context of this post. Then, I&#8217;ll list a grid of several criteria to analyze possible dependencies with.   What is a dependency?   A dependency is literally something your software depends on: infrastructure such as a filesystem or a dat[...]
++
+https://blog.frankel.ch/choosing-dependency/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Testing the untestable (2025-10-19)::
 I&#8217;m currently working on a software designed more than a decade ago. It offers a plugin architecture: you can develop a plugin whose lifecycle is handled by the software. The tough part, though, is how you access the platform capabilities: via static methods on singletons.    @Override public boolean start() {     var aService = AService.getInstance();     var anotherService = AnotherService.getInstance();     // Do something with the services     var result = ...;     return result; }    T[...]
 +
 https://blog.frankel.ch/testing-untestable/[Read further^]
-
-
-
-On dependencies in objects (2025-10-12)::
-In OOP, objects collaborate. The initial idea of collaboration, first found in Smalltalk, was for object A to send a message to object B. Languages designed later use method calling. In both cases, the same question stands: how does an object reference other objects to reach the desired results?   In this post, I tackle the problem of passing dependencies to an object. I will go through several options and analyze their respective pros and cons.   Constructor injection   For constructor injection[...]
-+
-https://blog.frankel.ch/dependencies-objects/[Read further^]
 
 
 
