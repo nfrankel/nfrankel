@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.11.16-blue[]
+image:https://img.shields.io/badge/last_updated-2025.11.17-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Are you really wasting your time in Java without these 10 libraries? (2025-11-16)::
+I recently read and shared You’re Wasting Time in Java Without These 10 Libraries. I commented on it a bit in my newsletter, but given the amount and intensity of reactions, I think a full-blown post is in order. The referenced libraries are:  Project LombokMapStructJUnit 5 &amp; MockitoSLF4J with LogbackApache Commons Lang &amp; Google GuavaJacksonHibernate ValidatorSpring FrameworkApache HttpClient / OkHttpLiquibase or Flyway  Lombok     Project Lombok is a java library that automatically plugs[...]
++
+https://blog.frankel.ch/wasting-time-without-10-libraries/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Choosing a dependency (2025-11-02)::
 Fun fact, I thought I had already written this post, but when I wanted to reference it, I found out that I didn&#8217;t. In this post, I&#8217;d like to describe my approach when choosing a dependency. I&#8217;ll first define what I mean by dependency in the context of this post. Then, I&#8217;ll list a grid of several criteria to analyze possible dependencies with.   What is a dependency?   A dependency is literally something your software depends on: infrastructure such as a filesystem or a dat[...]
 +
 https://blog.frankel.ch/choosing-dependency/[Read further^]
-
-
-
-AsciiDoc over Markdown (2025-10-26)::
-I taught myself HTML a long time ago, on a software called HotDog (Pro?). There wasn&#8217;t such a thing as WYSIWYG capabilities at the time. However, HotDog had an amazing feature: the toolbar had all HTML tags (there weren&#8217;t that many at the time) as buttons, and you could learn them by clicking on them and watching the results. The only downside was that you had to click on another button to close the tag.   Then came Dreamweaver. It was the first WYSIWYG editor, and it immediately beca[...]
-+
-https://blog.frankel.ch/asciidoc-over-markdown/[Read further^]
 
 
 
