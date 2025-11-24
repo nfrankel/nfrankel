@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.11.23-blue[]
+image:https://img.shields.io/badge/last_updated-2025.11.24-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+My first real Rust project (2025-11-23)::
+I have been learning Rust for a couple of years, and using it for pet projects and demos alike. Working for a JVM-heavy company, I thought it would be my fate forever. Last week, I had a nice surprise: I convinced my management that using Rust for a particular project was the right choice. It&#8217;s not a huge project, but I want to describe my experience using Rust in a 'real' project.   The project   Our main software platform has baked-in health sensors for monitoring. These sensors are expos[...]
++
+https://blog.frankel.ch/first-real-rust-project/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ XML Schema Validation 1.1 in Java (2025-11-09)::
 This week, I received an interesting task: dusting off a legacy Java application. The application analyzes specific XML files in proprietary format. I know XML doesn&#8217;t sound sexy to junior developers, but it has an amazing benefit. One can validate a file against a grammar. Such grammar is called an XSD, the acronym for XML Schema Definition. Fun fact: you write XSDs in XML.   In this post, I explain the problem, what I tried, and the final working solution.   The problem   The good thing i[...]
 +
 https://blog.frankel.ch/xml-schema-validation-1-1/[Read further^]
-
-
-
-Choosing a dependency (2025-11-02)::
-Fun fact, I thought I had already written this post, but when I wanted to reference it, I found out that I didn&#8217;t. In this post, I&#8217;d like to describe my approach when choosing a dependency. I&#8217;ll first define what I mean by dependency in the context of this post. Then, I&#8217;ll list a grid of several criteria to analyze possible dependencies with.   What is a dependency?   A dependency is literally something your software depends on: infrastructure such as a filesystem or a dat[...]
-+
-https://blog.frankel.ch/choosing-dependency/[Read further^]
 
 
 
