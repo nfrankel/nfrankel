@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.11.30-blue[]
+image:https://img.shields.io/badge/last_updated-2025.12.01-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+My second Cloudflare Tunnel (2025-11-30)::
+I decided to stop using Twitter, but for my own content and supporting Ukraine against its barbarian invaders, I understood the contemporary media landscape was quite fragmented. I bet on Mastodon, Bluesky, and LinkedIn. My flow is the following: when I read a piece I find interesting, I schedule it for publication. The problem is that every social media platform has a different scheduler: Mastodon has the Mastodon scheduler, LinkedIn has an in-built feature, and Bluesky has&#8230;&#8203; nothing[...]
++
+https://blog.frankel.ch/second-cloudflare-tunnel/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Are you really wasting your time in Java without these 10 libraries? (2025-11-16
 I recently read and shared You’re Wasting Time in Java Without These 10 Libraries. I commented on it a bit in my newsletter, but given the amount and intensity of reactions, I think a full-blown post is in order. The referenced libraries are:  Project LombokMapStructJUnit 5 &amp; MockitoSLF4J with LogbackApache Commons Lang &amp; Google GuavaJacksonHibernate ValidatorSpring FrameworkApache HttpClient / OkHttpLiquibase or Flyway  Lombok     Project Lombok is a java library that automatically plugs[...]
 +
 https://blog.frankel.ch/wasting-time-without-10-libraries/[Read further^]
-
-
-
-XML Schema Validation 1.1 in Java (2025-11-09)::
-This week, I received an interesting task: dusting off a legacy Java application. The application analyzes specific XML files in proprietary format. I know XML doesn&#8217;t sound sexy to junior developers, but it has an amazing benefit. One can validate a file against a grammar. Such grammar is called an XSD, the acronym for XML Schema Definition. Fun fact: you write XSDs in XML.   In this post, I explain the problem, what I tried, and the final working solution.   The problem   The good thing i[...]
-+
-https://blog.frankel.ch/xml-schema-validation-1-1/[Read further^]
 
 
 
