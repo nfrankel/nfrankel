@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.12.03-blue[]
+image:https://img.shields.io/badge/last_updated-2025.12.04-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -47,12 +47,6 @@ https://blog.frankel.ch/wasting-time-without-10-libraries/[Read further^]
 
 
 ## 🗣️ Upcoming talks
-
-
-
-https://yowcon.com/melbourne-2025/sessions/3613/webassembly-on-kubernetes[WebAssembly on Kubernetes^] @ https://yowcon.com/melbourne-2025[YOW! Melbourne^]::
-+
-WebAssembly started as a technology tailored to web browsers and is becoming popular as a server-side technology as well. The next step is for Wasm to become a powerful tool for cloud-native applications. When combined with Kubernetes, WebAssembly can revolutionize application deployment, security, and resource efficiency in ways traditional containers cannot. This talk explores why and how to leverage WebAssembly within Kubernetes environments to create scalable, high-performance, and secure applications.
 
 
 
