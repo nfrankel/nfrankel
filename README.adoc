@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.12.07-blue[]
+image:https://img.shields.io/badge/last_updated-2025.12.08-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Yet another Rust ownership tutorial (2025-12-07)::
+One of the most important concepts to master in Rust is ownership and borrowing. Tons and tons of articles are solely dedicated to this narrow subject. This one tries to explain the concept with examples. I hope it helps you.     Ownership is a set of rules that govern how a Rust program manages memory. All programs have to manage the way they use a computer’s memory while running. Some languages have garbage collection that regularly looks for no-longer-used memory as the program runs; in other [...]
++
+https://blog.frankel.ch/yet-another-rust-ownership-tutorial/[Read further^]
 
 
 
@@ -39,20 +46,7 @@ https://blog.frankel.ch/first-real-rust-project/[Read further^]
 
 
 
-Are you really wasting your time in Java without these 10 libraries? (2025-11-16)::
-I recently read and shared You’re Wasting Time in Java Without These 10 Libraries. I commented on it a bit in my newsletter, but given the amount and intensity of reactions, I think a full-blown post is in order. The referenced libraries are:  Project LombokMapStructJUnit 5 &amp; MockitoSLF4J with LogbackApache Commons Lang &amp; Google GuavaJacksonHibernate ValidatorSpring FrameworkApache HttpClient / OkHttpLiquibase or Flyway  Lombok     Project Lombok is a java library that automatically plugs[...]
-+
-https://blog.frankel.ch/wasting-time-without-10-libraries/[Read further^]
-
-
-
 ## 🗣️ Upcoming talks
-
-
-
-https://yowcon.com/brisbane-2025/sessions/3619/webassembly-on-kubernetes[WebAssembly on Kubernetes^] @ https://yowcon.com/brisbane-2025[YOW! Brisbane^]::
-+
-WebAssembly started as a technology tailored to web browsers and is becoming popular as a server-side technology as well. The next step is for Wasm to become a powerful tool for cloud-native applications. When combined with Kubernetes, WebAssembly can revolutionize application deployment, security, and resource efficiency in ways traditional containers cannot. This talk explores why and how to leverage WebAssembly within Kubernetes environments to create scalable, high-performance, and secure applications.
 
 
 
