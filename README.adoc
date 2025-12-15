@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2025.12.14-blue[]
+image:https://img.shields.io/badge/last_updated-2025.12.15-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+YOW! 2025 (2025-12-14)::
+I have been eyeing the YOW! conferences for probably more than a decade. They occur in Australia, and feature top industry experts. I was thus overjoyed when they invited me to speak on the YOW! tour earlier this year. Here&#8217;s a summary of my amazing time there.   My participation   YOW! takes place in three different cities: Melbourne, Brisbane, and Sidney. I presented my brand new talk on WebAssembly on Kubernetes in each city. It stems from an earlier article, which I reworked and updated[...]
++
+https://blog.frankel.ch/yow-2025/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ My second Cloudflare Tunnel (2025-11-30)::
 I decided to stop using Twitter, but for my own content and supporting Ukraine against its barbarian invaders, I understood the contemporary media landscape was quite fragmented. I bet on Mastodon, Bluesky, and LinkedIn. My flow is the following: when I read a piece I find interesting, I schedule it for publication. The problem is that every social media platform has a different scheduler: Mastodon has the Mastodon scheduler, LinkedIn has an in-built feature, and Bluesky has&#8230;&#8203; nothing[...]
 +
 https://blog.frankel.ch/second-cloudflare-tunnel/[Read further^]
-
-
-
-My first real Rust project (2025-11-23)::
-I have been learning Rust for a couple of years, and using it for pet projects and demos alike. Working for a JVM-heavy company, I thought it would be my fate forever. Last week, I had a nice surprise: I convinced my management that using Rust for a particular project was the right choice. It&#8217;s not a huge project, but I want to describe my experience using Rust in a 'real' project.   The project   Our main software platform has baked-in health sensors for monitoring. These sensors are expos[...]
-+
-https://blog.frankel.ch/first-real-rust-project/[Read further^]
 
 
 
