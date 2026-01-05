@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.01.04-blue[]
+image:https://img.shields.io/badge/last_updated-2026.01.05-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+2025 in retrospective (2026-01-04)::
+From the beginning, the focus of this blog has been technical, very rarely organizational. I broke this unwritten rule once in 2015. I began writing retrospectives in 2023 on the year that had passed. Let&#8217;s continue the tradition, but with a wider scope than before. The situation warrants it.   More chaos   It&#8217;s a hard realization to admit, but the world is spiraling deeper and deeper into chaos. Russia&#8217;s invasion of Ukraine has now dragged into its third year, and still, neithe[...]
++
+https://blog.frankel.ch/2025-retrospective/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Yet another Rust ownership tutorial (2025-12-07)::
 One of the most important concepts to master in Rust is ownership and borrowing. Tons and tons of articles are solely dedicated to this narrow subject. This one tries to explain the concept with examples. I hope it helps you.     Ownership is a set of rules that govern how a Rust program manages memory. All programs have to manage the way they use a computer’s memory while running. Some languages have garbage collection that regularly looks for no-longer-used memory as the program runs; in other [...]
 +
 https://blog.frankel.ch/yet-another-rust-ownership-tutorial/[Read further^]
-
-
-
-My second Cloudflare Tunnel (2025-11-30)::
-I decided to stop using Twitter, but for my own content and supporting Ukraine against its barbarian invaders, I understood the contemporary media landscape was quite fragmented. I bet on Mastodon, Bluesky, and LinkedIn. My flow is the following: when I read a piece I find interesting, I schedule it for publication. The problem is that every social media platform has a different scheduler: Mastodon has the Mastodon scheduler, LinkedIn has an in-built feature, and Bluesky has&#8230;&#8203; nothing[...]
-+
-https://blog.frankel.ch/second-cloudflare-tunnel/[Read further^]
 
 
 
