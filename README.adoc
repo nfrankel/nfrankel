@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.01.11-blue[]
+image:https://img.shields.io/badge/last_updated-2026.01.12-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+From Cloudflare Zero-trust to Tailscale (2026-01-11)::
+I have spent some time last year implementing Cloudflare Tunnels on my Home Assistant and my Synology NAS. On Mastodon, I had not one but two commenters advertising for Tailscale:     Post by @frankel@mastodon.top View on Mastodon     I decided to give it a try and migrate my servers and devices to Tailscale. In this post, I want to describe how I did. Thanks to Heiko Does and higgins for prompting me to look further!   What is Tailscale, how and why?     A Zero Trust identity-based connectivity [...]
++
+https://blog.frankel.ch/cloudflare-zero-trust-tailscale/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ YOW! 2025 (2025-12-14)::
 I have been eyeing the YOW! conferences for probably more than a decade. They occur in Australia, and feature top industry experts. I was thus overjoyed when they invited me to speak on the YOW! tour earlier this year. Here&#8217;s a summary of my amazing time there.   My participation   YOW! takes place in three different cities: Melbourne, Brisbane, and Sidney. I presented my brand new talk on WebAssembly on Kubernetes in each city. It stems from an earlier article, which I reworked and updated[...]
 +
 https://blog.frankel.ch/yow-2025/[Read further^]
-
-
-
-Yet another Rust ownership tutorial (2025-12-07)::
-One of the most important concepts to master in Rust is ownership and borrowing. Tons and tons of articles are solely dedicated to this narrow subject. This one tries to explain the concept with examples. I hope it helps you.     Ownership is a set of rules that govern how a Rust program manages memory. All programs have to manage the way they use a computer’s memory while running. Some languages have garbage collection that regularly looks for no-longer-used memory as the program runs; in other [...]
-+
-https://blog.frankel.ch/yet-another-rust-ownership-tutorial/[Read further^]
 
 
 
