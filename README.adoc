@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.01.18-blue[]
+image:https://img.shields.io/badge/last_updated-2026.01.19-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Checked exceptions and lambdas (2026-01-18)::
+Java&#8217;s checked exceptions were a massive improvement over C&#8217;s error-handling mechanism. As time passed and experience accumulated, we collectively concluded that we weren&#8217;t there yet. However, Java&#8217;s focus on stability has kept checked exceptions in its existing API.   Java 8 brought lambdas after the 'checked exceptions are great' trend. None of the functional interface methods accepts a checked exception. In this post, I will demonstrate three different approaches to mak[...]
++
+https://blog.frankel.ch/checked-exceptions-lambdas/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ https://blog.frankel.ch/cloudflare-zero-trust-tailscale/[Read further^]
 From the beginning, the focus of this blog has been technical, very rarely organizational. I broke this unwritten rule once in 2015. I began writing retrospectives in 2023 on the year that had passed. Let&#8217;s continue the tradition, but with a wider scope than before. The situation warrants it.   More chaos   It&#8217;s a hard realization to admit, but the world is spiraling deeper and deeper into chaos. Russia&#8217;s invasion of Ukraine has now dragged into its third year, and still, neithe[...]
 +
 https://blog.frankel.ch/2025-retrospective/[Read further^]
-
-
-
-YOW! 2025 (2025-12-14)::
-I have been eyeing the YOW! conferences for probably more than a decade. They occur in Australia, and feature top industry experts. I was thus overjoyed when they invited me to speak on the YOW! tour earlier this year. Here&#8217;s a summary of my amazing time there.   My participation   YOW! takes place in three different cities: Melbourne, Brisbane, and Sidney. I presented my brand new talk on WebAssembly on Kubernetes in each city. It stems from an earlier article, which I reworked and updated[...]
-+
-https://blog.frankel.ch/yow-2025/[Read further^]
 
 
 
