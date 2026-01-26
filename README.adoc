@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.01.25-blue[]
+image:https://img.shields.io/badge/last_updated-2026.01.26-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+From a JAR to a full-fledged MacOS app (2026-01-25)::
+A couple of years ago, I developed a small Kotlin GUI to help me rename my files in batch. I actually created it with different JVM frameworks to compare their relative merits. In any case, I didn&#8217;t use it up until last week. And then, I was surprised to see that it didn&#8217;t work to rename a network volume, although it had in the past. In this brief post, I aim to describe the issue and its solution.   The problem   When launching the UberJAR, I couldn&#8217;t see the network volumes. I[...]
++
+https://blog.frankel.ch/jar-to-macos-app/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ From Cloudflare Zero-trust to Tailscale (2026-01-11)::
 I have spent some time last year implementing Cloudflare Tunnels on my Home Assistant and my Synology NAS. On Mastodon, I had not one but two commenters advertising for Tailscale:     Post by @frankel@mastodon.top View on Mastodon     I decided to give it a try and migrate my servers and devices to Tailscale. In this post, I want to describe how I did. Thanks to Heiko Does and higgins for prompting me to look further!   What is Tailscale, how and why?     A Zero Trust identity-based connectivity [...]
 +
 https://blog.frankel.ch/cloudflare-zero-trust-tailscale/[Read further^]
-
-
-
-2025 in retrospective (2026-01-04)::
-From the beginning, the focus of this blog has been technical, very rarely organizational. I broke this unwritten rule once in 2015. I began writing retrospectives in 2023 on the year that had passed. Let&#8217;s continue the tradition, but with a wider scope than before. The situation warrants it.   More chaos   It&#8217;s a hard realization to admit, but the world is spiraling deeper and deeper into chaos. Russia&#8217;s invasion of Ukraine has now dragged into its third year, and still, neithe[...]
-+
-https://blog.frankel.ch/2025-retrospective/[Read further^]
 
 
 
