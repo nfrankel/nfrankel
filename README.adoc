@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.02.08-blue[]
+image:https://img.shields.io/badge/last_updated-2026.02.09-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Rediscovering Java ServiceLoader: Beyond Plugins and Into Capabilities (2026-02-08)::
+When you think of Java modularity, chances are your first thoughts land on JPMS, or perhaps on Spring’s flexible configuration model. For those who 'experienced' like me, thought can reach OSGI specification or other stacks like Vert-X. Yet long before either, Java offered a minimal yet powerful mechanism for loose coupling: ServiceLoader.   In this article, we’ll explore what ServiceLoader is, how it works under the hood, what its limitations are, and how to use it effectively in a modern Java e[...]
++
+https://blog.frankel.ch/rediscovering-java-serviceloader/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ From a JAR to a full-fledged MacOS app (2026-01-25)::
 A couple of years ago, I developed a small Kotlin GUI to help me rename my files in batch. I actually created it with different JVM frameworks to compare their relative merits. In any case, I didn&#8217;t use it up until last week. And then, I was surprised to see that it didn&#8217;t work to rename a network volume, although it had in the past. In this brief post, I aim to describe the issue and its solution.   The problem   When launching the UberJAR, I couldn&#8217;t see the network volumes. I[...]
 +
 https://blog.frankel.ch/jar-to-macos-app/[Read further^]
-
-
-
-Checked exceptions and lambdas (2026-01-18)::
-Java&#8217;s checked exceptions were a massive improvement over C&#8217;s error-handling mechanism. As time passed and experience accumulated, we collectively concluded that we weren&#8217;t there yet. However, Java&#8217;s focus on stability has kept checked exceptions in its existing API.   Java 8 brought lambdas after the 'checked exceptions are great' trend. None of the functional interface methods accepts a checked exception. In this post, I will demonstrate three different approaches to mak[...]
-+
-https://blog.frankel.ch/checked-exceptions-lambdas/[Read further^]
 
 
 
