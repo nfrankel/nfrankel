@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.02.15-blue[]
+image:https://img.shields.io/badge/last_updated-2026.02.16-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Migrating from Jekyll to Hugo... or not (2026-02-15)::
+Most of my blog posts are lessons learned. I&#8217;m trying to achieve something, and I document the process I used to do it. This one is one of the few where, in the end, I didn&#8217;t achieve what I wanted. In this post, I aim to explain what I learned from trying to migrate from Jekyll to Hugo, and why, in the end, I didn&#8217;t take the final step.   Context   I started this blog on WordPress. After several years, I decided to migrate to Jekyll. I have been happy with Jekyll so far. It&#821[...]
++
+https://blog.frankel.ch/migrating-jekyll-hugo/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Feedback on checked exceptions and lambdas (2026-02-01)::
 I got a lot of interesting feedback on Checked exceptions and lambdas. Let&#8217;s start with my own: after writing the post, I realized I had written a similar post some time ago.   Mistakes I made   I made a mistake in the code regarding Apache Commons Lang 3, where I mistakenly used the recover() function, which is actually from Vavr.   Apache Commons Lang provides a regular utility function, which mimics the custom code we wrote last week. Vavr offers the Try class, which encapsulates methods[...]
 +
 https://blog.frankel.ch/feedback-checked-exceptions-lambdas/[Read further^]
-
-
-
-From a JAR to a full-fledged MacOS app (2026-01-25)::
-A couple of years ago, I developed a small Kotlin GUI to help me rename my files in batch. I actually created it with different JVM frameworks to compare their relative merits. In any case, I didn&#8217;t use it up until last week. And then, I was surprised to see that it didn&#8217;t work to rename a network volume, although it had in the past. In this brief post, I aim to describe the issue and its solution.   The problem   When launching the UberJAR, I couldn&#8217;t see the network volumes. I[...]
-+
-https://blog.frankel.ch/jar-to-macos-app/[Read further^]
 
 
 
