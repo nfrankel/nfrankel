@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.02.22-blue[]
+image:https://img.shields.io/badge/last_updated-2026.02.23-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+JVM timing options (2026-02-22)::
+For as long as I have been coding in Java, we have had requirements to measure the execution time of blocks of code. While the current good practice is to use OpenTelemetry&#8217;s traces, not every company has reached this stage yet. Plus, some of the alternatives are OpenTelemetry-compatible. Let&#8217;s see them in order.   The basic option   The basic option is what we have been doing for ages, and what the other options rely on anyway. It&#8217;s based on the following API: System.[...]
++
+https://blog.frankel.ch/jvm-timing-options/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Rediscovering Java ServiceLoader: Beyond Plugins and Into Capabilities (2026-02-
 When you think of Java modularity, chances are your first thoughts land on JPMS, or perhaps on Spring’s flexible configuration model. For those who 'experienced' like me, thought can reach OSGI specification or other stacks like Vert-X. Yet long before either, Java offered a minimal yet powerful mechanism for loose coupling: ServiceLoader.[...]
 +
 https://blog.frankel.ch/rediscovering-java-serviceloader/[Read further^]
-
-
-
-Feedback on checked exceptions and lambdas (2026-02-01)::
-I got a lot of interesting feedback on Checked exceptions and lambdas. Let&#8217;s start with my own: after writing the post, I realized I had written a similar post some time ago.   Mistakes I made   I made a mistake in the code regarding Apache Commons Lang 3, where I mistakenly used the recover() function, which is actually from Vavr.   Apache Commons Lang provides a regular utility function, which mimics the custom code we wrote last week.[...]
-+
-https://blog.frankel.ch/feedback-checked-exceptions-lambdas/[Read further^]
 
 
 
