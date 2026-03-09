@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.03.08-blue[]
+image:https://img.shields.io/badge/last_updated-2026.03.09-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Pi-hole behind Tailscale (2026-03-08)::
+As I age, I become increasingly cautious about my privacy. The slope the world is sliding on is also a big, unfortunate incentive. I have been eying Pi-hole for some time: in this post, I want to explain what it does, how to install it on a Raspberry Pi, and how to integrate it with Tailscale.   My take on privacy   Privacy, or more specifically digital privacy, is the ability to protect oneself from the constant data collection by legitimate companies and malicious actors alike when online.[...]
++
+https://blog.frankel.ch/pi-hole-tailscale/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ JVM timing options (2026-02-22)::
 For as long as I have been coding in Java, we have had requirements to measure the execution time of blocks of code. While the current good practice is to use OpenTelemetry&#8217;s traces, not every company has reached this stage yet. Plus, some of the alternatives are OpenTelemetry-compatible. Let&#8217;s see them in order.   The basic option   The basic option is what we have been doing for ages, and what the other options rely on anyway. It&#8217;s based on the following API: System.[...]
 +
 https://blog.frankel.ch/jvm-timing-options/[Read further^]
-
-
-
-Migrating from Jekyll to Hugo... or not (2026-02-15)::
-Most of my blog posts are lessons learned. I&#8217;m trying to achieve something, and I document the process I used to do it. This one is one of the few where, in the end, I didn&#8217;t achieve what I wanted. In this post, I aim to explain what I learned from trying to migrate from Jekyll to Hugo, and why, in the end, I didn&#8217;t take the final step.   Context   I started this blog on WordPress. After several years, I decided to migrate to Jekyll. I have been happy with Jekyll so far.[...]
-+
-https://blog.frankel.ch/migrating-jekyll-hugo/[Read further^]
 
 
 
