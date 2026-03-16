@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.03.15-blue[]
+image:https://img.shields.io/badge/last_updated-2026.03.16-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Writing an agent skill (2026-03-15)::
+Most developers now use coding assistants. I do too—Copilot at work, Claude Code at home. As a developer, I prefer not to repeat myself. This post explains why and how to avoid repetition as a skill.   Don&#8217;t Repeat Yourself   The DRY principle has been present in the software development field for ages. The idea is that if you copy and paste code in multiple places and a bug appears, you&#8217;ll need to fix the bug in all these places.[...]
++
+https://blog.frankel.ch/writing-agent-skill/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Ready-to-use virtual clusters (2026-03-01)::
 vCluster is a solution for creating virtual clusters within a host Kubernetes cluster.     Virtual clusters are a Kubernetes concept that enables isolated clusters to be run within a single physical Kubernetes cluster. Each cluster has its own API server, which makes them better isolated than namespaces and more affordable than separate Kubernetes clusters.    &#8212; What are virtual clusters?[...]
 +
 https://blog.frankel.ch/ready-to-use-virtual-clusters/[Read further^]
-
-
-
-JVM timing options (2026-02-22)::
-For as long as I have been coding in Java, we have had requirements to measure the execution time of blocks of code. While the current good practice is to use OpenTelemetry&#8217;s traces, not every company has reached this stage yet. Plus, some of the alternatives are OpenTelemetry-compatible. Let&#8217;s see them in order.   The basic option   The basic option is what we have been doing for ages, and what the other options rely on anyway. It&#8217;s based on the following API: System.[...]
-+
-https://blog.frankel.ch/jvm-timing-options/[Read further^]
 
 
 
