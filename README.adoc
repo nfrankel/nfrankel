@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.03.22-blue[]
+image:https://img.shields.io/badge/last_updated-2026.03.23-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+The Software Architect Elevator (2026-03-22)::
+I don&#8217;t think it&#8217;s necessary to introduce Gregor Hohpe. I’m a big fan, having read Enterprise Integration Patterns, and I&#8217;ve recommended the book ever since. When I spoke at the Software Architecture Gathering in 2024, I was fortunate enough to meet him and purchase this book. I&#8217;m the happy owner of a signed copy.     Modern architects don’t try to be the smartest people in the room–they make everyone else smarter.[...]
++
+https://blog.frankel.ch/software-architect-elevator/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Pi-hole behind Tailscale (2026-03-08)::
 As I age, I become increasingly cautious about my privacy. The slope the world is sliding on is also a big, unfortunate incentive. I have been eying Pi-hole for some time: in this post, I want to explain what it does, how to install it on a Raspberry Pi, and how to integrate it with Tailscale.   My take on privacy   Privacy, or more specifically digital privacy, is the ability to protect oneself from the constant data collection by legitimate companies and malicious actors alike when online.[...]
 +
 https://blog.frankel.ch/pi-hole-tailscale/[Read further^]
-
-
-
-Ready-to-use virtual clusters (2026-03-01)::
-vCluster is a solution for creating virtual clusters within a host Kubernetes cluster.     Virtual clusters are a Kubernetes concept that enables isolated clusters to be run within a single physical Kubernetes cluster. Each cluster has its own API server, which makes them better isolated than namespaces and more affordable than separate Kubernetes clusters.    &#8212; What are virtual clusters?[...]
-+
-https://blog.frankel.ch/ready-to-use-virtual-clusters/[Read further^]
 
 
 
