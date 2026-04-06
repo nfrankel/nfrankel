@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.04.05-blue[]
+image:https://img.shields.io/badge/last_updated-2026.04.06-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Experimenting with AI subagents (2026-04-05)::
+I like to analyze codebases I start working on, or that I left for months. I ask my coding assistant, case in point, Copilot CLI: 'analyze the following codebase and report to me improvements and possible bugs.' It&#8217;s vague enough to leave room for crappy feedback, but also for some interesting insights.   I did it last week on a code base. Copilot returned a list of a dozen items. I asked it to create a GitHub issue for each, with the relevant labels, including priority.[...]
++
+https://blog.frankel.ch/experimenting-ai-subagents/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ The Software Architect Elevator (2026-03-22)::
 I don&#8217;t think it&#8217;s necessary to introduce Gregor Hohpe. I’m a big fan, having read Enterprise Integration Patterns, and I&#8217;ve recommended the book ever since. When I spoke at the Software Architecture Gathering in 2024, I was fortunate enough to meet him and purchase this book. I&#8217;m the happy owner of a signed copy.     Modern architects don’t try to be the smartest people in the room–they make everyone else smarter.[...]
 +
 https://blog.frankel.ch/software-architect-elevator/[Read further^]
-
-
-
-Writing an agent skill (2026-03-15)::
-Most developers now use coding assistants. I do too—Copilot at work, Claude Code at home. As a developer, I prefer not to repeat myself. This post explains why and how to avoid repetition as a skill.   Don&#8217;t Repeat Yourself   The DRY principle has been present in the software development field for ages. The idea is that if you copy and paste code in multiple places and a bug appears, you&#8217;ll need to fix the bug in all these places.[...]
-+
-https://blog.frankel.ch/writing-agent-skill/[Read further^]
 
 
 
