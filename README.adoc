@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.04.12-blue[]
+image:https://img.shields.io/badge/last_updated-2026.04.13-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+A GitHub agentic workflow (2026-04-12)::
+Last month, I became aware of GitHub agentic workflows. I read the site carefully, but the use cases weren&#8217;t very exciting to me. I tried the continuous documentation It didn&#8217;t work out initially, and because of my lack of involvement, I left it as it was. However, I succeeded in another one that I want to describe in this post.         With lessons learned here, I managed to make the documentation workflow work![...]
++
+https://blog.frankel.ch/agentic-github-workflows/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ One tip for successful OpenTelemetry projects (2026-03-29)::
 Leading your organization to use OpenTelemetry is a challenge. In addition to all the usual project hurdles, you&#8217;ll face one of these two situations: convince your teams to use OpenTelemetry, or convince them to move from the telemetry tool they are already using to OpenTelemetry. Most people don&#8217;t want to change. You&#8217;ll need lots of effort and baby steps. My tip is the following: the fewer the changes, the higher your chances of success.[...]
 +
 https://blog.frankel.ch/tip-opentelemetry-projects/[Read further^]
-
-
-
-The Software Architect Elevator (2026-03-22)::
-I don&#8217;t think it&#8217;s necessary to introduce Gregor Hohpe. I’m a big fan, having read Enterprise Integration Patterns, and I&#8217;ve recommended the book ever since. When I spoke at the Software Architecture Gathering in 2024, I was fortunate enough to meet him and purchase this book. I&#8217;m the happy owner of a signed copy.     Modern architects don’t try to be the smartest people in the room–they make everyone else smarter.[...]
-+
-https://blog.frankel.ch/software-architect-elevator/[Read further^]
 
 
 
