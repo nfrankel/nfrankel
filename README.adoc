@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.04.19-blue[]
+image:https://img.shields.io/badge/last_updated-2026.04.20-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Making illegal state unrepresentable (2026-04-19)::
+A couple of years ago, I wrote that The Builder pattern is a finite state machine!. A state machine consists of states and transitions between them. As a developer, I want to make illegal states unrepresentable, i.e., users of my API can&#8217;t create non-existent transitions. My hypothesis is that only a static typing system allows this at compile-time. Dynamic typing systems rely on runtime validation.   In this blog post, I will show that it holds true, with a caveat.[...]
++
+https://blog.frankel.ch/illegal-state-unrepresentable/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Experimenting with AI subagents (2026-04-05)::
 I like to analyze codebases I start working on, or that I left for months. I ask my coding assistant, case in point, Copilot CLI: 'analyze the following codebase and report to me improvements and possible bugs.' It&#8217;s vague enough to leave room for crappy feedback, but also for some interesting insights.   I did it last week on a code base. Copilot returned a list of a dozen items. I asked it to create a GitHub issue for each, with the relevant labels, including priority.[...]
 +
 https://blog.frankel.ch/experimenting-ai-subagents/[Read further^]
-
-
-
-One tip for successful OpenTelemetry projects (2026-03-29)::
-Leading your organization to use OpenTelemetry is a challenge. In addition to all the usual project hurdles, you&#8217;ll face one of these two situations: convince your teams to use OpenTelemetry, or convince them to move from the telemetry tool they are already using to OpenTelemetry. Most people don&#8217;t want to change. You&#8217;ll need lots of effort and baby steps. My tip is the following: the fewer the changes, the higher your chances of success.[...]
-+
-https://blog.frankel.ch/tip-opentelemetry-projects/[Read further^]
 
 
 
