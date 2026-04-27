@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.04.26-blue[]
+image:https://img.shields.io/badge/last_updated-2026.04.27-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Three Mastodon issues because of Cloudflare Bot protection (2026-04-26)::
+I noticed some time ago that three Mastodon features had stopped working on my blog. Each of them seemed like a separate problem, but they had the same root cause. In this blog post, I aim to describe these issues and propose a simple solution.   Domain verification   Mastodon allows you to prove that you own a domain.[...]
++
+https://blog.frankel.ch/mastodon-cloudflare-bot-protection/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ A GitHub agentic workflow (2026-04-12)::
 Last month, I became aware of GitHub agentic workflows. I read the site carefully, but the use cases weren&#8217;t very exciting to me. I tried the continuous documentation It didn&#8217;t work out initially, and because of my lack of involvement, I left it as it was. However, I succeeded in another one that I want to describe in this post.         With lessons learned here, I managed to make the documentation workflow work![...]
 +
 https://blog.frankel.ch/agentic-github-workflows/[Read further^]
-
-
-
-Experimenting with AI subagents (2026-04-05)::
-I like to analyze codebases I start working on, or that I left for months. I ask my coding assistant, case in point, Copilot CLI: 'analyze the following codebase and report to me improvements and possible bugs.' It&#8217;s vague enough to leave room for crappy feedback, but also for some interesting insights.   I did it last week on a code base. Copilot returned a list of a dozen items. I asked it to create a GitHub issue for each, with the relevant labels, including priority.[...]
-+
-https://blog.frankel.ch/experimenting-ai-subagents/[Read further^]
 
 
 
