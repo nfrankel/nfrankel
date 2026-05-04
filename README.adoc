@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.05.03-blue[]
+image:https://img.shields.io/badge/last_updated-2026.05.04-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Designing a team of agents (2026-05-03)::
+I continue to experiment with AI in the context of software engineering. I&#8217;m fortunate that my team supports me in exploring different ways to improve our daily work. This week, I designed a team of autonomous agents to implement features, from design to implementation.   Why autonomous agents?   A long time ago, we were delighted when the IDE offered auto-completion. In the previous two years, things have changed. A lot.   Coding assistants have become our primary interfaces for coding.[...]
++
+https://blog.frankel.ch/design-team-agents/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Making illegal state unrepresentable (2026-04-19)::
 A couple of years ago, I wrote that The Builder pattern is a finite state machine!. A state machine consists of states and transitions between them. As a developer, I want to make illegal states unrepresentable, i.e., users of my API can&#8217;t create non-existent transitions. My hypothesis is that only a static typing system allows this at compile-time. Dynamic typing systems rely on runtime validation.   In this blog post, I will show that it holds true, with a caveat.[...]
 +
 https://blog.frankel.ch/illegal-state-unrepresentable/[Read further^]
-
-
-
-A GitHub agentic workflow (2026-04-12)::
-Last month, I became aware of GitHub agentic workflows. I read the site carefully, but the use cases weren&#8217;t very exciting to me. I tried the continuous documentation It didn&#8217;t work out initially, and because of my lack of involvement, I left it as it was. However, I succeeded in another one that I want to describe in this post.         With lessons learned here, I managed to make the documentation workflow work![...]
-+
-https://blog.frankel.ch/agentic-github-workflows/[Read further^]
 
 
 
