@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.05.10-blue[]
+image:https://img.shields.io/badge/last_updated-2026.05.11-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Tokensparsamkeit for coding assistants (2026-05-10)::
+Good engineers make decisions based on data. Most businesses assumed that the more data, the better the decision. Then, several factors put a halt to the hoarding of ever more data. GDPR and its localized counterparts, and the cost of storage. However, before the GDPR came into effect, the Datensparsamkeit approach already existed.     Datensparsamkeit is a German word that&#8217;s difficult to translate properly into English.[...]
++
+https://blog.frankel.ch/tokensparsamkeit-coding-assistants/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Three Mastodon issues because of Cloudflare Bot protection (2026-04-26)::
 I noticed some time ago that three Mastodon features had stopped working on my blog. Each of them seemed like a separate problem, but they had the same root cause. In this blog post, I aim to describe these issues and propose a simple solution.   Domain verification   Mastodon allows you to prove that you own a domain.[...]
 +
 https://blog.frankel.ch/mastodon-cloudflare-bot-protection/[Read further^]
-
-
-
-Making illegal state unrepresentable (2026-04-19)::
-A couple of years ago, I wrote that The Builder pattern is a finite state machine!. A state machine consists of states and transitions between them. As a developer, I want to make illegal states unrepresentable, i.e., users of my API can&#8217;t create non-existent transitions. My hypothesis is that only a static typing system allows this at compile-time. Dynamic typing systems rely on runtime validation.   In this blog post, I will show that it holds true, with a caveat.[...]
-+
-https://blog.frankel.ch/illegal-state-unrepresentable/[Read further^]
 
 
 
