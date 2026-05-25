@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.05.24-blue[]
+image:https://img.shields.io/badge/last_updated-2026.05.25-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Seasons time-lapse - alignment (2026-05-24)::
+In the previous post, I described the Seasons project: a time-lapse of hundreds of pictures taken from nearly the same viewpoint over the years. The hardest challenge wasn&#8217;t taking the pictures or assembling them, but aligning them.   You might have noticed the nearly part about viewpoint in the above paragraph. Indeed, it&#8217;s an approximation. I&#8217;m a human being, not a tripod. The position changes ever so slightly, and so does the exact angle.[...]
++
+https://blog.frankel.ch/seasons-time-lapse/2/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Tokensparsamkeit for coding assistants (2026-05-10)::
 Good engineers make decisions based on data. Most businesses assumed that the more data, the better the decision. Then, several factors put a halt to the hoarding of ever more data. GDPR and its localized counterparts, and the cost of storage. However, before the GDPR came into effect, the Datensparsamkeit approach already existed.     Datensparsamkeit is a German word that&#8217;s difficult to translate properly into English.[...]
 +
 https://blog.frankel.ch/tokensparsamkeit-coding-assistants/[Read further^]
-
-
-
-Designing a team of agents (2026-05-03)::
-I continue to experiment with AI in the context of software engineering. I&#8217;m fortunate that my team supports me in exploring different ways to improve our daily work. This week, I designed a team of autonomous agents to implement features, from design to implementation.   Why autonomous agents?   A long time ago, we were delighted when the IDE offered auto-completion. In the previous two years, things have changed. A lot.   Coding assistants have become our primary interfaces for coding.[...]
-+
-https://blog.frankel.ch/design-team-agents/[Read further^]
 
 
 
