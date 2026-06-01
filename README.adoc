@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.05.31-blue[]
+image:https://img.shields.io/badge/last_updated-2026.06.01-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+AI gateways: why and how (2026-05-31)::
+Before working for 2 years on the Apache APISIX API gateway, I was mainly oblivious to API gateways. It&#8217;s only by working with them that I understood their value. Decoupling the client and the server unlocks a lot of options: moving authentication to the API Gateway, securing APIs, deduplicating API requests, etc.   In this post, I want to describe how the same pattern applies to AI.   AI gateways   AI gateways work in a similar way.[...]
++
+https://blog.frankel.ch/ai-gateways/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Seasons time-lapse - the foundations (2026-05-17)::
 I live close to nature. I regularly go for a run in the countryside. Over several years, during my runs, I&#8217;ve taken pictures from the same position, always roughly the same angle. I had a vague idea in the back of my mind, as an 'artistic' project. One day, I&#8217;d turn those photos into a time-lapse video, one that would show the passage of seasons across a single place.   Spoiler, here&#8217;s the work in progress:        However, I knew that this project would take ages.[...]
 +
 https://blog.frankel.ch/seasons-time-lapse/1/[Read further^]
-
-
-
-Tokensparsamkeit for coding assistants (2026-05-10)::
-Good engineers make decisions based on data. Most businesses assumed that the more data, the better the decision. Then, several factors put a halt to the hoarding of ever more data. GDPR and its localized counterparts, and the cost of storage. However, before the GDPR came into effect, the Datensparsamkeit approach already existed.     Datensparsamkeit is a German word that&#8217;s difficult to translate properly into English.[...]
-+
-https://blog.frankel.ch/tokensparsamkeit-coding-assistants/[Read further^]
 
 
 
