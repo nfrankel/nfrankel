@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.06.07-blue[]
+image:https://img.shields.io/badge/last_updated-2026.06.08-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Seasons time-lapse - the video (2026-06-07)::
+In the first post of this series, I focused on the project foundations: what should I do to create a video from photos taken from the same position year after year? I dedicated the second part to aligning images. It wasn&#8217;t as easy as I expected. I stumbled upon new concepts, such as ORB and RANSAC.   In this third and final post, I want to tackle the video creation itself, explain some 'artistic' decisions, and leave the door open to future work.[...]
++
+https://blog.frankel.ch/seasons-time-lapse/3/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Seasons time-lapse - alignment (2026-05-24)::
 In the previous post, I described the Seasons project: a time-lapse of hundreds of pictures taken from nearly the same viewpoint over the years. The hardest challenge wasn&#8217;t taking the pictures or assembling them, but aligning them.   You might have noticed the nearly part about viewpoint in the above paragraph. Indeed, it&#8217;s an approximation. I&#8217;m a human being, not a tripod. The position changes ever so slightly, and so does the exact angle.[...]
 +
 https://blog.frankel.ch/seasons-time-lapse/2/[Read further^]
-
-
-
-Seasons time-lapse - the foundations (2026-05-17)::
-I live close to nature. I regularly go for a run in the countryside. Over several years, during my runs, I&#8217;ve taken pictures from the same position, always roughly the same angle. I had a vague idea in the back of my mind, as an 'artistic' project. One day, I&#8217;d turn those photos into a time-lapse video, one that would show the passage of seasons across a single place.   Spoiler, here&#8217;s the work in progress:        However, I knew that this project would take ages.[...]
-+
-https://blog.frankel.ch/seasons-time-lapse/1/[Read further^]
 
 
 
