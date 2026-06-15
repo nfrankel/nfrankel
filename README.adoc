@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.06.14-blue[]
+image:https://img.shields.io/badge/last_updated-2026.06.15-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+double, BigDecimal, or Fixed-Point? (2026-06-14)::
+There is an evergreen debate in the Java world: should you always use BigDecimal for money?   The short answer is no. The real answer is: it depends on your computational context: the precision you need, the rounding rules you must follow, and the performance budget you have.   The problem is that this conversation is often driven by dogma rather than engineering.[...]
++
+https://blog.frankel.ch/bigdecimal-vs-double/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ AI gateways: why and how (2026-05-31)::
 Before working for 2 years on the Apache APISIX API gateway, I was mainly oblivious to API gateways. It&#8217;s only by working with them that I understood their value. Decoupling the client and the server unlocks a lot of options: moving authentication to the API Gateway, securing APIs, deduplicating API requests, etc.   In this post, I want to describe how the same pattern applies to AI.   AI gateways   AI gateways work in a similar way.[...]
 +
 https://blog.frankel.ch/ai-gateways/[Read further^]
-
-
-
-Seasons time-lapse - alignment (2026-05-24)::
-In the previous post, I described the Seasons project: a time-lapse of hundreds of pictures taken from nearly the same viewpoint over the years. The hardest challenge wasn&#8217;t taking the pictures or assembling them, but aligning them.   You might have noticed the nearly part about viewpoint in the above paragraph. Indeed, it&#8217;s an approximation. I&#8217;m a human being, not a tripod. The position changes ever so slightly, and so does the exact angle.[...]
-+
-https://blog.frankel.ch/seasons-time-lapse/2/[Read further^]
 
 
 
