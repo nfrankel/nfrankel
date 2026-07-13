@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.07.12-blue[]
+image:https://img.shields.io/badge/last_updated-2026.07.13-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Making ServiceLoader usable: a provider factory (2026-07-12)::
+I keep coming back to java.util.ServiceLoader. I have used it to put a JSON layer behind a contract, so the core code carries no direct dependency on any particular JSON library, and I can swap the implementation without touching callers. The same shape works for JWT handling, where the concrete library might be jose4j or another JOSE implementation, and you can easily find other decoupling use-cases.[...]
++
+https://blog.frankel.ch/serviceloader-provider-factory/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Security Baked Into the JVM: why fork Apache River and OpenJDK? (2026-06-28)::
 The more distributed a system, the harder it is to secure. Code crosses JVM boundaries. Objects are serialized across trust boundaries. Third-party proxies run inside your process. The usual answer is a network firewall. It helps, but it operates at the wrong level.   Java 17 deprecated the SecurityManager, Java 24 put the final nail in its coffin. Most developers didn&#8217;t notice.[...]
 +
 https://blog.frankel.ch/security-baked-into-jvm/1/[Read further^]
-
-
-
-On programming languages, targets, and platforms (2026-06-21)::
-I started as a Java developer, but for some time now, I have broadened my horizons. Recently, I thought about how early languages were dedicated to a single target and platform, and now they are broadening their focus. In this post, I want to write down my thoughts in the hope that it may be useful to others, probably to my future self.   Definitions   You may have been wondering about the title terms.[...]
-+
-https://blog.frankel.ch/programming-languages-targets-platforms/[Read further^]
 
 
 
