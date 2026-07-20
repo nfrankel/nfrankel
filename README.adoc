@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.07.19-blue[]
+image:https://img.shields.io/badge/last_updated-2026.07.20-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Security Baked Into the JVM: the Safe Codebase Audit Pipeline (2026-07-19)::
+In Part 1, the minimal deployment showed constraints traveling with the proxy: authentication, encryption, hardened deserialization, all declared in configuration and enforced at the call boundary. The proxy is a JAR. That JAR was downloaded and unmarshalled before any constraint ran. That step is the earlier problem.   Distributed Java systems that load remote code are vulnerable to supply chain compromise: an attacker can replace a legitimate JAR with one containing malicious bytecode.[...]
++
+https://blog.frankel.ch/security-baked-into-jvm/2/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Two nasty surprises in Home Assistant's config (2026-07-05)::
 Last year, I motorized the rolling shutters on the southern façade of my apartment. My idea was to manage them via Home Assistant. I had a couple of automations in mind:  In the evening, roll down the shutters of my bedroomIn the morning:If it&#8217;s too hot outside, roll down all shuttersIf it&#8217;s too cold outside, roll down all shuttersIn other cases, roll up all shutters but my bedroom&#8217;s  Living in France, I added the official Météo France integration.[...]
 +
 https://blog.frankel.ch/home-assistant/9/[Read further^]
-
-
-
-Security Baked Into the JVM: why fork Apache River and OpenJDK? (2026-06-28)::
-The more distributed a system, the harder it is to secure. Code crosses JVM boundaries. Objects are serialized across trust boundaries. Third-party proxies run inside your process. The usual answer is a network firewall. It helps, but it operates at the wrong level.   Java 17 deprecated the SecurityManager, Java 24 put the final nail in its coffin. Most developers didn&#8217;t notice.[...]
-+
-https://blog.frankel.ch/security-baked-into-jvm/1/[Read further^]
 
 
 
