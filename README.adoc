@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.08.02-blue[]
+image:https://img.shields.io/badge/last_updated-2026.08.03-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+GitHub agentic workflows and Renovate (2026-08-02)::
+I&#8217;ve been a big fan of Renovate for a couple of years already. Renovate scans your repositories, detects outdated package versions, and opens pull requests to automatically bump them. It&#8217;s similar to Dependabot in that it keeps your dependencies up to date. If I had to compare them in one sentence, I&#8217;d say Renovate is less integrated in the GitHub ecosystem, but handles more ecosystems and, more importantly, is extensible.[...]
++
+https://blog.frankel.ch/github-agentic-workflow-renovate/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Security Baked Into the JVM: the Safe Codebase Audit Pipeline (2026-07-19)::
 In Part 1, the minimal deployment showed constraints traveling with the proxy: authentication, encryption, hardened deserialization, all declared in configuration and enforced at the call boundary. The proxy is a JAR. That JAR was downloaded and unmarshalled before any constraint ran. That step is the earlier problem.   Distributed Java systems that load remote code are vulnerable to supply chain compromise: an attacker can replace a legitimate JAR with one containing malicious bytecode.[...]
 +
 https://blog.frankel.ch/security-baked-into-jvm/2/[Read further^]
-
-
-
-Making ServiceLoader usable: a provider factory (2026-07-12)::
-I keep coming back to java.util.ServiceLoader. I have used it to put a JSON layer behind a contract, so the core code carries no direct dependency on any particular JSON library, and I can swap the implementation without touching callers. The same shape works for JWT handling, where the concrete library might be jose4j or another JOSE implementation, and you can easily find other decoupling use-cases.[...]
-+
-https://blog.frankel.ch/serviceloader-provider-factory/[Read further^]
 
 
 
