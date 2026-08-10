@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.08.09-blue[]
+image:https://img.shields.io/badge/last_updated-2026.08.10-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Security Baked Into the JVM: two Subjects, one call (2026-08-09)::
+The constraint system stops a bad call before it leaves the JVM. The Safe Codebase Audit Pipeline stops bad code before a client ever loads it. What remains is identity: who is calling, and can you verify it?   Most frameworks answer with a token check at the door. A filter validates a bearer token, sets a thread-local variable, and hopes that nothing downstream forgets to look at it. DirtyChai answers differently.[...]
++
+https://blog.frankel.ch/security-baked-into-jvm/3/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ RFC 9880 and the IoT Validation Problem (2026-07-26)::
 The IoT/IIoT world has a data model problem and the concept of Digital Twin has made this issue more important. Plenty of people have tried to fix it. RFC 9880 and its Semantic Definition Format (SDF) are a serious attempt: a JSON-based, ecosystem-neutral way to describe what a device is and what it does. I have had some experiences with this specification, and I&#8217;ve understood that the format shows its full value once you treat it as source code, something you compile.[...]
 +
 https://blog.frankel.ch/rfc-9880-iot-validation-compiler/[Read further^]
-
-
-
-Security Baked Into the JVM: the Safe Codebase Audit Pipeline (2026-07-19)::
-In Part 1, the minimal deployment showed constraints traveling with the proxy: authentication, encryption, hardened deserialization, all declared in configuration and enforced at the call boundary. The proxy is a JAR. That JAR was downloaded and unmarshalled before any constraint ran. That step is the earlier problem.   Distributed Java systems that load remote code are vulnerable to supply chain compromise: an attacker can replace a legitimate JAR with one containing malicious bytecode.[...]
-+
-https://blog.frankel.ch/security-baked-into-jvm/2/[Read further^]
 
 
 
