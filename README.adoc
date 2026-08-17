@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.08.16-blue[]
+image:https://img.shields.io/badge/last_updated-2026.08.17-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Solving Gradle metadata and Renovate integration (2026-08-16)::
+My current company has settled on using Gradle. It doesn&#8217;t make me very happy, but you need to learn to work with constraints. Plus, I must admit that the developers who actually implemented the build files did a pretty good job overall: they used Kotlin instead of Groovy, they moved code to regular plugins, etc.   This week, I worked on improvements to a new project and set up Renovate.[...]
++
+https://blog.frankel.ch/gradle-metadata-renovate-integration/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ GitHub agentic workflows and Renovate (2026-08-02)::
 I&#8217;ve been a big fan of Renovate for a couple of years already. Renovate scans your repositories, detects outdated package versions, and opens pull requests to automatically bump them. It&#8217;s similar to Dependabot in that it keeps your dependencies up to date. If I had to compare them in one sentence, I&#8217;d say Renovate is less integrated in the GitHub ecosystem, but handles more ecosystems and, more importantly, is extensible.[...]
 +
 https://blog.frankel.ch/github-agentic-workflow-renovate/[Read further^]
-
-
-
-RFC 9880 and the IoT Validation Problem (2026-07-26)::
-The IoT/IIoT world has a data model problem and the concept of Digital Twin has made this issue more important. Plenty of people have tried to fix it. RFC 9880 and its Semantic Definition Format (SDF) are a serious attempt: a JSON-based, ecosystem-neutral way to describe what a device is and what it does. I have had some experiences with this specification, and I&#8217;ve understood that the format shows its full value once you treat it as source code, something you compile.[...]
-+
-https://blog.frankel.ch/rfc-9880-iot-validation-compiler/[Read further^]
 
 
 
