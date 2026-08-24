@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.08.23-blue[]
+image:https://img.shields.io/badge/last_updated-2026.08.24-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Security Baked Into the JVM: sixteen Subjects on the wire (2026-08-23)::
+Alice calls the order service. The order service calls the ledger on her behalf. At the second hop, the ledger has to decide whose authority the debit is being made under.   Most stacks answer badly. Forward Alice&#8217;s bearer token verbatim, and the ledger cannot tell her from the service that relayed it. Drop the token and the ledger sees a machine, with no record that a human started the chain. Neither option lets the ledger authorize the combination.[...]
++
+https://blog.frankel.ch/security-baked-into-jvm/4/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Security Baked Into the JVM: two Subjects, one call (2026-08-09)::
 The constraint system stops a bad call before it leaves the JVM. The Safe Codebase Audit Pipeline stops bad code before a client ever loads it. What remains is identity: who is calling, and can you verify it?   Most frameworks answer with a token check at the door. A filter validates a bearer token, sets a thread-local variable, and hopes that nothing downstream forgets to look at it. DirtyChai answers differently.[...]
 +
 https://blog.frankel.ch/security-baked-into-jvm/3/[Read further^]
-
-
-
-GitHub agentic workflows and Renovate (2026-08-02)::
-I&#8217;ve been a big fan of Renovate for a couple of years already. Renovate scans your repositories, detects outdated package versions, and opens pull requests to automatically bump them. It&#8217;s similar to Dependabot in that it keeps your dependencies up to date. If I had to compare them in one sentence, I&#8217;d say Renovate is less integrated in the GitHub ecosystem, but handles more ecosystems and, more importantly, is extensible.[...]
-+
-https://blog.frankel.ch/github-agentic-workflow-renovate/[Read further^]
 
 
 
