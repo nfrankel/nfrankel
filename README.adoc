@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.08.30-blue[]
+image:https://img.shields.io/badge/last_updated-2026.08.31-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+AI-assisted genealogy (2026-08-30)::
+My son recently came to me to brag about using AI to find our ancestors. While the results were correct, I didn&#8217;t learn anything new, as it stopped at my grandparents. I was never very interested in my genealogy, but I decided to see if AI would be a good tool for this. TL;DR: Yes, it is, and even more than that. In a little less than one month, I managed to gather more than 600 individuals and get back 12 generations in some branches.[...]
++
+https://blog.frankel.ch/ai-assisted-genealogy/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Solving Gradle metadata and Renovate integration (2026-08-16)::
 My current company has settled on using Gradle. It doesn&#8217;t make me very happy, but you need to learn to work with constraints. Plus, I must admit that the developers who actually implemented the build files did a pretty good job overall: they used Kotlin instead of Groovy, they moved code to regular plugins, etc.   This week, I worked on improvements to a new project and set up Renovate.[...]
 +
 https://blog.frankel.ch/gradle-metadata-renovate-integration/[Read further^]
-
-
-
-Security Baked Into the JVM: two Subjects, one call (2026-08-09)::
-The constraint system stops a bad call before it leaves the JVM. The Safe Codebase Audit Pipeline stops bad code before a client ever loads it. What remains is identity: who is calling, and can you verify it?   Most frameworks answer with a token check at the door. A filter validates a bearer token, sets a thread-local variable, and hopes that nothing downstream forgets to look at it. DirtyChai answers differently.[...]
-+
-https://blog.frankel.ch/security-baked-into-jvm/3/[Read further^]
 
 
 
