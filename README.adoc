@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.09.13-blue[]
+image:https://img.shields.io/badge/last_updated-2026.09.14-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+World geography gotchas (2026-09-13)::
+Years ago, a colleague of mine told me about two pockets of foreign land surrounded by Switzerland: Campione d&#8217;Italia and Büsingen am Hochrhein, respectively Italy and Germany. Both are enclaves of their respective country in Swiss territory:     An enclave is a part of the territory of a state that is enclosed within the territory of another state. To distinguish the parts of a state entirely enclosed in a single other state, they are called true enclaves.[...]
++
+https://blog.frankel.ch/world-geography-gotchas/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ AI-assisted genealogy (2026-08-30)::
 My son recently came to me to brag about using AI to find our ancestors. While the results were correct, I didn&#8217;t learn anything new, as it stopped at my grandparents. I was never very interested in my genealogy, but I decided to see if AI would be a good tool for this. TL;DR: Yes, it is, and even more than that. In a little less than one month, I managed to gather more than 600 individuals and get back 12 generations in some branches.[...]
 +
 https://blog.frankel.ch/ai-assisted-genealogy/[Read further^]
-
-
-
-Security Baked Into the JVM: sixteen Subjects on the wire (2026-08-23)::
-Alice calls the order service. The order service calls the ledger on her behalf. At the second hop, the ledger has to decide whose authority the debit is being made under.   Most stacks answer badly. Forward Alice&#8217;s bearer token verbatim, and the ledger cannot tell her from the service that relayed it. Drop the token and the ledger sees a machine, with no record that a human started the chain. Neither option lets the ledger authorize the combination.[...]
-+
-https://blog.frankel.ch/security-baked-into-jvm/4/[Read further^]
 
 
 
