@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.09.19-blue[]
+image:https://img.shields.io/badge/last_updated-2026.09.20-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -47,6 +47,18 @@ https://blog.frankel.ch/ai-assisted-genealogy/[Read further^]
 
 
 ## 🗣️ Upcoming talks
+
+
+
+https://2026.javacro.hr/Agenda#sz-tab-46308[Coding assistants: a journey from a convert^] @ http://2018.javacro.hr/eng/[JavaCro^]::
++
+For a long time, I was advert to coding assistants. I didn't see any benefit: it was faster for me to write code, than to let them generate crap, and fix it afterwards. Then, around summer 2025, something changed. At home, I used Claude Code for better and better results. At work, GitHub Copilot was not as good, but it was still producing acceptable results. I'm now at a point where I can't imagine not having coding assistants. I'm hooked. I have "vibe-coded" (I hate the term) a few personal projects: a Kotlin multi-platform project to cross-post content across multiple social media sites, a Python project for an artsy project, and a command-line to report content on Twitter. By the time I actually do the talk, the list will probably be even longer. In this session, I'd like to share how I use coding assistants. Since the landscape is changing all the time, I hope this session will be interactive and that you'll share as well.
+
+
+
+https://portotechhub.com/conference-2026/[Coding assistants: a journey from a convert^] @ https://portotechhub.com/conference-2022/[Porto Tech Hub^]::
++
+For a long time, I was advert to coding assistants. I didn't see any benefit: it was faster for me to write code, than to let them generate crap, and fix it afterwards. Then, around summer 2025, something changed. At home, I used Claude Code for better and better results. At work, GitHub Copilot was not as good, but it was still producing acceptable results. I'm now at a point where I can't imagine not having coding assistants. I'm hooked. I have "vibe-coded" (I hate the term) a few personal projects: a Kotlin multi-platform project to cross-post content across multiple social media sites, a Python project for an artsy project, and a command-line to report content on Twitter. By the time I actually do the talk, the list will probably be even longer. In this session, I'd like to share how I use coding assistants. Since the landscape is changing all the time, I hope this session will be interactive and that you'll share as well.
 
 
 
