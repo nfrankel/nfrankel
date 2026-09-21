@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.09.20-blue[]
+image:https://img.shields.io/badge/last_updated-2026.09.21-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+AI-assisted genealogy, a follow-up (2026-09-20)::
+I got a lot of feedback on my post AI-assisted genealogy, some good, some not so good. In any case, I felt the subject was interesting to a lot of people. Meanwhile, I continue working on my tree, and I have deepened my understanding of the subject. In this post, I want to share again.   Trust, but verify   Let&#8217;s address the not-so-good feedback first. The gist of it was: AI can hallucinate. It&#8217;s true in theory: when you ask a question, it provides any answer.[...]
++
+https://blog.frankel.ch/ai-assisted-genealogy-follow-up/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Build an AI Agent (From Scratch) (2026-09-06)::
 Facts  10 chapters$29.29 (at the time of this writing)315 pages    Chapters  Building your first LLM agentWhat is an AI agent?[...]
 +
 https://blog.frankel.ch/building-ai-agent-from-scratch/[Read further^]
-
-
-
-AI-assisted genealogy (2026-08-30)::
-My son recently came to me to brag about using AI to find our ancestors. While the results were correct, I didn&#8217;t learn anything new, as it stopped at my grandparents. I was never very interested in my genealogy, but I decided to see if AI would be a good tool for this. TL;DR: Yes, it is, and even more than that. In a little less than one month, I managed to gather more than 600 individuals and get back 12 generations in some branches.[...]
-+
-https://blog.frankel.ch/ai-assisted-genealogy/[Read further^]
 
 
 
