@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.09.27-blue[]
+image:https://img.shields.io/badge/last_updated-2026.09.28-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+From documenting decisions to questioning them (2026-09-27)::
+I started with a simple task: I needed an AI agent to help me compile decision records, structured documents that capture why a team chose option A over B, using the open-source MADR format. Fill in the sections, organize the rationale, done.   It worked. And it was useless.[...]
++
+https://blog.frankel.ch/from-madrs-to-questioning-them/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ World geography gotchas (2026-09-13)::
 Years ago, a colleague of mine told me about two pockets of foreign land surrounded by Switzerland: Campione d&#8217;Italia and Büsingen am Hochrhein, respectively Italy and Germany. Both are enclaves of their respective country in Swiss territory:     An enclave is a part of the territory of a state that is enclosed within the territory of another state. To distinguish the parts of a state entirely enclosed in a single other state, they are called true enclaves.[...]
 +
 https://blog.frankel.ch/world-geography-gotchas/[Read further^]
-
-
-
-Build an AI Agent (From Scratch) (2026-09-06)::
-Facts  10 chapters$29.29 (at the time of this writing)315 pages    Chapters  Building your first LLM agentWhat is an AI agent?[...]
-+
-https://blog.frankel.ch/building-ai-agent-from-scratch/[Read further^]
 
 
 
