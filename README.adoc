@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.10.04-blue[]
+image:https://img.shields.io/badge/last_updated-2026.10.05-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Security Baked Into the JVM: no single party controls the outcome (2026-10-04)::
+A URL is a name, and names get reused. Replace the bytes behind https://repo.example.org/order-processor.jar and every permission granted to that URL still applies, now to code nobody audited.   So far in this series, Part 1 declared constraints on a remote call, Part 2 vetted code before a client loaded it, Part 3 established who is calling, and Part 4 carried that chain of identities across the wire.[...]
++
+https://blog.frankel.ch/security-baked-into-jvm/5/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ AI-assisted genealogy, a follow-up (2026-09-20)::
 I got a lot of feedback on my post AI-assisted genealogy, some good, some not so good. In any case, I felt the subject was interesting to a lot of people. Meanwhile, I continue working on my tree, and I have deepened my understanding of the subject. In this post, I want to share again.   Trust, but verify   Let&#8217;s address the not-so-good feedback first. The gist of it was: AI can hallucinate. It&#8217;s true in theory: when you ask a question, it provides any answer.[...]
 +
 https://blog.frankel.ch/ai-assisted-genealogy-follow-up/[Read further^]
-
-
-
-World geography gotchas (2026-09-13)::
-Years ago, a colleague of mine told me about two pockets of foreign land surrounded by Switzerland: Campione d&#8217;Italia and Büsingen am Hochrhein, respectively Italy and Germany. Both are enclaves of their respective country in Swiss territory:     An enclave is a part of the territory of a state that is enclosed within the territory of another state. To distinguish the parts of a state entirely enclosed in a single other state, they are called true enclaves.[...]
-+
-https://blog.frankel.ch/world-geography-gotchas/[Read further^]
 
 
 
