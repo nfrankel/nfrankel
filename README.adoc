@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.10.11-blue[]
+image:https://img.shields.io/badge/last_updated-2026.10.12-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Scraping websites and bot-protection (2026-10-11)::
+While searching for my ancestors, I had to access data from many different websites. I noticed there were different levels of protection against automated access depending on the site. In this post, I&#8217;ll list them and mention countermeasures you can take to bypass them anyway.         Disclaimer  As a private person using the data for my own personal use, I have no qualms about bypassing the protection. It can be considered fair use.[...]
++
+https://blog.frankel.ch/bypass-bot-protection/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ From documenting decisions to questioning them (2026-09-27)::
 I started with a simple task: I needed an AI agent to help me compile decision records, structured documents that capture why a team chose option A over B, using the open-source MADR format. Fill in the sections, organize the rationale, done.   It worked. And it was useless.[...]
 +
 https://blog.frankel.ch/from-madrs-to-questioning-them/[Read further^]
-
-
-
-AI-assisted genealogy, a follow-up (2026-09-20)::
-I got a lot of feedback on my post AI-assisted genealogy, some good, some not so good. In any case, I felt the subject was interesting to a lot of people. Meanwhile, I continue working on my tree, and I have deepened my understanding of the subject. In this post, I want to share again.   Trust, but verify   Let&#8217;s address the not-so-good feedback first. The gist of it was: AI can hallucinate. It&#8217;s true in theory: when you ask a question, it provides any answer.[...]
-+
-https://blog.frankel.ch/ai-assisted-genealogy-follow-up/[Read further^]
 
 
 
