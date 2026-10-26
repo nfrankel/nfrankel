@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.10.25-blue[]
+image:https://img.shields.io/badge/last_updated-2026.10.26-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Security Baked Into the JVM: DirtyChai scales vertically, JGDMS scales horizontally (2026-10-25)::
+Nobody runs a SecurityManager in production. The usual reason given is that it does not survive a load test, and every guarantee in this series was bought with a check: a constraint on each call, an audit before each load, a principal set on each thread, a digest on each grant.   Part 1 declared constraints on a remote call. Part 2 vetted code before a client loaded it. Part 3 and Part 4 established who is calling and carried that chain across the wire.[...]
++
+https://blog.frankel.ch/security-baked-into-jvm/6/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Scraping websites and bot-protection (2026-10-11)::
 While searching for my ancestors, I had to access data from many different websites. I noticed there were different levels of protection against automated access depending on the site. In this post, I&#8217;ll list them and mention countermeasures you can take to bypass them anyway.         Disclaimer  As a private person using the data for my own personal use, I have no qualms about bypassing the protection. It can be considered fair use.[...]
 +
 https://blog.frankel.ch/bypass-bot-protection/[Read further^]
-
-
-
-Security Baked Into the JVM: no single party controls the outcome (2026-10-04)::
-A URL is a name, and names get reused. Replace the bytes behind https://repo.example.org/order-processor.jar and every permission granted to that URL still applies, now to code nobody audited.   So far in this series, Part 1 declared constraints on a remote call, Part 2 vetted code before a client loaded it, Part 3 established who is calling, and Part 4 carried that chain of identities across the wire.[...]
-+
-https://blog.frankel.ch/security-baked-into-jvm/5/[Read further^]
 
 
 
