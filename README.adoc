@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.11.01-blue[]
+image:https://img.shields.io/badge/last_updated-2026.11.02-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+From Google Drive to Syncthing over Tailscale (2026-11-01)::
+I used Dropbox for decades, then switched to Google Drive. Both worked for most of my files. One file never fit, though: my KeePass password database. It&#8217;s the file I need on every device and the file I want to keep private the most. After one annoyance too many, I moved it to Syncthing over Tailscale. The rest stays on Google Drive, for now. This post describes why and how.   The file that made me care   My password manager is KeePass-based.[...]
++
+https://blog.frankel.ch/google-drive-syncthing-tailscale/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Maps without a tile server (2026-10-18)::
 If you have built an application with an interactive map, you know what you are in for. You pick a tile provider such as Google or Mapbox, or a self-hosted stack like GeoServer or Martin, and your frontend requests thousands of small image or vector tiles as the user interacts with the map. A server processes each request: it reads from a database, renders the tile, maybe caches it, and sends it back.   That server is infrastructure: it needs to be deployed, monitored, and scaled.[...]
 +
 https://blog.frankel.ch/maps-without-tile-server/[Read further^]
-
-
-
-Scraping websites and bot-protection (2026-10-11)::
-While searching for my ancestors, I had to access data from many different websites. I noticed there were different levels of protection against automated access depending on the site. In this post, I&#8217;ll list them and mention countermeasures you can take to bypass them anyway.         Disclaimer  As a private person using the data for my own personal use, I have no qualms about bypassing the protection. It can be considered fair use.[...]
-+
-https://blog.frankel.ch/bypass-bot-protection/[Read further^]
 
 
 
