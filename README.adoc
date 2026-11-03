@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.11.02-blue[]
+image:https://img.shields.io/badge/last_updated-2026.11.03-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -53,6 +53,12 @@ https://blog.frankel.ch/maps-without-tile-server/[Read further^]
 https://portotechhub.com/conference-2026/[Coding assistants: a journey from a convert^] @ https://portotechhub.com/conference-2022/[Porto Tech Hub^]::
 +
 For a long time, I was advert to coding assistants. I didn't see any benefit: it was faster for me to write code, than to let them generate crap, and fix it afterwards. Then, around summer 2025, something changed. At home, I used Claude Code for better and better results. At work, GitHub Copilot was not as good, but it was still producing acceptable results. I'm now at a point where I can't imagine not having coding assistants. I'm hooked. I have "vibe-coded" (I hate the term) a few personal projects: a Kotlin multi-platform project to cross-post content across multiple social media sites, a Python project for an artsy project, and a command-line to report content on Twitter. By the time I actually do the talk, the list will probably be even longer. In this session, I'd like to share how I use coding assistants. Since the landscape is changing all the time, I hope this session will be interactive and that you'll share as well.
+
+
+
+https://cloud-native-romandy.ch/kcd2026/program/#sz-tab-46366[Practical introduction to OpenTelemetry tracing^] @ https://cloud-native-romandy.ch/events/#kubernetes-community-days-kcd[KCD Suisse Romande^]::
++
+Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture.
 
 
 
