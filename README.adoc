@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.11.08-blue[]
+image:https://img.shields.io/badge/last_updated-2026.11.09-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Skills across coding assistants (2026-11-08)::
+I love Claude Code, but I use it so much that I regularly exhaust my weekly quota before the week ends. When that happens, I usually switch to other free-tier CLIs, e.g., Google Antigravity, GitHub Copilot, and, just last week, Mistral&#8217;s Vibe. I really wanted to try Vibe to evaluate the feasibility of moving away from Claude Code in favor of a more sovereign solution.   Vibe only offers a single model by default, Mistral Medium 3.5.[...]
++
+https://blog.frankel.ch/skills-across-coding-assistants/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Security Baked Into the JVM: DirtyChai scales vertically, JGDMS scales horizonta
 Nobody runs a SecurityManager in production. The usual reason given is that it does not survive a load test, and every guarantee in this series was bought with a check: a constraint on each call, an audit before each load, a principal set on each thread, a digest on each grant.   Part 1 declared constraints on a remote call. Part 2 vetted code before a client loaded it. Part 3 and Part 4 established who is calling and carried that chain across the wire.[...]
 +
 https://blog.frankel.ch/security-baked-into-jvm/6/[Read further^]
-
-
-
-Maps without a tile server (2026-10-18)::
-If you have built an application with an interactive map, you know what you are in for. You pick a tile provider such as Google or Mapbox, or a self-hosted stack like GeoServer or Martin, and your frontend requests thousands of small image or vector tiles as the user interacts with the map. A server processes each request: it reads from a database, renders the tile, maybe caches it, and sends it back.   That server is infrastructure: it needs to be deployed, monitored, and scaled.[...]
-+
-https://blog.frankel.ch/maps-without-tile-server/[Read further^]
 
 
 
