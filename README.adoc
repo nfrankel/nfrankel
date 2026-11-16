@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.11.15-blue[]
+image:https://img.shields.io/badge/last_updated-2026.11.16-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+Porto TechHub 2026 (2026-11-15)::
+My conference participation has dropped sharply since I left DevRel for a regular office engineering job. In 2023, I was proud to have had 70 talks; I&#8217;ll finish this year with 4, including one online and one quickie. It has one beneficial side effect, though. Because I go to so few, I take the time to attend. Last Tuesday, I was lucky to attend and talk at the Porto TechHub conference, for the 4th year.        Here are the talks I attended and their respective summary.[...]
++
+https://blog.frankel.ch/porto-techhub-2026/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ From Google Drive to Syncthing over Tailscale (2026-11-01)::
 I used Dropbox for decades, then switched to Google Drive. Both worked for most of my files. One file never fit, though: my KeePass password database. It&#8217;s the file I need on every device and the file I want to keep private the most. After one annoyance too many, I moved it to Syncthing over Tailscale. The rest stays on Google Drive, for now. This post describes why and how.   The file that made me care   My password manager is KeePass-based.[...]
 +
 https://blog.frankel.ch/google-drive-syncthing-tailscale/[Read further^]
-
-
-
-Security Baked Into the JVM: DirtyChai scales vertically, JGDMS scales horizontally (2026-10-25)::
-Nobody runs a SecurityManager in production. The usual reason given is that it does not survive a load test, and every guarantee in this series was bought with a check: a constraint on each call, an audit before each load, a principal set on each thread, a digest on each grant.   Part 1 declared constraints on a remote call. Part 2 vetted code before a client loaded it. Part 3 and Part 4 established who is calling and carried that chain across the wire.[...]
-+
-https://blog.frankel.ch/security-baked-into-jvm/6/[Read further^]
 
 
 
