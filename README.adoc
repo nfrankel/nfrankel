@@ -12,7 +12,7 @@ endif::[]
 
 [NOTE]
 ====
-image:https://img.shields.io/badge/last_updated-2026.11.22-blue[]
+image:https://img.shields.io/badge/last_updated-2026.11.23-blue[]
  This profile is automatically generated.
 
 If you're interested in knowing more, please check https://github.com/nfrankel/nfrankel-update/[the code^].
@@ -22,6 +22,13 @@ Nicolas Fränkel is a technologist focusing on cloud-native technologies, DevOps
 
 
 ## ✍️ Most recent blog posts
+
+
+
+On reviewing AI-generated code (2026-11-22)::
+I see a lot of posts from developers who insist on reviewing every single line of code that AI agents write. I understand the approach, because that&#8217;s what we, including me, have been doing for years. However, it doesn&#8217;t scale and most developers admit it.   I don&#8217;t think it&#8217;s the right answer to AI-generated code. An agent produces code much faster than anybody can read it. Human review doesn&#8217;t get better when there is more to read, quite the opposite.[...]
++
+https://blog.frankel.ch/reviewing-ai-generated-code/[Read further^]
 
 
 
@@ -36,13 +43,6 @@ Skills across coding assistants (2026-11-08)::
 I love Claude Code, but I use it so much that I regularly exhaust my weekly quota before the week ends. When that happens, I usually switch to other free-tier CLIs, e.g., Google Antigravity, GitHub Copilot, and, just last week, Mistral&#8217;s Vibe. I really wanted to try Vibe to evaluate the feasibility of moving away from Claude Code in favor of a more sovereign solution.   Vibe only offers a single model by default, Mistral Medium 3.5.[...]
 +
 https://blog.frankel.ch/skills-across-coding-assistants/[Read further^]
-
-
-
-From Google Drive to Syncthing over Tailscale (2026-11-01)::
-I used Dropbox for decades, then switched to Google Drive. Both worked for most of my files. One file never fit, though: my KeePass password database. It&#8217;s the file I need on every device and the file I want to keep private the most. After one annoyance too many, I moved it to Syncthing over Tailscale. The rest stays on Google Drive, for now. This post describes why and how.   The file that made me care   My password manager is KeePass-based.[...]
-+
-https://blog.frankel.ch/google-drive-syncthing-tailscale/[Read further^]
 
 
 
